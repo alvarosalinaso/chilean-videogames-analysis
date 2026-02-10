@@ -1,0 +1,137 @@
+{
+    "type": "game",
+    "name": "SAI: Servicio de Auxilio Inmediato",
+    "steam_appid": 4007170,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<h2 class=\"bb_tag\" ><strong>El SAI te da la bienvenida</strong></h2><p class=\"bb_paragraph\" >Trabaja en el Servicio de Auxilio Inmediato, un empleo donde prestar primeros auxilios a las personas que lo requieran es la misión de cada trabajador; sin embargo, esto no siempre será fácil.</p><h2 class=\"bb_tag\" ><strong>Un mundo cyberpunk inspirado en Latinoamérica</strong></h2><p class=\"bb_paragraph\" >Conoce la distópica ciudad de Illari, caracterizada por sus colores, luces y altos edificios, pero también por la desigualdad socioeconómica y las precarias condiciones de vida causadas por la hiper tecnologización y la corrupción del sistema político imperante.</p><p class=\"bb_paragraph\" >En tus días libres podrás explorar una sección de la ciudad, conocer a sus habitantes, entablar amistades (o enemistades) y comprar alimentos, productos y artículos de colección en las distintas tiendas del sector.</p><h2 class=\"bb_tag\" ><strong>Construye tu propia aventura</strong></h2><p class=\"bb_paragraph\" >Experimenta la vida de Dani en la ciudad a través de una historia no lineal enfocada en el diálogo, donde los personajes con los que habla y las decisiones que toma influyen en su visión del mundo y su futuro.</p><p class=\"bb_paragraph\" >Observa las consecuencias de sus acciones a lo largo del juego mediante uno de los múltiples finales que se pueden obtener en una partida.</p>",
+    "about_the_game": "<h2 class=\"bb_tag\" ><strong>El SAI te da la bienvenida</strong></h2><p class=\"bb_paragraph\" >Trabaja en el Servicio de Auxilio Inmediato, un empleo donde prestar primeros auxilios a las personas que lo requieran es la misión de cada trabajador; sin embargo, esto no siempre será fácil.</p><h2 class=\"bb_tag\" ><strong>Un mundo cyberpunk inspirado en Latinoamérica</strong></h2><p class=\"bb_paragraph\" >Conoce la distópica ciudad de Illari, caracterizada por sus colores, luces y altos edificios, pero también por la desigualdad socioeconómica y las precarias condiciones de vida causadas por la hiper tecnologización y la corrupción del sistema político imperante.</p><p class=\"bb_paragraph\" >En tus días libres podrás explorar una sección de la ciudad, conocer a sus habitantes, entablar amistades (o enemistades) y comprar alimentos, productos y artículos de colección en las distintas tiendas del sector.</p><h2 class=\"bb_tag\" ><strong>Construye tu propia aventura</strong></h2><p class=\"bb_paragraph\" >Experimenta la vida de Dani en la ciudad a través de una historia no lineal enfocada en el diálogo, donde los personajes con los que habla y las decisiones que toma influyen en su visión del mundo y su futuro.</p><p class=\"bb_paragraph\" >Observa las consecuencias de sus acciones a lo largo del juego mediante uno de los múltiples finales que se pueden obtener en una partida.</p>",
+    "short_description": "Un RPG sobre el balance del trabajo y la vida personal en un mundo cyberpunk inspirado en Latinoamérica.",
+    "supported_languages": "Inglés, Español de Hispanoamérica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/9b796a85a6257b3f4a2655be77083f54dbe46175/header_spanish.jpg?t=1761954967",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/8885058c104f3fddbaa961604032d65b5a48b2c7/capsule_231x87_spanish.jpg?t=1761954967",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/8885058c104f3fddbaa961604032d65b5a48b2c7/capsule_184x69_spanish.jpg?t=1761954967",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> Por confirmar<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Por confirmar<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible<br></li><li><strong>Notas adicionales:</strong> Compatible solo con resoluciones de pantalla 16:9</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 11<br></li><li><strong>Procesador:</strong> Por confirmar<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Por confirmar<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "developers": [
+        "Ando Ido Studio"
+    ],
+    "publishers": [
+        "Ando Ido Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 68,
+            "description": "Controles de volumen personalizados"
+        },
+        {
+            "id": 75,
+            "description": "Opción solo teclado"
+        },
+        {
+            "id": 69,
+            "description": "Sonido estéreo"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/0d705c265d0f1e85ac3875e896a4fd2c39d67121/ss_0d705c265d0f1e85ac3875e896a4fd2c39d67121.600x338.jpg?t=1761954967",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/0d705c265d0f1e85ac3875e896a4fd2c39d67121/ss_0d705c265d0f1e85ac3875e896a4fd2c39d67121.1920x1080.jpg?t=1761954967"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/15c63e4a15a2bd09b35b89c55932115f0f9ca538/ss_15c63e4a15a2bd09b35b89c55932115f0f9ca538.600x338.jpg?t=1761954967",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/15c63e4a15a2bd09b35b89c55932115f0f9ca538/ss_15c63e4a15a2bd09b35b89c55932115f0f9ca538.1920x1080.jpg?t=1761954967"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/ce61e28486be69749c86c06a0250649f72d01c0d/ss_ce61e28486be69749c86c06a0250649f72d01c0d.600x338.jpg?t=1761954967",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/ce61e28486be69749c86c06a0250649f72d01c0d/ss_ce61e28486be69749c86c06a0250649f72d01c0d.1920x1080.jpg?t=1761954967"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/4e5078b0174a9d199a7b55d4f1af903a93eae5b4/ss_4e5078b0174a9d199a7b55d4f1af903a93eae5b4.600x338.jpg?t=1761954967",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/4e5078b0174a9d199a7b55d4f1af903a93eae5b4/ss_4e5078b0174a9d199a7b55d4f1af903a93eae5b4.1920x1080.jpg?t=1761954967"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/98081af788c77827d39ace35dd5f267d4a19137f/ss_98081af788c77827d39ace35dd5f267d4a19137f.600x338.jpg?t=1761954967",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007170/98081af788c77827d39ace35dd5f267d4a19137f/ss_98081af788c77827d39ace35dd5f267d4a19137f.1920x1080.jpg?t=1761954967"
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Próximamente"
+    },
+    "support_info": {
+        "url": "",
+        "email": "andoidostudio@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4007170?t=1761954967",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4007170?t=1761954967",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "Este juego contiene temas que pueden no ser apropiados para todas las edades o que pueden resultar sensibles para algunas personas, como: violencia leve, lenguaje soez suave, consumo de alcohol y drogas, contenido general para adultos."
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas lícitas\nLinguagem imprópria\nAtos criminosos"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Alkohol / Tabak\nSchimpfwörte\nFantasy-Gewalt"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "type": "game",
+    "name": "Re:Agent",
+    "steam_appid": 1967150,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<h2 class=\"bb_tag\" ><strong>Re:Agent - Demo Disclaimer</strong></h2><br><strong>Disclaimer:</strong> Esta demo de <strong>Re:Agent</strong> está en proceso de desarrollo. Algunas características, incluyendo la mecánica de resurrección, no están completamente implementadas y el arte no es definitivo. Nuestro objetivo con esta demo es recibir feedback de los jugadores para mejorar y pulir el juego.<br><br>Este demo es una prueba de concepto, es posible que tenga bugs, pero es lo que se ha podido lograr con arduo esfuerzo y con muy poco presupuesto. <br><br><strong>Re:Agent</strong> ofrece una emocionante experiencia de juego que combina elementos de sigilo, acción, resolución de puzzles y exploración. En esta demo, los jugadores podrán sumergirse en el intrigante mundo de <strong>Agent 314</strong>, un agente artificial que debe navegar a través de un entorno peligroso y lleno de intriga.<h2 class=\"bb_tag\" ><strong>Características de la Demo</strong></h2><h2 class=\"bb_tag\" ><strong>Sistema de Combate y Movimiento:</strong></h2><br><strong>Versátil y Dinámico:</strong> Experimenta combates intensos con una variedad de armas y movimientos fluidos.<br><br><strong>Sigilo y Cautela:</strong> Usa el entorno para esconderte de los enemigos y evitar confrontaciones innecesarias.<br><br><strong>Movimiento Ágil:</strong> Navega rápidamente por el mundo utilizando tácticas de sigilo para mantenerte fuera de la vista de los enemigos.<br><br><strong><h2 class=\"bb_tag\" >Historia</h2></strong><br><br>En un mundo fracturado por décadas de conflictos y diferencias ideológicas, <strong>Re:Agent</strong> sumerge a los jugadores en un conflicto encubierto entre dos naciones opuestas: la <strong>República Democrática de Abilytia</strong> y los <strong>Estados Confederados de Ophidia</strong>. Como <strong>Agent 314</strong>, un ser artificial creado por Abilytia, debes infiltrarte en Ophidia para obtener información crucial sobre sus actividades secretas y tecnologías. Lo que comienza como una misión de espionaje rutinaria rápidamente se convierte en una peligrosa y emocionante travesía por las complejas intrigas de ambas naciones.<h2 class=\"bb_tag\" ><strong>Próximas Implementaciones</strong></h2><br><strong>Mecánica de Resurrección:</strong> Próximamente, la demo incluirá la mecánica de resurrección donde cada vez que Agent 314 muera, renacerá como un nuevo clon, utilizando los cuerpos de sus clones anteriores para superar desafíos.<br><br><strong>Adaptabilidad:</strong> Personaliza y mejora tus armas para ajustarlas a tu estilo de juego.<br><br><strong>Desafíos Creativos:</strong> Resuelve puzzles que requieren un uso ingenioso de los objetos y el entorno.<br><br><strong>Exploración Detallada:</strong> Investiga cuidadosamente cada área para descubrir secretos y rutas alternativas.<br><br>Te invitamos a probar la prueba de concepto de <strong>Re:Agent</strong> y sumergirte en esta fascinante experiencia de juego. Explora, combate y utiliza el sigilo para avanzar en tu misión. Mantente atento a futuras actualizaciones que incluirán la innovadora mecánica de resurrección, añadiendo aún más profundidad y estrategia al juego.",
+    "about_the_game": "<h2 class=\"bb_tag\" ><strong>Re:Agent - Demo Disclaimer</strong></h2><br><strong>Disclaimer:</strong> Esta demo de <strong>Re:Agent</strong> está en proceso de desarrollo. Algunas características, incluyendo la mecánica de resurrección, no están completamente implementadas y el arte no es definitivo. Nuestro objetivo con esta demo es recibir feedback de los jugadores para mejorar y pulir el juego.<br><br>Este demo es una prueba de concepto, es posible que tenga bugs, pero es lo que se ha podido lograr con arduo esfuerzo y con muy poco presupuesto. <br><br><strong>Re:Agent</strong> ofrece una emocionante experiencia de juego que combina elementos de sigilo, acción, resolución de puzzles y exploración. En esta demo, los jugadores podrán sumergirse en el intrigante mundo de <strong>Agent 314</strong>, un agente artificial que debe navegar a través de un entorno peligroso y lleno de intriga.<h2 class=\"bb_tag\" ><strong>Características de la Demo</strong></h2><h2 class=\"bb_tag\" ><strong>Sistema de Combate y Movimiento:</strong></h2><br><strong>Versátil y Dinámico:</strong> Experimenta combates intensos con una variedad de armas y movimientos fluidos.<br><br><strong>Sigilo y Cautela:</strong> Usa el entorno para esconderte de los enemigos y evitar confrontaciones innecesarias.<br><br><strong>Movimiento Ágil:</strong> Navega rápidamente por el mundo utilizando tácticas de sigilo para mantenerte fuera de la vista de los enemigos.<br><br><strong><h2 class=\"bb_tag\" >Historia</h2></strong><br><br>En un mundo fracturado por décadas de conflictos y diferencias ideológicas, <strong>Re:Agent</strong> sumerge a los jugadores en un conflicto encubierto entre dos naciones opuestas: la <strong>República Democrática de Abilytia</strong> y los <strong>Estados Confederados de Ophidia</strong>. Como <strong>Agent 314</strong>, un ser artificial creado por Abilytia, debes infiltrarte en Ophidia para obtener información crucial sobre sus actividades secretas y tecnologías. Lo que comienza como una misión de espionaje rutinaria rápidamente se convierte en una peligrosa y emocionante travesía por las complejas intrigas de ambas naciones.<h2 class=\"bb_tag\" ><strong>Próximas Implementaciones</strong></h2><br><strong>Mecánica de Resurrección:</strong> Próximamente, la demo incluirá la mecánica de resurrección donde cada vez que Agent 314 muera, renacerá como un nuevo clon, utilizando los cuerpos de sus clones anteriores para superar desafíos.<br><br><strong>Adaptabilidad:</strong> Personaliza y mejora tus armas para ajustarlas a tu estilo de juego.<br><br><strong>Desafíos Creativos:</strong> Resuelve puzzles que requieren un uso ingenioso de los objetos y el entorno.<br><br><strong>Exploración Detallada:</strong> Investiga cuidadosamente cada área para descubrir secretos y rutas alternativas.<br><br>Te invitamos a probar la prueba de concepto de <strong>Re:Agent</strong> y sumergirte en esta fascinante experiencia de juego. Explora, combate y utiliza el sigilo para avanzar en tu misión. Mantente atento a futuras actualizaciones que incluirán la innovadora mecánica de resurrección, añadiendo aún más profundidad y estrategia al juego.",
+    "short_description": "Asume el papel del Agente 314, un espía con una misión secreta en la nación rival de Ophidia. Explora una sociedad distópica, enfrenta dilemas éticos y desafíos tácticos. ¿Podrás descubrir la verdad oculta tras la fachada y completar tu misión antes de que sea demasiado tarde?",
+    "supported_languages": "Inglés, Español de Hispanoamérica, Español de España",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/header_spanish.jpg?t=1717173211",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/capsule_231x87.jpg?t=1717173211",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/capsule_184x69.jpg?t=1717173211",
+    "website": "https://timehunterstudios.com/",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> AMD Ryzen 5 2400G / Intel Core i5-9400F<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> AMD Radeon RX 590 / Nvidia GeForce GTX 1060<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 10 GB de espacio disponible<br></li><li><strong>Notas adicionales:</strong> Rendimiento estimado: 1080p/60fps con la configuración gráfica en &quot;Baja&quot;. La velocidad de fotogramas puede disminuir en escenas con gráficos intensivos. - Se requiere un procesador y sistema operativo de 64 bits.</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 11<br></li><li><strong>Procesador:</strong> AMD Ryzen 5 2400G / Intel Core i5-9400F<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> AMD Radeon RX Vega 56 / Nvidia GeForce GTX 1660 Ti / Intel Arc A750<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 10 GB de espacio disponible<br></li><li><strong>Notas adicionales:</strong> Rendimiento estimado: 1080p/60fps con la configuración gráfica en &quot;Alta&quot;. La velocidad de fotogramas puede disminuir en escenas con gráficos intensivos. - Se requiere un procesador y sistema operativo de 64 bits. - Se requiere Windows 10 (versión 1809 o posterior) y una GPU (tarjeta gráfica) con 4GB de VRAM para la API DirectX 12.</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "legal_notice": "©Time Hunters ©Re:Agent",
+    "developers": [
+        "Time Hunters Studios"
+    ],
+    "publishers": [
+        "Time Hunters Studios"
+    ],
+    "demos": [
+        {
+            "appid": 2150240,
+            "description": ""
+        }
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_f8401133e1a5e6d9613acefcfeaa7b10c3ab6483.600x338.jpg?t=1717173211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_f8401133e1a5e6d9613acefcfeaa7b10c3ab6483.1920x1080.jpg?t=1717173211"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_f9b66494f860bbf501e46d6855d89dc9c97a6fe3.600x338.jpg?t=1717173211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_f9b66494f860bbf501e46d6855d89dc9c97a6fe3.1920x1080.jpg?t=1717173211"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_c426eebbfd22590f7044239aca4554999f0e7d68.600x338.jpg?t=1717173211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_c426eebbfd22590f7044239aca4554999f0e7d68.1920x1080.jpg?t=1717173211"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_c8547e8a2adc4d227fb55d171bd090825db14983.600x338.jpg?t=1717173211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_c8547e8a2adc4d227fb55d171bd090825db14983.1920x1080.jpg?t=1717173211"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_1ea922531ec5af4da46418ebd4b800e03fab7932.600x338.jpg?t=1717173211",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967150/ss_1ea922531ec5af4da46418ebd4b800e03fab7932.1920x1080.jpg?t=1717173211"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257020137,
+            "name": "Re:Agent Concept Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257020137/movie.293x165.jpg?t=1715012626",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1967150/694784/08802afaec7a454bb10f38dcbf7f4f51f552bc16/1751062190/dash_av1.mpd?t=1715012626",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1967150/694784/08802afaec7a454bb10f38dcbf7f4f51f552bc16/1751062190/dash_h264.mpd?t=1715012626",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1967150/694784/08802afaec7a454bb10f38dcbf7f4f51f552bc16/1751062190/hls_264_master.m3u8?t=1715012626",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Próximamente"
+    },
+    "support_info": {
+        "url": "http://www.timehunterstudios.com",
+        "email": "contact@timehunterstudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1967150?t=1717173211",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1967150?t=1717173211",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "This game contains violence and sensitive psychological topics. "
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Linguagem imprópria\nViolência"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+        }
+    }
+}

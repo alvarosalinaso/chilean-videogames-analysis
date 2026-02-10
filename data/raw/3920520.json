@@ -1,0 +1,184 @@
+{
+    "type": "game",
+    "name": "Mecha Survivors - Early Access",
+    "steam_appid": 3920520,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<p class=\"bb_paragraph\" ><strong>Purifica mundos. Sobrevive al enjambre. Mejora tu meca.</strong></p><p class=\"bb_paragraph\" ><i>Mecha Survivors</i> es un roguelite de acción tipo <i>Survivors-like</i> en el que tomas el control de un meca de combate avanzado enviado a purgar planetas hostiles infestados de máquinas alienígenas.</p><p class=\"bb_paragraph\" >Arrojado a zonas de guerra interminables, deberás enfrentarte a oleadas abrumadoras de enemigos, reunir poderosas mejoras y adaptar tu construcción en tiempo real. Elige entre múltiples clases de mecas, cada una con habilidades y estilos de juego únicos, y lucha por sobrevivir a escala planetaria.</p><h2 class=\"bb_tag\" ><strong>Características principales</strong></h2><p class=\"bb_paragraph\" ><strong>Misiones de purga planetaria:</strong><br>Despliega en campos de batalla generados proceduralmente para limpiar regiones completas de fuerzas enemigas.</p><p class=\"bb_paragraph\" ><strong>Combate de mecas desde vista cenital:</strong><br>Pilota máquinas de guerra pesadas en acción frenética, esquivando proyectiles y enfrentándote a enjambres masivos.</p><p class=\"bb_paragraph\" ><strong>Progresión roguelite dinámica:</strong><br>Combina habilidades aleatorias y mejoras pasivas para crear construcciones devastadoras.</p><p class=\"bb_paragraph\" ><strong>Múltiples clases de mecas:</strong><br>Desbloquea y domina mecas únicos con habilidades especiales y poderes definitivos.</p><p class=\"bb_paragraph\" ><strong>Estética sci-fi estilizada:</strong><br>Entornos low-poly vibrantes llenos de caos, explosiones y efectos reactivos.</p><p class=\"bb_paragraph\" ><strong>Desafíos de supervivencia rejugables:</strong><br>Cada partida es distinta. ¿Cuánto tiempo podrás mantener la línea?</p><p class=\"bb_paragraph\" ><strong>Sobrevive. Adáptate. Purifica.</strong></p>",
+    "about_the_game": "<p class=\"bb_paragraph\" ><strong>Purifica mundos. Sobrevive al enjambre. Mejora tu meca.</strong></p><p class=\"bb_paragraph\" ><i>Mecha Survivors</i> es un roguelite de acción tipo <i>Survivors-like</i> en el que tomas el control de un meca de combate avanzado enviado a purgar planetas hostiles infestados de máquinas alienígenas.</p><p class=\"bb_paragraph\" >Arrojado a zonas de guerra interminables, deberás enfrentarte a oleadas abrumadoras de enemigos, reunir poderosas mejoras y adaptar tu construcción en tiempo real. Elige entre múltiples clases de mecas, cada una con habilidades y estilos de juego únicos, y lucha por sobrevivir a escala planetaria.</p><h2 class=\"bb_tag\" ><strong>Características principales</strong></h2><p class=\"bb_paragraph\" ><strong>Misiones de purga planetaria:</strong><br>Despliega en campos de batalla generados proceduralmente para limpiar regiones completas de fuerzas enemigas.</p><p class=\"bb_paragraph\" ><strong>Combate de mecas desde vista cenital:</strong><br>Pilota máquinas de guerra pesadas en acción frenética, esquivando proyectiles y enfrentándote a enjambres masivos.</p><p class=\"bb_paragraph\" ><strong>Progresión roguelite dinámica:</strong><br>Combina habilidades aleatorias y mejoras pasivas para crear construcciones devastadoras.</p><p class=\"bb_paragraph\" ><strong>Múltiples clases de mecas:</strong><br>Desbloquea y domina mecas únicos con habilidades especiales y poderes definitivos.</p><p class=\"bb_paragraph\" ><strong>Estética sci-fi estilizada:</strong><br>Entornos low-poly vibrantes llenos de caos, explosiones y efectos reactivos.</p><p class=\"bb_paragraph\" ><strong>Desafíos de supervivencia rejugables:</strong><br>Cada partida es distinta. ¿Cuánto tiempo podrás mantener la línea?</p><p class=\"bb_paragraph\" ><strong>Sobrevive. Adáptate. Purifica.</strong></p>",
+    "short_description": "Mecha Survivors es un frenético Survivors-like en el que pilotas un meca de combate para purgar planetas infestados de alienígenas. Esquiva, mejora y adáptate mientras enfrentas oleadas interminables en este roguelite de ciencia ficción tipo bullet hell.",
+    "supported_languages": "Inglés, Portugués de Brasil, Español de Hispanoamérica, Español de España",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/175850d80fdf60a81765411b7210efdbc4222df7/header.jpg?t=1763558782",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/3d2cf6e4809925d2237782caf82370567c1a3139/capsule_231x87.jpg?t=1763558782",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/3d2cf6e4809925d2237782caf82370567c1a3139/capsule_184x69.jpg?t=1763558782",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> Intel Core i5-2500 / AMD FX-6300<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 750 Ti / AMD Radeon HD 7850<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> Compatible con DirectX<br></li><li><strong>Notas adicionales:</strong> Se requiere teclado y ratón.</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10/11 64-bit<br></li><li><strong>Procesador:</strong> Intel Core i5-9600K / AMD Ryzen 5 3600<br></li><li><strong>Memoria:</strong> 16 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 1660 Super / AMD Radeon RX 580<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> Compatible con DirectX<br></li><li><strong>Notas adicionales:</strong> Se requiere teclado y ratón. Se recomienda SSD para tiempos de carga más rápidos.</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "legal_notice": "© 2025 Lowie Games SpA. Mecha Survivors and all related content are trademarks or registered trademarks of Lowie Games SpA. All rights reserved.<br />\r\n<br />\r\nDeveloped using Unreal Engine. Unreal and its logo are trademarks or registered trademarks of Epic Games, Inc. in the United States and elsewhere.<br />\r\n<br />\r\nAudio powered by FMOD. FMOD is a trademark of Firelight Technologies Pty Ltd.",
+    "developers": [
+        "Lowie Games SpA",
+        "Time Hunters SpA"
+    ],
+    "publishers": [
+        "Lowie Games SpA"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 190000,
+        "final": 190000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 1.900"
+    },
+    "packages": [
+        1377620
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Mecha Survivors - Early Access",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 1377620,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Mecha Survivors - CLP$ 1.900",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 190000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 68,
+            "description": "Controles de volumen personalizados"
+        },
+        {
+            "id": 74,
+            "description": "Jugable sin restricciones de tiempo"
+        },
+        {
+            "id": 69,
+            "description": "Sonido estéreo"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        },
+        {
+            "id": "28",
+            "description": "Simuladores"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/d154bc35aa9748d53da5ab950b28316dff5aec8b/ss_d154bc35aa9748d53da5ab950b28316dff5aec8b.600x338.jpg?t=1763558782",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/d154bc35aa9748d53da5ab950b28316dff5aec8b/ss_d154bc35aa9748d53da5ab950b28316dff5aec8b.1920x1080.jpg?t=1763558782"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/671e8c58304cb0c1026b7a21a52c31535eef8c96/ss_671e8c58304cb0c1026b7a21a52c31535eef8c96.600x338.jpg?t=1763558782",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/671e8c58304cb0c1026b7a21a52c31535eef8c96/ss_671e8c58304cb0c1026b7a21a52c31535eef8c96.1920x1080.jpg?t=1763558782"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/16f99e4afaede181698ea788bc111bcd94b7641a/ss_16f99e4afaede181698ea788bc111bcd94b7641a.600x338.jpg?t=1763558782",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/16f99e4afaede181698ea788bc111bcd94b7641a/ss_16f99e4afaede181698ea788bc111bcd94b7641a.1920x1080.jpg?t=1763558782"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/02eb8c30aa4b52e131cab78564fbd1bbfcf48517/ss_02eb8c30aa4b52e131cab78564fbd1bbfcf48517.600x338.jpg?t=1763558782",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/02eb8c30aa4b52e131cab78564fbd1bbfcf48517/ss_02eb8c30aa4b52e131cab78564fbd1bbfcf48517.1920x1080.jpg?t=1763558782"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/f55b087e81b33674049d51544b2db63d342f5e52/ss_f55b087e81b33674049d51544b2db63d342f5e52.600x338.jpg?t=1763558782",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920520/f55b087e81b33674049d51544b2db63d342f5e52/ss_f55b087e81b33674049d51544b2db63d342f5e52.1920x1080.jpg?t=1763558782"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257186168,
+            "name": "Launch Early Access Trailer ",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257186168/7cc7a939e2d0215761dcc9931eecd10da00744fd/movie_600x337.jpg?t=1755713026",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3920520/1930710896/b963cb9a9f8deeb6d26751161ec8e7ce3d923712/1755708383/dash_av1.mpd?t=1755713026",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3920520/1930710896/b963cb9a9f8deeb6d26751161ec8e7ce3d923712/1755708383/dash_h264.mpd?t=1755713026",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3920520/1930710896/b963cb9a9f8deeb6d26751161ec8e7ce3d923712/1755708383/hls_264_master.m3u8?t=1755713026",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": false,
+        "date": "20 AGO 2025"
+    },
+    "support_info": {
+        "url": "",
+        "email": "lowiegames.spa@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3920520?t=1763558782",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3920520?t=1763558782",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+        }
+    }
+}

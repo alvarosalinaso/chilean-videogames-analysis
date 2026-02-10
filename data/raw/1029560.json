@@ -1,0 +1,240 @@
+{
+    "type": "game",
+    "name": "Bandits",
+    "steam_appid": 1029560,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<p class=\"bb_paragraph\" >¡Una arena de batalla de tanques multijugador local! (Steam Remote Play también funciona)</p><p class=\"bb_paragraph\" >Juega las 16 misiones individuales o en una de las 12 arenas multijugador.</p><p class=\"bb_paragraph\" >Battle Arena es un modo PvP para 2-4 jugadores; ¡Todos contra todos o con equipos cooperativos!</p><p class=\"bb_paragraph\" >Juega con cualquiera de los 8 personajes únicos, cada uno con su propio estilo de juego, habilidades y un tanque-máquina único y espectacular.</p><p class=\"bb_paragraph\" >¡Hay cuatro entornos distintos llenos de elementos destructibles!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.poster.avif?t=1769463168\" width=616 height=220 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.webm?t=1769463168\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.mp4?t=1769463168\" type=\"video/mp4\"></video></span></p>",
+    "about_the_game": "<p class=\"bb_paragraph\" >¡Una arena de batalla de tanques multijugador local! (Steam Remote Play también funciona)</p><p class=\"bb_paragraph\" >Juega las 16 misiones individuales o en una de las 12 arenas multijugador.</p><p class=\"bb_paragraph\" >Battle Arena es un modo PvP para 2-4 jugadores; ¡Todos contra todos o con equipos cooperativos!</p><p class=\"bb_paragraph\" >Juega con cualquiera de los 8 personajes únicos, cada uno con su propio estilo de juego, habilidades y un tanque-máquina único y espectacular.</p><p class=\"bb_paragraph\" >¡Hay cuatro entornos distintos llenos de elementos destructibles!</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.poster.avif?t=1769463168\" width=616 height=220 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.webm?t=1769463168\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/extras/543bdd870e6cffdc3c226b7bd18dc5ab.mp4?t=1769463168\" type=\"video/mp4\"></video></span></p>",
+    "short_description": "Sumérgete en emocionantes batallas de tanques. Destruye entornos destructibles. Domina mapas variados y elige entre una selección de personajes únicos. Pon a prueba tus estrategias y reflejos en misiones en solitario o en partidas PvP.",
+    "supported_languages": "Inglés, Español de España, Español de Hispanoamérica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/header.jpg?t=1769463168",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/capsule_231x87.jpg?t=1769463168",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/capsule_184x69.jpg?t=1769463168",
+    "website": "https://benerot.com/bandits.html",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO *:</strong> Windows 7 x64<br></li><li><strong>Procesador:</strong> Dual Core 1.4 Ghz<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GT 720 (or equivalent)<br></li><li><strong>DirectX:</strong> Versión 10<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10 x64<br></li><li><strong>Procesador:</strong> Quad Core 2.4 Ghz<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GTX 560 (or equivalent)<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "developers": [
+        "Benerot"
+    ],
+    "publishers": [
+        "Benerot"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 150000,
+        "final": 45000,
+        "discount_percent": 70,
+        "initial_formatted": "CLP$ 1.500",
+        "final_formatted": "CLP$ 450"
+    },
+    "packages": [
+        342396
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Bandits",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 342396,
+                    "percent_savings_text": "-70% ",
+                    "percent_savings": 0,
+                    "option_text": "Bandits - <span class=\"discount_original_price\">CLP$ 1.500</span> CLP$ 450",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 45000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 1,
+            "description": "Multijugador"
+        },
+        {
+            "id": 49,
+            "description": "JcJ"
+        },
+        {
+            "id": 37,
+            "description": "JcJ a pantalla (com)partida"
+        },
+        {
+            "id": 9,
+            "description": "Cooperativo"
+        },
+        {
+            "id": 39,
+            "description": "Coop. a pantalla (com)partida"
+        },
+        {
+            "id": 24,
+            "description": "Pantalla partida/compartida"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 44,
+            "description": "Remote Play Together"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_d6010d84b79536d5c55c11320360fcba240fff49.600x338.jpg?t=1769463168",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_d6010d84b79536d5c55c11320360fcba240fff49.1920x1080.jpg?t=1769463168"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_f7152dbdc76cce20624b683cb173672a027f55e6.600x338.jpg?t=1769463168",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_f7152dbdc76cce20624b683cb173672a027f55e6.1920x1080.jpg?t=1769463168"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_63194989f225cb8bd9f914cd56d37222f48e362a.600x338.jpg?t=1769463168",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_63194989f225cb8bd9f914cd56d37222f48e362a.1920x1080.jpg?t=1769463168"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_8d0bda660f3f908f8c98f70a86cc6a4da472cccd.600x338.jpg?t=1769463168",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_8d0bda660f3f908f8c98f70a86cc6a4da472cccd.1920x1080.jpg?t=1769463168"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_64bb5874da0787170361e6fbe376a82555bc0edc.600x338.jpg?t=1769463168",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/ss_64bb5874da0787170361e6fbe376a82555bc0edc.1920x1080.jpg?t=1769463168"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256743619,
+            "name": "Solo Missions Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256743619/movie.293x165.jpg?t=1601530262",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1029560/210339/73601fe71865dc358f32db253f51e49fa20b44a3/1751178648/dash_av1.mpd?t=1601530262",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1029560/210339/73601fe71865dc358f32db253f51e49fa20b44a3/1751178648/dash_h264.mpd?t=1601530262",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1029560/210339/73601fe71865dc358f32db253f51e49fa20b44a3/1751178648/hls_264_master.m3u8?t=1601530262",
+            "highlight": true
+        },
+        {
+            "id": 256757572,
+            "name": "Battle Arena Gameplay",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256757572/movie.293x165.jpg?t=1564379647",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1029560/235433/b32638602ae3373051bf90a11f0cb40f58e498d3/1751178652/dash_av1.mpd?t=1564379647",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1029560/235433/b32638602ae3373051bf90a11f0cb40f58e498d3/1751178652/dash_h264.mpd?t=1564379647",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1029560/235433/b32638602ae3373051bf90a11f0cb40f58e498d3/1751178652/hls_264_master.m3u8?t=1564379647",
+            "highlight": true
+        }
+    ],
+    "achievements": {
+        "total": 6,
+        "highlighted": [
+            {
+                "name": "Andando solo",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/cae14c5c89fc468075d7d83bce2788acace42dcc.jpg"
+            },
+            {
+                "name": "Viajero",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/4e0c91bdefbb800c11f405bbafa585ac50a78218.jpg"
+            },
+            {
+                "name": "Connoisseur",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/562e64dda7ad483cf6611962c4be5ef87db90a10.jpg"
+            },
+            {
+                "name": "Marchando hasta el final",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/683f0e2753b67872429c93be93625a99273f79b4.jpg"
+            },
+            {
+                "name": "Intrepido",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/96c2af7b41d3363fe96f0442c3c40fa28b195316.jpg"
+            },
+            {
+                "name": "Y así comienza...",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1029560/804ce2d270502c592e51e2820f24aad02196befb.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "26 JUL 2019"
+    },
+    "support_info": {
+        "url": "https://discord.gg/Dqg7zN7",
+        "email": "bandits@benerot.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1029560?t=1769463168",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029560/page_bg_raw.jpg?t=1769463168",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "l",
+            "descriptors": "Violência fantasiosa"
+        },
+        "csrr": {
+            "required_age": "12"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+        }
+    }
+}

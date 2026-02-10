@@ -1,0 +1,164 @@
+{
+    "type": "game",
+    "name": "Avoidthis",
+    "steam_appid": 3982510,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<p class=\"bb_paragraph\" >Por favor, no juegues este juego.</p><p class=\"bb_paragraph\" >No descargues este juego.</p><p class=\"bb_paragraph\" >No le des este juego a ningún enemigo o amigo.</p><p class=\"bb_paragraph\" >Se sabe que las imágenes que contiene están malditas y pueden causar daño a ti o a cualquiera a tu alrededor.</p><p class=\"bb_paragraph\" >Por favor, cierra esto y no regreses aquí.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/extras/44af4979cd64def0515c3b4187f84eb1.avif?t=1761224628\" width=300 height=100 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Si te atreves a jugar te encontrarás con 6 puzzles que contienen imágenes de antiguas pinturas reales. Tendrás que resolver estos 6 puzzles en 6 minutos y 6 segundos.</p><p class=\"bb_paragraph\" >Simplemente haz click o arrastra . Fácil, ¿cierto?</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/extras/ec19702016590d67011c1c02b69e9ab0.avif?t=1761224628\" width=300 height=100 /></span></p><p class=\"bb_paragraph\" >SIN SCREAMERS</p><p class=\"bb_paragraph\" >SIN JUMPSCARES</p><p class=\"bb_paragraph\" >Solo atmosfera y un mal real para que vivas deliciosamente. </p>",
+    "about_the_game": "<p class=\"bb_paragraph\" >Por favor, no juegues este juego.</p><p class=\"bb_paragraph\" >No descargues este juego.</p><p class=\"bb_paragraph\" >No le des este juego a ningún enemigo o amigo.</p><p class=\"bb_paragraph\" >Se sabe que las imágenes que contiene están malditas y pueden causar daño a ti o a cualquiera a tu alrededor.</p><p class=\"bb_paragraph\" >Por favor, cierra esto y no regreses aquí.</p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/extras/44af4979cd64def0515c3b4187f84eb1.avif?t=1761224628\" width=300 height=100 /></span></p><p class=\"bb_paragraph\" ></p><p class=\"bb_paragraph\" >Si te atreves a jugar te encontrarás con 6 puzzles que contienen imágenes de antiguas pinturas reales. Tendrás que resolver estos 6 puzzles en 6 minutos y 6 segundos.</p><p class=\"bb_paragraph\" >Simplemente haz click o arrastra . Fácil, ¿cierto?</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/extras/ec19702016590d67011c1c02b69e9ab0.avif?t=1761224628\" width=300 height=100 /></span></p><p class=\"bb_paragraph\" >SIN SCREAMERS</p><p class=\"bb_paragraph\" >SIN JUMPSCARES</p><p class=\"bb_paragraph\" >Solo atmosfera y un mal real para que vivas deliciosamente. </p>",
+    "short_description": "No compres este juego por ninguna razón. Por favor. Do not buy this game for any reason. Please. 6 puzzles que contienen imágenes de antiguas pinturas reales. Tendrás que resolver estos 6 puzzles en 6 minutos y 6 segundos. Simplemente haz click o arrastra . Fácil, ¿cierto?",
+    "supported_languages": "Inglés, Español de España, Japonés, Chino simplificado, Español de Hispanoamérica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/388ff8e90c595dd4a3bdd6211e110c1bdedc7584/header.jpg?t=1761224628",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/d1c576a167879dbc2f1c6ecad4606c41154832d1/capsule_231x87.jpg?t=1761224628",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/d1c576a167879dbc2f1c6ecad4606c41154832d1/capsule_184x69.jpg?t=1761224628",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> windows 10<br></li><li><strong>Procesador:</strong> Intel Core i3-3220 / AMD FX-6300<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 750 Ti / AMD Radeon HD 7850 (2 GB VRAM)<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX compatible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10 / 11<br></li><li><strong>Procesador:</strong> Intel Core i5-8400 / AMD Ryzen 3 1200<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 560 (4 GB VRAM)<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX compatible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "developers": [
+        "avoidthis_games"
+    ],
+    "publishers": [
+        "avoidthis_games"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 190000,
+        "final": 190000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 1.900"
+    },
+    "packages": [
+        1398046
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Avoidthis",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 1398046,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Avoidthis - CLP$ 1.900",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 190000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 74,
+            "description": "Jugable sin restricciones de tiempo"
+        },
+        {
+            "id": 69,
+            "description": "Sonido estéreo"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/9814452c229b5bd3d2154696d9ce1aa8c1976943/ss_9814452c229b5bd3d2154696d9ce1aa8c1976943.600x338.jpg?t=1761224628",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/9814452c229b5bd3d2154696d9ce1aa8c1976943/ss_9814452c229b5bd3d2154696d9ce1aa8c1976943.1920x1080.jpg?t=1761224628"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/fe18fe2ace9aecf45df82bf46c0ac1f7515bc313/ss_fe18fe2ace9aecf45df82bf46c0ac1f7515bc313.600x338.jpg?t=1761224628",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/fe18fe2ace9aecf45df82bf46c0ac1f7515bc313/ss_fe18fe2ace9aecf45df82bf46c0ac1f7515bc313.1920x1080.jpg?t=1761224628"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/939ded13a0187d8bbbab662271ac1725af6aafe4/ss_939ded13a0187d8bbbab662271ac1725af6aafe4.600x338.jpg?t=1761224628",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/939ded13a0187d8bbbab662271ac1725af6aafe4/ss_939ded13a0187d8bbbab662271ac1725af6aafe4.1920x1080.jpg?t=1761224628"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/cb58ec8c3c9c45a4a908aa08968288e226f007e6/ss_cb58ec8c3c9c45a4a908aa08968288e226f007e6.600x338.jpg?t=1761224628",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/cb58ec8c3c9c45a4a908aa08968288e226f007e6/ss_cb58ec8c3c9c45a4a908aa08968288e226f007e6.1920x1080.jpg?t=1761224628"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/cdeab4d82cc94090e8fe5eb5bd881f98eeb23b2a/ss_cdeab4d82cc94090e8fe5eb5bd881f98eeb23b2a.600x338.jpg?t=1761224628",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3982510/cdeab4d82cc94090e8fe5eb5bd881f98eeb23b2a/ss_cdeab4d82cc94090e8fe5eb5bd881f98eeb23b2a.1920x1080.jpg?t=1761224628"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257189721,
+            "name": "teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257189721/8d2d313baf1692bfc7b8099db6c83c35a5b3b2b2/movie_600x337.jpg?t=1758633238",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3982510/1570264731/82e9ae6c1d6fc9f30158a8a1412ffa62f7f4d487/1756299119/dash_av1.mpd?t=1758633238",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3982510/1570264731/82e9ae6c1d6fc9f30158a8a1412ffa62f7f4d487/1756299119/dash_h264.mpd?t=1758633238",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3982510/1570264731/82e9ae6c1d6fc9f30158a8a1412ffa62f7f4d487/1756299119/hls_264_master.m3u8?t=1758633238",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": false,
+        "date": "23 OCT 2025"
+    },
+    "support_info": {
+        "url": "https://discord.gg/scettU7M",
+        "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3982510?t=1761224628",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3982510?t=1761224628",
+    "content_descriptors": {
+        "ids": [
+            1,
+            2,
+            5
+        ],
+        "notes": "Este juego contiene temas maduros que algunos jugadores pueden encontrar perturbadores. Específicamente:\r\n\r\nRepresentaciones de suicidio.\r\n\r\nRepresentaciones de mutilación.\r\n\r\nTemas de autolesión.\r\n\r\nDesnudez.\r\n\r\nFotografías malditas perturbadoras.\r\n\r\nElementos de terror psicológico oscuro.\r\n\r\nNo se recomienda para audiencias sensibles. Se aconseja discreción del espectador."
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência Extrema\nTemas sensíveis\nLinguagem imprópria"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt\nDerbe Sprache"
+        }
+    }
+}

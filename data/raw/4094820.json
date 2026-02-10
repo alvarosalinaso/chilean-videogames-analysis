@@ -1,0 +1,131 @@
+{
+    "type": "game",
+    "name": "Space Evolver",
+    "steam_appid": 4094820,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<p class=\"bb_paragraph\" >Space Evolver es un juego roguelite de gestión y genética que incorpora elementos de estrategia en tiempo real. Mejora tu nave espacial y tus tecnologías, completa misiones, compra paquetes y guía la evolución de las especies según los requisitos de cada misión.</p><h2 class=\"bb_tag\" ><strong>Características principales:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Sistema de reproducción innovador:</strong> Las criaturas eligen con quién reproducirse (incluso con criaturas enemigas). Intenta que elijan con quién quieres (puede producirse endogamia).</p></li><li><p class=\"bb_paragraph\" ><strong>Estilo visual:</strong> Estilo isometrico 2.5D pixelart con personajes que poseen animaciones en 8 direcciones.</p></li><li><p class=\"bb_paragraph\" ><strong>Criaturas diferentes:</strong> Más de 10 tipos diferentes de criaturas, con diferentes estadísticas y cualidades.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><picture><source srcset=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/extras/47f8d416189f8c96e9dd5bd532eee42f.apng?t=1769617826\"><img src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/extras/47f8d416189f8c96e9dd5bd532eee42f.poster.avif?t=1769617826\" class=\"bb_img\" width=640 height=65 /></picture></span></p></li><li><p class=\"bb_paragraph\" ><strong>Todo en tiempo real:</strong> El juego tiene un diseño isométrico, con un sistema de casillas. Pero a diferencia de otros juegos similares, no es por turnos. Todo sucede al mismo tiempo, en tiempo real. </p></li><li><p class=\"bb_paragraph\" ><strong>Entorno dinámico en constante evolución:</strong> Habrá eventos que alterarán el entorno y a las criaturas.</p></li><li><p class=\"bb_paragraph\" ><strong>Sistema de progresión:</strong> Obtendrás recursos al completar cada misión; úsalos para mejorar diferentes sistemas. De esta manera, podrás completar la siguiente misión con menos dificultad o afrontar misiones más complejas. </p></li></ul>",
+    "about_the_game": "<p class=\"bb_paragraph\" >Space Evolver es un juego roguelite de gestión y genética que incorpora elementos de estrategia en tiempo real. Mejora tu nave espacial y tus tecnologías, completa misiones, compra paquetes y guía la evolución de las especies según los requisitos de cada misión.</p><h2 class=\"bb_tag\" ><strong>Características principales:</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Sistema de reproducción innovador:</strong> Las criaturas eligen con quién reproducirse (incluso con criaturas enemigas). Intenta que elijan con quién quieres (puede producirse endogamia).</p></li><li><p class=\"bb_paragraph\" ><strong>Estilo visual:</strong> Estilo isometrico 2.5D pixelart con personajes que poseen animaciones en 8 direcciones.</p></li><li><p class=\"bb_paragraph\" ><strong>Criaturas diferentes:</strong> Más de 10 tipos diferentes de criaturas, con diferentes estadísticas y cualidades.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><picture><source srcset=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/extras/47f8d416189f8c96e9dd5bd532eee42f.apng?t=1769617826\"><img src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/extras/47f8d416189f8c96e9dd5bd532eee42f.poster.avif?t=1769617826\" class=\"bb_img\" width=640 height=65 /></picture></span></p></li><li><p class=\"bb_paragraph\" ><strong>Todo en tiempo real:</strong> El juego tiene un diseño isométrico, con un sistema de casillas. Pero a diferencia de otros juegos similares, no es por turnos. Todo sucede al mismo tiempo, en tiempo real. </p></li><li><p class=\"bb_paragraph\" ><strong>Entorno dinámico en constante evolución:</strong> Habrá eventos que alterarán el entorno y a las criaturas.</p></li><li><p class=\"bb_paragraph\" ><strong>Sistema de progresión:</strong> Obtendrás recursos al completar cada misión; úsalos para mejorar diferentes sistemas. De esta manera, podrás completar la siguiente misión con menos dificultad o afrontar misiones más complejas. </p></li></ul>",
+    "short_description": "Space Evolver es un juego roguelite de gestión y genética, que incluye aspectos de juegos de estrategia en tiempo real. Mejora tu nave espacial y tecnologías, completa misiones y guía la evolución de especies.",
+    "supported_languages": "Inglés<strong>*</strong>, Francés, Italiano, Alemán, Español de España, Chino simplificado, Coreano, Español de Hispanoamérica, Japonés, Polaco, Portugués de Brasil, Portugués de Portugal, Ruso<br><strong>*</strong>idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/f860a2fa09107e58652847e2785bf34c654ca262/header.jpg?t=1769617826",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/c6a215c6e0872efcb3d1a2d34360b11c5ed5021a/capsule_231x87.jpg?t=1769617826",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/c6a215c6e0872efcb3d1a2d34360b11c5ed5021a/capsule_184x69.jpg?t=1769617826",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10, 64 bits<br></li><li><strong>Procesador:</strong> Ryzen 5 5500/ i5-13600K<br></li><li><strong>Memoria:</strong> 4 MB de RAM<br></li><li><strong>Gráficos:</strong> Nvidia GTX 1660S<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 600 MB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 11, 64 bits<br></li><li><strong>Procesador:</strong> Ryzen 5 5500/ i5-13600K<br></li><li><strong>Memoria:</strong> 6 MB de RAM<br></li><li><strong>Gráficos:</strong> Nvidia GTX 1660S<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 600 MB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "developers": [
+        "JoaKing"
+    ],
+    "publishers": [
+        "JoaKing"
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        },
+        {
+            "id": "2",
+            "description": "Estrategia"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/99dffba85885263f9245075c993f5645b2426344/ss_99dffba85885263f9245075c993f5645b2426344.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/99dffba85885263f9245075c993f5645b2426344/ss_99dffba85885263f9245075c993f5645b2426344.1920x1080.jpg?t=1769617826"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/9c3a4bc6362fbd18254f577f20b9293576b67045/ss_9c3a4bc6362fbd18254f577f20b9293576b67045.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/9c3a4bc6362fbd18254f577f20b9293576b67045/ss_9c3a4bc6362fbd18254f577f20b9293576b67045.1920x1080.jpg?t=1769617826"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/21acf00da1bcef236b80a11ba57b4c9c7c2e4ec1/ss_21acf00da1bcef236b80a11ba57b4c9c7c2e4ec1.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/21acf00da1bcef236b80a11ba57b4c9c7c2e4ec1/ss_21acf00da1bcef236b80a11ba57b4c9c7c2e4ec1.1920x1080.jpg?t=1769617826"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/58b8b18103331f6320f82deaf625365e169d0a67/ss_58b8b18103331f6320f82deaf625365e169d0a67.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/58b8b18103331f6320f82deaf625365e169d0a67/ss_58b8b18103331f6320f82deaf625365e169d0a67.1920x1080.jpg?t=1769617826"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/cbf713928a75bcf3326966c367e144ab5146befd/ss_cbf713928a75bcf3326966c367e144ab5146befd.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/cbf713928a75bcf3326966c367e144ab5146befd/ss_cbf713928a75bcf3326966c367e144ab5146befd.1920x1080.jpg?t=1769617826"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/91861dfecf70bcceee74663a2082cb3727755a75/ss_91861dfecf70bcceee74663a2082cb3727755a75.600x338.jpg?t=1769617826",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094820/91861dfecf70bcceee74663a2082cb3727755a75/ss_91861dfecf70bcceee74663a2082cb3727755a75.1920x1080.jpg?t=1769617826"
+        }
+    ],
+    "release_date": {
+        "coming_soon": false,
+        "date": "8 SEP 2026"
+    },
+    "support_info": {
+        "url": "",
+        "email": "spacebreeder.com@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4094820?t=1769617826",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4094820?t=1769617826",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "0",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": ""
+        }
+    }
+}

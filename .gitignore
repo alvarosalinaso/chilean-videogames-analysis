@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.env
+venv/
+env/
+
+# Data (Ignorar raw json masivos, pero quizás queramos el CSV procesado?)
+# Para este proyecto, quizás queramos subir la data procesada como muestra
+# data/raw/
+# data/processed/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

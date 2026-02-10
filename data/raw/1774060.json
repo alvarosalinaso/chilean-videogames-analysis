@@ -1,0 +1,262 @@
+{
+    "type": "game",
+    "name": "Gematombe",
+    "steam_appid": 1774060,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<h1>WISHLIST NOW</h1><p><br></p><br><h1>Acerca del juego</h1>Gematombe is an action-puzzle-vs-game where you can play one-on-one matches against your friends or the computer. <br><br>Launch the ball to hit and break consecutive gems of the same color to achieve incredible chain reactions! Maximize your chain combos and clear your screen area of gems and win with a GEMATOMBE!<br><br>Blast through more than 60 levels packed with puzzle action and adventure. Help Pandora, the all-gifted heroine, in her wonderful adventure to capture all the evils that were released in our world!<br><br>Complete all story modes and get to know a little more of all the charismatic characters this game has for you!<br><br>The story and characters on Gematombe are based in the Greek legend Pandora and her box/jar.<br><br><strong><u>The BASE GAME contains: </u></strong><br><ul class=\"bb_ul\"><li>VS mode local - Engage your friends in puzzle battle action! In this classic couch versus mode, you select the stage and the contenders to settle a winner in a race for the first Gematombe! Who's the best? Find it out!<br></li><li>Story mode - Pick a Character and start your journey to capture all the daemons back to the jar or to wreak havoc across the world! In this mode you have 6 campaigns packed with funny cut-scenes between battles!<br></li><li>Endless mode - In this mode you will fight in an endless stage, to find how long can you stay alive with no other opponent than yourself!<br></li><li>Survivor mode - Fight your way against randomly selected enemies! Try to get as far as you can, cause they will keep coming for you!<br></li><li>6 characters - The game so far has a cast of 6 characters, Pandora The Hope, Adicia The Injustice, Nosi The Plague, Apate The Deceit, Ania The Sorrow, Khaos The Chaos and one secret Character to discover</li></ul><br>",
+    "about_the_game": "Gematombe is an action-puzzle-vs-game where you can play one-on-one matches against your friends or the computer. <br><br>Launch the ball to hit and break consecutive gems of the same color to achieve incredible chain reactions! Maximize your chain combos and clear your screen area of gems and win with a GEMATOMBE!<br><br>Blast through more than 60 levels packed with puzzle action and adventure. Help Pandora, the all-gifted heroine, in her wonderful adventure to capture all the evils that were released in our world!<br><br>Complete all story modes and get to know a little more of all the charismatic characters this game has for you!<br><br>The story and characters on Gematombe are based in the Greek legend Pandora and her box/jar.<br><br><strong><u>The BASE GAME contains: </u></strong><br><ul class=\"bb_ul\"><li>VS mode local - Engage your friends in puzzle battle action! In this classic couch versus mode, you select the stage and the contenders to settle a winner in a race for the first Gematombe! Who's the best? Find it out!<br></li><li>Story mode - Pick a Character and start your journey to capture all the daemons back to the jar or to wreak havoc across the world! In this mode you have 6 campaigns packed with funny cut-scenes between battles!<br></li><li>Endless mode - In this mode you will fight in an endless stage, to find how long can you stay alive with no other opponent than yourself!<br></li><li>Survivor mode - Fight your way against randomly selected enemies! Try to get as far as you can, cause they will keep coming for you!<br></li><li>6 characters - The game so far has a cast of 6 characters, Pandora The Hope, Adicia The Injustice, Nosi The Plague, Apate The Deceit, Ania The Sorrow, Khaos The Chaos and one secret Character to discover</li></ul><br>",
+    "short_description": "Gematombe is an action-puzzle-vs-game where you can play one-on-one matches against your friends or the computer.",
+    "supported_languages": "Inglés, Español de España, Francés, Alemán",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/header.jpg?t=1684406699",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/capsule_231x87.jpg?t=1684406699",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/capsule_184x69.jpg?t=1684406699",
+    "website": "https://www.ratalaikagames.com/",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows 7<br></li><li><strong>Procesador:</strong> core2duo<br></li><li><strong>Memoria:</strong> 1024 MB de RAM<br></li><li><strong>Gráficos:</strong> ANY<br></li><li><strong>Tarjeta de sonido:</strong> ANY<br></li><li><strong>Notas adicionales:</strong> Gamepad recommended</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Ubuntu<br></li><li><strong>Procesador:</strong> ANY<br></li><li><strong>Memoria:</strong> 1024 MB de RAM<br></li><li><strong>Gráficos:</strong> ANY<br></li><li><strong>Notas adicionales:</strong> Gamepad recommended</li></ul>"
+    },
+    "legal_notice": "2021 © Ratalaika Games S.L. All rights reserved. All other trademarks and copyrights are the properties of their respective owners.",
+    "developers": [
+        "Route 5 Games"
+    ],
+    "publishers": [
+        "Ratalaika Games S.L."
+    ],
+    "demos": [
+        {
+            "appid": 1915300,
+            "description": ""
+        }
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 830000,
+        "final": 830000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 8.300"
+    },
+    "packages": [
+        636503
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Gematombe",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 636503,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Gematombe - CLP$ 8.300",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 830000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 1,
+            "description": "Multijugador"
+        },
+        {
+            "id": 49,
+            "description": "JcJ"
+        },
+        {
+            "id": 37,
+            "description": "JcJ a pantalla (com)partida"
+        },
+        {
+            "id": 24,
+            "description": "Pantalla partida/compartida"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 44,
+            "description": "Remote Play Together"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "4",
+            "description": "Casual"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "2",
+            "description": "Estrategia"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_7f595b208b731bcbafe5118115ed13095c791d86.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_7f595b208b731bcbafe5118115ed13095c791d86.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_9d7ee54c4ef4aaab72a03764c7b5936f3e08c6ed.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_9d7ee54c4ef4aaab72a03764c7b5936f3e08c6ed.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_a0051a7cf28581a66f5108e160dc5cf63b64a200.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_a0051a7cf28581a66f5108e160dc5cf63b64a200.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_761f5124150765c3abe7eb835a85fb85b341b4c7.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_761f5124150765c3abe7eb835a85fb85b341b4c7.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_5bbe7b42e240e1bd8f06639ab71041b72ff97146.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_5bbe7b42e240e1bd8f06639ab71041b72ff97146.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_b3a0697bd309b2a00c1ce60be74df7425c1e58c2.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_b3a0697bd309b2a00c1ce60be74df7425c1e58c2.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_ce0141a3d6491aa2cea7ffefb0781ad9283def8d.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_ce0141a3d6491aa2cea7ffefb0781ad9283def8d.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_f3e643ec86fb94f64e93d41bdb9c35df01769024.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_f3e643ec86fb94f64e93d41bdb9c35df01769024.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_5dd23da9aca2a461de1764a294f20116f3249592.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_5dd23da9aca2a461de1764a294f20116f3249592.1920x1080.jpg?t=1684406699"
+        },
+        {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_ee304377141644af16d885bbc6bbc018bf319d94.600x338.jpg?t=1684406699",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774060/ss_ee304377141644af16d885bbc6bbc018bf319d94.1920x1080.jpg?t=1684406699"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256874528,
+            "name": "Trailer v0",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256874528/movie.293x165.jpg?t=1645200307",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1774060/441248/0c947900296a73f3e449b0fada5a7601b91087b5/1751029592/dash_av1.mpd?t=1645200307",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1774060/441248/0c947900296a73f3e449b0fada5a7601b91087b5/1751029592/dash_h264.mpd?t=1645200307",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1774060/441248/0c947900296a73f3e449b0fada5a7601b91087b5/1751029592/hls_264_master.m3u8?t=1645200307",
+            "highlight": true
+        }
+    ],
+    "achievements": {
+        "total": 11,
+        "highlighted": [
+            {
+                "name": "The good ending",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/8ccfdeb62a96e2920d14e4e62697797f15a7a51d.jpg"
+            },
+            {
+                "name": "End of the line",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/44aa92150af29befaf804ff481f8d835c9da3f7c.jpg"
+            },
+            {
+                "name": "The bitter end",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/6152a7f7bbcd114017bb07fb17b3d076d938c4d4.jpg"
+            },
+            {
+                "name": "The sad ending",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/c4750e1b347613eb44021b51cbbeab0141d701c2.jpg"
+            },
+            {
+                "name": "The end?",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/07549f12a9919af65dc4f8f96a870e01672f5cba.jpg"
+            },
+            {
+                "name": "The bad ending",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/b2ce56fcf17d80c5317e7eac6db49a5822cb93ad.jpg"
+            },
+            {
+                "name": "Punching carat",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/783b58eed4ccad2accc9814ce464c719fa5ecc2d.jpg"
+            },
+            {
+                "name": "Hero's path",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/627d0ac914682eacdc25c9626e8a1f101b84f232.jpg"
+            },
+            {
+                "name": "Endless practice",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/e582b6cfd987dab5f5f694e6e697ab6f43ae52f7.jpg"
+            },
+            {
+                "name": "Rolling up the stone",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1774060/a84ed79f272b4076193ace85f903e8922f779eb5.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "28 ABR 2023"
+    },
+    "support_info": {
+        "url": "https://www.ratalaikagames.com/",
+        "email": "support@ratalaikagames..com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1774060?t=1684406699",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1774060?t=1684406699",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "l"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+        }
+    }
+}

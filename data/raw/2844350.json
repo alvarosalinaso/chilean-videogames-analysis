@@ -1,0 +1,167 @@
+{
+    "type": "game",
+    "name": "Cosmic Horror Tales: Roots Below",
+    "steam_appid": 2844350,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/634766c68a754692e64d8723485dd4d9.avif?t=1761702017\" width=480 height=210 /></span><br><br>En este RPG de acción de top-down asumirás el papel de Henry, un granjero que sale de casa por la noche para salvar a una de sus preciadas gallinas perdidas, adentrándote cada vez más en una historia llena de horrores indescriptibles.<br><br>Depende de ti guiar correctamente a Henry para salvar a su gallina, evitando caer en la locura mientras lo intenta.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/e09e30f981b7eadd88af945437422b0c.avif?t=1761702017\" width=465 height=144 /></span><br><br><ul class=\"bb_ul\"><li> Controla el encendido y apagado de tu linterna para prevenir peligros y encontrar pistas.<br></li><li> Administra tus recursos, la salud física y mental de tu personaje estará en constante riesgo.<br></li><li> Sumérgete en Arcton, un poblado minero de mediados del siglo XIX.<br></li><li> Resuelve acertijos mientras descubres la historia del poblado.<br></li><li> Escrito, dibujado y codeado por Moss Tower. La banda sonora es de Arin Eakins.</li></ul><br><span class=\"bb_img_ctn\"><picture><source srcset=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/f19d747a6059bdf5cc00c076bc7851ac.apng?t=1761702017\"><img src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/f19d747a6059bdf5cc00c076bc7851ac.poster.avif?t=1761702017\" class=\"bb_img\" width=528 height=192 /></picture></span>",
+    "about_the_game": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/634766c68a754692e64d8723485dd4d9.avif?t=1761702017\" width=480 height=210 /></span><br><br>En este RPG de acción de top-down asumirás el papel de Henry, un granjero que sale de casa por la noche para salvar a una de sus preciadas gallinas perdidas, adentrándote cada vez más en una historia llena de horrores indescriptibles.<br><br>Depende de ti guiar correctamente a Henry para salvar a su gallina, evitando caer en la locura mientras lo intenta.<br><br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/e09e30f981b7eadd88af945437422b0c.avif?t=1761702017\" width=465 height=144 /></span><br><br><ul class=\"bb_ul\"><li> Controla el encendido y apagado de tu linterna para prevenir peligros y encontrar pistas.<br></li><li> Administra tus recursos, la salud física y mental de tu personaje estará en constante riesgo.<br></li><li> Sumérgete en Arcton, un poblado minero de mediados del siglo XIX.<br></li><li> Resuelve acertijos mientras descubres la historia del poblado.<br></li><li> Escrito, dibujado y codeado por Moss Tower. La banda sonora es de Arin Eakins.</li></ul><br><span class=\"bb_img_ctn\"><picture><source srcset=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/f19d747a6059bdf5cc00c076bc7851ac.apng?t=1761702017\"><img src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/extras/f19d747a6059bdf5cc00c076bc7851ac.poster.avif?t=1761702017\" class=\"bb_img\" width=528 height=192 /></picture></span>",
+    "short_description": "Un RPG de acción top-down acerca de un granjero que busca a su gallina a orillas de un pueblo lleno de horres más allá de la comprensión humana.",
+    "supported_languages": "Inglés, Español de España, Español de Hispanoamérica",
+    "reviews": "“Un juego intrigante con una ambientación magnífica y excelentes visuales en 2D de arriba hacia abajo que consiguen provocar una sorprendente cantidad de miedo.”<br>Alpha Beta Gamer<br><br>“Un juego muy interesante con toques lovecraftianos, y una ambientación y música que nos mantendrá inmersos en su mundo.”<br>Don indie<br>",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/header.jpg?t=1761702017",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/capsule_231x87.jpg?t=1761702017",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/capsule_184x69.jpg?t=1761702017",
+    "website": "https://www.mosstowerstudio.com/Cosmic-Horror-Tales/",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO *:</strong> Windows XP, Vista, 7, 8, 10 or 11<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO *:</strong> Windows XP, Vista, 7, 8, 10 or 11<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "developers": [
+        "Moss Tower Studio"
+    ],
+    "publishers": [
+        "Moss Tower Studio"
+    ],
+    "demos": [
+        {
+            "appid": 3250700,
+            "description": ""
+        }
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_cec1dbb980df4313e48f0cd07ba30daf7737a468.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_cec1dbb980df4313e48f0cd07ba30daf7737a468.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_9162ba0d21a4cfe5fb4e6951b8ec938823630f6a.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_9162ba0d21a4cfe5fb4e6951b8ec938823630f6a.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_e42f4b45c566ec748ed3063bfd513092dad0c1fc.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_e42f4b45c566ec748ed3063bfd513092dad0c1fc.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_d430587a9466ab402a033a29cc69d87b11937ed5.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_d430587a9466ab402a033a29cc69d87b11937ed5.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_84a48db74ad99c12947f52750d0bb2f9e11cc120.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_84a48db74ad99c12947f52750d0bb2f9e11cc120.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_ab0d0fe763d67f1ea0a483675515efcc135c9042.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_ab0d0fe763d67f1ea0a483675515efcc135c9042.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_3223e220e6d40758717fcc52789813c0c69afa17.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_3223e220e6d40758717fcc52789813c0c69afa17.1920x1080.jpg?t=1761702017"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_2b90ab5340412c4c29d0e70a45bfbb28315d67ad.600x338.jpg?t=1761702017",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/ss_2b90ab5340412c4c29d0e70a45bfbb28315d67ad.1920x1080.jpg?t=1761702017"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257071723,
+            "name": "Gameplay Trailer ES",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257071723/234f01dd3493ba3d38b7b67952b6f0865acb4b4c/movie_600x337.jpg?t=1731036114",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2844350/782849/8415ea54827871eab9837ac5ff870fc4b92c3b92/1750946968/dash_av1.mpd?t=1731036114",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2844350/782849/8415ea54827871eab9837ac5ff870fc4b92c3b92/1750946968/dash_h264.mpd?t=1731036114",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2844350/782849/8415ea54827871eab9837ac5ff870fc4b92c3b92/1750946968/hls_264_master.m3u8?t=1731036114",
+            "highlight": true
+        },
+        {
+            "id": 257007768,
+            "name": "Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257007768/movie.293x165.jpg?t=1727833180",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2844350/674498/0c55f047909eaa1ce9c37e8d4c8fae98ad38643b/1750946963/dash_av1.mpd?t=1727833180",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2844350/674498/0c55f047909eaa1ce9c37e8d4c8fae98ad38643b/1750946963/dash_h264.mpd?t=1727833180",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2844350/674498/0c55f047909eaa1ce9c37e8d4c8fae98ad38643b/1750946963/hls_264_master.m3u8?t=1727833180",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Por confirmarse"
+    },
+    "support_info": {
+        "url": "https://www.instagram.com/moss.tower/",
+        "email": "contact@mosstowerstudio.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2844350?t=1761702017",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2844350/page_bg_raw.jpg?t=1761702017",
+    "content_descriptors": {
+        "ids": [
+            2,
+            5
+        ],
+        "notes": "El juego presenta violencia animada, sangre, monstruos y escenas que junto a la ambientación de misterio pueden generar miedo o terror en algunas personas."
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência\nTemas sensíveis\nMedo"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "18",
+            "required_age": "18",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt"
+        }
+    }
+}

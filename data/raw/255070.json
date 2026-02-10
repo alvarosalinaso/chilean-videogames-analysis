@@ -1,0 +1,395 @@
+{
+    "type": "game",
+    "name": "Abyss Odyssey",
+    "steam_appid": 255070,
+    "required_age": "13",
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+        311590
+    ],
+    "detailed_description": "El desarrollador indie chileno ACE Team nos trae un juego de acción y aventura de desplazamiento lateral, modernista con un complejo motor de lucha de niveles generados procesalmente que destina a sus tres guerreros a luchar toda la eternidad. Conoce a la osada Katrien, el torturado espectro Monje Fantasma y la etérea Pincoya. Haz combos, desencadena ataques y lanza ráfagas de golpes para sobrevivir a lo que se oculta abajo. Tu viaje hacia lo desconocido empieza con tres feroces guerreros. Pero cuando aprendas a poseer a tus enemigos, podrás desafiar al abismo con sus destrezas y habilidades de combate.  Usa las habilidades disponibles e intenta entender el abismo infinito. ¡Las dificultades para lograr esta gran tarea no terminan aquí! Los niveles de desplazamiento lateral no se repiten dos veces, desde los monstruos, a las ubicaciones de mercaderes salvavidas o encuentros únicos y tesoros que encontrarás.",
+    "about_the_game": "El desarrollador indie chileno ACE Team nos trae un juego de acción y aventura de desplazamiento lateral, modernista con un complejo motor de lucha de niveles generados procesalmente que destina a sus tres guerreros a luchar toda la eternidad. Conoce a la osada Katrien, el torturado espectro Monje Fantasma y la etérea Pincoya. Haz combos, desencadena ataques y lanza ráfagas de golpes para sobrevivir a lo que se oculta abajo. Tu viaje hacia lo desconocido empieza con tres feroces guerreros. Pero cuando aprendas a poseer a tus enemigos, podrás desafiar al abismo con sus destrezas y habilidades de combate.  Usa las habilidades disponibles e intenta entender el abismo infinito. ¡Las dificultades para lograr esta gran tarea no terminan aquí! Los niveles de desplazamiento lateral no se repiten dos veces, desde los monstruos, a las ubicaciones de mercaderes salvavidas o encuentros únicos y tesoros que encontrarás.",
+    "short_description": "Abyss Odyssey, del desarrollador indie ACE Team, es un juego de acción de desplazamiento lateral, modernista con un complejo motor de lucha de niveles generados procesalmente que destina a sus guerreros a luchar toda la eternidad.",
+    "supported_languages": "Inglés<strong>*</strong>, Francés, Italiano, Alemán, Español de España<br><strong>*</strong>idiomas con localización de audio",
+    "reviews": "“If you enjoy fighting games, platformers, and a challenge that changes and is unpredictable each time then this game is for you.”<br>Nerd Reactor<br><br>“[Abyss Odyssey]’s setting is unique from anything else I've seen in videogames.”<br>Destructoid<br><br>“Enough surprises in Abyss Odyssey to keep you trying again.”<br>God is a Geek<br>",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/header.jpg?t=1603132080",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/capsule_231x87.jpg?t=1603132080",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/capsule_184x69.jpg?t=1603132080",
+    "website": "http://www.abyssodyssey.com",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows XP, Vista, 7<br></li><li><strong>Procesador:</strong> Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>Gráficos:</strong> ATI 3850HD 512 MB or NVIDIA GeForce 8800 GT 512MB<br></li><li><strong>DirectX:</strong> Versión 9.0c<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows XP, Vista, 7<br></li><li><strong>Procesador:</strong> Intel Core i5<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 280<br></li><li><strong>DirectX:</strong> Versión 9.0c<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "legal_notice": "© 2014 ACE Team. © ATLUS. All rights reserved. Licensed to and published by Atlus U.S.A., Inc.",
+    "developers": [
+        "ACE Team"
+    ],
+    "publishers": [
+        "SEGA"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 640000,
+        "final": 640000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 6.400"
+    },
+    "packages": [
+        47888,
+        49317
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Abyss Odyssey",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 47888,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Abyss Odyssey - CLP$ 6.400",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 640000
+                },
+                {
+                    "packageid": 49317,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Abyss Odyssey - Two Pack - CLP$ 9.500",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 950000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "metacritic": {
+        "score": 69,
+        "url": "https://www.metacritic.com/game/pc/abyss-odyssey?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 1,
+            "description": "Multijugador"
+        },
+        {
+            "id": 49,
+            "description": "JcJ"
+        },
+        {
+            "id": 36,
+            "description": "JcJ en línea"
+        },
+        {
+            "id": 37,
+            "description": "JcJ a pantalla (com)partida"
+        },
+        {
+            "id": 9,
+            "description": "Cooperativo"
+        },
+        {
+            "id": 38,
+            "description": "Cooperativo en línea"
+        },
+        {
+            "id": 39,
+            "description": "Coop. a pantalla (com)partida"
+        },
+        {
+            "id": 24,
+            "description": "Pantalla partida/compartida"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 29,
+            "description": "Cromos de Steam"
+        },
+        {
+            "id": 23,
+            "description": "Steam Cloud"
+        },
+        {
+            "id": 25,
+            "description": "Tablas de clasificación de Steam"
+        },
+        {
+            "id": 43,
+            "description": "Remote Play en TV"
+        },
+        {
+            "id": 44,
+            "description": "Remote Play Together"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_71382efa25bd3c598697d7a54ddfce4e8b732df5.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_71382efa25bd3c598697d7a54ddfce4e8b732df5.1920x1080.jpg?t=1603132080"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_cd82d3261e972dc7d6129fc20295cdfee5f03486.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_cd82d3261e972dc7d6129fc20295cdfee5f03486.1920x1080.jpg?t=1603132080"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_96113f769fb3c3f68df63739d1f9208759d21be1.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_96113f769fb3c3f68df63739d1f9208759d21be1.1920x1080.jpg?t=1603132080"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_6c593c8338d8911238a77787e64b56e23f62b390.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_6c593c8338d8911238a77787e64b56e23f62b390.1920x1080.jpg?t=1603132080"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_247973c70ea91a1d179082ad296c7a8a19bab5ce.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_247973c70ea91a1d179082ad296c7a8a19bab5ce.1920x1080.jpg?t=1603132080"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_9815f14804727d4f64c391336a020b3abc306618.600x338.jpg?t=1603132080",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255070/ss_9815f14804727d4f64c391336a020b3abc306618.1920x1080.jpg?t=1603132080"
+        }
+    ],
+    "movies": [
+        {
+            "id": 2032900,
+            "name": "E3 Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032900/movie.293x165.jpg?t=1447362325",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21922/9944dc48f61dd43d8f481562a832a5329be71856/1751261498/dash_av1.mpd?t=1447362325",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21922/9944dc48f61dd43d8f481562a832a5329be71856/1751261498/dash_h264.mpd?t=1447362325",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21922/9944dc48f61dd43d8f481562a832a5329be71856/1751261498/hls_264_master.m3u8?t=1447362325",
+            "highlight": true
+        },
+        {
+            "id": 2033410,
+            "name": "Gameplay Video (First 7 minutes)",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2033410/movie.293x165.jpg?t=1447362696",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/22996/4dd5de30dc0310b8f05bbc9058561b8193fb91f7/1751261500/dash_av1.mpd?t=1447362696",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/22996/4dd5de30dc0310b8f05bbc9058561b8193fb91f7/1751261500/dash_h264.mpd?t=1447362696",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/22996/4dd5de30dc0310b8f05bbc9058561b8193fb91f7/1751261500/hls_264_master.m3u8?t=1447362696",
+            "highlight": true
+        },
+        {
+            "id": 2033414,
+            "name": "Versus Mode",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2033414/movie.293x165.jpg?t=1447362698",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/23002/26ec2ef18ea31d14f34afdc6d13030c369824a3b/1751261502/dash_av1.mpd?t=1447362698",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/23002/26ec2ef18ea31d14f34afdc6d13030c369824a3b/1751261502/dash_h264.mpd?t=1447362698",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/23002/26ec2ef18ea31d14f34afdc6d13030c369824a3b/1751261502/hls_264_master.m3u8?t=1447362698",
+            "highlight": true
+        },
+        {
+            "id": 2032844,
+            "name": "Features Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032844/movie.293x165.jpg?t=1447362290",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21838/1649f4d4942a026560e4eee53dfdb4f368f520df/1751261495/dash_av1.mpd?t=1447362290",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21838/1649f4d4942a026560e4eee53dfdb4f368f520df/1751261495/dash_h264.mpd?t=1447362290",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21838/1649f4d4942a026560e4eee53dfdb4f368f520df/1751261495/hls_264_master.m3u8?t=1447362290",
+            "highlight": true
+        },
+        {
+            "id": 2032842,
+            "name": "A First Look at Abyss Odyssey",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032842/movie.293x165.jpg?t=1447362290",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21836/0e4eec5562c3ee7b1ec53bf3e73bcaa063c7d1c4/1751261492/dash_av1.mpd?t=1447362290",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21836/0e4eec5562c3ee7b1ec53bf3e73bcaa063c7d1c4/1751261492/dash_h264.mpd?t=1447362290",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21836/0e4eec5562c3ee7b1ec53bf3e73bcaa063c7d1c4/1751261492/hls_264_master.m3u8?t=1447362290",
+            "highlight": false
+        },
+        {
+            "id": 2032846,
+            "name": "Know Your Enemy: Judith",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032846/movie.293x165.jpg?t=1447362291",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21840/94d0182dc8d0ef3abbb50aa8337a9cf63ba6b3c2/1751261498/dash_av1.mpd?t=1447362291",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21840/94d0182dc8d0ef3abbb50aa8337a9cf63ba6b3c2/1751261498/dash_h264.mpd?t=1447362291",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21840/94d0182dc8d0ef3abbb50aa8337a9cf63ba6b3c2/1751261498/hls_264_master.m3u8?t=1447362291",
+            "highlight": false
+        },
+        {
+            "id": 2032845,
+            "name": "Know Your Enemy: Bauta",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032845/movie.293x165.jpg?t=1447362291",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21839/cffcde14fcd1adb1c9e020294c5d010f9539810d/1751261496/dash_av1.mpd?t=1447362291",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21839/cffcde14fcd1adb1c9e020294c5d010f9539810d/1751261496/dash_h264.mpd?t=1447362291",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21839/cffcde14fcd1adb1c9e020294c5d010f9539810d/1751261496/hls_264_master.m3u8?t=1447362291",
+            "highlight": false
+        },
+        {
+            "id": 2032843,
+            "name": "Behind the Scenes of the Main Theme",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2032843/movie.293x165.jpg?t=1447362290",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/255070/21837/514926e4e45f8c9a10330c69e234e7a07d0f4275/1751261494/dash_av1.mpd?t=1447362290",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21837/514926e4e45f8c9a10330c69e234e7a07d0f4275/1751261494/dash_h264.mpd?t=1447362290",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/255070/21837/514926e4e45f8c9a10330c69e234e7a07d0f4275/1751261494/hls_264_master.m3u8?t=1447362290",
+            "highlight": false
+        }
+    ],
+    "recommendations": {
+        "total": 1265
+    },
+    "achievements": {
+        "total": 17,
+        "highlighted": [
+            {
+                "name": "Había una Vez",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/d293746f97c2375b612bf46e66a97675198d585d.jpg"
+            },
+            {
+                "name": "Asalto",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/9f48cafc7aa2a315f32dbde9b41a6923bc7cdd56.jpg"
+            },
+            {
+                "name": "Bailando con el Diablo",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/a1bea0f294b21afc92bd6f10b847ad4d07d42e19.jpg"
+            },
+            {
+                "name": "Asesino de Reyes",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/766d664054aba6602c5806362494a00f0c52a248.jpg"
+            },
+            {
+                "name": "Domador de Leones",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/a24841445b18b9dadaf2baf8a6da6eee05bcd9c4.jpg"
+            },
+            {
+                "name": "Maestro del sueño",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/1a14fc198248dd93ed8e35998d3e88307c52e95d.jpg"
+            },
+            {
+                "name": "Pozo de los deseos",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/cacaeab636826346475ba8c6775dc8202f9f324f.jpg"
+            },
+            {
+                "name": "Atrapasueños",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/64ba5ea72b6aad6b61139c79170cb84e0d7718e6.jpg"
+            },
+            {
+                "name": "Cazador de Sueños",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/16d5810562e0ca17e14b0ff9e77f453dce2f4552.jpg"
+            },
+            {
+                "name": "Maestro de los Sueños",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/255070/703fe4fee63a4ab03390ecfd04aab90a7e2cc754.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "15 JUL 2014"
+    },
+    "support_info": {
+        "url": "http://atlus.com/support.php",
+        "email": "service@atlus.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/255070?t=1603132080",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/255070?t=1603132080",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "esrb": {
+            "rating": "t",
+            "descriptors": "Violence\r\nPartial Nudity",
+            "display_online_notice": "true",
+            "use_age_gate": "true",
+            "required_age": "13"
+        },
+        "usk": {
+            "rating": "12",
+            "use_age_gate": "true",
+            "required_age": "12"
+        },
+        "oflc": {
+            "rating": "m",
+            "descriptors": "Fantasy violence\r\nGaming experience may change online"
+        },
+        "nzoflc": {
+            "rating": "m",
+            "descriptors": "Fantasy violence\r\nGaming experience may change online"
+        },
+        "csrr": {
+            "rating": "C12",
+            "descriptors": "Violence\r\nSex",
+            "use_age_gate": "true",
+            "required_age": "12"
+        },
+        "crl": {
+            "rating": "16",
+            "descriptors": "Contains or justifies violence",
+            "use_age_gate": "true",
+            "required_age": "16"
+        },
+        "pegi": {
+            "rating": "16",
+            "descriptors": "Violence\r\nOnline Gameplay",
+            "use_age_gate": "true",
+            "required_age": "16"
+        },
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa\nNudez"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+        }
+    }
+}

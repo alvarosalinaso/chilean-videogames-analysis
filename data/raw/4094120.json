@@ -1,0 +1,269 @@
+{
+    "type": "game",
+    "name": "Microlandia",
+    "steam_appid": 4094120,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<p class=\"bb_paragraph\" >Microlandia es el city builder meticulosamente detallado, con un arte vóxel inspirado en los clásicos del género, pero con una compleja simulación subyacente.</p><p class=\"bb_paragraph\" ><strong>Las estructuras de la vida cotidiana, simuladas</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/c713568bb6af0fc5c835356e03c7a358.webp?t=1770450740\" width=10 height=16 /></span> Los ciudadanos se enferman y, si no hay capacidad hospitalaria, mueren esperando atención médica.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/63d29acbd0c8cf0633c959c9266efd98.webp?t=1770450740\" width=16 height=10 /></span> Si llegan tarde al trabajo, podrían ser despedidos.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/5c02516fe60ff0f92225e6d3c0f5b15f.webp?t=1770450740\" width=12 height=12 /></span> Algunos ciudadanos se opondrán con fuerza a proyectos de construcción en su barrio que podrían provocar rechazo público, haciendo que se muden.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/f1fb041ab14803a0a3a5504edc856fa7.webp?t=1770450740\" width=14 height=15 /></span> Cuando las empresas no logran llegar a fin de mes, quiebran y sube el desempleo.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/77a447a52b02f9e6d2c591738226ac20.webp?t=1770450740\" width=12 height=16 /></span> Los propietarios son oportunistas y suben los alquileres cuando la oferta de vivienda es escasa.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/631d7ed81bacff3cf327d7125025b913.webp?t=1770450740\" width=13 height=12 /></span> Los ciudadanos se enamoran, pueden tener hijos y separarse.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/66fa0646090e67919a8eb5f51870344b.webp?t=1770450740\" width=13 height=15 /></span> Cuando los ciudadanos no encuentran trabajo durante un tiempo, podrían considerar una carrera criminal.</p></li></ul><p class=\"bb_paragraph\" ><strong>Decisiones difíciles de gran impacto</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/5beb32544168ee05094c25bc4e59a1bf.webp?t=1770450740\" width=14 height=12 /></span> Las tasas de impuestos sobre la propiedad, las ventas y los ingresos individuales y corporativos, impactan en la economía de tu ciudad de formas complejas.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/99611b4141f05a9ae2c9ded1492c4648.webp?t=1770450740\" width=16 height=11 /></span> La infraestructura urbana es una inversión enorme para la ciudad.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/77a447a52b02f9e6d2c591738226ac20.webp?t=1770450740\" width=12 height=16 /></span> Las tasas por licencias de automóvil, transporte público, turismo y constitución de empresas, alteran el equilibrio entre los ingresos de la ciudad y los incentivos de la ciudadanía.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/46d79aa345b067eaa3f72bd3e510a804.webp?t=1770450740\" width=16 height=13 /></span> La prensa sigue cada uno de tus movimientos e informa sobre todo lo que ocurre en la ciudad. Te culparán de los problemas que aquejan a la ciudadanía.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/ae498ca987a7bca08901c820ce101dd3.webp?t=1770450740\" width=13 height=14 /></span> Modificar el uso del suelo es extremadamente difícil, ya que implica compensar a los propietarios y a los habitantes.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/bf97d7e6a0065b188da1e3bd6299b70c.webp?t=1770450740\" width=13 height=13 /></span> Recesiones, olas de calor, pandemias y otros eventos aleatorios pondrán a prueba tu capacidad de gestión.</p></li></ul><p class=\"bb_paragraph\" ><strong>Modelado a partir de datos de ciudades reales</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/12c5b42f7e1e6745d8d4a81f028c49a7.webp?t=1770450740\" width=15 height=15 /></span> Las mecánicas de la simulación están cuidadosamente modeladas a partir de publicaciones como World Bank Open Data, la U.S. Bureau of Labor Statistics, la U.S. Environmental Protection Agency, National Equity Atlas, Center for an Urban Future y más.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/58d1a6be3636b7215cedd57f0609ff39.webp?t=1770450740\" width=13 height=13 /></span> El objetivo es construir una simulación lo suficientemente buena como para ofrecer ideas reales sobre los desafíos sociales, económicos y ambientales de la vida moderna.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/0693b382e983471e5ad0ae7b76da3c05.webp?t=1770450740\" width=15 height=15 /></span> Los parámetros de la simulación son abiertos y se modifican en tiempo real en el sitio web de Microlandia, donde puedes leer todo sobre el funcionamiento interno de la simulación.</p></li></ul><p class=\"bb_paragraph\" ><strong>Desarrollo activo</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/13d2b37fae295ce6beecf809e8ae7a20.webp?t=1770450740\" width=14 height=12 /></span> El juego está en desarrollo activo y existen planes ambiciosos para los próximos años. En nuevas versiones, se añadirán nuevas mecánicas y funciones. Además se profundizará la simulación para capturar la complejidad de la vida urbana en gran detalle.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/940f20dca1700008e7b5017648e0ee17.webp?t=1770450740\" width=10 height=16 /></span> No habrá Microlandia 2. En su lugar, lo seguiremos actualizando y mejorando.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/1f42e21a8349c07249e5a3fd84de35f0.webp?t=1770450740\" width=13 height=13 /></span> Sin DLCs ni expansiones. Todas las actualizaciones de contenido se incluirán en versiones futuras.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/253f5d363581f896468cee7baddadff6.webp?t=1770450740\" width=13 height=13 /></span> Sin compras dentro del juego: creemos que es la peor invención desde la pizza con piña.</p></li></ul>",
+    "about_the_game": "<p class=\"bb_paragraph\" >Microlandia es el city builder meticulosamente detallado, con un arte vóxel inspirado en los clásicos del género, pero con una compleja simulación subyacente.</p><p class=\"bb_paragraph\" ><strong>Las estructuras de la vida cotidiana, simuladas</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/c713568bb6af0fc5c835356e03c7a358.webp?t=1770450740\" width=10 height=16 /></span> Los ciudadanos se enferman y, si no hay capacidad hospitalaria, mueren esperando atención médica.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/63d29acbd0c8cf0633c959c9266efd98.webp?t=1770450740\" width=16 height=10 /></span> Si llegan tarde al trabajo, podrían ser despedidos.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/5c02516fe60ff0f92225e6d3c0f5b15f.webp?t=1770450740\" width=12 height=12 /></span> Algunos ciudadanos se opondrán con fuerza a proyectos de construcción en su barrio que podrían provocar rechazo público, haciendo que se muden.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/f1fb041ab14803a0a3a5504edc856fa7.webp?t=1770450740\" width=14 height=15 /></span> Cuando las empresas no logran llegar a fin de mes, quiebran y sube el desempleo.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/77a447a52b02f9e6d2c591738226ac20.webp?t=1770450740\" width=12 height=16 /></span> Los propietarios son oportunistas y suben los alquileres cuando la oferta de vivienda es escasa.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/631d7ed81bacff3cf327d7125025b913.webp?t=1770450740\" width=13 height=12 /></span> Los ciudadanos se enamoran, pueden tener hijos y separarse.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/66fa0646090e67919a8eb5f51870344b.webp?t=1770450740\" width=13 height=15 /></span> Cuando los ciudadanos no encuentran trabajo durante un tiempo, podrían considerar una carrera criminal.</p></li></ul><p class=\"bb_paragraph\" ><strong>Decisiones difíciles de gran impacto</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/5beb32544168ee05094c25bc4e59a1bf.webp?t=1770450740\" width=14 height=12 /></span> Las tasas de impuestos sobre la propiedad, las ventas y los ingresos individuales y corporativos, impactan en la economía de tu ciudad de formas complejas.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/99611b4141f05a9ae2c9ded1492c4648.webp?t=1770450740\" width=16 height=11 /></span> La infraestructura urbana es una inversión enorme para la ciudad.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/77a447a52b02f9e6d2c591738226ac20.webp?t=1770450740\" width=12 height=16 /></span> Las tasas por licencias de automóvil, transporte público, turismo y constitución de empresas, alteran el equilibrio entre los ingresos de la ciudad y los incentivos de la ciudadanía.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/46d79aa345b067eaa3f72bd3e510a804.webp?t=1770450740\" width=16 height=13 /></span> La prensa sigue cada uno de tus movimientos e informa sobre todo lo que ocurre en la ciudad. Te culparán de los problemas que aquejan a la ciudadanía.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/ae498ca987a7bca08901c820ce101dd3.webp?t=1770450740\" width=13 height=14 /></span> Modificar el uso del suelo es extremadamente difícil, ya que implica compensar a los propietarios y a los habitantes.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/bf97d7e6a0065b188da1e3bd6299b70c.webp?t=1770450740\" width=13 height=13 /></span> Recesiones, olas de calor, pandemias y otros eventos aleatorios pondrán a prueba tu capacidad de gestión.</p></li></ul><p class=\"bb_paragraph\" ><strong>Modelado a partir de datos de ciudades reales</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/12c5b42f7e1e6745d8d4a81f028c49a7.webp?t=1770450740\" width=15 height=15 /></span> Las mecánicas de la simulación están cuidadosamente modeladas a partir de publicaciones como World Bank Open Data, la U.S. Bureau of Labor Statistics, la U.S. Environmental Protection Agency, National Equity Atlas, Center for an Urban Future y más.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/58d1a6be3636b7215cedd57f0609ff39.webp?t=1770450740\" width=13 height=13 /></span> El objetivo es construir una simulación lo suficientemente buena como para ofrecer ideas reales sobre los desafíos sociales, económicos y ambientales de la vida moderna.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/0693b382e983471e5ad0ae7b76da3c05.webp?t=1770450740\" width=15 height=15 /></span> Los parámetros de la simulación son abiertos y se modifican en tiempo real en el sitio web de Microlandia, donde puedes leer todo sobre el funcionamiento interno de la simulación.</p></li></ul><p class=\"bb_paragraph\" ><strong>Desarrollo activo</strong></p><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/13d2b37fae295ce6beecf809e8ae7a20.webp?t=1770450740\" width=14 height=12 /></span> El juego está en desarrollo activo y existen planes ambiciosos para los próximos años. En nuevas versiones, se añadirán nuevas mecánicas y funciones. Además se profundizará la simulación para capturar la complejidad de la vida urbana en gran detalle.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/940f20dca1700008e7b5017648e0ee17.webp?t=1770450740\" width=10 height=16 /></span> No habrá Microlandia 2. En su lugar, lo seguiremos actualizando y mejorando.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/1f42e21a8349c07249e5a3fd84de35f0.webp?t=1770450740\" width=13 height=13 /></span> Sin DLCs ni expansiones. Todas las actualizaciones de contenido se incluirán en versiones futuras.</p></li><li><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/extras/253f5d363581f896468cee7baddadff6.webp?t=1770450740\" width=13 height=13 /></span> Sin compras dentro del juego: creemos que es la peor invención desde la pizza con piña.</p></li></ul>",
+    "short_description": "Sé la máxima autoridad de la ciudad y planifica la construcción, política fiscal y responde a incidentes a través de una compleja simulación socioeconómica basada en datos del mundo real.",
+    "supported_languages": "Inglés<strong>*</strong>, Español de España<strong>*</strong>, Español de Hispanoamérica<strong>*</strong>, Francés<strong>*</strong>, Alemán<strong>*</strong><br><strong>*</strong>idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/e786d39d58826d731ee5a68f03cd0b467795b3c0/header.jpg?t=1770450740",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/a5729a02fee4b5639ba0e0389412cfad4516178b/capsule_231x87.jpg?t=1770450740",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/a5729a02fee4b5639ba0e0389412cfad4516178b/capsule_184x69.jpg?t=1770450740",
+    "website": "https://microlandia.city",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 10 64-bit<br></li><li><strong>Procesador:</strong> Dual-core CPU, 2.0 GHz (Intel Core i3-4xxx / AMD equivalent or better)<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Integrated graphics with OpenGL 3.3 support<br></li><li><strong>Almacenamiento:</strong> 200 MB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO:</strong> Windows 11 64-bit<br></li><li><strong>Procesador:</strong> Quad-core CPU, 2.5 GHz (Intel Core i5-7xxx / AMD Ryzen 5 or better)<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Dedicated GPU with 2GB VRAM<br></li><li><strong>Almacenamiento:</strong> 200 MB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador Apple<br></li><li><strong>SO:</strong> macOS 11 (Big Sur)<br></li><li><strong>Procesador:</strong> Apple M1<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Integrated Apple Silicon Graphics<br></li><li><strong>Almacenamiento:</strong> 200 MB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador Apple<br></li><li><strong>SO:</strong> macOS 25 (Tahoe)<br></li><li><strong>Procesador:</strong> Apple M3<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Integrated Apple Silicon Graphics<br></li><li><strong>Almacenamiento:</strong> 200 MB de espacio disponible</li></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Debian, Arch or RedHat-based distributions<br></li><li><strong>Procesador:</strong> Dual-core CPU, 2.0 GHz (Intel Core i3-4xxx / AMD equivalent or better)<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Integrated graphics with OpenGL 3.3 support<br></li><li><strong>Almacenamiento:</strong> 400 MB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Ubuntu 24.04<br></li><li><strong>Procesador:</strong> Quad-core CPU, 2.5 GHz (Intel Core i5-7xxx / AMD Ryzen 5 or better)<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Dedicated GPU with 2GB VRAM<br></li><li><strong>Almacenamiento:</strong> 400 MB de espacio disponible</li></ul>"
+    },
+    "developers": [
+        "Information Superhighway Games"
+    ],
+    "publishers": [
+        "Information Superhighway Games"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 420000,
+        "final": 420000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 4.200"
+    },
+    "packages": [
+        1434938
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Microlandia",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 1434938,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Microlandia - CLP$ 4.200",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 420000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 23,
+            "description": "Steam Cloud"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "28",
+            "description": "Simuladores"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/69e55d82398fef3e8febaf49494df5afc84e45b5/ss_69e55d82398fef3e8febaf49494df5afc84e45b5.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/69e55d82398fef3e8febaf49494df5afc84e45b5/ss_69e55d82398fef3e8febaf49494df5afc84e45b5.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/414bf8fe3708290ddd29a728932297a9c1a3587f/ss_414bf8fe3708290ddd29a728932297a9c1a3587f.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/414bf8fe3708290ddd29a728932297a9c1a3587f/ss_414bf8fe3708290ddd29a728932297a9c1a3587f.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/d980d8b19839cc9315e132f03d1c07ec4949ae2e/ss_d980d8b19839cc9315e132f03d1c07ec4949ae2e.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/d980d8b19839cc9315e132f03d1c07ec4949ae2e/ss_d980d8b19839cc9315e132f03d1c07ec4949ae2e.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/d7751abddfb3ba933c5199cb1367680a790400cf/ss_d7751abddfb3ba933c5199cb1367680a790400cf.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/d7751abddfb3ba933c5199cb1367680a790400cf/ss_d7751abddfb3ba933c5199cb1367680a790400cf.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/fc3803eab67aedd85fc6fd41f9d10537cdc9ab00/ss_fc3803eab67aedd85fc6fd41f9d10537cdc9ab00.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/fc3803eab67aedd85fc6fd41f9d10537cdc9ab00/ss_fc3803eab67aedd85fc6fd41f9d10537cdc9ab00.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/72741533f3fc4426fc96cd4ade66376511be0e78/ss_72741533f3fc4426fc96cd4ade66376511be0e78.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/72741533f3fc4426fc96cd4ade66376511be0e78/ss_72741533f3fc4426fc96cd4ade66376511be0e78.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/4b83889a140b91368986c19be3d475adeeac5009/ss_4b83889a140b91368986c19be3d475adeeac5009.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/4b83889a140b91368986c19be3d475adeeac5009/ss_4b83889a140b91368986c19be3d475adeeac5009.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/7a638678b98c59edfd534d5e8223fb30d16d9452/ss_7a638678b98c59edfd534d5e8223fb30d16d9452.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/7a638678b98c59edfd534d5e8223fb30d16d9452/ss_7a638678b98c59edfd534d5e8223fb30d16d9452.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/0f83d18bb6c9595c5fa0fa9626db7b897e3490df/ss_0f83d18bb6c9595c5fa0fa9626db7b897e3490df.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/0f83d18bb6c9595c5fa0fa9626db7b897e3490df/ss_0f83d18bb6c9595c5fa0fa9626db7b897e3490df.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/05f3c3f16e5b390f635c52b30fc40ea7083caf83/ss_05f3c3f16e5b390f635c52b30fc40ea7083caf83.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/05f3c3f16e5b390f635c52b30fc40ea7083caf83/ss_05f3c3f16e5b390f635c52b30fc40ea7083caf83.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/ff8e2ebbc7cb0b7c28862bad84412cfb6a7a38e1/ss_ff8e2ebbc7cb0b7c28862bad84412cfb6a7a38e1.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/ff8e2ebbc7cb0b7c28862bad84412cfb6a7a38e1/ss_ff8e2ebbc7cb0b7c28862bad84412cfb6a7a38e1.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/0c82432a806d3205f36f0953b256d2a0369b7456/ss_0c82432a806d3205f36f0953b256d2a0369b7456.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/0c82432a806d3205f36f0953b256d2a0369b7456/ss_0c82432a806d3205f36f0953b256d2a0369b7456.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/3be5e944ae70cd9d02e46c2a516474e0e32444a7/ss_3be5e944ae70cd9d02e46c2a516474e0e32444a7.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/3be5e944ae70cd9d02e46c2a516474e0e32444a7/ss_3be5e944ae70cd9d02e46c2a516474e0e32444a7.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/fc0a66206aeccff3f451cf23d552ae015247827e/ss_fc0a66206aeccff3f451cf23d552ae015247827e.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/fc0a66206aeccff3f451cf23d552ae015247827e/ss_fc0a66206aeccff3f451cf23d552ae015247827e.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/35ec2a31faae6afa9285cb1ab1b73c29e646ffe3/ss_35ec2a31faae6afa9285cb1ab1b73c29e646ffe3.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/35ec2a31faae6afa9285cb1ab1b73c29e646ffe3/ss_35ec2a31faae6afa9285cb1ab1b73c29e646ffe3.1920x1080.jpg?t=1770450740"
+        },
+        {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/e3d312e5df79a64902e097d48cea6a4029bc0ff4/ss_e3d312e5df79a64902e097d48cea6a4029bc0ff4.600x338.jpg?t=1770450740",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094120/e3d312e5df79a64902e097d48cea6a4029bc0ff4/ss_e3d312e5df79a64902e097d48cea6a4029bc0ff4.1920x1080.jpg?t=1770450740"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257242862,
+            "name": "1.0 Launch trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257242862/6a04de2258c82c0a419a93ce661426bc9e66f520/movie_600x337.jpg?t=1764766626",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4094120/1883560946/b660056799cff3947f9cd0cfdf35779db5c6a82e/1764765692/dash_av1.mpd?t=1764766626",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4094120/1883560946/b660056799cff3947f9cd0cfdf35779db5c6a82e/1764765692/dash_h264.mpd?t=1764766626",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4094120/1883560946/b660056799cff3947f9cd0cfdf35779db5c6a82e/1764765692/hls_264_master.m3u8?t=1764766626",
+            "highlight": true
+        }
+    ],
+    "achievements": {
+        "total": 9,
+        "highlighted": [
+            {
+                "name": "Localidad",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/af8270cb90a4a3ab749ff1242df93a5098483ecf.jpg"
+            },
+            {
+                "name": "Pueblo",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/09cb91546ff1954f6cfb9777f7fe1c6cf9411b00.jpg"
+            },
+            {
+                "name": "Ciudad",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/17fdc1e4cabb6d56c66dfc93d2ff18f98feadaf6.jpg"
+            },
+            {
+                "name": "Guerrero de las carreteras",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/6f4814aabb41bac15faef43c61dab067c257a0aa.jpg"
+            },
+            {
+                "name": "Jardín y Orden",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/1a922fcd4d32f5a8f2497e2e0cbb889805e93d18.jpg"
+            },
+            {
+                "name": "La delgada línea azul",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/48868bf062a2f16836facb48b0270bddd1f5cd4a.jpg"
+            },
+            {
+                "name": "La codicia es buena",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/8092f5ce6eb229b2a78aca25a9cb217a189e9d05.jpg"
+            },
+            {
+                "name": "Infraestructura de la sabiduría",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/e2bbc9de66412b6c02ef8788f83ff97a970f634e.jpg"
+            },
+            {
+                "name": "El botanista",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/4094120/ecc3b497885325cc11e07f24ba178b0f52132da0.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "3 DIC 2025"
+    },
+    "support_info": {
+        "url": "https://microlandia.city",
+        "email": "support@microlandia.city"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4094120?t=1770450740",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/4094120?t=1770450740",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "Contains references to crime, drugs and drug dealing in the context of statistics of city policies."
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogas ilícitas\nViolência\nTemas sensíveis"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drogen"
+        }
+    }
+}
