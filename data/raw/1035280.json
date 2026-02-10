@@ -1,0 +1,185 @@
+{
+    "type": "game",
+    "name": "Stoppa!",
+    "steam_appid": 1035280,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<h2 class=\"bb_tag\" >Historia</h2>¡Bienvenido al mundo de Stoppa!<br>Malvadas máquinas gigantes han acabado con todos los seres vivos del planeta. ¡Solo quedas tú!<br>Usa tu poder de detener el tiempo para manipular los objetos a tu alrededor, recorre las 5 áreas y derrota a los jefes uno por uno para restaurar la vida en este mundo.<h2 class=\"bb_tag\" >Características</h2><ul class=\"bb_ul\"><li>No controlas al personaje, ¡sino al estado del tiempo y los objetos a tu alrededor!<br></li><li>50 niveles llenos de trampas y puzzles.<br></li><li>5 (¿o más?) poderosos jefes.<br></li><li>50 misiones desafiantes.<br></li><li>50 accesorios, 5 skins, música y 2 geniales minijuegos desbloqueables.<br></li><li>Customización: Elige un accesorio, un skin, dibuja caras propias y guarda o carga plantillas.<br></li><li>Rangos de Nivel: Mientras menos tiempo te tome completar un nivel, ¡Más estrellas de rango conseguirás!<br></li><li>Desafío de Jefes: Vuelve a luchar contra los Jefes desbloqueados para mejorar tus tiempos totales.<br></li><li>Puedes jugar utilizando solamente un mouse.<br></li><li>Puedes jugar utilizando un mouse y un teclado en conjunto.<br></li><li>Puedes jugar utilizando un control de Xbox One.</li></ul>",
+    "about_the_game": "<h2 class=\"bb_tag\" >Historia</h2>¡Bienvenido al mundo de Stoppa!<br>Malvadas máquinas gigantes han acabado con todos los seres vivos del planeta. ¡Solo quedas tú!<br>Usa tu poder de detener el tiempo para manipular los objetos a tu alrededor, recorre las 5 áreas y derrota a los jefes uno por uno para restaurar la vida en este mundo.<h2 class=\"bb_tag\" >Características</h2><ul class=\"bb_ul\"><li>No controlas al personaje, ¡sino al estado del tiempo y los objetos a tu alrededor!<br></li><li>50 niveles llenos de trampas y puzzles.<br></li><li>5 (¿o más?) poderosos jefes.<br></li><li>50 misiones desafiantes.<br></li><li>50 accesorios, 5 skins, música y 2 geniales minijuegos desbloqueables.<br></li><li>Customización: Elige un accesorio, un skin, dibuja caras propias y guarda o carga plantillas.<br></li><li>Rangos de Nivel: Mientras menos tiempo te tome completar un nivel, ¡Más estrellas de rango conseguirás!<br></li><li>Desafío de Jefes: Vuelve a luchar contra los Jefes desbloqueados para mejorar tus tiempos totales.<br></li><li>Puedes jugar utilizando solamente un mouse.<br></li><li>Puedes jugar utilizando un mouse y un teclado en conjunto.<br></li><li>Puedes jugar utilizando un control de Xbox One.</li></ul>",
+    "short_description": "¡Detén el tiempo y manipula los objetos a tu alrededor para llegar hasta la linea de meta!",
+    "supported_languages": "Inglés, Español de Hispanoamérica, Español de España",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/header.jpg?t=1552656169",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/capsule_231x87.jpg?t=1552656169",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/capsule_184x69.jpg?t=1552656169",
+    "website": "http://stoppa.cl",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows 7 or later<br></li><li><strong>Procesador:</strong> 2 Ghz<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>DirectX:</strong> Versión 9.0<br></li><li><strong>Almacenamiento:</strong> 100 MB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Ubuntu 14.04 or later<br></li><li><strong>Procesador:</strong> 1.6 Ghz<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>Almacenamiento:</strong> 100 MB de espacio disponible</li></ul>"
+    },
+    "developers": [
+        "Michiru Michel Nakamura"
+    ],
+    "publishers": [
+        "Michiru Michel Nakamura"
+    ],
+    "demos": [
+        {
+            "appid": 1047500,
+            "description": ""
+        }
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 130000,
+        "final": 130000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 1.300"
+    },
+    "packages": [
+        344582
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Stoppa!",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 344582,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Stoppa! - CLP$ 1.300",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 130000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": true
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_af615ff9a6584cc7d4b4f7672b3487a5ae5fb3ca.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_af615ff9a6584cc7d4b4f7672b3487a5ae5fb3ca.1920x1080.jpg?t=1552656169"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_2c6799288f609a29ee7834d81f13baaccd3786df.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_2c6799288f609a29ee7834d81f13baaccd3786df.1920x1080.jpg?t=1552656169"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_c935f32d84b6fb22d6113641ecb075e31a673990.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_c935f32d84b6fb22d6113641ecb075e31a673990.1920x1080.jpg?t=1552656169"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_f101003e4bb97283d37442e3efa42c298baa2de5.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_f101003e4bb97283d37442e3efa42c298baa2de5.1920x1080.jpg?t=1552656169"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_0b91d2fa7d908027534d06e95327ca5b9e08a5c2.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_0b91d2fa7d908027534d06e95327ca5b9e08a5c2.1920x1080.jpg?t=1552656169"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_672b7a2942c616cb317e7e77cd0c3871ddf4521a.600x338.jpg?t=1552656169",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/ss_672b7a2942c616cb317e7e77cd0c3871ddf4521a.1920x1080.jpg?t=1552656169"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256743772,
+            "name": "Stoppa! Release trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256743772/movie.293x165.jpg?t=1551455576",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/1035280/210608/bad5eba0fe300ad74700adfd1f979e089ddde311/1751179410/dash_av1.mpd?t=1551455576",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/1035280/210608/bad5eba0fe300ad74700adfd1f979e089ddde311/1751179410/dash_h264.mpd?t=1551455576",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/1035280/210608/bad5eba0fe300ad74700adfd1f979e089ddde311/1751179410/hls_264_master.m3u8?t=1551455576",
+            "highlight": true
+        }
+    ],
+    "achievements": {
+        "total": 7,
+        "highlighted": [
+            {
+                "name": "Life in the planet",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/092e6888a78e532d5154dd6b609ede5e19293a5b.jpg"
+            },
+            {
+                "name": "Mystic orb",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/db300c5f52854bf10136e3d6a12109da554ac2d0.jpg"
+            },
+            {
+                "name": "Master of time",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/9048f8a9935f0d9adf6b709338a2313a502bc7f3.jpg"
+            },
+            {
+                "name": "100 ways to die",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/c4f229947fe2d2cad58fe5745c041f7c3e4caf95.jpg"
+            },
+            {
+                "name": "Boxoss's eye",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/7f07455d8d5f5f8e04fcccc6dc341db71b5395b2.jpg"
+            },
+            {
+                "name": "Stop badge",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/e15792cab6e65c1b340af5912c9299dc41377ab3.jpg"
+            },
+            {
+                "name": "New look",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1035280/2a3bbc446587bf25a84ac3f76bf604fee0888e43.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "15 MAR 2019"
+    },
+    "support_info": {
+        "url": "http://stoppa.cl/contact",
+        "email": "support@stoppa.cl"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1035280?t=1552656169",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1035280/page_bg_raw.jpg?t=1552656169",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": null
+}

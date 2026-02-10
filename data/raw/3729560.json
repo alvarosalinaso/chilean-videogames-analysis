@@ -1,0 +1,126 @@
+{
+    "type": "game",
+    "name": "Isekai Guild",
+    "steam_appid": 3729560,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<p class=\"bb_paragraph\" ><strong>Build your guild. Shape your destiny in another world.</strong></p><p class=\"bb_paragraph\" >Isekai Guild is an anime-style <strong>guild management RPG</strong> where you lead a group of adventurers in the fantasy world of <strong>Vastena</strong>. Reincarnated as Hikaru Sato, a former executive with sharp negotiation skills, you’ll rebuild a fallen guild from scratch — recruit heroes, assign quests, manage resources, and uncover the forgotten legend of the Scarlet Eyes.</p><h2 class=\"bb_tag\" ><strong>Core Gameplay</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Manage and expand your guild:</strong> Build new rooms, decorate facilities, and upgrade your headquarters to attract powerful adventurers.</p></li><li><p class=\"bb_paragraph\" ><strong>Strategic missions:</strong> Assign teams to quests with turn-based outcomes based on their rank, stats, and synergy.</p></li><li><p class=\"bb_paragraph\" ><strong>Dynamic relationships:</strong> Interact with members through a visual novel system, unlocking storylines, loyalty events, and moral choices that affect the guild’s reputation.</p></li><li><p class=\"bb_paragraph\" ><strong>Reputation &amp; economy system:</strong> Trade with merchants, balance finances, and decide whether your guild becomes heroic… or infamous.</p></li><li><p class=\"bb_paragraph\" ><strong>Living world:</strong> Follow local and world news that influence available quests, politics, and story branches.</p></li></ul><h2 class=\"bb_tag\" ><strong>Features</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Deep <strong>management simulation</strong> with RPG progression.</p></li><li><p class=\"bb_paragraph\" >Beautiful <strong>anime-inspired 2D characters</strong> set in 3D environments.</p></li><li><p class=\"bb_paragraph\" ><strong>Narrative choices</strong> that shape your path and relationships.</p></li><li><p class=\"bb_paragraph\" >Original <strong>soundtrack and worldbuilding</strong> by the Time Hunters team.</p></li></ul>",
+    "about_the_game": "<p class=\"bb_paragraph\" ><strong>Build your guild. Shape your destiny in another world.</strong></p><p class=\"bb_paragraph\" >Isekai Guild is an anime-style <strong>guild management RPG</strong> where you lead a group of adventurers in the fantasy world of <strong>Vastena</strong>. Reincarnated as Hikaru Sato, a former executive with sharp negotiation skills, you’ll rebuild a fallen guild from scratch — recruit heroes, assign quests, manage resources, and uncover the forgotten legend of the Scarlet Eyes.</p><h2 class=\"bb_tag\" ><strong>Core Gameplay</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>Manage and expand your guild:</strong> Build new rooms, decorate facilities, and upgrade your headquarters to attract powerful adventurers.</p></li><li><p class=\"bb_paragraph\" ><strong>Strategic missions:</strong> Assign teams to quests with turn-based outcomes based on their rank, stats, and synergy.</p></li><li><p class=\"bb_paragraph\" ><strong>Dynamic relationships:</strong> Interact with members through a visual novel system, unlocking storylines, loyalty events, and moral choices that affect the guild’s reputation.</p></li><li><p class=\"bb_paragraph\" ><strong>Reputation &amp; economy system:</strong> Trade with merchants, balance finances, and decide whether your guild becomes heroic… or infamous.</p></li><li><p class=\"bb_paragraph\" ><strong>Living world:</strong> Follow local and world news that influence available quests, politics, and story branches.</p></li></ul><h2 class=\"bb_tag\" ><strong>Features</strong></h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" >Deep <strong>management simulation</strong> with RPG progression.</p></li><li><p class=\"bb_paragraph\" >Beautiful <strong>anime-inspired 2D characters</strong> set in 3D environments.</p></li><li><p class=\"bb_paragraph\" ><strong>Narrative choices</strong> that shape your path and relationships.</p></li><li><p class=\"bb_paragraph\" >Original <strong>soundtrack and worldbuilding</strong> by the Time Hunters team.</p></li></ul>",
+    "short_description": "Reincarnated in another world, you’ll rebuild a forgotten guild, recruit adventurers, and uncover ancient secrets. Every choice shapes your destiny in this anime-style strategy RPG.",
+    "supported_languages": "Inglés, Español de Hispanoamérica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/40395c86bea9c0247e58b32065fe0f21c4901e17/header.jpg?t=1762223620",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/0d6b6dd12e129e993292cc90ab04363c9a5b55eb/capsule_231x87.jpg?t=1762223620",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/0d6b6dd12e129e993292cc90ab04363c9a5b55eb/capsule_184x69.jpg?t=1762223620",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> Intel Core i5-2500 / AMD FX-6300<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 750 Ti / AMD Radeon HD 7850<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX-compatible<br></li><li><strong>Notas adicionales:</strong> Keyboard and mouse required.</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10/11 64-bit<br></li><li><strong>Procesador:</strong> Intel Core i5-9600K / AMD Ryzen 5 3600<br></li><li><strong>Memoria:</strong> 16 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 1660 Super / AMD Radeon RX 580<br></li><li><strong>DirectX:</strong> Versión 12<br></li><li><strong>Almacenamiento:</strong> 4 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX-compatible<br></li><li><strong>Notas adicionales:</strong> Keyboard and mouse required. SSD recommended for faster load times.</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "developers": [
+        "Time Hunters SpA"
+    ],
+    "publishers": [
+        "Time Hunters SpA"
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        },
+        {
+            "id": "28",
+            "description": "Simuladores"
+        },
+        {
+            "id": "2",
+            "description": "Estrategia"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/e625bda99a460d8de163c5aa2bf88630d9eecf01/ss_e625bda99a460d8de163c5aa2bf88630d9eecf01.600x338.jpg?t=1762223620",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/e625bda99a460d8de163c5aa2bf88630d9eecf01/ss_e625bda99a460d8de163c5aa2bf88630d9eecf01.1920x1080.jpg?t=1762223620"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/8ced8bb68daa4830104bbe6acf032f6b41bf0ed4/ss_8ced8bb68daa4830104bbe6acf032f6b41bf0ed4.600x338.jpg?t=1762223620",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/8ced8bb68daa4830104bbe6acf032f6b41bf0ed4/ss_8ced8bb68daa4830104bbe6acf032f6b41bf0ed4.1920x1080.jpg?t=1762223620"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/aab8274f0b1924306d8c1228a81d6370cb1ad176/ss_aab8274f0b1924306d8c1228a81d6370cb1ad176.600x338.jpg?t=1762223620",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/aab8274f0b1924306d8c1228a81d6370cb1ad176/ss_aab8274f0b1924306d8c1228a81d6370cb1ad176.1920x1080.jpg?t=1762223620"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/7775abadf706f1293b27def786c3e87c5e653660/ss_7775abadf706f1293b27def786c3e87c5e653660.600x338.jpg?t=1762223620",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/7775abadf706f1293b27def786c3e87c5e653660/ss_7775abadf706f1293b27def786c3e87c5e653660.1920x1080.jpg?t=1762223620"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/6410e4483e2e6f2530f6acd2d7dd091d60d12eb8/ss_6410e4483e2e6f2530f6acd2d7dd091d60d12eb8.600x338.jpg?t=1762223620",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3729560/6410e4483e2e6f2530f6acd2d7dd091d60d12eb8/ss_6410e4483e2e6f2530f6acd2d7dd091d60d12eb8.1920x1080.jpg?t=1762223620"
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Por confirmarse"
+    },
+    "support_info": {
+        "url": "https://www.timehunterstudios.com",
+        "email": "contact@timehunterstudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3729560?t=1762223620",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3729560?t=1762223620",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "This game contains mild fantasy violence and stylized combat with no blood or gore. Some characters feature anime-inspired outfits and light suggestive themes typical of the fantasy genre, but there is no explicit sexual or violent content."
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "14",
+            "required_age": "14",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Nudez\nDrogas ilícitas\nLinguagem imprópria"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Sexuelle Inhalte\nVerbrechen\nDrogen"
+        }
+    }
+}

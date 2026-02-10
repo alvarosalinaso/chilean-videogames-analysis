@@ -1,0 +1,323 @@
+{
+    "type": "game",
+    "name": "Zeno Clash",
+    "steam_appid": 22200,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<h1>Wishlist Clash: Artifacts of Chaos</h1><p></p><br><h1>Acerca del juego</h1>Zeno Clash es un juego de acción/combate ambientado en un mundo imaginario. Se juega desde la perspectiva de una primera persona. Los combates se hacen de cerca y son brutales. <br>                    Vive una historia emocionante ambientada en un mundo imaginario. Juega el papel de Ghat, un hombre desterrado por sus propios hermanos y forzado a vagar, en la desesperación, hasta el desierto prohibido y hasta el confín del mundo. <br>                    Premiado como 'Excellence in Visual Art' durante el Independent Games Festival. Con efectos visuales que usan las características de la Source engine. Estos elementos llevan novedad al género del juego. Las dinámicas de combate también se distinguen del género tradicional en primera persona. Por lo tanto, este juego será novedoso tanto para los jugadores expertos como para los novatos.<br>                    <ul class=\"bb_ul\"><li><strong>Peleas emocionantes en primera persona</strong><br><br>                    El nuevo sistema de combate en primera persona permite a los jugadores hacer una cantidad de movimientos como desviar o eludir, dar puñetazos o atacar agarrando. Aprende nuevas tácticas de combate según vayas progresando por el juego y enfréntate a enemigos formidables. <br>                    </li><li><strong>Efectos visuales fantásticos basados en la Source engine </strong><br><br>                    Los jugadores estarán sumergidos en un mundo fantástico, hermoso e inquietante a la vez. El estilo artístico sin parangón, da un enfoque más novedoso al género de juego en primera persona. Los ambientes surrealistas y los personajes harán que los jugadores quieran descubrir más.<br>                    </li><li><strong>Retos en modo Survival</strong><br><br>                    Salta en medio de la acción en las &quot;tower challenges&quot;. El jugador tiene que superar hordas de enemigos para progredir hasta los tower levels. El juego evaluará al jugador según distintos criterios como velocidad y rendimiento. Un sistema te evaluará en comparación con tus amigos, por lo tanto, el reto no se acaba nunca.<br>                    </li><li><strong>Historia emocionante</strong><br><br>                    Los jugadores harán el papel de Ghat; el hijo de una imponente criatura hermafrodita llamada Padre-Madre, cuyos hijos forman el clan más potente en la ciudad de Halstedom. Ghat tiene que huir de su familia y empezar un increíble viaje con su compañera Deadra, que lo ayudará en las peligrosas tierras de Zenozoik.<br>                    </li><li><strong>Armas extrañas </strong><br><br>                    El jugo contiene un insólito arsenal de armas raras que se han construido con chatarra y basura. Martillos y palos serán las armas más eficaces cuando se combate con personajes grandes que pueden ser  abatidos solo con la fuerza extrema.<br>                    </li></ul>",
+    "about_the_game": "Zeno Clash es un juego de acción/combate ambientado en un mundo imaginario. Se juega desde la perspectiva de una primera persona. Los combates se hacen de cerca y son brutales. <br>                    Vive una historia emocionante ambientada en un mundo imaginario. Juega el papel de Ghat, un hombre desterrado por sus propios hermanos y forzado a vagar, en la desesperación, hasta el desierto prohibido y hasta el confín del mundo. <br>                    Premiado como 'Excellence in Visual Art' durante el Independent Games Festival. Con efectos visuales que usan las características de la Source engine. Estos elementos llevan novedad al género del juego. Las dinámicas de combate también se distinguen del género tradicional en primera persona. Por lo tanto, este juego será novedoso tanto para los jugadores expertos como para los novatos.<br>                    <ul class=\"bb_ul\"><li><strong>Peleas emocionantes en primera persona</strong><br><br>                    El nuevo sistema de combate en primera persona permite a los jugadores hacer una cantidad de movimientos como desviar o eludir, dar puñetazos o atacar agarrando. Aprende nuevas tácticas de combate según vayas progresando por el juego y enfréntate a enemigos formidables. <br>                    </li><li><strong>Efectos visuales fantásticos basados en la Source engine </strong><br><br>                    Los jugadores estarán sumergidos en un mundo fantástico, hermoso e inquietante a la vez. El estilo artístico sin parangón, da un enfoque más novedoso al género de juego en primera persona. Los ambientes surrealistas y los personajes harán que los jugadores quieran descubrir más.<br>                    </li><li><strong>Retos en modo Survival</strong><br><br>                    Salta en medio de la acción en las &quot;tower challenges&quot;. El jugador tiene que superar hordas de enemigos para progredir hasta los tower levels. El juego evaluará al jugador según distintos criterios como velocidad y rendimiento. Un sistema te evaluará en comparación con tus amigos, por lo tanto, el reto no se acaba nunca.<br>                    </li><li><strong>Historia emocionante</strong><br><br>                    Los jugadores harán el papel de Ghat; el hijo de una imponente criatura hermafrodita llamada Padre-Madre, cuyos hijos forman el clan más potente en la ciudad de Halstedom. Ghat tiene que huir de su familia y empezar un increíble viaje con su compañera Deadra, que lo ayudará en las peligrosas tierras de Zenozoik.<br>                    </li><li><strong>Armas extrañas </strong><br><br>                    El jugo contiene un insólito arsenal de armas raras que se han construido con chatarra y basura. Martillos y palos serán las armas más eficaces cuando se combate con personajes grandes que pueden ser  abatidos solo con la fuerza extrema.<br>                    </li></ul>",
+    "short_description": "Zeno Clash es un juego de acción/combate ambientado en un mundo imaginario. Se juega desde la perspectiva de una primera persona. Los combates se hacen de cerca y son brutales. Vive una historia emocionante ambientada en un mundo imaginario.",
+    "supported_languages": "Inglés[b]*[/b], Alemán, Francés, Polaco, Español de España, Italiano \r\n\r\n[b]*[/b] idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/header.jpg?t=1660841601",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/capsule_231x87.jpg?t=1660841601",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/capsule_184x69.jpg?t=1660841601",
+    "website": "http://www.zenoclash.com",
+    "pc_requirements": {
+        "minimum": "Requisitos Mínimos<br>                    <ul class=\"bb_ul\"><li><strong>Sistema Operativo: </strong>Microsoft® Windows® XP / Vista / Vista64<br>                    </li><li><strong>Procesador: </strong>Intel® Pentium® 4 3.0 GHz<br>                    </li><li><strong>Memoria: </strong>1 GB RAM<br>                    </li><li><strong>Espacio Disco Duro: </strong>Al menos 3 GB de espacio libre<br>                    </li><li><strong>Tarjeta Video: </strong>128 MB, Shader model 2.0, ATI 9600, NVidia 6600 o superior<br>                    </li><li><strong>Tarjeta Sonido: </strong>Tarjeta sonido compatible con DirectX® 9.0c<br>                    </li><li><strong>Versión DirectX®: </strong>DirectX® 9.0c, DirectX® 10<br>                    </li></ul>",
+        "recommended": "Requisitos Recomendados<br>          <ul class=\"bb_ul\"><li><strong>Sistema Operativo: </strong>Microsoft® Windows® XP / Vista / Vista64<br>          </li><li><strong>Procesador: </strong>Intel® Core 2 Duo a 2.4 GHz <br>          </li><li><strong>Memoria: </strong>1 GB de RAM<br>          </li><li><strong>Disco Duro: </strong>3 GB de espacio libre<br>          </li><li><strong>Gráficos: </strong>Shader Model 3.0, nVidia 7600, ATI X1600 o superior <br>          </li><li><strong>Sonido: </strong>Dispositivo compatible con DirectX® 9.0c<br>          </li><li><strong>Versión de DirectX®: </strong>DirectX® 9.0c, DirectX® 10<br>          </li><li><strong>Controlador: </strong>Soportado <br>          </li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "developers": [
+        "ACE Team"
+    ],
+    "publishers": [
+        "ACE Team"
+    ],
+    "demos": [
+        {
+            "appid": 22220,
+            "description": ""
+        }
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 400000,
+        "final": 400000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 4.000"
+    },
+    "packages": [
+        1495
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Zeno Clash",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 1495,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Zeno Clash - CLP$ 4.000",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 400000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "metacritic": {
+        "score": 77,
+        "url": "https://www.metacritic.com/game/pc/zeno-clash?ftag=MCD-06-10aaa1f"
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 29,
+            "description": "Cromos de Steam"
+        },
+        {
+            "id": 23,
+            "description": "Steam Cloud"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007640.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007640.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007655.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007655.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007647.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007647.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007643.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007643.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007653.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007653.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007658.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007658.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007641.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007641.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007646.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007646.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007645.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007645.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007642.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007642.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007644.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007644.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007648.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007648.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 12,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007649.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007649.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 13,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007650.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007650.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 14,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007654.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007654.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 15,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007656.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007656.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 16,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007657.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007657.1920x1080.jpg?t=1660841601"
+        },
+        {
+            "id": 17,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007660.600x338.jpg?t=1660841601",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22200/0000007660.1920x1080.jpg?t=1660841601"
+        }
+    ],
+    "movies": [
+        {
+            "id": 5205,
+            "name": "Zeno Clash Video",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5205/movie.jpg?t=1447351723",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/22200/1707/3cf2db7f44773c64e02dd1703f79423bebf4d12f/1751245968/dash_av1.mpd?t=1447351723",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1707/3cf2db7f44773c64e02dd1703f79423bebf4d12f/1751245968/dash_h264.mpd?t=1447351723",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1707/3cf2db7f44773c64e02dd1703f79423bebf4d12f/1751245968/hls_264_master.m3u8?t=1447351723",
+            "highlight": true
+        },
+        {
+            "id": 900856,
+            "name": "Zeno Clash Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900856/movie.jpg?t=1447351850",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/22200/1977/e934b88765c53057099ca80ed2e76f46552d1857/1751245968/dash_av1.mpd?t=1447351850",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1977/e934b88765c53057099ca80ed2e76f46552d1857/1751245968/dash_h264.mpd?t=1447351850",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1977/e934b88765c53057099ca80ed2e76f46552d1857/1751245968/hls_264_master.m3u8?t=1447351850",
+            "highlight": true
+        },
+        {
+            "id": 900794,
+            "name": "Zeno Clash Development Video",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900794/movie.293x165.jpg?t=1447351740",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/22200/1737/c85e066db2966374834e3b256332e85db23c4b4b/1751245968/dash_av1.mpd?t=1447351740",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1737/c85e066db2966374834e3b256332e85db23c4b4b/1751245968/dash_h264.mpd?t=1447351740",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1737/c85e066db2966374834e3b256332e85db23c4b4b/1751245968/hls_264_master.m3u8?t=1447351740",
+            "highlight": false
+        },
+        {
+            "id": 900795,
+            "name": "Zeno Clash Teaser",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900795/movie.293x165.jpg?t=1447351740",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/22200/1738/8afb4e7cc02ea15ceefe38fd9db31a779a1f0aee/1751245968/dash_av1.mpd?t=1447351740",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1738/8afb4e7cc02ea15ceefe38fd9db31a779a1f0aee/1751245968/dash_h264.mpd?t=1447351740",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/22200/1738/8afb4e7cc02ea15ceefe38fd9db31a779a1f0aee/1751245968/hls_264_master.m3u8?t=1447351740",
+            "highlight": false
+        }
+    ],
+    "recommendations": {
+        "total": 2094
+    },
+    "achievements": {
+        "total": 22,
+        "highlighted": [
+            {
+                "name": "Lanza Cuerpos ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/65ffe6c4f35868c1b14360ed821514db29cde961.jpg"
+            },
+            {
+                "name": "Intocable ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/77bde299678008f25da06cedb854aaf460aa5f66.jpg"
+            },
+            {
+                "name": "Luchador pesado ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/d168e09a186fd58faeca768572c18ac3e3ea5876.jpg"
+            },
+            {
+                "name": "Casi numero uno ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/c2513d8b9f8a0ab62250131e478d3f8f76fc9008.jpg"
+            },
+            {
+                "name": "Street Fighter ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/03d37db2f29c3ded704476824c347156178b52f5.jpg"
+            },
+            {
+                "name": "Alumno de Metamoq ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/f39e9fc23956a7d843eb0a7bd9993276f56d045a.jpg"
+            },
+            {
+                "name": "Maestro del Fuego ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/9ac176a37e41198ef624b1a823596c34035f2784.jpg"
+            },
+            {
+                "name": "Iluminador ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/1226990ca285dde8e80b06ede6a93b42804790a1.jpg"
+            },
+            {
+                "name": "Aventurero de Zenozoik ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/3e4fe922b20344f11cd6493dde1566a52b956366.jpg"
+            },
+            {
+                "name": "Aventurero Monocromo ",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/22200/af5ded976c505dd372cb85a39ffadfcba2343ac0.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "21 ABR 2009"
+    },
+    "support_info": {
+        "url": "",
+        "email": "support@aceteam.cl"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/22200?t=1660841601",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/22200?t=1660841601",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "Zeno Clash depicts melee combat in the first person perspective where fights can leave enemies bruised / hurt. Punching and kicking human and humanoid type creatures is common in the game."
+    },
+    "ratings": {
+        "oflc": {
+            "descriptors": "%oflcDescriptors%"
+        },
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+        }
+    }
+}

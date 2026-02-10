@@ -1,0 +1,189 @@
+{
+    "type": "game",
+    "name": "Operation8 Project",
+    "steam_appid": 1860150,
+    "required_age": 0,
+    "is_free": true,
+    "detailed_description": "Operation8 Proyecto es uno de los grupos mercenarios de élite del mundo. Eres un mercenario recién contratado.<br><br><strong>Tienda:</strong><br>Hay varias armas disponibles para comprar y utilizar en el juego de ritmo rápido.<br>Lista de tipos de armas<br><br><strong>¿Subirás de rango para convertirte en élite?</strong><br>Multiplicar modos de juego<br>Combate a muerte por equipos (TDM)<br>Free For All (FFA)<br><br>para que tenga una base, un conflito entre 2 faciones o talvez un mundo pos apocaliptico<br>asi las personas que jueguen operation8, no solo jueguen por que es divertido si no que se enamoren del juego por su historia fictisia.",
+    "about_the_game": "Operation8 Proyecto es uno de los grupos mercenarios de élite del mundo. Eres un mercenario recién contratado.<br><br><strong>Tienda:</strong><br>Hay varias armas disponibles para comprar y utilizar en el juego de ritmo rápido.<br>Lista de tipos de armas<br><br><strong>¿Subirás de rango para convertirte en élite?</strong><br>Multiplicar modos de juego<br>Combate a muerte por equipos (TDM)<br>Free For All (FFA)<br><br>para que tenga una base, un conflito entre 2 faciones o talvez un mundo pos apocaliptico<br>asi las personas que jueguen operation8, no solo jueguen por que es divertido si no que se enamoren del juego por su historia fictisia.",
+    "short_description": "Breve resumen: Operation8 Proyecto es un juego de tiempo basado en habilidades.",
+    "supported_languages": "Inglés<strong>*</strong>, Español de Hispanoamérica, Portugués de Brasil<br><strong>*</strong>idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/header.jpg?t=1657433828",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/capsule_231x87.jpg?t=1657433828",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/capsule_184x69.jpg?t=1657433828",
+    "website": "http://operation8project.com/",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows 7 / 8 / 10 / 11<br></li><li><strong>Procesador:</strong> CPU Pentium 4 2.4 GHz / Athlon XP 2500+<br></li><li><strong>Memoria:</strong> 2 GB de RAM<br></li><li><strong>Gráficos:</strong> Gráficos Intel HD - GTX 970<br></li><li><strong>DirectX:</strong> Versión 10<br></li><li><strong>Red:</strong> Conexión de banda ancha a Internet<br></li><li><strong>Almacenamiento:</strong> 3 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "legal_notice": "Copyright © 2021 - 2022 Operation8 Proyecto",
+    "ext_user_account_notice": "Operation8 Project ",
+    "developers": [
+        "Benzitczo Studio"
+    ],
+    "publishers": [
+        "Lovatto Studio"
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 1,
+            "description": "Multijugador"
+        },
+        {
+            "id": 49,
+            "description": "JcJ"
+        },
+        {
+            "id": 36,
+            "description": "JcJ en línea"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "37",
+            "description": "Free to Play"
+        },
+        {
+            "id": "29",
+            "description": "Multijugador masivo"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_4bd430d74d738e4d52e65a4e44ae3409f0203739.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_4bd430d74d738e4d52e65a4e44ae3409f0203739.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_9bc6ebcec003bf735044fc1b7d47e733c0b9e0da.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_9bc6ebcec003bf735044fc1b7d47e733c0b9e0da.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_ee2301752bfa14b78ed22a8ed3b5b01b4428ad30.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_ee2301752bfa14b78ed22a8ed3b5b01b4428ad30.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_95c91c1056985f46e361e3c2253ac7e907a6a0e8.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_95c91c1056985f46e361e3c2253ac7e907a6a0e8.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_2127ffbc7664ac0553d62888edb7bb6d0acebc60.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_2127ffbc7664ac0553d62888edb7bb6d0acebc60.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_cefe1e0d3bad5221d256f4dcdb8c9a2c528a8cd2.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_cefe1e0d3bad5221d256f4dcdb8c9a2c528a8cd2.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_eeb37dec932218d2f3ee90de604962febfb1d4fa.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_eeb37dec932218d2f3ee90de604962febfb1d4fa.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_d3f5f2211371ace8c4512d4b3f1891f11a723ee7.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_d3f5f2211371ace8c4512d4b3f1891f11a723ee7.1920x1080.jpg?t=1657433828"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_daceff48d4701ccff77b62c881adf067504dd690.600x338.jpg?t=1657433828",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/ss_daceff48d4701ccff77b62c881adf067504dd690.1920x1080.jpg?t=1657433828"
+        }
+    ],
+    "achievements": {
+        "total": 1,
+        "highlighted": [
+            {
+                "name": "Welcome to OP8",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1860150/ad989f183f537dff59dff20fbbdb36014bbcfddd.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "16 JUN 2022"
+    },
+    "support_info": {
+        "url": "https://operation8project.com/",
+        "email": "admin@operation8project.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/1860150?t=1657433828",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1860150/page_bg_raw.jpg?t=1657433828",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "esrb": {
+            "rating": "t",
+            "descriptors": "Language"
+        },
+        "pegi": {
+            "rating": "12",
+            "descriptors": "Language"
+        },
+        "bbfc": {
+            "rating": "12",
+            "descriptors": "Language"
+        },
+        "usk": {
+            "rating": "12",
+            "descriptors": "Language"
+        },
+        "oflc": {
+            "rating": "m",
+            "descriptors": "Language"
+        },
+        "nzoflc": {
+            "rating": "m",
+            "descriptors": "Language"
+        },
+        "cero": {
+            "rating": "b",
+            "descriptors": "Language"
+        },
+        "kgrb": {
+            "rating": "12",
+            "descriptors": "Language"
+        },
+        "dejus": {
+            "rating": "14",
+            "descriptors": "Language"
+        },
+        "mda": {
+            "rating": "AA16",
+            "descriptors": "Language"
+        },
+        "fpb": {
+            "rating": "A",
+            "descriptors": "Language"
+        },
+        "csrr": {
+            "rating": "C12"
+        },
+        "crl": {
+            "rating": "12",
+            "descriptors": "Language"
+        },
+        "agcom": {
+            "rating": "12",
+            "descriptors": "Language"
+        }
+    }
+}

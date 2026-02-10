@@ -1,0 +1,150 @@
+{
+    "type": "game",
+    "name": "3D Ultra™ Minigolf Adventures",
+    "steam_appid": 10140,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "Ya seas un jugador experimentado o solo un principiante, prepárate para una rápida y divertida partida con cuatro estilosos personajes animados. Avanza con tus mejores golpes a lo largo de 36 hoyos de minigolf llenos de diversión en campos en 3D con greens en altura, bunkers, puentes y obstáculos de agua, entre otros disparatados obstáculos. También puedes elegir entre una selección de entornos diferentes a tu gusto, que incluyen la Feria, el Viejo oeste o el Espacio exterior.<br>      <ul class=\"bb_ul\"><li><strong>Campos en 3D cuidadosamente diseñados:</strong> barridos panorámicos de los hoyos y alucinantes diseños de los campos.<br>      </li><li><strong>Modo multijugador con 4 jugadores:</strong>  escoge entre cuatro personajes con alto nivel de detalle, cada uno con su propia personalidad y animaciones diferentes.<br>      </li><li><strong>36 desafiantes hoyos: </strong>  basados en tres temáticas principales: la Feria, el Viejo oeste o el Espacio exterior.<br>      </li><li><strong>Extras del juego: </strong>  colecciona potenciadores de primera y evita las imaginativas trampas para mantener el trepidante e impredecible ritmo del juego.<br>      </li><li><strong>Editor de campos personalizados</strong>  diseña tu propio campo mezclando y encajando combinaciones de tees, rectas, curvas, copas, intersecciones y rampas.<br>     </li></ul>",
+    "about_the_game": "Ya seas un jugador experimentado o solo un principiante, prepárate para una rápida y divertida partida con cuatro estilosos personajes animados. Avanza con tus mejores golpes a lo largo de 36 hoyos de minigolf llenos de diversión en campos en 3D con greens en altura, bunkers, puentes y obstáculos de agua, entre otros disparatados obstáculos. También puedes elegir entre una selección de entornos diferentes a tu gusto, que incluyen la Feria, el Viejo oeste o el Espacio exterior.<br>      <ul class=\"bb_ul\"><li><strong>Campos en 3D cuidadosamente diseñados:</strong> barridos panorámicos de los hoyos y alucinantes diseños de los campos.<br>      </li><li><strong>Modo multijugador con 4 jugadores:</strong>  escoge entre cuatro personajes con alto nivel de detalle, cada uno con su propia personalidad y animaciones diferentes.<br>      </li><li><strong>36 desafiantes hoyos: </strong>  basados en tres temáticas principales: la Feria, el Viejo oeste o el Espacio exterior.<br>      </li><li><strong>Extras del juego: </strong>  colecciona potenciadores de primera y evita las imaginativas trampas para mantener el trepidante e impredecible ritmo del juego.<br>      </li><li><strong>Editor de campos personalizados</strong>  diseña tu propio campo mezclando y encajando combinaciones de tees, rectas, curvas, copas, intersecciones y rampas.<br>     </li></ul>",
+    "short_description": "Ya seas un jugador experimentado o solo un principiante, prepárate para una rápida y divertida partida con cuatro estilosos personajes animados. Avanza con tus mejores golpes a lo largo de 36 hoyos de minigolf llenos de diversión en campos en 3D con greens en altura, bunkers, puentes y obstáculos de agua, entre otros disparatados...",
+    "supported_languages": "Inglés",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/header.jpg?t=1534443458",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/capsule_231x87.jpg?t=1534443458",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/capsule_184x69.jpg?t=1534443458",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Windows 2000/XP/Vista<br>        </li><li><strong>Procesador:</strong> Pentium 700 MHz<br>        </li><li><strong>Memoria:</strong> 256 MB RAM <br>        </li><li><strong>Tarjeta Gráfica:</strong> Direct 3D 32MB DirectX 9.0c<br>        </li><li><strong>DirectX®:</strong> DirectX 9.0c<br>        </li><li><strong>Disco Duro:</strong> 50 MB de espacio en el disco duro<br>        </li><li><strong>Sonido:</strong> Tarjeta de Sonido compatible con DirectX-<br>       </li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "developers": [
+        "Wanako Games"
+    ],
+    "publishers": [
+        "Activision"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 950000,
+        "final": 313500,
+        "discount_percent": 67,
+        "initial_formatted": "CLP$ 9.500",
+        "final_formatted": "CLP$ 3.135"
+    },
+    "packages": [
+        1873
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar 3D Ultra™ Minigolf Adventures",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 1873,
+                    "percent_savings_text": "-67% ",
+                    "percent_savings": 0,
+                    "option_text": "3D Ultra Mini Golf Adventures - <span class=\"discount_original_price\">CLP$ 9.500</span> CLP$ 3.135",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 313500
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "18",
+            "description": "Deportes"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008664.600x338.jpg?t=1534443458",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008664.1920x1080.jpg?t=1534443458"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008665.600x338.jpg?t=1534443458",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008665.1920x1080.jpg?t=1534443458"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008666.600x338.jpg?t=1534443458",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008666.1920x1080.jpg?t=1534443458"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008667.600x338.jpg?t=1534443458",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008667.1920x1080.jpg?t=1534443458"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008668.600x338.jpg?t=1534443458",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10140/0000008668.1920x1080.jpg?t=1534443458"
+        }
+    ],
+    "movies": [
+        {
+            "id": 900850,
+            "name": "3D Ultra™ Minigolf Adventures Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/900850/movie.jpg?t=1447351838",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/10140/1919/3d8e08880ee83f03339e36b348db10a27319ceb5/1751245952/dash_av1.mpd?t=1447351838",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/10140/1919/3d8e08880ee83f03339e36b348db10a27319ceb5/1751245952/dash_h264.mpd?t=1447351838",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/10140/1919/3d8e08880ee83f03339e36b348db10a27319ceb5/1751245952/hls_264_master.m3u8?t=1447351838",
+            "highlight": true
+        }
+    ],
+    "recommendations": {
+        "total": 114
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "23 JUL 2009"
+    },
+    "support_info": {
+        "url": "http://support.activision.com/",
+        "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/10140?t=1534443458",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/10140?t=1534443458",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "esrb": {
+            "rating": "e"
+        },
+        "pegi": {
+            "rating": "3"
+        },
+        "oflc": {
+            "descriptors": "%oflcDescriptors%"
+        },
+        "nzoflc": {
+            "descriptors": "%NZoflcDescriptors%"
+        }
+    }
+}

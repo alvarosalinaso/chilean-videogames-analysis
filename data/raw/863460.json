@@ -1,0 +1,251 @@
+{
+    "type": "game",
+    "name": "Cyber Ops",
+    "steam_appid": 863460,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/extras/556331b9482edc2cb0068654d9127033.avif?t=1754054857\" width=460 height=214 /></span><br><br><strong>Cyber Ops</strong> es un juego de hackeo táctico y fuerte narrativa, contado desde el punto de vista de un supervisor de control de misión que opera a distancia. <br><br>Tú eres el ojo en el cielo, la mano invisible, el fantasma cibernético que cuida a su equipo a través de la red.<br><br>Cyber Ops en una versión innovadora en el género de sigilo y hackeo que explora la relación entre el operador y las personas reales del otro lado de la línea mediante una narrativa envolvente y un juego desafiante.<h2 class=\"bb_tag\" >Trama</h2><br>La joven nación de Baltia ha ganado su derecho a la libertad después de una guerra larga y dolorosa, pero ahora lo que está en juego es más importante que nunca.<br><br>Eres parte de la <strong>Geist Division</strong>, una unidad secreta de alta tecnología creada por el gobierno para proteger al país de todo tipo de amenazas de próxima generación. Como Operador, tu misión es proporcionar soporte remoto a un grupo de agentes de operaciones especiales desplegados en terrenos urbanos. Debes controlar los dispositivos y sistemas con tus avanzadas capacidades de hackeo y escanear el entorno para proporcionar las rutas más seguras a tu escuadrón.<h2 class=\"bb_tag\" >Características</h2><br><ul class=\"bb_ul\"><li>Más de 6 horas de misiones de historias llenas de temáticas ciberpunk, investigación e intriga política.<br></li><li>Feedback de audio en tiempo real de los líderes del escuadrón da vida al mundo de Cyber Ops.<br></li><li>Diferentes mecanismos de hackeo para mantener el control de las puertas, dispositivos de seguridad y cerebros equipados con cyberlink.<br></li><li>Gestión de escuadrones: reclutar nuevos miembros para los escuadrones de infiltración.<br></li><li>Investigación y desarrollo: elaborar nuevos implantes cibernéticos para mejorar el rendimiento de los agentes.<br></li><li>Interfaces de computador retro-futuristas y música de sintetizador análoga y oscura inspirada en las películas de culto de los años 80.</li></ul>",
+    "about_the_game": "<span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/extras/556331b9482edc2cb0068654d9127033.avif?t=1754054857\" width=460 height=214 /></span><br><br><strong>Cyber Ops</strong> es un juego de hackeo táctico y fuerte narrativa, contado desde el punto de vista de un supervisor de control de misión que opera a distancia. <br><br>Tú eres el ojo en el cielo, la mano invisible, el fantasma cibernético que cuida a su equipo a través de la red.<br><br>Cyber Ops en una versión innovadora en el género de sigilo y hackeo que explora la relación entre el operador y las personas reales del otro lado de la línea mediante una narrativa envolvente y un juego desafiante.<h2 class=\"bb_tag\" >Trama</h2><br>La joven nación de Baltia ha ganado su derecho a la libertad después de una guerra larga y dolorosa, pero ahora lo que está en juego es más importante que nunca.<br><br>Eres parte de la <strong>Geist Division</strong>, una unidad secreta de alta tecnología creada por el gobierno para proteger al país de todo tipo de amenazas de próxima generación. Como Operador, tu misión es proporcionar soporte remoto a un grupo de agentes de operaciones especiales desplegados en terrenos urbanos. Debes controlar los dispositivos y sistemas con tus avanzadas capacidades de hackeo y escanear el entorno para proporcionar las rutas más seguras a tu escuadrón.<h2 class=\"bb_tag\" >Características</h2><br><ul class=\"bb_ul\"><li>Más de 6 horas de misiones de historias llenas de temáticas ciberpunk, investigación e intriga política.<br></li><li>Feedback de audio en tiempo real de los líderes del escuadrón da vida al mundo de Cyber Ops.<br></li><li>Diferentes mecanismos de hackeo para mantener el control de las puertas, dispositivos de seguridad y cerebros equipados con cyberlink.<br></li><li>Gestión de escuadrones: reclutar nuevos miembros para los escuadrones de infiltración.<br></li><li>Investigación y desarrollo: elaborar nuevos implantes cibernéticos para mejorar el rendimiento de los agentes.<br></li><li>Interfaces de computador retro-futuristas y música de sintetizador análoga y oscura inspirada en las películas de culto de los años 80.</li></ul>",
+    "short_description": "Conviértete en un hacker militar y ayuda a tu equipo de operaciones secretas a lograr su objetivo en este juego de estrategia noir ciberpunk. Escanea, hackea, supera, controla y gestiona dispositivos y vehículos de alta tecnología e incluso cyborgs enemigos con implantes de última generación.",
+    "supported_languages": "Inglés<strong>*</strong>, Portugués de Brasil, Español de Hispanoamérica, Japonés, Alemán, Polaco<br><strong>*</strong>idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/header.jpg?t=1754054857",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/capsule_231x87.jpg?t=1754054857",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/capsule_184x69.jpg?t=1754054857",
+    "website": "http://www.cyberopsgame.com",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> 8.1<br></li><li><strong>Procesador:</strong> Intel(R) Core(TM) i3-7100U<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce MX130<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> 10<br></li><li><strong>Procesador:</strong> Intel(R) Core(TM) i7-8550U<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce MX130<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Catalina 10.15.4<br></li><li><strong>Procesador:</strong> 2,5 Ghz Intel Core i5<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Intel HD Graphics 4000<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Catalina 10.15.4<br></li><li><strong>Procesador:</strong> 2,5 Ghz Intel Core i5<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Intel HD Graphics 4000<br></li><li><strong>Almacenamiento:</strong> 1 GB de espacio disponible</li></ul>"
+    },
+    "linux_requirements": [],
+    "developers": [
+        "Octeto Studios"
+    ],
+    "publishers": [
+        "Games Operators"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 640000,
+        "final": 640000,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 6.400"
+    },
+    "packages": [
+        272160
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Cyber Ops",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 272160,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Cyber Ops - CLP$ 6.400",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 640000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 29,
+            "description": "Cromos de Steam"
+        },
+        {
+            "id": 23,
+            "description": "Steam Cloud"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "28",
+            "description": "Simuladores"
+        },
+        {
+            "id": "2",
+            "description": "Estrategia"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_ab5da2e1f95c7ad6bafff373f81665c5ec4a8545.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_ab5da2e1f95c7ad6bafff373f81665c5ec4a8545.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_55417f94207bd19efb9d6b9043cc51b2ada26d13.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_55417f94207bd19efb9d6b9043cc51b2ada26d13.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_73c1feb4a0e56507ef62e765bd072e6f0c5277b8.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_73c1feb4a0e56507ef62e765bd072e6f0c5277b8.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_0ff7464b736f007577d242f23aee2e07cb054a6e.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_0ff7464b736f007577d242f23aee2e07cb054a6e.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_d0a35cd65e6fafe36f5904b138f18cdea605830b.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_d0a35cd65e6fafe36f5904b138f18cdea605830b.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_ae044c03adb983150d672238d4bdf4dbff6521e4.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_ae044c03adb983150d672238d4bdf4dbff6521e4.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_e066ddaf51919b976ae42f181c26d61f1abc3cf8.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_e066ddaf51919b976ae42f181c26d61f1abc3cf8.1920x1080.jpg?t=1754054857"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_2cafc43eb3697dbccee56ddef47eb83a67fb79f7.600x338.jpg?t=1754054857",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/ss_2cafc43eb3697dbccee56ddef47eb83a67fb79f7.1920x1080.jpg?t=1754054857"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256785479,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256785479/movie.293x165.jpg?t=1684159266",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/863460/285936/4c167c1446b12bd14b1e708a8f1c42aa0c6b8c82/1751154972/dash_av1.mpd?t=1684159266",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/863460/285936/4c167c1446b12bd14b1e708a8f1c42aa0c6b8c82/1751154972/dash_h264.mpd?t=1684159266",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/863460/285936/4c167c1446b12bd14b1e708a8f1c42aa0c6b8c82/1751154972/hls_264_master.m3u8?t=1684159266",
+            "highlight": true
+        },
+        {
+            "id": 256739640,
+            "name": "Gameplay Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256739640/movie.293x165.jpg?t=1684159270",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/863460/203037/0cdaeb45b22833c358063e62c344911d8d15182a/1751154971/dash_av1.mpd?t=1684159270",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/863460/203037/0cdaeb45b22833c358063e62c344911d8d15182a/1751154971/dash_h264.mpd?t=1684159270",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/863460/203037/0cdaeb45b22833c358063e62c344911d8d15182a/1751154971/hls_264_master.m3u8?t=1684159270",
+            "highlight": true
+        }
+    ],
+    "recommendations": {
+        "total": 106
+    },
+    "achievements": {
+        "total": 30,
+        "highlighted": [
+            {
+                "name": "Eye in the Sky",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/ca94ae0b5f548593e895516fe3ce40b95afd2c46.jpg"
+            },
+            {
+                "name": "Bloodhound",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/c964484c013a38b2cc88b3449737e1fee3c41c90.jpg"
+            },
+            {
+                "name": "Metal Detector",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/e74a8f5736852d2467b8c0b83c8ac0122a2ee6c4.jpg"
+            },
+            {
+                "name": "Kenny’s Fan",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/48aebece67df3cae0d4446a0bd37b90fed937a6c.jpg"
+            },
+            {
+                "name": "Grey Hat",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/76e3baad19e35b0758cbb3bd71c2d26fa79c3e77.jpg"
+            },
+            {
+                "name": "Ghosthacker",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/e14cfe05412e9caee62cc47a6d93280364dc7fcd.jpg"
+            },
+            {
+                "name": "Marked for Death",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/15416b8b5d518462518f2c0a3dcddcf7ed905ba6.jpg"
+            },
+            {
+                "name": "Psychopath",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/8ebd781f13618cb8438c9a1d6ca514189c4f440c.jpg"
+            },
+            {
+                "name": "Gate Keeper",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/8e82b187cc8cc82206d864e370089ff09b19e14c.jpg"
+            },
+            {
+                "name": "Provider",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/863460/60c12b5926bacb73c6733d018549a403ba2aa843.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "21 MAY 2020"
+    },
+    "support_info": {
+        "url": "http://www.octetostudios.com",
+        "email": "contact@octetostudios.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/863460?t=1754054857",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/863460/page_bg_raw.jpg?t=1754054857",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": "War themes including weapons, character wounds or death, represented by non-explicit icons, sounds and text.\r\nPolitical fiction based on ficticious countries and characters."
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "14",
+            "descriptors": "Violência fantasiosa\r\nViolência\r\nAtos criminosos\r\nLinguagem imprópria",
+            "use_age_gate": "true",
+            "required_age": "14"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Drastische Gewalt\nDerbe Sprache\nAlkohol / Tabak"
+        }
+    }
+}

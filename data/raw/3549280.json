@@ -1,0 +1,137 @@
+{
+    "type": "game",
+    "name": "Bulbo's Belief System",
+    "steam_appid": 3549280,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<p class=\"bb_paragraph\" ><strong>Bulbo's Belief System</strong> es un juego puzle plataformas donde el conocimiento es tanto una herramienta como un obstáculo. Bulbo cree en todo lo que le dicen. Aprender le permite ver, moverse e interactuar, pero olvidar es igual de importante.</p><p class=\"bb_paragraph\" >Borra muros de la existencia, ignora la gravedad para caminar por sobre zanjas y maneja creencias conflictivas para resolver reales rompecabezas. Experimenta con lo que Bulbo cree (o no cree) para navegar un mundo donde la percepción forma la realidad.</p><p class=\"bb_paragraph\" >¿Puedes controlar lo que Bulbo aprende y olvida para alcanzar la meta?</p><h2 class=\"bb_tag\" >Bulbo aprendiendo a caminar</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.poster.avif?t=1766888254\" aria-label=\"Gif showing Bulbo learning how to walk from another character\" width=620 height=380 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.webm?t=1766888254\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.mp4?t=1766888254\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >¡Sólo escuchando a otros personajes Bulbo aprende lo que le dicen!</p><h2 class=\"bb_tag\" >Bulbo ignorando el concepto de gravedad</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.poster.avif?t=1766888254\" aria-label=\"Gif showing how Bulbo doesn&#039;t fall while he doesn&#039;t know about gravity\" width=620 height=380 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.webm?t=1766888254\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.mp4?t=1766888254\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Ignorar ciertos conceptos puede ser una herramienta poderosa, es por eso que la capacidad de olvidar de Bulbo será tu habilidad más preciada durante el juego.</p>",
+    "about_the_game": "<p class=\"bb_paragraph\" ><strong>Bulbo's Belief System</strong> es un juego puzle plataformas donde el conocimiento es tanto una herramienta como un obstáculo. Bulbo cree en todo lo que le dicen. Aprender le permite ver, moverse e interactuar, pero olvidar es igual de importante.</p><p class=\"bb_paragraph\" >Borra muros de la existencia, ignora la gravedad para caminar por sobre zanjas y maneja creencias conflictivas para resolver reales rompecabezas. Experimenta con lo que Bulbo cree (o no cree) para navegar un mundo donde la percepción forma la realidad.</p><p class=\"bb_paragraph\" >¿Puedes controlar lo que Bulbo aprende y olvida para alcanzar la meta?</p><h2 class=\"bb_tag\" >Bulbo aprendiendo a caminar</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.poster.avif?t=1766888254\" aria-label=\"Gif showing Bulbo learning how to walk from another character\" width=620 height=380 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.webm?t=1766888254\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/3c4bda639858ff9fccddc32376ebf652.mp4?t=1766888254\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >¡Sólo escuchando a otros personajes Bulbo aprende lo que le dicen!</p><h2 class=\"bb_tag\" >Bulbo ignorando el concepto de gravedad</h2><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.poster.avif?t=1766888254\" aria-label=\"Gif showing how Bulbo doesn&#039;t fall while he doesn&#039;t know about gravity\" width=620 height=380 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.webm?t=1766888254\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/extras/45b84b2f46f01da5e417046616bf044c.mp4?t=1766888254\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Ignorar ciertos conceptos puede ser una herramienta poderosa, es por eso que la capacidad de olvidar de Bulbo será tu habilidad más preciada durante el juego.</p>",
+    "short_description": "Bulbo's Belief System es un juego rompecabezas donde saber es una herramienta y un obstáculo. Bulbo cree en lo que le dicen del mundo y de sí, ¡pero también puede olvidar! Borra muros de la existencia, ignora la gravedad y maneja creencias para resolver los más tiernos y delirantes desafíos.",
+    "supported_languages": "Inglés, Español de España, Español de Hispanoamérica",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/3275ffb1babd378e633521d19241dbbb67384271/header.jpg?t=1766888254",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/70e405f26b92947d8b6ef02c43327cc3d977e96e/capsule_231x87.jpg?t=1766888254",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/70e405f26b92947d8b6ef02c43327cc3d977e96e/capsule_184x69.jpg?t=1766888254",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> i5<br></li><li><strong>Memoria:</strong> 1024 MB de RAM<br></li><li><strong>Gráficos:</strong> ATI Radeon X1300/NVIDIA GeForce 6600 GT/Intel HD 3000 or better<br></li><li><strong>Almacenamiento:</strong> 2 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": [],
+    "developers": [
+        "Abstract Digital"
+    ],
+    "publishers": [
+        "Abstract Digital"
+    ],
+    "demos": [
+        {
+            "appid": 3773470,
+            "description": ""
+        }
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "4",
+            "description": "Casual"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/932295624c9c76e38f5bd986dd5ce64f9352a101/ss_932295624c9c76e38f5bd986dd5ce64f9352a101.600x338.jpg?t=1766888254",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/932295624c9c76e38f5bd986dd5ce64f9352a101/ss_932295624c9c76e38f5bd986dd5ce64f9352a101.1920x1080.jpg?t=1766888254"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/123821ffb3c66c11a66257952e3c307180b892cd/ss_123821ffb3c66c11a66257952e3c307180b892cd.600x338.jpg?t=1766888254",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/123821ffb3c66c11a66257952e3c307180b892cd/ss_123821ffb3c66c11a66257952e3c307180b892cd.1920x1080.jpg?t=1766888254"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/d28712a1e6a760e7e9f8076a6bb44eddca4d1ce8/ss_d28712a1e6a760e7e9f8076a6bb44eddca4d1ce8.600x338.jpg?t=1766888254",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/d28712a1e6a760e7e9f8076a6bb44eddca4d1ce8/ss_d28712a1e6a760e7e9f8076a6bb44eddca4d1ce8.1920x1080.jpg?t=1766888254"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/13a058fb7e3f742b22f89c23dacbeb88d545fc08/ss_13a058fb7e3f742b22f89c23dacbeb88d545fc08.600x338.jpg?t=1766888254",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/13a058fb7e3f742b22f89c23dacbeb88d545fc08/ss_13a058fb7e3f742b22f89c23dacbeb88d545fc08.1920x1080.jpg?t=1766888254"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/db3fbb8ad6983292b5000644beaa27c493c3e01b/ss_db3fbb8ad6983292b5000644beaa27c493c3e01b.600x338.jpg?t=1766888254",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3549280/db3fbb8ad6983292b5000644beaa27c493c3e01b/ss_db3fbb8ad6983292b5000644beaa27c493c3e01b.1920x1080.jpg?t=1766888254"
+        }
+    ],
+    "movies": [
+        {
+            "id": 257245472,
+            "name": "Bulbo LAGS Game Awards Trailer 2025",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257245472/199e2acb7ca5b603d45644cbd46d0b49ef66fa92/movie_600x337.jpg?t=1765328641",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/3549280/447614524/72804477149669a0cffd4f868cf8c9a0c08d5738/1765245809/dash_av1.mpd?t=1765328641",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/3549280/447614524/72804477149669a0cffd4f868cf8c9a0c08d5738/1765245809/dash_h264.mpd?t=1765328641",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/3549280/447614524/72804477149669a0cffd4f868cf8c9a0c08d5738/1765245809/hls_264_master.m3u8?t=1765328641",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Próximamente"
+    },
+    "support_info": {
+        "url": "http://www.abstractdw.com",
+        "email": "contact@abstractdw.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3549280?t=1766888254",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/3549280?t=1766888254",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating_generated": "1",
+            "rating": "l",
+            "required_age": "0",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Violência fantasiosa"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "6",
+            "required_age": "6",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Fantasy-Gewalt"
+        }
+    }
+}

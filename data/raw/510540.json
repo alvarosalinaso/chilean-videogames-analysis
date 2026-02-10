@@ -1,0 +1,260 @@
+{
+    "type": "game",
+    "name": "Long Gone Days",
+    "steam_appid": 510540,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "dlc": [
+        514000,
+        511220
+    ],
+    "detailed_description": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.poster.avif?t=1764629097\" width=610 height=100 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.webm?t=1764629097\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.mp4?t=1764629097\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Long Gone Days es un juego RPG ambientado en el mundo real que trata sobre la conexión humana durante la guerra, con el foco en los civiles, las barreras idiomáticas y las fronteras. </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Acompaña a Rourke, un joven nacido y criado en The Core, una compañía militar privada localizada en un estado subterráneo, que entrenó toda su vida para perfeccionar sus habilidades de francotirador. </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >En su primera misión, lo envían a la superficie bajo órdenes de gran importancia. Motivado por finalmente poder demostrar los frutos de su entrenamiento, cumple sus primeras órdenes a la perfección, solo para descubrir que The Core está lejos de ser la noble organización que creía conocer.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.poster.avif?t=1764629097\" width=614 height=100 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.webm?t=1764629097\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.mp4?t=1764629097\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>Una mirada matizada de la guerra:</strong> Experimenta el choque entre el conflicto moderno y la vida civil a través del contraste entre intensos combates de RPG y una jugabilidad más pausada y realista. </p><p class=\"bb_paragraph\" ><strong>La comunicación es clave:</strong> Como Long Gone Days transcurre en el mundo real, te encontrarás con barreras idiomáticas. Recluta intérpretes que te ayudarán a comunicarte y crear fuertes vínculos. </p><p class=\"bb_paragraph\" ><strong>Mantén la moral alta:</strong> Elige sabiamente las opciones de diálogo para aumentar la moral en la batalla. Cada personaje tiene rasgos de personalidad y motivaciones distintas. </p><p class=\"bb_paragraph\" ><strong>Modo francotirador:</strong> Long Gone Days cuenta con dos sistemas de batalla. Usa el rifle de Rourke para localizar a los enemigos y eliminar a tus objetivos. </p><p class=\"bb_paragraph\" ><strong>Sin encuentros aleatorios:</strong> Long Gone Days presenta batallas por turnos en vista frontal con un sistema de apuntar al cuerpo. Cada batalla es única y está directamente relacionada con la trama.</p>",
+    "about_the_game": "<p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.poster.avif?t=1764629097\" width=610 height=100 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.webm?t=1764629097\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/b9de46abf4f498d66ce42c11799898e6.mp4?t=1764629097\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" >Long Gone Days es un juego RPG ambientado en el mundo real que trata sobre la conexión humana durante la guerra, con el foco en los civiles, las barreras idiomáticas y las fronteras. </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >Acompaña a Rourke, un joven nacido y criado en The Core, una compañía militar privada localizada en un estado subterráneo, que entrenó toda su vida para perfeccionar sus habilidades de francotirador. </p><p class=\"bb_paragraph\" > </p><p class=\"bb_paragraph\" >En su primera misión, lo envían a la superficie bajo órdenes de gran importancia. Motivado por finalmente poder demostrar los frutos de su entrenamiento, cumple sus primeras órdenes a la perfección, solo para descubrir que The Core está lejos de ser la noble organización que creía conocer.</p><p class=\"bb_paragraph\" ><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.poster.avif?t=1764629097\" width=614 height=100 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.webm?t=1764629097\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/extras/7c69c11f04db6a59500a9c81776243eb.mp4?t=1764629097\" type=\"video/mp4\"></video></span></p><p class=\"bb_paragraph\" ><strong>Una mirada matizada de la guerra:</strong> Experimenta el choque entre el conflicto moderno y la vida civil a través del contraste entre intensos combates de RPG y una jugabilidad más pausada y realista. </p><p class=\"bb_paragraph\" ><strong>La comunicación es clave:</strong> Como Long Gone Days transcurre en el mundo real, te encontrarás con barreras idiomáticas. Recluta intérpretes que te ayudarán a comunicarte y crear fuertes vínculos. </p><p class=\"bb_paragraph\" ><strong>Mantén la moral alta:</strong> Elige sabiamente las opciones de diálogo para aumentar la moral en la batalla. Cada personaje tiene rasgos de personalidad y motivaciones distintas. </p><p class=\"bb_paragraph\" ><strong>Modo francotirador:</strong> Long Gone Days cuenta con dos sistemas de batalla. Usa el rifle de Rourke para localizar a los enemigos y eliminar a tus objetivos. </p><p class=\"bb_paragraph\" ><strong>Sin encuentros aleatorios:</strong> Long Gone Days presenta batallas por turnos en vista frontal con un sistema de apuntar al cuerpo. Cada batalla es única y está directamente relacionada con la trama.</p>",
+    "short_description": "A modern-day JRPG that imagines a world of war. Overcome language barriers, forge unlikely friendships, and find hope amidst conflict.",
+    "supported_languages": "Inglés, Francés, Alemán, Español de España, Portugués de Brasil, Ruso, Español de Hispanoamérica, Chino tradicional, Chino simplificado, Japonés",
+    "reviews": "“Long Gone Days is a genuinely haunting, emotional game that stays with you well after you finish it.”<br>91 – RPGFan<br><br>“With its slick presentation, ominous soundtrack, and dark storytelling creating a solid foundation, Long Gone Days represents a unique and powerful message for players to become enamored with.”<br>8/10 – RPG Site<br><br>“it is a game with a lot of heart that manages to stand out in a wave of RPGs...I am certain that Rourke and the rest of his friends will be talked about for years to come.”<br>80 – Noisy Pixel<br>",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/header.jpg?t=1764629097",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/capsule_231x87.jpg?t=1764629097",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/capsule_184x69.jpg?t=1764629097",
+    "website": "http://www.longgonedays.com/",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO *:</strong> Windows 7<br></li><li><strong>Procesador:</strong> 2 Ghz dual core<br></li><li><strong>Memoria:</strong> 4 GB de RAM<br></li><li><strong>Gráficos:</strong> Hardware Accelerated Graphics with dedicated memory, 1GB memory recommended<br></li><li><strong>Almacenamiento:</strong> 2 GB de espacio disponible</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10<br></li><li><strong>Procesador:</strong> 2 Ghz dual core<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> Hardware Accelerated Graphics with dedicated memory, 1GB memory recommended<br></li><li><strong>Almacenamiento:</strong> 2 GB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Mac OSX 10.12 or higher<br></li><li><strong>Procesador:</strong> 2 Ghz<br></li><li><strong>Memoria:</strong> 4 MB de RAM<br></li><li><strong>Gráficos:</strong> Hardware Accelerated Graphics with dedicated memory, 1GB memory recommended<br></li><li><strong>Almacenamiento:</strong> 2 GB de espacio disponible</li></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Ubuntu 14 or higher</li></ul>"
+    },
+    "legal_notice": "© 2023 Serenity Forge & This I Dreamt",
+    "developers": [
+        "This I Dreamt"
+    ],
+    "publishers": [
+        "Serenity Forge"
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 1561800,
+        "final": 1561800,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "CLP$ 15.618"
+    },
+    "packages": [
+        118565
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Long Gone Days",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 118565,
+                    "percent_savings_text": " ",
+                    "percent_savings": 0,
+                    "option_text": "Long Gone Days - CLP$ 15.618",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 1561800
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 29,
+            "description": "Cromos de Steam"
+        },
+        {
+            "id": 23,
+            "description": "Steam Cloud"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_d17b9f6758a79f09b40301e45d0dbe850657408a.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_d17b9f6758a79f09b40301e45d0dbe850657408a.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_aa620e99a807b6eb1ec8b10afec1253c43716c99.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_aa620e99a807b6eb1ec8b10afec1253c43716c99.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_860126ff9ca8de4110f6bfb5607e076cf0a831b5.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_860126ff9ca8de4110f6bfb5607e076cf0a831b5.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_881dc76737c045d5e538ec677ba60b3b31d69c5d.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_881dc76737c045d5e538ec677ba60b3b31d69c5d.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_d6f80df12b2494533dda90abaa3b63ee4cd48c78.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_d6f80df12b2494533dda90abaa3b63ee4cd48c78.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_cfb7885420cb1ccb766d2286008cab1d157b4962.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_cfb7885420cb1ccb766d2286008cab1d157b4962.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_ac57b9be74ca4d7a654800829fc0db05926ea24c.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_ac57b9be74ca4d7a654800829fc0db05926ea24c.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_6f3d2849c7b3d000d0795adbb01a8b5c4d12b558.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_6f3d2849c7b3d000d0795adbb01a8b5c4d12b558.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_e60b7cd2a146c4733389a56c343cf34196dc44c9.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_e60b7cd2a146c4733389a56c343cf34196dc44c9.1920x1080.jpg?t=1764629097"
+        },
+        {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_23400d7f4764aeb15ff75a57be3efbef616676e5.600x338.jpg?t=1764629097",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/ss_23400d7f4764aeb15ff75a57be3efbef616676e5.1920x1080.jpg?t=1764629097"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256973032,
+            "name": "Long Gone Days Launch Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256973032/movie.293x165.jpg?t=1696953264",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/510540/613735/7098c4b84dc0d3b71f46537d5b5753c6dfdffcc5/1751295163/dash_av1.mpd?t=1696953264",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/510540/613735/7098c4b84dc0d3b71f46537d5b5753c6dfdffcc5/1751295163/dash_h264.mpd?t=1696953264",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/510540/613735/7098c4b84dc0d3b71f46537d5b5753c6dfdffcc5/1751295163/hls_264_master.m3u8?t=1696953264",
+            "highlight": true
+        }
+    ],
+    "recommendations": {
+        "total": 454
+    },
+    "achievements": {
+        "total": 44,
+        "highlighted": [
+            {
+                "name": "Profundidades del núcleo",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/6b2ecde6149b77aa42ae992bc5146a8ddf5b169d.jpg"
+            },
+            {
+                "name": "Soporte técnico",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/d2be4b31dadeea7b13888650b6898d51b58ab91a.jpg"
+            },
+            {
+                "name": "Hola, mundo",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/1cbbc522794bde8f348d4d915f29487211f3e3a0.jpg"
+            },
+            {
+                "name": "Entrega de primeros auxilios",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/7f02b780175a3e2fc4920fc867e69bd13ebc97da.jpg"
+            },
+            {
+                "name": "¡No puedo oírte!",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/88d915b8bf86b95eaa03173f40c79d3918be40f8.jpg"
+            },
+            {
+                "name": "Raven perdido",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/a7380f1a3d3f530d07da1bebb1bdae0658e87fa9.jpg"
+            },
+            {
+                "name": "Buenos samaritanos",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/86523345c6ef4e3c741e7a84fa40aa90c935033c.jpg"
+            },
+            {
+                "name": "Oculto a simple vista",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/1734b730067d13ad156968159bd53ad15309898a.jpg"
+            },
+            {
+                "name": "Ángel cotidiano",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/ed351c6e3e1a4e492784212f9bca9d844e0abe87.jpg"
+            },
+            {
+                "name": "Crimen sin víctima",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510540/55bb63404a8e613172e8ab2d87c4ccadfa860065.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "10 OCT 2023"
+    },
+    "support_info": {
+        "url": "http://www.longgonedays.com",
+        "email": "support@serenityforge.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/510540?t=1764629097",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/510540/page_bg_raw.jpg?t=1764629097",
+    "content_descriptors": {
+        "ids": [
+            5
+        ],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "12",
+            "descriptors": "Violência\r\nDrogas lícitas",
+            "use_age_gate": "true",
+            "required_age": "12"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt\nAlkohol / Tabak"
+        }
+    }
+}

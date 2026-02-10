@@ -1,0 +1,145 @@
+{
+    "type": "game",
+    "name": "SPELLRAIN",
+    "steam_appid": 2242440,
+    "required_age": 0,
+    "is_free": false,
+    "detailed_description": "Sobrevive a hordas de enemigos en este juego roguelite de acción gestionando hechizos y encontrando lo que funciona mejor para ti en diferentes situaciones. ¡Derrota a los monstruos, recoge sus materiales y regresa a tu campamento para fabricar equipamiento y desbloquear nuevos hechizos para que las siguientes exploraciones sean más fáciles!<br><br><ul class=\"bb_ul\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><li><strong>Niveles</strong><br>Derrota a los enemigos en diferentes entornos y sobrevive el tiempo suficiente para enfrentarte al jefe final del nivel, recolecta los materiales que arrojan los enemigos derrotados para crear nuevo equipamiento y desbloquear hechizos.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>La Tienda</strong><br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.poster.avif?t=1721698582\" width=640 height=360 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.webm?t=1721698582\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.mp4?t=1721698582\" type=\"video/mp4\"></video></span><br>Después de cada oleada, puedes acceder a la tienda donde puedes comprar nuevos hechizos, mejorar tu equipo y mejorar hechizos que ya tienes. Elegir qué comprar cada descanso es clave para prepararse para las oleadas.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>El Campamento</strong><br>El campamento es tu base de operaciones, aquí puedes crear nuevos equipamientos y desbloquear nuevos hechizos para ayudarte en futuras exploraciones.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>Diferentes estilos de juego</strong><br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.poster.avif?t=1721698582\" width=600 height=360 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.webm?t=1721698582\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.mp4?t=1721698582\" type=\"video/mp4\"></video></span><br>Crear y equipar armaduras no solo cambia tu apariencia, sino que también activa habilidades que cambian tu estilo de juego, recolecta materiales en cada exploración para fabricar tu equipamiento favorito y arma tu propia forma de jugar.</li></ul>",
+    "about_the_game": "Sobrevive a hordas de enemigos en este juego roguelite de acción gestionando hechizos y encontrando lo que funciona mejor para ti en diferentes situaciones. ¡Derrota a los monstruos, recoge sus materiales y regresa a tu campamento para fabricar equipamiento y desbloquear nuevos hechizos para que las siguientes exploraciones sean más fáciles!<br><br><ul class=\"bb_ul\"><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><li><strong>Niveles</strong><br>Derrota a los enemigos en diferentes entornos y sobrevive el tiempo suficiente para enfrentarte al jefe final del nivel, recolecta los materiales que arrojan los enemigos derrotados para crear nuevo equipamiento y desbloquear hechizos.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>La Tienda</strong><br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.poster.avif?t=1721698582\" width=640 height=360 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.webm?t=1721698582\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/ce176fc965ad8b3dc1f9313239462454.mp4?t=1721698582\" type=\"video/mp4\"></video></span><br>Después de cada oleada, puedes acceder a la tienda donde puedes comprar nuevos hechizos, mejorar tu equipo y mejorar hechizos que ya tienes. Elegir qué comprar cada descanso es clave para prepararse para las oleadas.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>El Campamento</strong><br>El campamento es tu base de operaciones, aquí puedes crear nuevos equipamientos y desbloquear nuevos hechizos para ayudarte en futuras exploraciones.<br><br><span class=\"bb_img_ctn\"><img class=\"bb_img\" src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/96e4cf6979bdb149f1a1f1334e04f226.webp?t=1721698582\" width=600 height=28 /></span><br></li><li><strong>Diferentes estilos de juego</strong><br><br><span class=\"bb_img_ctn\"><video class=\"bb_img\" autoplay muted loop playsinline poster=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.poster.avif?t=1721698582\" width=600 height=360 ><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.webm?t=1721698582\" type=\"video/webm; codecs=vp9\"><source src=\"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/extras/9fc5b3a1367cfad689937f3fdc35a470.mp4?t=1721698582\" type=\"video/mp4\"></video></span><br>Crear y equipar armaduras no solo cambia tu apariencia, sino que también activa habilidades que cambian tu estilo de juego, recolecta materiales en cada exploración para fabricar tu equipamiento favorito y arma tu propia forma de jugar.</li></ul>",
+    "short_description": "Sobrevive al desastre de la lluvia de hechizos que ha convertido el mundo en una tierra mágica llena de tiernos monstruos. Compra hechizos, fabrica armaduras y mejora tu base para restaurar la paz en SPELLRAIN",
+    "supported_languages": "Inglés, Español de Hispanoamérica, Español de España",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/header.jpg?t=1721698582",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/capsule_231x87.jpg?t=1721698582",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/capsule_184x69.jpg?t=1721698582",
+    "website": null,
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Windows 10 64 bit<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Almacenamiento:</strong> 100 MB de espacio disponible</li></ul>"
+    },
+    "mac_requirements": [],
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li><strong>SO:</strong> Fedora<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Almacenamiento:</strong> 100 MB de espacio disponible</li></ul>"
+    },
+    "developers": [
+        "Slime Team"
+    ],
+    "publishers": [
+        "Slime Team"
+    ],
+    "demos": [
+        {
+            "appid": 2410270,
+            "description": ""
+        }
+    ],
+    "package_groups": [],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "25",
+            "description": "Aventura"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        },
+        {
+            "id": "3",
+            "description": "Rol"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_1882ac3cce7fa5560d5618de813f3c0b32260316.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_1882ac3cce7fa5560d5618de813f3c0b32260316.1920x1080.jpg?t=1721698582"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_9c9b033a174f2728fd1148e9c2791e77b03d69db.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_9c9b033a174f2728fd1148e9c2791e77b03d69db.1920x1080.jpg?t=1721698582"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_76977f29f132ced3e1ba3bbbf5d7391242092c9a.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_76977f29f132ced3e1ba3bbbf5d7391242092c9a.1920x1080.jpg?t=1721698582"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_2d5150321e36cedf5fc436cdbd34bcee35bf4e9c.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_2d5150321e36cedf5fc436cdbd34bcee35bf4e9c.1920x1080.jpg?t=1721698582"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_bce69763e3da186d088578a1d2533838daf32f1c.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_bce69763e3da186d088578a1d2533838daf32f1c.1920x1080.jpg?t=1721698582"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_8387720001bacf6a1cc1cb7ffc797caca40987a8.600x338.jpg?t=1721698582",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2242440/ss_8387720001bacf6a1cc1cb7ffc797caca40987a8.1920x1080.jpg?t=1721698582"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256923024,
+            "name": "Trailer Steam 2022",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256923024/movie.293x165.jpg?t=1673146973",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/2242440/525417/a6400149ba0963e522bb2dc4a7113954f44f21a4/1751094413/dash_av1.mpd?t=1673146973",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/2242440/525417/a6400149ba0963e522bb2dc4a7113954f44f21a4/1751094413/dash_h264.mpd?t=1673146973",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/2242440/525417/a6400149ba0963e522bb2dc4a7113954f44f21a4/1751094413/hls_264_master.m3u8?t=1673146973",
+            "highlight": true
+        }
+    ],
+    "release_date": {
+        "coming_soon": true,
+        "date": "Por confirmarse"
+    },
+    "support_info": {
+        "url": "",
+        "email": "slimeteamgames@gmail.com"
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2242440?t=1721698582",
+    "background_raw": "https://store.akamai.steamstatic.com/images/storepagebackground/app/2242440?t=1721698582",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "10",
+            "descriptors": "Medo",
+            "use_age_gate": "true",
+            "required_age": "10"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "12",
+            "required_age": "12",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+        }
+    }
+}

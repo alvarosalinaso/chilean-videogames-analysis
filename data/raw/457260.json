@@ -1,0 +1,308 @@
+{
+    "type": "game",
+    "name": "Omen of Sorrow",
+    "steam_appid": 457260,
+    "required_age": 0,
+    "is_free": false,
+    "controller_support": "full",
+    "detailed_description": "<h2 class=\"bb_tag\" >¡Los monstruos clásicos de la mitología y el horror se enfrentan para conquistar la noche!</h2><br><br>En un inframundo gobernado por criaturas de la noche, ¡un nuevo terror ha despertado! Omen of Sorrow reúne a los monstruos del horror, la literatura y la mitología en una experiencia de lucha como nunca has visto antes. Inspirado por muchos clásicos del arcade, pero con sus propias innovaciones y una estética adulta, ¡Omen of Sorrow derrama estilo a borbotones!<br><br>Este juego tradicional de lucha con 4 botones incluye un elenco inspirado por íconos culturales como el monstruo de Frankenstein y el sumo sacerdote egipcio Imhotep. Las mecánicas se centran en la habilidad durante el combate y premian o castigan a los jugadores según la agresividad que muestren, pero también ofrecen una experiencia accesible para los principiantes. El motor Unreal Engine 4 lleva la lucha en 2.5D a través de una gran variedad de ubicaciones detalladas, con animaciones realizadas a mano y remates de estilo cinematográfico, todo con el trasfondo de una magistral banda sonora creada por el compositor Francisco Cerda.<br><br><strong>Características:</strong><br><br><ul class=\"bb_ul\"><li>Elige entre un elenco diverso de personajes inspirados en los clásicos del horror.<br></li><li>¡Usa remates cinematográficos para derrotar a tus oponentes con estilo!<br></li><li>Explora modos de un solo jugador contra la CPU o desafía a tus amigos en línea.<br></li><li>¡Adopta nuevas estrategias sobre la marcha, y cambia el curso de la batalla con tu agresividad!</li></ul>",
+    "about_the_game": "<h2 class=\"bb_tag\" >¡Los monstruos clásicos de la mitología y el horror se enfrentan para conquistar la noche!</h2><br><br>En un inframundo gobernado por criaturas de la noche, ¡un nuevo terror ha despertado! Omen of Sorrow reúne a los monstruos del horror, la literatura y la mitología en una experiencia de lucha como nunca has visto antes. Inspirado por muchos clásicos del arcade, pero con sus propias innovaciones y una estética adulta, ¡Omen of Sorrow derrama estilo a borbotones!<br><br>Este juego tradicional de lucha con 4 botones incluye un elenco inspirado por íconos culturales como el monstruo de Frankenstein y el sumo sacerdote egipcio Imhotep. Las mecánicas se centran en la habilidad durante el combate y premian o castigan a los jugadores según la agresividad que muestren, pero también ofrecen una experiencia accesible para los principiantes. El motor Unreal Engine 4 lleva la lucha en 2.5D a través de una gran variedad de ubicaciones detalladas, con animaciones realizadas a mano y remates de estilo cinematográfico, todo con el trasfondo de una magistral banda sonora creada por el compositor Francisco Cerda.<br><br><strong>Características:</strong><br><br><ul class=\"bb_ul\"><li>Elige entre un elenco diverso de personajes inspirados en los clásicos del horror.<br></li><li>¡Usa remates cinematográficos para derrotar a tus oponentes con estilo!<br></li><li>Explora modos de un solo jugador contra la CPU o desafía a tus amigos en línea.<br></li><li>¡Adopta nuevas estrategias sobre la marcha, y cambia el curso de la batalla con tu agresividad!</li></ul>",
+    "short_description": "Omen of Sorrow reúne a los monstruos del horror, la literatura y la mitología en una experiencia de lucha como nunca has visto antes. Inspirado por muchos clásicos del arcade, pero con sus propias innovaciones y una estética adulta, ¡Omen of Sorrow derrama estilo a borbotones!",
+    "supported_languages": "Inglés<strong>*</strong>, Francés, Italiano, Alemán, Español de España, Español de Hispanoamérica, Portugués de Brasil, Chino simplificado, Chino tradicional, Japonés<br><strong>*</strong>idiomas con localización de audio",
+    "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/header.jpg?t=1720816182",
+    "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/capsule_231x87.jpg?t=1720816182",
+    "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/capsule_184x69.jpg?t=1720816182",
+    "website": "https://www.eastasiasoft.com",
+    "pc_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO *:</strong> Windows 7/8/10 (64-bit OS required)<br></li><li><strong>Procesador:</strong> Intel Core i3-4160 @ 3.60GHz or equivalent<br></li><li><strong>Memoria:</strong> 6 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce, GTX 750Ti 2GB, or equivalent<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 6 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX compatible soundcard or onboard chipset</li></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"><li>Requiere un procesador y un sistema operativo de 64 bits<br></li><li><strong>SO *:</strong> Windows 7/8/10 (64-bit OS required)<br></li><li><strong>Procesador:</strong> Intel Core i5-4690 @ 3.50 GHz or equivalent<br></li><li><strong>Memoria:</strong> 8 GB de RAM<br></li><li><strong>Gráficos:</strong> NVIDIA GeForce GTX 1060 equivalent or higher<br></li><li><strong>DirectX:</strong> Versión 11<br></li><li><strong>Almacenamiento:</strong> 6 GB de espacio disponible<br></li><li><strong>Tarjeta de sonido:</strong> DirectX compatible soundcard or onboard chipset</li></ul>"
+    },
+    "mac_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "linux_requirements": {
+        "minimum": "<strong>Mínimo:</strong><br><ul class=\"bb_ul\"></ul>",
+        "recommended": "<strong>Recomendado:</strong><br><ul class=\"bb_ul\"></ul>"
+    },
+    "legal_notice": "Omen of Sorrow® es una marca registrada de AOne Games SpA",
+    "developers": [
+        "AOne Games"
+    ],
+    "publishers": [
+        "Eastasiasoft Limited"
+    ],
+    "demos": [
+        {
+            "appid": 2097690,
+            "description": ""
+        }
+    ],
+    "price_overview": {
+        "currency": "CLP",
+        "initial": 990000,
+        "final": 396000,
+        "discount_percent": 60,
+        "initial_formatted": "CLP$ 9.900",
+        "final_formatted": "CLP$ 3.960"
+    },
+    "packages": [
+        99264
+    ],
+    "package_groups": [
+        {
+            "name": "default",
+            "title": "Comprar Omen of Sorrow",
+            "description": "",
+            "selection_text": "Selecciona una opción de compra",
+            "save_text": "",
+            "display_type": 0,
+            "is_recurring_subscription": "false",
+            "subs": [
+                {
+                    "packageid": 99264,
+                    "percent_savings_text": "-60% ",
+                    "percent_savings": 0,
+                    "option_text": "Omen of Sorrow - <span class=\"discount_original_price\">CLP$ 9.900</span> CLP$ 3.960",
+                    "option_description": "",
+                    "can_get_free_license": "0",
+                    "is_free_license": false,
+                    "price_in_cents_with_discount": 396000
+                }
+            ]
+        }
+    ],
+    "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+    },
+    "categories": [
+        {
+            "id": 2,
+            "description": "Un jugador"
+        },
+        {
+            "id": 1,
+            "description": "Multijugador"
+        },
+        {
+            "id": 49,
+            "description": "JcJ"
+        },
+        {
+            "id": 36,
+            "description": "JcJ en línea"
+        },
+        {
+            "id": 27,
+            "description": "Multijugador multiplataforma"
+        },
+        {
+            "id": 22,
+            "description": "Logros de Steam"
+        },
+        {
+            "id": 28,
+            "description": "Compat. total con mando"
+        },
+        {
+            "id": 62,
+            "description": "Préstamo familiar"
+        }
+    ],
+    "genres": [
+        {
+            "id": "1",
+            "description": "Acción"
+        },
+        {
+            "id": "23",
+            "description": "Indie"
+        }
+    ],
+    "screenshots": [
+        {
+            "id": 0,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_11c642fa992f404ef365288d59b4c9bef47dbd4d.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_11c642fa992f404ef365288d59b4c9bef47dbd4d.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 1,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_9d6b3fb52a6f3a64ec911266cbc2984cbda3231f.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_9d6b3fb52a6f3a64ec911266cbc2984cbda3231f.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 2,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_9ba9082d3641eb90cfbe4dcdfc3c660e1e3b459e.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_9ba9082d3641eb90cfbe4dcdfc3c660e1e3b459e.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 3,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_0c432026c41627b955e363a1ef6891db933a6e70.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_0c432026c41627b955e363a1ef6891db933a6e70.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 4,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_4063ec1b2d5b6dc5f9004388fb6848c4f77715fc.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_4063ec1b2d5b6dc5f9004388fb6848c4f77715fc.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 5,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_3001782fd1b8c3a039604d3c8bd79bc8395dd3c7.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_3001782fd1b8c3a039604d3c8bd79bc8395dd3c7.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 6,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_4299e289acc8ec2903426496153320827b903778.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_4299e289acc8ec2903426496153320827b903778.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 7,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_f8017d002dc344394ae6d87873d7a70d7316215f.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_f8017d002dc344394ae6d87873d7a70d7316215f.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 8,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_eb73f6f091b45df5bc836ba528a7790557edba86.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_eb73f6f091b45df5bc836ba528a7790557edba86.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 9,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_cf83b0b76864b3d4aa1e768487d0393616d028c3.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_cf83b0b76864b3d4aa1e768487d0393616d028c3.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 10,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_7ac04a569385e9cd1bb633c89f4c225f7448e8d1.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_7ac04a569385e9cd1bb633c89f4c225f7448e8d1.1920x1080.jpg?t=1720816182"
+        },
+        {
+            "id": 11,
+            "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_1694253a8b7e4f9e024cee9dbdc7dbf3405bf86c.600x338.jpg?t=1720816182",
+            "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/ss_1694253a8b7e4f9e024cee9dbdc7dbf3405bf86c.1920x1080.jpg?t=1720816182"
+        }
+    ],
+    "movies": [
+        {
+            "id": 256850073,
+            "name": "Steam Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256850073/movie.293x165.jpg?t=1631277174",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/457260/398460/66f4735002ef67425139ac7c0abce4ea0406bfe8/1751288107/dash_av1.mpd?t=1631277174",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/398460/66f4735002ef67425139ac7c0abce4ea0406bfe8/1751288107/dash_h264.mpd?t=1631277174",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/398460/66f4735002ef67425139ac7c0abce4ea0406bfe8/1751288107/hls_264_master.m3u8?t=1631277174",
+            "highlight": true
+        },
+        {
+            "id": 256791835,
+            "name": "Promotional Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256791835/movie.293x165.jpg?t=1631277183",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/457260/296745/f36f2c93f5723df785b836f634709386878bfad2/1751288100/dash_av1.mpd?t=1631277183",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296745/f36f2c93f5723df785b836f634709386878bfad2/1751288100/dash_h264.mpd?t=1631277183",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296745/f36f2c93f5723df785b836f634709386878bfad2/1751288100/hls_264_master.m3u8?t=1631277183",
+            "highlight": true
+        },
+        {
+            "id": 256791818,
+            "name": "Release Trailer",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256791818/movie.293x165.jpg?t=1631277192",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/457260/296719/da950b6a46517a9e7affd1318b436fe8616e2a8d/1751288100/dash_av1.mpd?t=1631277192",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296719/da950b6a46517a9e7affd1318b436fe8616e2a8d/1751288100/dash_h264.mpd?t=1631277192",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296719/da950b6a46517a9e7affd1318b436fe8616e2a8d/1751288100/hls_264_master.m3u8?t=1631277192",
+            "highlight": true
+        },
+        {
+            "id": 256791837,
+            "name": "Adam and Imhotep",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256791837/movie.293x165.jpg?t=1631277201",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/457260/296753/f2641b64e101e995ee3c97490011a87127b17f77/1751288104/dash_av1.mpd?t=1631277201",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296753/f2641b64e101e995ee3c97490011a87127b17f77/1751288104/dash_h264.mpd?t=1631277201",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296753/f2641b64e101e995ee3c97490011a87127b17f77/1751288104/hls_264_master.m3u8?t=1631277201",
+            "highlight": true
+        },
+        {
+            "id": 256791839,
+            "name": "Quasimodo",
+            "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256791839/movie.293x165.jpg?t=1631277209",
+            "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/457260/296759/2873cae513c09548c3fed6ecb4a3a787da0600d5/1751288105/dash_av1.mpd?t=1631277209",
+            "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296759/2873cae513c09548c3fed6ecb4a3a787da0600d5/1751288105/dash_h264.mpd?t=1631277209",
+            "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/457260/296759/2873cae513c09548c3fed6ecb4a3a787da0600d5/1751288105/hls_264_master.m3u8?t=1631277209",
+            "highlight": true
+        }
+    ],
+    "achievements": {
+        "total": 34,
+        "highlighted": [
+            {
+                "name": "Coleccionista de Almas",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/3e7595124d79608b9abd3e1dd50d77520523b24e.jpg"
+            },
+            {
+                "name": "Una gran variedad de epítetos",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/b52f18a9816b3f38df3bdbd7953c307f98fd692d.jpg"
+            },
+            {
+                "name": "Título: Locura",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/387dafeaef6774557620f94a40451c270adb38df.jpg"
+            },
+            {
+                "name": "Favorecido por el Destino",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/c0d77c6c53469b3720271fbec8b8bf807110b176.jpg"
+            },
+            {
+                "name": "El nombre de los Malditos",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/94dc7314d2ca85bf389dc94d48eaad3f1715223d.jpg"
+            },
+            {
+                "name": "Afinando el Trato",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/ccb1f12ae90523f80bc3d9c9274a08fb1a0aba63.jpg"
+            },
+            {
+                "name": "La Elección del Doble",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/f37903ea614211618af70d7a2e971d692aa281b7.jpg"
+            },
+            {
+                "name": "Adepto",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/7a2f395778abe2efe3267487c03221767719cebd.jpg"
+            },
+            {
+                "name": "No hay descanso para los malvados",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/c207101c36c7b3f9ae24887a0c68084ef3ec3ffc.jpg"
+            },
+            {
+                "name": "La recompensa de la fuerza",
+                "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457260/f32a639394f03ba4ae659c971ff02d2070a62dcb.jpg"
+            }
+        ]
+    },
+    "release_date": {
+        "coming_soon": false,
+        "date": "23 MAR 2023"
+    },
+    "support_info": {
+        "url": "https://www.eastasiasoft.com/contact",
+        "email": ""
+    },
+    "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/457260?t=1720816182",
+    "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457260/page_bg_raw.jpg?t=1720816182",
+    "content_descriptors": {
+        "ids": [],
+        "notes": null
+    },
+    "ratings": {
+        "dejus": {
+            "rating": "12",
+            "descriptors": "Violência",
+            "use_age_gate": "true",
+            "required_age": "12"
+        },
+        "steam_germany": {
+            "rating_generated": "1",
+            "rating": "16",
+            "required_age": "16",
+            "banned": "0",
+            "use_age_gate": "0",
+            "descriptors": "Gewalt"
+        }
+    }
+}
