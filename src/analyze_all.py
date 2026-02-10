@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-from utils import setup_logger, normalize_currency_to_usd, extract_year
+from utils import setup_logger, normalize_currency_to_usd, extract_year, get_location
 
 logger = setup_logger("analysis")
 
@@ -36,6 +36,9 @@ def load_and_enrich_data():
     df['primary_genre'] = df['genres'].apply(
         lambda x: x.split(',')[0].strip() if pd.notna(x) and x != '' else 'Unknown'
     )
+
+    # 6. Ubicación del Desarrollador
+    df['dev_location'] = df['developers'].apply(get_location)
 
     return df
 
