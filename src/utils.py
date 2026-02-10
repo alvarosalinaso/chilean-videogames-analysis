@@ -2,6 +2,7 @@ import re
 import logging
 from pathlib import Path
 from datetime import datetime
+import pandas as pd
 
 # Configuración de Logging
 def setup_logger(name=__name__):
@@ -90,3 +91,44 @@ def normalize_currency_to_usd(price, currency):
         return round(price * 1.1, 2) # Aprox
     
     return float(price) # Asumir USD por defecto si desconocido
+
+# Mapeo manual de Estudios -> Ciudad
+STUDIO_LOCATIONS = {
+    "ACE Team": "Santiago",
+    "AOne Games": "Santiago",
+    "IguanaBee": "Santiago",
+    "Dual Effect": "Santiago",
+    "Octeto Studios": "Santiago",
+    "Abstract Digital": "Santiago",
+    "Time Hunters": "Santiago",
+    "Nidal Games": "Santiago",
+    "Gamaga": "Santiago",
+    "Behavior Santiago": "Santiago",
+    "Wanako Games": "Santiago",
+    "Playmestudio": "Valparaíso",
+    "Giant Monkey Robot": "Santiago",
+    "Bitplay": "Santiago",
+    "Glitchy Pixel": "Santiago",
+    "Invader Studios": "Santiago",
+    "Movistar GameClub": "Santiago",
+    "Micropsia Games": "Santiago",
+    "Niebla Games": "Valparaíso",
+    "Unknown": "Unknown"
+}
+
+def get_location(developers):
+    """
+    Asigna una ciudad basada en el nombre del desarrollador.
+    """
+    if not developers or pd.isna(developers):
+        return "Chile (General)"
+    
+    # Buscar si alguno de los devs está en nuestra lista
+    for dev in str(developers).split(','):
+        dev = dev.strip()
+        # Búsqueda parcial
+        for studio, city in STUDIO_LOCATIONS.items():
+            if studio.lower() in dev.lower():
+                return city
+    
+    return "Chile (General)"
