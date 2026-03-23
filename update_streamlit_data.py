@@ -4,6 +4,9 @@ import numpy as np
 def map_real_data():
     df_real = pd.read_csv("data/export/chilean_games_final.csv")
     
+    # Filtrar anomalías (Scraping errors)
+    df_real = df_real[~df_real['name'].str.contains("Microsoft Flight Simulator", na=False)]
+    
     df_stm = pd.DataFrame()
     df_stm['title'] = df_real['name']
     df_stm['genre'] = df_real['primary_genre']
