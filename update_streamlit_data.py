@@ -4,8 +4,10 @@ import numpy as np
 def map_real_data():
     df_real = pd.read_csv("data/export/chilean_games_final.csv")
     
-    # Filtrar anomalías (Scraping errors)
-    df_real = df_real[~df_real['name'].str.contains("Microsoft Flight Simulator", na=False)]
+    # Filtrar anomalías detectadas del scraping inicial original
+    anomalias = ["Microsoft Flight Simulator", "Door Kickers 2", "MENACE", "The Rise of the Golden Idol"]
+    mask = df_real['name'].str.contains('|'.join(anomalias), na=False)
+    df_real = df_real[~mask]
     
     df_stm = pd.DataFrame()
     df_stm['title'] = df_real['name']

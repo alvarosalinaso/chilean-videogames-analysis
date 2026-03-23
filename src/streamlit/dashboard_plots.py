@@ -66,8 +66,16 @@ def graficar_cuadrante_oportunidad(df_f):
     fig.add_hline(y=df_f["revenue_est"].median(), line_dash="dash", line_color="#8b949e", opacity=0.5)
     fig.add_vline(x=0, line_dash="dash", line_color="#8b949e", opacity=0.5)
     
-    fig.add_annotation(x=0.5, y=df_f["revenue_est"].max()*0.9, text="⭐ Alta Rentabilidad / Aclamado", showarrow=False, font=dict(color="#2ea043"))
+    fig.add_annotation(x=0.5, y=df_f["revenue_est"].max()*0.8, text="⭐ Alta Rentabilidad / Aclamado", showarrow=False, font=dict(color="#2ea043"))
     fig.add_annotation(x=-0.5, y=df_f["revenue_est"].min(), text="⚠️ Nicho Crítico / Bajas Ventas", showarrow=False, font=dict(color="#da3633"))
     
-    fig.update_layout(**PLOTLY_THEME, height=500)
+    # Achicar el margen visual (enfocar sobre las verdaderas métricas indies) y formatear el eje Y
+    max_rev = df_f["revenue_est"].max()
+    upper_bound = max_rev * 1.05 if max_rev > 0 else 1000000
+    
+    fig.update_layout(
+        **PLOTLY_THEME, 
+        height=550,
+        yaxis=dict(range=[-10000, upper_bound], tickformat="$,.0f", title="Revenue Est. (USD)")
+    )
     return fig
