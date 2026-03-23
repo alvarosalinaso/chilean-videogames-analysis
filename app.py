@@ -69,7 +69,8 @@ with st.sidebar:
     sel_f2p = st.radio("Modelo de Negocio", ["Ambos", "Solo Premium", "Solo Free-to-Play"])
     
     st.markdown("---")
-    st.markdown("<div style='font-size:0.8rem; color:#8b949e;'>Usa estos filtros para recalcular instantáneamente todas las métricas y gráficos del informe.</div>", unsafe_allow_html=True)
+    st.markdown("**🔍 Ajustes Ópticos (Latam Context)**")
+    usar_log = st.toggle("Ver Ingresos en Escala Logarítmica", value=True, help="Recomendado para Chile: Descomprime el gráfico para ver el ecosistema indie real, ya que mega-éxitos como 'Tormented Souls' aplastan visualmente a los demás.")
 
 df_f = df.copy()
 if sel_genre != "Todos":
@@ -88,9 +89,9 @@ c1, c2, c3, c4 = st.columns(4)
 c1.metric("Proyectos Analizados", f"{len(df_f)}", "Del ecosistema chileno")
 c2.metric("Gross Revenue Est.", f"${df_f['revenue_est'].sum():,.0f}", f"{(df_f['revenue_est'].sum() / (kpis['total_revenue'] or 1)) * 100:.1f}% de la torta", delta_color="normal" if len(df_f)==len(df) else "off")
 c3.metric("Score Promedio (Metacritic)", f"{df_f['score'].mean():.1f}/100")
-c4.metric("Sentimiento del Jugador", f"{df_f['sentiment'].mean():.2f}", "Rango [-1 a +1]")
+c4.metric("Aceptación de la Comunidad", f"{df_f['sentiment'].mean():.2f}", "Rango [-1 a +1]")
 
-st.info("💡 **Metodología de los datos:** Las ventas (Revenue) y las copias se estiman usando el modelo *Boxleiter* a partir de reseñas públicas. El Índice de Sentimiento (-1 a +1) fue extraído procesando el texto de miles de reseñas con Natural Language Processing (NLP).")
+st.info("💡 **Metodología de los datos:** Las ventas (Revenue) y las copias se estiman usando el modelo *Boxleiter* a partir de reseñas públicas. El **Índice de Aceptación** (-1 a +1) fue extraído procesando el texto de reseñas con Inteligencia Artificial (NLP) para determinar si la comunidad realmente aprueba el juego o si hubo publicidad engañosa.")
 
 # ─────────────────────────────── SECCIÓN 1 ───────────────────────────────
 st.markdown("<div class='section-header'>1. Volumen y Estacionalidad 📅</div>", unsafe_allow_html=True)
@@ -116,11 +117,11 @@ with cc2:
 st.markdown("<div class='section-header'>3. Retorno Comercial vs Calidad 🎯</div>", unsafe_allow_html=True)
 st.markdown("<div class='section-text'>El gráfico definitivo de la inteligencia comercial. ¿Un juego extraordinario siempre es rentable? ¿Un juego mediocre está condenado al fracaso? Aquí cruzamos el diagnóstico financiero contra la satisfacción validada por el mercado. <b>Pasa el cursor sobre las esferas para explorar los datos subyacentes.</b></div>", unsafe_allow_html=True)
 
-st.plotly_chart(graficar_cuadrante_oportunidad(df_f), use_container_width=True)
+st.plotly_chart(graficar_cuadrante_oportunidad(df_f, usar_log), use_container_width=True)
 
 sc1, sc2, sc3 = st.columns(3)
 with sc1:
-    st.markdown("🟢 **Arriba a la Derecha (La Meca):**<br>Juegos muy buenos que vendieron muchísimo (Ej. *Tormented Souls*, *Rock of Ages*). Encontraron su nicho y lo conquistaron.", unsafe_allow_html=True)
+    st.markdown("🟢 **Arriba a la Derecha (La Meca):**<br>Juegos muy buenos que vendieron bien (Ej. *Tormented Souls*, *Rock of Ages*). Al usar la escala Logarítmica, podrás notar cómo decenas de estudios subsisten en la franja de los $50k a $200k USD, un hito para un equipo de 2-3 personas en Latinoamérica.", unsafe_allow_html=True)
 with sc2:
     st.markdown("🟡 **Abajo a la Derecha (Joyas Ocultas):**<br>Excelente recepción de jugadores, pero pésimas ventas financieras. Suele deberse a falta de presupuesto de Marketing.", unsafe_allow_html=True)
 with sc3:

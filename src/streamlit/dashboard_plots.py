@@ -55,7 +55,7 @@ def graficar_sentiment_box(df_f, is_platform=False):
     fig.update_layout(**PLOTLY_THEME, showlegend=False)
     return fig
 
-def graficar_cuadrante_oportunidad(df_f):
+def graficar_cuadrante_oportunidad(df_f, is_log=False):
     df_plot = df_f.copy()
     # Hotfix preventivo: px.scatter 'size' truena (ValueError) si hay NaNs
     df_plot["score"] = df_plot["score"].fillna(df_plot["score"].median())
@@ -63,11 +63,15 @@ def graficar_cuadrante_oportunidad(df_f):
     fig = px.scatter(df_plot, x="sentiment", y="revenue_est",
                      size="score", color="genre", hover_name="title",
                      hover_data=["platforms", "price", "units_sold"],
-                     title="Mapa de Oportunidad de Mercado",
-                     labels={"sentiment": "Sentimiento (Calidad/Recepción)", "revenue_est": "Revenue Estimado (USD)"},
+                     log_y=is_log,
+                     title="Mapa de Oportunidad Financiera (Contexto INDIE)",
+                     labels={"sentiment": "Índice de Aceptación Comunitaria (-1 a +1)", "revenue_est": "Revenue Gross (USD)"},
                      color_discrete_sequence=px.colors.qualitative.Bold)
     
-    fig.add_hline(y=df_f["revenue_est"].median(), line_dash="dash", line_color="#8b949e", opacity=0.5)
+    # Línea base de supervivencia independiente LATAM (~$50,000 USD gross)
+    survival_threshold = 50000 
+    fig.add_hline(y=survival_threshold, line_dash="dash", line_color="#8b949e", opacity=0.8)
+    fig.add_annotation(x=-0.8, y=survival_threshold * (1.1 if is_log else 1.05), text="Supervivencia Estudio Indie ($50k)", showarrow=False, font=dict(color="#8b949e", size=10))
     fig.add_vline(x=0, line_dash="dash", line_color="#8b949e", opacity=0.5)
     
     fig.add_annotation(x=0.5, y=df_f["revenue_est"].max()*0.8, text="⭐ Alta Rentabilidad / Aclamado", showarrow=False, font=dict(color="#2ea043"))
@@ -75,11 +79,14 @@ def graficar_cuadrante_oportunidad(df_f):
     
     # Achicar el margen visual (enfocar sobre las verdaderas métricas indies) y formatear el eje Y
     max_rev = df_f["revenue_est"].max()
-    upper_bound = max_rev * 1.05 if max_rev > 0 else 1000000
+    upper_bound = max_rev * 1.5 if max_rev > 0 else 1000000
     
     fig.update_layout(
         **PLOTLY_THEME, 
         height=550,
-        yaxis=dict(range=[-10000, upper_bound], tickformat="$,.0f", title="Revenue Est. (USD)")
+        yaxis=dict(tickformat="$,.0f", title="Revenue Est. (USD)"),
+        xaxis=dict(range=[-1.1, 1.1])
     )
+    if not is_log:
+        fig.update_layout(yaxis=dict(range=[-10000, upper_bound]))
     return fig
