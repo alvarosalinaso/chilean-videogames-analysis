@@ -1,251 +1,155 @@
-title,genre,platforms,is_f2p,price,units_sold,revenue_est,score,sentiment,release_date
-Juego 1,Terror,Móvil,False,14.98,928,9731.01,79.7,0.81,2018-01-15
-Juego 2,Acción,"PC, Consola, Móvil",False,12.05,828,6984.18,93.7,0.51,2018-02-18
-Juego 3,RPG,"PC, Consola",False,17.64,2102,25955.5,63.0,0.01,2019-06-03
-Juego 4,Aventura,"PC, Consola",False,13.96,110,1074.92,44.1,-0.02,2019-08-27
-Juego 5,Terror,"PC, Consola, Móvil",False,8.94,1598,10000.28,56.4,-0.36,2022-11-17
-Juego 6,Terror,PC,False,18.85,836,11031.02,71.0,-0.37,2022-05-22
-Juego 7,Plataformas,PC,False,10.81,1252,9473.88,52.7,0.35,2019-05-04
-Juego 8,Acción,PC,False,10.59,772,5722.84,61.0,0.94,2019-05-10
-Juego 9,Estrategia,"PC, Consola, Móvil",False,19.92,308,4294.75,82.3,-0.29,2020-04-22
-Juego 10,Acción,Móvil,True,0.0,157,228.81,50.1,0.28,2020-01-03
-Juego 11,Aventura,"PC, Móvil",False,13.86,3159,30648.62,54.9,-0.43,2018-01-11
-Juego 12,Puzzles,"PC, Consola",False,6.54,574,2627.77,49.8,-0.15,2020-03-24
-Juego 13,Acción,"PC, Móvil",False,8.47,1288,7636.55,78.7,0.56,2021-09-01
-Juego 14,Aventura,PC,True,0.0,9251,2425.77,66.9,-0.05,2023-03-18
-Juego 15,Terror,PC,False,14.32,3535,35434.84,62.8,0.13,2022-09-05
-Juego 16,Puzzles,"PC, Móvil",True,0.0,495,664.34,82.2,0.74,2020-06-26
-Juego 17,Aventura,PC,False,8.84,1001,6194.19,84.6,0.52,2019-11-08
-Juego 18,Puzzles,PC,False,7.98,1645,9188.97,100.0,-0.17,2022-07-20
-Juego 19,Simulación,"PC, Consola",False,11.4,1019,8131.62,48.7,0.62,2019-03-26
-Juego 20,Acción,"PC, Consola",False,16.6,1121,13026.02,62.0,-0.4,2018-03-24
-Juego 21,Simulación,Móvil,False,9.83,2677,18420.44,66.8,0.03,2021-11-28
-Juego 22,Terror,"PC, Consola",False,15.0,4402,46221.0,73.9,0.33,2024-12-04
-Juego 23,RPG,"PC, Móvil",False,26.85,1353,25429.64,65.4,0.47,2024-08-08
-Juego 24,Aventura,"PC, Consola",False,11.96,705,5902.26,89.1,0.08,2021-06-10
-Juego 25,Plataformas,"PC, Consola",False,2.37,1660,2753.94,64.1,0.08,2023-04-13
-Juego 26,RPG,Móvil,True,0.0,2323,2518.66,73.2,-0.61,2018-05-12
-Juego 27,Acción,"PC, Consola, Móvil",False,14.02,1002,9833.63,41.2,0.19,2024-09-11
-Juego 28,Acción,PC,True,0.0,119953,36328.1,67.1,0.32,2020-03-19
-Juego 29,Simulación,Móvil,True,0.0,2948,3438.16,81.5,-0.26,2022-07-12
-Juego 30,Puzzles,Móvil,True,0.0,761,751.06,91.0,-0.36,2022-02-13
-Juego 31,Simulación,"PC, Consola, Móvil",False,9.47,1202,7968.06,62.6,0.57,2018-12-14
-Juego 32,Terror,PC,False,19.82,3128,43397.87,70.1,0.05,2024-09-22
-Juego 33,Puzzles,"PC, Consola",False,6.29,252,1109.56,78.0,-0.17,2018-11-11
-Juego 34,Plataformas,"PC, Consola, Móvil",False,15.47,904,9789.42,64.2,-0.15,2024-02-24
-Juego 35,Estrategia,Móvil,True,0.0,6864,6021.66,85.7,0.41,2023-07-11
-Juego 36,Puzzles,"PC, Móvil",False,1.78,1368,1704.53,73.9,0.51,2022-03-07
-Juego 37,Simulación,"PC, Móvil",False,8.04,224,1260.67,77.8,0.32,2021-11-24
-Juego 38,Puzzles,"PC, Consola",False,5.49,1661,6383.22,59.8,0.29,2020-07-18
-Juego 39,Simulación,PC,False,14.16,465,4609.08,98.0,0.39,2019-07-26
-Juego 40,Puzzles,"PC, Consola, Móvil",False,2.61,2411,4404.9,55.4,0.51,2020-08-15
-Juego 41,Terror,"PC, Móvil",False,17.62,409,5044.61,84.5,0.37,2022-08-26
-Juego 42,Acción,"PC, Consola",False,16.28,10680,121709.28,66.3,-0.1,2020-09-22
-Juego 43,Aventura,"PC, Consola, Móvil",False,9.43,412,2719.61,68.8,0.34,2024-04-22
-Juego 44,RPG,Móvil,True,0.0,10309,9357.12,70.2,0.78,2019-03-01
-Juego 45,Acción,PC,False,7.36,1052,5419.9,55.6,0.59,2021-10-28
-Juego 46,Aventura,PC,False,13.16,930,8567.16,68.1,0.5,2023-10-07
-Juego 47,Acción,"PC, Móvil",False,11.18,2786,21803.24,85.7,0.06,2019-03-21
-Juego 48,RPG,PC,False,15.36,592,6365.18,80.7,0.24,2024-02-25
-Juego 49,Terror,"PC, Móvil",False,15.51,9095,98744.42,73.5,-0.12,2024-12-17
-Juego 50,RPG,"PC, Móvil",True,0.0,3219,3487.71,83.1,0.63,2019-02-15
-Juego 51,RPG,"PC, Consola",False,13.1,355,3255.35,77.7,0.41,2023-09-18
-Juego 52,Aventura,"PC, Consola, Móvil",False,15.05,111667,1176411.84,78.6,0.65,2024-08-20
-Juego 53,RPG,"PC, Consola, Móvil",False,24.76,2396,41527.47,65.3,0.5,2022-08-06
-Juego 54,Plataformas,"PC, Móvil",False,9.9,825,5717.25,62.7,0.23,2024-04-27
-Juego 55,Terror,Móvil,False,22.25,116,1806.7,80.3,-0.45,2022-08-21
-Juego 56,Puzzles,"PC, Consola",False,4.05,4051,11484.58,71.0,-0.23,2018-12-10
-Juego 57,Aventura,"PC, Consola",False,10.13,2478,17571.5,59.0,0.29,2020-09-03
-Juego 58,Terror,"PC, Consola",False,13.17,501,4618.72,100.0,0.45,2021-12-05
-Juego 59,Aventura,"PC, Consola",True,0.0,3942,2816.8,60.1,0.54,2021-06-18
-Juego 60,Estrategia,"PC, Móvil",False,16.13,8051,90903.84,65.0,0.07,2019-07-13
-Juego 61,Plataformas,"PC, Consola, Móvil",False,14.26,158,1577.16,84.2,0.71,2018-10-13
-Juego 62,Terror,"PC, Móvil",True,0.0,35490,15857.76,50.1,0.94,2020-05-25
-Juego 63,Puzzles,"PC, Móvil",False,7.52,469,2468.82,76.7,0.51,2024-07-18
-Juego 64,Terror,"PC, Consola, Móvil",False,9.28,1021,6632.42,21.4,-0.21,2019-08-08
-Juego 65,Simulación,Móvil,True,0.0,458,453.02,94.5,-0.37,2018-07-11
-Juego 66,Simulación,"PC, Móvil",False,12.48,627,5477.47,70.9,1.0,2024-08-05
-Juego 67,Aventura,"PC, Consola, Móvil",False,14.61,3267,33411.61,67.0,0.22,2021-10-19
-Juego 68,Acción,PC,True,0.0,3601,3603.17,41.5,0.71,2021-03-28
-Juego 69,RPG,"PC, Móvil",False,30.66,105,2253.51,67.7,0.44,2020-07-11
-Juego 70,RPG,"PC, Consola",False,21.39,519,7770.99,66.9,0.0,2020-07-09
-Juego 71,Aventura,"PC, Móvil",False,10.63,3039,22613.2,75.4,-0.08,2018-08-01
-Juego 72,Plataformas,"PC, Consola, Móvil",True,0.0,4726,2338.65,82.2,0.45,2020-04-21
-Juego 73,Plataformas,PC,False,15.2,467,4968.88,43.2,-0.29,2023-01-25
-Juego 74,RPG,PC,False,16.64,4421,51495.81,93.3,0.02,2019-01-20
-Juego 75,Terror,"PC, Consola",False,11.36,1501,11935.95,70.2,0.57,2021-11-04
-Juego 76,Estrategia,"PC, Consola, Móvil",False,17.37,3425,41644.57,66.4,0.54,2021-12-09
-Juego 77,Plataformas,Móvil,True,0.0,1188,864.65,98.7,0.63,2022-12-23
-Juego 78,Estrategia,PC,False,14.96,255,2670.36,87.4,0.52,2019-05-04
-Juego 79,RPG,"PC, Consola, Móvil",True,0.0,7650,1381.45,69.8,-0.16,2020-10-22
-Juego 80,Aventura,"PC, Móvil",False,4.63,9177,29742.66,65.4,0.52,2023-04-03
-Juego 81,Puzzles,"PC, Consola, Móvil",False,6.22,5594,24356.28,63.5,0.28,2023-04-04
-Juego 82,RPG,Móvil,False,22.79,3124,49837.17,87.3,0.01,2022-02-26
-Juego 83,Puzzles,"PC, Consola, Móvil",False,3.66,5609,14370.26,39.4,0.83,2020-09-14
-Juego 84,Plataformas,Móvil,True,0.0,2960,788.38,59.8,0.18,2023-06-01
-Juego 85,Estrategia,"PC, Móvil",False,21.6,406,6138.72,77.8,0.81,2018-07-12
-Juego 86,Aventura,"PC, Móvil",False,12.55,1775,15593.37,80.4,0.04,2021-03-24
-Juego 87,Plataformas,"PC, Consola, Móvil",False,13.89,1113,10821.7,71.5,-0.11,2020-10-26
-Juego 88,Puzzles,"PC, Consola, Móvil",False,5.04,1993,7031.3,91.8,0.58,2021-07-27
-Juego 89,Acción,"PC, Consola, Móvil",False,21.6,436,6592.32,83.1,0.27,2024-04-27
-Juego 90,Acción,PC,False,21.75,415,6318.38,57.4,-0.04,2021-04-25
-Juego 91,Acción,"PC, Móvil",False,4.49,583,1832.37,58.6,0.26,2023-07-11
-Juego 92,Terror,PC,False,14.36,10419,104731.79,84.3,-0.03,2020-03-16
-Juego 93,Simulación,"PC, Consola",False,9.4,1978,13015.24,50.2,0.93,2020-06-09
-Juego 94,Estrategia,"PC, Consola, Móvil",False,25.89,624,11308.75,44.3,0.74,2020-09-01
-Juego 95,Acción,"PC, Consola, Móvil",False,12.53,4843,42477.95,46.1,-0.04,2018-04-24
-Juego 96,Estrategia,"PC, Móvil",False,20.02,1160,16256.24,63.2,0.45,2024-04-23
-Juego 97,Plataformas,"PC, Móvil",False,8.72,924,5640.1,71.8,0.41,2021-08-26
-Juego 98,Puzzles,PC,True,0.0,551,142.7,47.0,0.71,2019-07-23
-Juego 99,Plataformas,"PC, Consola",False,13.96,12795,125032.74,71.7,0.82,2022-06-16
-Juego 100,Simulación,"PC, Consola, Móvil",False,13.67,4376,41873.94,85.4,0.27,2021-12-18
-Juego 101,Acción,Móvil,True,0.0,1990,792.32,92.3,0.55,2021-05-10
-Juego 102,Terror,Móvil,True,0.0,213,290.92,52.3,-0.62,2023-04-11
-Juego 103,Terror,PC,False,13.79,81,781.89,62.7,0.73,2024-12-06
-Juego 104,Puzzles,"PC, Consola",False,6.95,1630,7929.95,69.8,0.52,2021-05-24
-Juego 105,RPG,"PC, Consola, Móvil",False,18.58,148,1924.89,69.9,0.36,2022-10-10
-Juego 106,Terror,PC,False,17.48,194,2373.78,68.2,0.17,2020-04-12
-Juego 107,Acción,"PC, Consola",False,8.58,1968,11819.81,81.2,0.08,2023-09-05
-Juego 108,Estrategia,Móvil,True,0.0,1846,290.22,63.3,0.01,2018-09-10
-Juego 109,Estrategia,"PC, Consola",False,17.34,423,5134.37,68.4,-0.21,2024-08-04
-Juego 110,Plataformas,PC,False,10.78,260,1961.96,99.5,0.21,2021-08-15
-Juego 111,Plataformas,Móvil,True,0.0,4109,5048.65,68.3,0.11,2018-05-28
-Juego 112,RPG,"PC, Móvil",True,0.0,7109,5533.16,61.8,-0.29,2018-07-16
-Juego 113,Puzzles,PC,False,1.96,5654,7757.29,94.7,0.1,2023-01-05
-Juego 114,Aventura,"PC, Consola",False,15.3,1593,17061.03,100.0,0.65,2020-02-08
-Juego 115,Plataformas,PC,False,12.48,348,3040.13,45.9,0.28,2021-10-20
-Juego 116,Simulación,"PC, Consola, Móvil",False,9.96,198,1380.46,60.3,-0.23,2022-07-15
-Juego 117,RPG,"PC, Móvil",False,28.43,3158,62847.36,69.9,0.79,2022-07-10
-Juego 118,Terror,"PC, Consola, Móvil",False,13.3,390,3630.9,92.8,0.42,2022-12-04
-Juego 119,Puzzles,"PC, Consola",False,2.92,872,1782.37,56.9,-0.35,2020-11-03
-Juego 120,Aventura,"PC, Consola",False,16.69,10843,126678.77,49.0,0.43,2022-02-06
-Juego 121,Simulación,PC,False,10.39,611,4443.8,61.1,-0.15,2023-10-16
-Juego 122,Puzzles,Móvil,True,0.0,857,220.12,74.1,0.18,2020-12-10
-Juego 123,Simulación,"PC, Móvil",True,0.0,2624,1209.83,73.6,0.31,2019-05-26
-Juego 124,Puzzles,"PC, Consola, Móvil",False,5.99,339,1421.43,71.5,0.5,2019-07-04
-Juego 125,Acción,"PC, Consola, Móvil",False,6.31,2104,9293.37,60.1,0.43,2019-05-27
-Juego 126,RPG,"PC, Consola",True,0.0,198,51.63,45.6,0.22,2019-05-20
-Juego 127,Acción,"PC, Consola, Móvil",False,6.89,2856,13774.49,52.9,0.31,2021-02-15
-Juego 128,Plataformas,Móvil,True,0.0,265,76.37,67.8,0.04,2020-09-18
-Juego 129,Plataformas,"PC, Móvil",False,17.02,548,6528.87,82.5,-0.25,2022-01-14
-Juego 130,Simulación,Móvil,True,0.0,25909,15245.26,32.9,-0.12,2018-02-08
-Juego 131,RPG,"PC, Consola, Móvil",False,20.84,1220,17797.36,77.3,0.83,2018-11-27
-Juego 132,Acción,Móvil,True,0.0,3535,1163.43,61.1,0.44,2024-03-16
-Juego 133,Plataformas,"PC, Consola, Móvil",False,14.57,661,6741.54,74.3,1.0,2020-03-19
-Juego 134,Plataformas,"PC, Móvil",False,16.47,741,8542.99,88.0,0.04,2021-02-16
-Juego 135,Acción,Móvil,True,0.0,657,753.35,41.9,0.06,2020-11-04
-Juego 136,Estrategia,"PC, Consola",False,12.09,1117,9453.17,66.4,0.53,2023-08-10
-Juego 137,Acción,"PC, Móvil",False,16.56,1229,14246.57,56.7,0.31,2022-01-15
-Juego 138,Simulación,PC,False,13.65,2170,20734.35,56.9,0.04,2020-02-25
-Juego 139,Simulación,"PC, Móvil",False,15.03,4899,51542.38,84.5,0.23,2024-01-22
-Juego 140,Aventura,"PC, Consola, Móvil",False,11.04,1780,13755.84,53.6,-0.13,2018-04-17
-Juego 141,Estrategia,Móvil,True,0.0,5448,6808.69,64.8,0.53,2021-11-15
-Juego 142,Puzzles,PC,False,4.45,338,1052.87,63.3,0.35,2022-03-10
-Juego 143,RPG,"PC, Móvil",False,23.77,362,6023.32,83.0,0.74,2021-02-01
-Juego 144,Simulación,"PC, Consola, Móvil",False,14.64,10427,106855.9,58.4,-0.3,2023-03-10
-Juego 145,Estrategia,"PC, Consola, Móvil",True,0.0,28115,8847.56,79.8,0.18,2021-02-08
-Juego 146,Aventura,PC,False,13.71,26167,251124.7,67.0,0.22,2018-11-27
-Juego 147,Puzzles,"PC, Consola",False,8.55,2226,13322.61,73.3,0.38,2023-05-17
-Juego 148,Terror,Móvil,True,0.0,539,609.62,49.9,0.95,2021-08-08
-Juego 149,Aventura,"PC, Móvil",False,9.03,942,5954.38,70.8,0.64,2021-04-20
-Juego 150,RPG,"PC, Consola, Móvil",False,11.53,6873,55471.98,67.6,0.03,2019-02-09
-Juego 151,Plataformas,"PC, Móvil",False,8.94,150,938.7,82.3,0.23,2024-09-09
-Juego 152,Terror,PC,False,7.83,231,1266.11,65.0,0.87,2020-10-19
-Juego 153,Estrategia,"PC, Móvil",False,18.69,180,2354.94,66.3,0.09,2021-09-16
-Juego 154,Puzzles,Móvil,True,0.0,2747,2507.53,66.5,0.48,2024-09-13
-Juego 155,Acción,"PC, Móvil",False,8.92,2038,12725.27,58.0,0.13,2024-04-23
-Juego 156,Aventura,"PC, Consola",False,12.99,1325,12048.22,59.8,0.26,2019-07-02
-Juego 157,RPG,Móvil,False,16.08,2463,27723.53,68.3,0.26,2023-07-13
-Juego 158,Puzzles,"PC, Consola",False,10.13,290,2056.39,90.8,-0.86,2018-03-17
-Juego 159,Aventura,"PC, Consola, Móvil",False,4.68,247,809.17,52.3,0.28,2018-08-04
-Juego 160,Aventura,"PC, Consola, Móvil",False,14.15,807,7993.34,67.8,0.41,2018-12-05
-Juego 161,Acción,"PC, Móvil",False,16.32,223,2547.55,64.6,0.17,2019-02-16
-Juego 162,Terror,Móvil,True,0.0,935,384.06,68.7,0.21,2023-07-21
-Juego 163,Aventura,PC,False,15.88,282,3134.71,62.1,0.4,2024-11-28
-Juego 164,Plataformas,"PC, Consola, Móvil",False,8.1,2580,14628.6,66.4,0.05,2020-11-23
-Juego 165,Simulación,"PC, Móvil",False,15.83,1868,20699.31,64.6,0.66,2018-10-03
-Juego 166,Acción,"PC, Consola",False,8.67,2296,13934.42,78.9,0.08,2020-04-24
-Juego 167,Aventura,PC,False,14.29,244,2440.73,83.9,0.13,2018-11-23
-Juego 168,Terror,PC,False,10.9,3861,29459.43,59.4,-0.36,2023-05-01
-Juego 169,Aventura,PC,False,6.76,2269,10736.91,50.8,0.9,2018-05-12
-Juego 170,Aventura,Móvil,True,0.0,37975,44394.6,73.2,0.16,2019-09-14
-Juego 171,Plataformas,"PC, Consola, Móvil",False,16.88,1056,12477.7,65.0,0.74,2019-03-06
-Juego 172,Puzzles,PC,False,9.3,2457,15995.07,60.7,0.03,2021-10-22
-Juego 173,Estrategia,"PC, Consola",False,13.55,1237,11732.95,45.6,0.42,2022-03-08
-Juego 174,Simulación,"PC, Móvil",False,21.01,2594,38149.96,63.0,0.41,2021-05-22
-Juego 175,Simulación,PC,False,19.47,7219,98387.75,54.9,0.4,2021-05-22
-Juego 176,Aventura,"PC, Consola, Móvil",False,12.36,2886,24969.67,75.8,-0.75,2021-06-19
-Juego 177,Acción,Móvil,True,0.0,4015,2589.73,48.5,0.43,2021-12-09
-Juego 178,Estrategia,"PC, Móvil",False,15.37,216,2323.94,55.4,0.62,2019-07-28
-Juego 179,Estrategia,"PC, Móvil",True,0.0,154596,174013.4,77.4,0.27,2021-10-12
-Juego 180,Estrategia,"PC, Consola, Móvil",False,23.03,177,2853.42,69.9,-0.06,2023-05-01
-Juego 181,Terror,"PC, Móvil",False,6.23,3585,15634.19,64.7,0.3,2022-11-25
-Juego 182,Terror,PC,False,13.71,733,7034.6,99.6,0.18,2023-08-27
-Juego 183,Plataformas,Móvil,False,6.76,678,3208.3,77.5,0.41,2019-10-26
-Juego 184,Acción,Móvil,True,0.0,12018,2742.69,43.6,0.66,2019-10-09
-Juego 185,Estrategia,"PC, Consola",False,19.62,2309,31711.81,72.7,-0.33,2023-11-02
-Juego 186,RPG,Móvil,False,21.89,2281,34951.76,78.4,0.63,2018-10-12
-Juego 187,Simulación,"PC, Consola",True,0.0,5935,2431.53,68.9,-0.46,2020-06-24
-Juego 188,Aventura,"PC, Móvil",False,16.26,1287,14648.63,76.7,0.11,2019-09-12
-Juego 189,Aventura,"PC, Consola, Móvil",False,17.51,995,12195.72,63.0,0.55,2020-03-09
-Juego 190,Estrategia,"PC, Móvil",False,12.96,2000,18144.0,54.4,0.71,2020-12-28
-Juego 191,Estrategia,Móvil,False,18.68,1289,16854.96,76.2,-0.57,2021-02-05
-Juego 192,RPG,"PC, Consola",False,16.74,3836,44950.25,83.0,0.31,2023-11-13
-Juego 193,Aventura,"PC, Consola, Móvil",False,7.59,2214,11762.98,80.7,0.22,2024-07-01
-Juego 194,Plataformas,Móvil,True,0.0,1069,1046.02,62.4,-0.79,2021-06-22
-Juego 195,Estrategia,Móvil,True,0.0,26372,11453.04,93.7,-0.01,2024-11-12
-Juego 196,Simulación,PC,False,11.79,417,3441.5,54.9,-0.22,2021-01-20
-Juego 197,Puzzles,"PC, Consola, Móvil",False,1.12,257,201.49,53.9,0.47,2022-04-21
-Juego 198,Acción,PC,False,12.33,407,3512.82,100.0,-0.07,2021-12-10
-Juego 199,Plataformas,"PC, Móvil",True,0.0,33916,11773.57,46.5,0.23,2018-01-10
-Juego 200,Simulación,"PC, Móvil",True,0.0,1295,234.37,60.4,0.68,2019-09-05
-Juego 201,Plataformas,"PC, Móvil",False,11.5,268,2157.4,81.9,0.62,2023-12-23
-Juego 202,Plataformas,"PC, Consola, Móvil",False,14.36,697,7006.24,59.4,-0.08,2023-12-05
-Juego 203,Simulación,"PC, Móvil",False,22.42,3379,53030.03,57.4,0.27,2024-08-20
-Juego 204,Aventura,"PC, Móvil",False,11.54,2209,17844.3,78.2,0.63,2020-01-23
-Juego 205,Estrategia,Móvil,True,0.0,3488,1617.23,43.8,-0.3,2021-04-28
-Juego 206,Aventura,Móvil,True,0.0,43995,56827.89,62.2,0.29,2023-06-18
-Juego 207,Estrategia,Móvil,True,0.0,808,474.24,88.1,0.34,2020-04-04
-Juego 208,Acción,"PC, Móvil",True,0.0,47574,57868.84,78.8,0.06,2019-11-21
-Juego 209,Estrategia,"PC, Consola, Móvil",False,24.65,1818,31369.59,76.1,0.49,2018-06-08
-Juego 210,Plataformas,"PC, Consola",False,15.0,3068,32214.0,85.1,0.81,2019-02-27
-Juego 211,RPG,"PC, Consola, Móvil",False,16.74,1952,22873.54,64.4,-0.13,2019-04-11
-Juego 212,Simulación,"PC, Consola",False,10.23,1986,14221.75,76.3,0.36,2022-01-09
-Juego 213,Estrategia,"PC, Consola",False,18.86,1101,14535.4,82.3,-0.4,2022-05-26
-Juego 214,Estrategia,"PC, Consola",True,0.0,3411,2919.75,81.3,-0.34,2024-01-05
-Juego 215,Plataformas,PC,False,11.76,1426,11738.83,73.7,0.83,2024-04-19
-Juego 216,Plataformas,Móvil,True,0.0,4530,1103.12,79.1,0.27,2020-01-05
-Juego 217,Puzzles,"PC, Móvil",False,5.34,1790,6691.02,67.2,0.04,2023-02-16
-Juego 218,Terror,"PC, Móvil",False,11.54,1352,10921.46,42.9,0.59,2022-10-04
-Juego 219,Aventura,"PC, Móvil",False,11.07,1278,9903.22,75.5,-0.01,2022-01-24
-Juego 220,RPG,"PC, Consola, Móvil",False,19.33,95,1285.44,81.0,0.63,2023-01-02
-Juego 221,Plataformas,"PC, Móvil",False,6.19,673,2916.11,51.6,0.13,2021-11-04
-Juego 222,Puzzles,"PC, Móvil",False,6.29,3585,15784.75,86.8,0.72,2021-02-03
-Juego 223,Puzzles,Móvil,True,0.0,533,529.77,68.3,0.45,2018-03-09
-Juego 224,Terror,"PC, Consola, Móvil",False,6.89,478,2305.39,69.3,0.3,2022-12-11
-Juego 225,Acción,"PC, Móvil",False,12.03,1673,14088.33,51.2,0.78,2022-05-15
-Juego 226,Puzzles,"PC, Consola, Móvil",False,4.83,4191,14169.77,75.1,0.38,2018-12-04
-Juego 227,Puzzles,"PC, Consola, Móvil",False,6.13,1876,8049.92,79.6,0.73,2019-07-15
-Juego 228,Simulación,"PC, Consola",False,13.78,2567,24761.28,68.7,0.78,2024-08-13
-Juego 229,Aventura,"PC, Móvil",False,10.28,9519,68498.72,69.4,-0.37,2020-07-11
-Juego 230,Plataformas,Móvil,True,0.0,1073,573.53,82.6,-0.06,2019-11-16
-Juego 231,Acción,PC,True,0.0,2869,2214.62,67.4,-0.08,2018-02-14
-Juego 232,Aventura,PC,False,6.65,2731,12712.81,81.8,0.37,2020-03-18
-Juego 233,Puzzles,PC,False,3.06,1035,2216.97,69.9,-0.26,2022-09-11
-Juego 234,Terror,PC,False,19.0,3142,41788.6,66.7,0.21,2024-11-25
-Juego 235,Aventura,"PC, Móvil",False,13.82,94,909.36,66.3,-0.07,2023-01-10
-Juego 236,Acción,"PC, Consola, Móvil",False,8.98,782,4915.65,97.0,0.46,2018-10-17
-Juego 237,Plataformas,"PC, Consola",False,10.71,2180,16343.46,91.0,0.57,2021-04-28
-Juego 238,Aventura,PC,False,13.23,504,4667.54,80.5,0.36,2022-06-04
-Juego 239,Puzzles,Móvil,True,0.0,7729,1639.79,85.7,-0.01,2024-07-28
-Juego 240,Puzzles,"PC, Consola, Móvil",False,5.22,3429,12529.57,67.0,0.73,2024-10-20
-Juego 241,Estrategia,"PC, Consola, Móvil",True,0.0,78728,14524.76,64.5,0.28,2023-12-09
-Juego 242,Puzzles,PC,False,3.69,613,1583.38,65.2,0.37,2023-05-11
-Juego 243,Puzzles,Móvil,True,0.0,1260,1105.66,69.6,1.0,2024-03-19
-Juego 244,Plataformas,"PC, Móvil",True,0.0,9227,9709.75,53.1,0.43,2023-11-01
-Juego 245,Aventura,PC,False,11.96,148,1239.06,76.0,0.46,2019-07-14
-Juego 246,Terror,"PC, Móvil",False,11.06,7250,56129.5,51.6,-0.39,2020-05-24
-Juego 247,Aventura,Móvil,False,13.89,3852,37453.0,95.3,0.02,2022-10-03
-Juego 248,Estrategia,PC,False,25.38,1047,18601.0,67.4,0.55,2024-10-02
-Juego 249,Terror,PC,False,15.6,165,1801.8,92.1,0.75,2023-07-16
-Juego 250,RPG,"PC, Consola, Móvil",False,16.86,1763,20806.93,77.4,0.3,2020-04-25
+title,genre,platforms,is_f2p,price,units_sold,revenue_est,score,sentiment,release_date,year
+3D Ultra™ Minigolf Adventures,Deportes,PC,False,3.3,4560,15048.0,77.5,0.32,2009-07-23,2009
+Bandits,Acción,PC,False,0.47,0,0.0,67.9,-0.09,2019-07-26,2019
+"Causa, Voices of the Dusk",Indie,PC,True,0.0,0,0.0,79.7,0.95,2021-05-26,2021
+Stoppa!,Indie,PC,False,1.37,0,0.0,92.8,0.39,2019-03-15,2019
+Hijos del Invierno,Acción,PC,True,0.0,0,0.0,66.5,-0.28,2021-06-15,2021
+The Signifier Director's Cut,Aventura,PC,False,11.05,9760,107848.0,66.5,0.46,2020-10-15,2020
+Rock of Ages 3: Make & Break,Acción,PC,False,6.74,46680,314623.2,72.0,-0.19,2020-07-21,2020
+El Culto,Aventura,PC,True,0.0,0,0.0,81.5,0.51,2019-11-06,2019
+Asterminer,Casual,PC,False,0.0,0,0.0,63.0,0.66,2021-06-15,2021
+Door Kickers 2: Task Force North,Acción,PC,False,13.68,457120,6253401.6,84.0,-0.13,2025-02-10,2025
+Microsoft Flight Simulator (2020) 40th Anniversary Edition,Simuladores,PC,False,47.36,2688520,127328307.2,91.0,0.59,2021-06-15,2020
+Virus Blast,Acción,PC,True,0.0,0,0.0,63.0,0.37,2020-06-05,2020
+Solitaire. Elemental Wizards,Casual,PC,False,2.53,0,0.0,73.6,0.53,2020-09-09,2020
+Daybreak Slam,Acción,PC,False,0.0,0,0.0,41.3,0.96,2021-06-15,2021
+Tormented Souls,Acción,PC,False,11.05,228280,2522494.0,75.0,0.1,2021-06-15,2021
+Urbek City Builder,Indie,PC,False,8.21,65000,533650.0,61.6,-0.1,2022-07-13,2022
+Clash: Artifacts of Chaos,Acción,PC,False,16.32,42320,690662.4,54.8,-0.16,2023-03-09,2023
+Scarleth,Acción,PC,False,8.74,0,0.0,74.7,-0.13,2025-05-20,2025
+What Lies in the Multiverse,Aventura,PC,False,8.74,19800,173052.0,56.4,0.17,2022-03-04,2022
+The Eightfold Path,Aventura,PC,False,10.52,0,0.0,48.8,0.34,2021-06-15,2024
+Dirty Wars: September 11,Acción,PC,False,3.16,0,0.0,92.0,0.31,2023-09-12,2023
+Gematombe,Casual,PC,False,8.74,0,0.0,66.6,0.53,2021-06-15,2023
+Operation8 Project,Acción,PC,True,0.0,0,0.0,71.0,0.21,2022-06-16,2022
+Hoverise Rebellion,Acción,PC,False,0.0,0,0.0,48.6,0.78,2021-06-15,2021
+Heroes of The Sacred Tree,Acción,PC,False,6.74,0,0.0,61.8,0.09,2022-03-10,2022
+Re:Agent,Acción,PC,False,0.0,0,0.0,71.7,1.0,2021-06-15,2021
+Genimas: Life reborn,Acción,PC,False,0.0,0,0.0,52.7,0.45,2021-06-15,2021
+Logic Circuit: Marble Puzzle,Casual,PC,False,4.74,0,0.0,75.6,-0.14,2021-06-15,2022
+Skull Island: Rise of Kong,Acción,PC,False,20.0,5480,109600.0,61.0,-0.23,2023-10-17,2023
+Jet & Sky,Acción,PC,False,0.0,0,0.0,65.6,0.39,2021-06-15,2021
+Zeno Clash 2,Acción,PC,False,6.74,28360,191146.4,61.0,0.11,2021-06-15,2013
+Zeno Clash,Acción,PC,False,4.21,83760,352629.6,77.0,0.49,2021-06-15,2009
+Rock of Ages,Acción,PC,False,4.63,128360,594306.7999999999,74.0,0.39,2011-09-07,2011
+Last Eclipse,Acción,PC,False,7.68,0,0.0,54.1,0.17,2025-03-25,2025
+Sinner's Tavern,Acción,PC,False,0.0,0,0.0,82.3,-0.14,2021-06-15,2021
+SPELLRAIN,Acción,PC,False,0.0,0,0.0,51.7,-0.41,2021-06-15,2021
+Mutter,Acción,PC,False,0.0,0,0.0,73.1,0.02,2021-06-15,2021
+ZOMBI ROCKSTAR,Acción,PC,False,6.05,0,0.0,40.6,0.54,2023-05-21,2023
+Rise of Jericho,Estrategia,PC,False,8.41,0,0.0,50.1,0.29,2023-06-08,2023
+Mix the Forgotten,Acción,PC,False,0.0,0,0.0,73.0,-0.3,2021-06-15,2021
+Locuras en el Banaverso,Acción,PC,False,7.37,0,0.0,81.1,0.27,2024-11-08,2024
+MENACE,Rol,PC,False,15.71,161920,2543763.2,72.6,0.35,2026-02-05,2026
+Tormented Souls 2,Acción,PC,False,16.32,53160,867571.2000000001,78.0,-0.15,2025-10-23,2025
+Afterlife Gladiator,Indie,PC,False,6.05,0,0.0,65.5,0.26,2024-11-05,2024
+PartySaur: Dino Mayhem,Acción,PC,False,0.0,0,0.0,47.8,0.22,2021-06-15,2021
+Abyss Odyssey,Acción,PC,False,6.74,50600,341044.0,69.0,-0.26,2014-07-15,2014
+Ink of Fate,Aventura,PC,False,0.0,0,0.0,63.1,0.34,2021-06-15,2021
+The Rise of the Golden Idol,Aventura,PC,False,11.05,135600,1498380.0,85.9,0.42,2024-11-12,2024
+Orphans,Aventura,PC,False,9.68,0,0.0,75.2,0.63,2021-06-15,2025
+Cosmic Horror Tales: Roots Below,Acción,PC,False,0.0,0,0.0,43.6,0.62,2021-06-15,2021
+Haunted Paws,Aventura,PC,False,0.0,0,0.0,74.9,-0.35,2021-06-15,2021
+Gallery of Shadows - Lycans Returns,Acción,PC,False,0.0,0,0.0,64.2,-0.18,2021-06-15,2021
+"Stop, Pawssport Check",Acción,PC,False,0.0,0,0.0,59.8,0.41,2021-06-15,2021
+Selknam Defense,Acción,PC,False,3.16,0,0.0,79.2,0.41,2014-07-25,2014
+Arm Around!,Acción,PC,False,0.0,0,0.0,85.5,0.41,2021-06-15,2021
+The Rangers In The South,Acción,PC,False,4.11,30320,124615.2,84.0,1.0,2021-06-15,2025
+The Trolley Solution,Acción,PC,False,3.16,18600,58776.0,57.4,0.43,2025-09-12,2025
+Leap Galaxy,Acción,PC,False,0.0,0,0.0,65.4,0.65,2026-01-01,2026
+Night in Delirium,Indie,PC,False,0.0,0,0.0,75.0,0.58,2021-06-15,2021
+Tiles in Time,Casual,PC,False,5.47,0,0.0,84.6,0.46,2025-03-24,2025
+Dungeon Shifters,Acción,PC,False,3.16,0,0.0,62.8,0.07,2021-06-15,2025
+El Pasante Elementalista,Aventura,PC,True,0.0,0,0.0,67.2,0.5,2025-02-08,2025
+Bulbo's Belief System,Acción,PC,False,0.0,0,0.0,53.4,-0.11,2021-06-15,2021
+Selve,Aventura,PC,False,0.0,0,0.0,52.1,0.11,2021-06-15,2021
+Oriontis,Indie,PC,False,0.0,0,0.0,82.2,0.01,2021-06-15,2021
+Isekai Guild,Aventura,PC,False,0.0,0,0.0,90.3,0.23,2021-06-15,2021
+Hybrid Blood,Acción,PC,False,10.32,0,0.0,68.9,1.0,2025-09-01,2025
+"Scalpel, Please!",Casual,PC,False,0.0,0,0.0,85.1,-0.55,2021-06-15,2021
+Valiants: Arena,Casual,PC,True,0.0,0,0.0,75.4,0.47,2025-10-16,2025
+Forge the Fates,Indie,PC,False,0.0,0,0.0,60.3,-0.45,2021-06-15,2021
+Mecha Survivors - Early Access,Acción,PC,False,2.0,0,0.0,75.4,0.01,2021-06-15,2025
+Avoidthis,Indie,PC,False,2.0,0,0.0,93.1,0.64,2025-10-23,2025
+PaRoKuuu,Casual,PC,False,0.0,0,0.0,69.5,0.23,2021-06-15,2021
+SAI: Servicio de Auxilio Inmediato,Indie,PC,False,0.0,0,0.0,93.5,-0.23,2021-06-15,2021
+Don Pepe y sus globos,Acción,PC,False,0.0,0,0.0,30.7,-0.09,2026-01-01,2026
+Microlandia,Simuladores,PC,False,4.42,0,0.0,82.3,0.47,2021-06-15,2025
+Space Evolver,Indie,PC,False,0.0,0,0.0,71.3,-0.09,2026-09-08,2026
+Stick Out!,Acción,PC,False,0.0,0,0.0,65.5,0.29,2021-06-15,2026
+Chromatic Battles,Acción,PC,False,0.0,0,0.0,71.4,0.22,2021-06-15,2026
+Rock of Ages 2: Bigger & Boulder™,Acción,PC,False,6.74,106240,716057.6,40.2,-0.06,2021-06-15,2017
+Omen of Sorrow,Acción,PC,False,4.17,0,0.0,66.7,1.0,2023-03-23,2023
+Long Gone Days,Aventura,PC,False,16.44,18160,298550.4,75.4,0.45,2023-10-10,2023
+Santa Rockstar,Casual,PC,False,3.26,10200,33252.0,92.2,-0.61,2021-06-15,2016
+Dungeon of the Forgotten King,Indie,PC,False,0.0,0,0.0,62.2,0.27,2026-01-01,2026
+Omnibion War,Acción,PC,False,4.42,0,0.0,57.9,-0.06,2020-02-06,2020
+Cyber Ops,Acción,PC,False,6.74,4240,28577.6,62.5,0.54,2020-05-21,2020
+The Eternal Cylinder,Acción,PC,False,13.68,40360,552124.8,79.0,-0.12,2022-10-13,2022
+Defenders of Ekron - Definitive Edition,Acción,PC,False,6.74,0,0.0,74.9,0.15,2021-06-15,2018
+This is Chile - Psychiatric edition,Educational,Web/PC,True,0.0,0,0.0,62.1,0.4,2021-06-15,2021
+CoÃ±aripe,Fighting,Web/PC,True,0.0,0,0.0,77.7,0.55,2021-06-15,2021
+DINA,Unknown,Web/PC,True,0.0,0,0.0,71.5,-0.28,2021-06-15,2021
+Froggo Qlero,Adventure,Web/PC,True,0.0,0,0.0,84.5,0.07,2021-06-15,2021
+Quest for the Epic Treasure,Platformer,Web/PC,True,0.0,0,0.0,59.5,0.01,2021-06-15,2021
+Nada hacia presagiar,Adventure,Web/PC,True,0.0,0,0.0,65.1,-0.06,2021-06-15,2021
+Huemulixir,Interactive Fiction,Web/PC,True,0.0,0,0.0,64.1,0.91,2021-06-15,2021
+Age of Origins - Prototype,Educational,Web/PC,True,0.0,0,0.0,48.0,0.36,2021-06-15,2021
+Super Happy Jump,Platformer,Web/PC,True,0.0,0,0.0,74.4,-0.3,2021-06-15,2021
+Erden - Classic RPG (DEMO),Role Playing,Web/PC,True,0.0,0,0.0,73.9,0.57,2021-06-15,2021
+Molly Inc (Prototype),Adventure,Web/PC,True,0.0,0,0.0,70.1,1.0,2021-06-15,2021
+Presidential Fighter,Unknown,Web/PC,True,0.0,0,0.0,66.5,0.61,2021-06-15,2021
+Kito,Platformer,Web/PC,True,0.0,0,0.0,48.8,-0.41,2021-06-15,2021
+Portonazo,Fighting,Web/PC,True,0.0,0,0.0,63.7,0.01,2021-06-15,2021
+FireFighters,Strategy,Web/PC,True,0.0,0,0.0,64.9,0.71,2021-06-15,2021
+Dismal Day,Survival,Web/PC,True,0.0,0,0.0,58.0,-0.08,2021-06-15,2021
+Portales: El peso de la noche,Role Playing,Web/PC,True,0.0,0,0.0,67.6,0.38,2021-06-15,2021
+ScapeFromLatam,Unknown,Web/PC,True,0.0,0,0.0,76.1,0.51,2021-06-15,2021
+CaleidoMar: La Jaiba,Simulation,Web/PC,True,0.0,0,0.0,98.3,-0.17,2021-06-15,2021
+Zogar,Platformer,Web/PC,True,0.0,0,0.0,72.6,0.18,2021-06-15,2021
+STGO SK8 (Santiago Skate),Sports,Web/PC,True,0.0,0,0.0,73.9,-1.0,2021-06-15,2021
+MaldiciÃ³n del Alicanto,Survival,Web/PC,True,0.0,0,0.0,68.9,-0.21,2021-06-15,2021
+Michi come back home,Adventure,Web/PC,True,0.0,0,0.0,41.2,0.1,2021-06-15,2021
+The Longest Completo,Unknown,Web/PC,True,0.0,0,0.0,69.6,-0.3,2021-06-15,2021
+Churro Maniacs,Simulation,Web/PC,True,0.0,0,0.0,70.9,0.85,2021-06-15,2021
+Memoria Fragmentada,Unknown,Web/PC,True,0.0,0,0.0,100.0,-0.37,2021-06-15,2021
+Pintamonos,Visual Novel,Web/PC,True,0.0,0,0.0,67.1,0.02,2021-06-15,2021
+Jueguito para una gamejam de la U xd,Unknown,Web/PC,True,0.0,0,0.0,74.5,0.25,2021-06-15,2021
+One Button Prototype,Platformer,Web/PC,True,0.0,0,0.0,69.5,0.78,2021-06-15,2021
+Retro Penal,Sports,Web/PC,True,0.0,0,0.0,52.5,-0.37,2021-06-15,2021
+Que No Caiga,Sports,Web/PC,True,0.0,0,0.0,87.1,0.67,2021-06-15,2021
+Suika_CL,Unknown,Web/PC,True,0.0,0,0.0,81.3,0.2,2021-06-15,2021
+Candy Party,Platformer,Web/PC,True,0.0,0,0.0,81.9,-0.19,2021-06-15,2021
+Finding Gustavo,Interactive Fiction,Web/PC,True,0.0,0,0.0,56.4,0.38,2021-06-15,2021
+BODO -QUEST,Adventure,Web/PC,True,0.0,0,0.0,91.0,0.28,2021-06-15,2021
+Magic Chef,Simulation,Web/PC,True,0.0,0,0.0,49.0,-0.04,2021-06-15,2021
+Shadow Past,Platformer,Web/PC,True,0.0,0,0.0,78.8,0.23,2021-06-15,2021
+FUCK! I LOST ALL MY WEED AND NOW I HAVE TO GET IT BACK OR ELSE THE WEED DEMON WILL STEAL MY SOUL: The Game: The Movie,Unknown,Web/PC,True,0.0,0,0.0,100.0,0.05,2021-06-15,2021
+"""Quiero ser un mito""",Visual Novel,Web/PC,True,0.0,0,0.0,55.1,0.25,2021-06-15,2021
+What would you do?,Interactive Fiction,Web/PC,True,0.0,0,0.0,61.5,0.46,2021-06-15,2021
+La Iglesia de la Noche,Unknown,Web/PC,True,0.0,0,0.0,71.5,0.83,2021-06-15,2021
+Hirokae,Adventure,Web/PC,True,0.0,0,0.0,62.4,-0.3,2021-06-15,2021
+La sociedad de la nieve,Survival,Web/PC,True,0.0,0,0.0,46.7,1.0,2021-06-15,2021
+La Conquista,Action,Web/PC,True,0.0,0,0.0,71.0,-0.58,2021-06-15,2021
+CHOLITO,Simulation,Web/PC,True,0.0,0,0.0,54.1,0.14,2021-06-15,2021
+El Trompo y el PingÃ¼ino,Platformer,Web/PC,True,0.0,0,0.0,77.1,0.44,2021-06-15,2021
+CapitÃ¡n Arturo,Unknown,Web/PC,True,0.0,0,0.0,56.2,0.31,2021-06-15,2021
+Cherry Y La FusiÃ³n Prohibida,Adventure,Web/PC,True,0.0,0,0.0,93.2,-0.05,2021-06-15,2021
+Walter is Coming,Adventure,Web/PC,True,0.0,0,0.0,58.3,0.12,2021-06-15,2021
+Carnivile,Unknown,Web/PC,True,0.0,0,0.0,65.2,0.0,2021-06-15,2021
+Dreamnesthesia,Unknown,Web/PC,True,0.0,0,0.0,82.2,-0.04,2021-06-15,2021
+Negro Matapacos,Action,Web/PC,True,0.0,0,0.0,51.5,0.54,2021-06-15,2021
+Battle Power Ultra,Action,Web/PC,True,0.0,0,0.0,73.4,0.34,2021-06-15,2021
+Corrupted CHICKEN Soul,Platformer,Web/PC,True,0.0,0,0.0,89.6,-0.08,2021-06-15,2021
+VamosÂ³ a la marcha,Action,Web/PC,True,0.0,0,0.0,45.9,0.56,2021-06-15,2021
+TacosTacosTacos,Unknown,Web/PC,True,0.0,0,0.0,72.8,0.32,2021-06-15,2021
+Manuel Rodriguez: Operaciones Especiales (VersiÃ³n PC),Educational,Web/PC,True,0.0,0,0.0,73.9,0.53,2021-06-15,2021
+Landschaften,Adventure,Web/PC,True,0.0,0,0.0,81.7,0.45,2021-06-15,2021
+The Operator Game Jam 2020,Action,Web/PC,True,0.0,0,0.0,51.4,-0.13,2021-06-15,2021
+Entropy,Simulation,Web/PC,True,0.0,0,0.0,50.2,-0.02,2021-06-15,2021
+El Rey del Volantin,Platformer,Web/PC,True,0.0,0,0.0,77.8,0.5,2021-06-15,2021
+Graffiti Run,Action,Web/PC,True,0.0,0,0.0,74.5,0.44,2021-06-15,2021
+Informe Zenteno,Adventure,Web/PC,True,0.0,0,0.0,73.8,0.19,2021-06-15,2021
+ArmonÃ­a,Visual Novel,Web/PC,True,0.0,0,0.0,75.2,0.25,2021-06-15,2021
+Pancito Simulator: Breadtastic Love Story,Visual Novel,Web/PC,True,0.0,0,0.0,59.8,0.71,2021-06-15,2021
+Roboto Mega Force Trio,Platformer,Web/PC,True,0.0,0,0.0,73.5,-0.04,2021-06-15,2021
