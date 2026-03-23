@@ -3,7 +3,10 @@ import streamlit as st
 
 @st.cache_data
 def cargar_datos_historicos() -> pd.DataFrame:
-    """Carga los datos simulados que alimentan el histórico del mercado chileno."""
+    """
+    Carga los datos simulados que alimentan el histórico del mercado chileno.
+    Fuerza el refresco de caché en Streamlit Cloud tras la actualización a CSV real.
+    """
     df = pd.read_csv("data/raw/streamlit_data.csv")
     df['release_date'] = pd.to_datetime(df['release_date'])
     df['year'] = df['release_date'].dt.year
