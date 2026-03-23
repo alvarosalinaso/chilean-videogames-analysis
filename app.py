@@ -285,8 +285,22 @@ with tab2:
             avg_rev=("revenue_est","mean"),
             avg_score=("score","mean"),
             avg_sentiment=("sentiment","mean"),
-        ).reset_index().sort_values(sel_metric if sel_metric in ["revenue_est","score"] else "avg_rev", ascending=False)
+       # --- CÓDIGO CORREGIDO PARA ORDENAMIENTO DINÁMICO ---
+# 1. Resetear índice para que las columnas de agrupación sean accesibles
+df_final = df_agg.reset_index()
 
+# 2. Lógica de ordenamiento 'A prueba de fallos'
+# Si la métrica seleccionada existe, úsala. Si no, busca 'avg_rev'. Si no, usa la 1ra col.
+if sel_metric in df_final.columns:
+    sort_col = sel_metric
+elif "avg_rev" in df_final.columns:
+    sort_col = "avg_rev"
+else:
+    sort_col = df_final.columns[0] # Último recurso para evitar KeyError
+
+# 3. Ejecutar ordenamiento y mostrar
+df_final = df_final.sort_values(by=sort_col, ascending=False)
+st.dataframe(df_final, use_container_width=True)
         fig_genre_bar = go.Figure(go.Bar(
             y=genre_kpi["genre"], x=genre_kpi["avg_rev"],
             orientation="h",
