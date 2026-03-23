@@ -1,4 +1,4 @@
-"""
+﻿"""
 ═══════════════════════════════════════════════════════════════════════════════
   Chilean Videogames Industry — Streamlit App
   Autor : Álvaro Salinas Ortiz  |  github.com/alvarosalinaso
@@ -248,8 +248,9 @@ with tab1:
             ))
         fig_rev.update_layout(**PLOTLY_THEME, barmode="group",
                                title="Revenue estimado por año y plataforma",
-                               height=320, yaxis=dict(title="USD"),
+                               height=320,
                                legend=dict(orientation="h", y=-0.2))
+        fig_rev.update_yaxes(title="USD")
         st.plotly_chart(fig_rev, use_container_width=True)
 
     with col_b:
@@ -269,9 +270,9 @@ with tab1:
             hovertemplate="Mes: %{y}<br>Año: %{x}<br>Juegos: %{z}<extra></extra>",
         ))
         fig_hm.update_layout(**PLOTLY_THEME, title="Mapa de calor: lanzamientos por mes/año",
-                              height=320,
-                              xaxis=dict(tickangle=-45, tickfont=dict(size=10), gridcolor="rgba(0,0,0,0)"),
-                              yaxis=dict(tickfont=dict(size=10), gridcolor="rgba(0,0,0,0)"))
+                              height=320)
+        fig_hm.update_xaxes(tickangle=-45, tickfont=dict(size=10), gridcolor="rgba(0,0,0,0)")
+        fig_hm.update_yaxes(tickfont=dict(size=10), gridcolor="rgba(0,0,0,0)")
         st.plotly_chart(fig_hm, use_container_width=True)
 
 
@@ -358,8 +359,8 @@ with tab3:
             title="Distribución de sentimiento por género",
         )
         fig_box.update_layout(**PLOTLY_THEME, height=320,
-                               xaxis=dict(tickangle=-30),
                                legend=dict(orientation="h", y=-0.2))
+        fig_box.update_xaxes(tickangle=-30)
         st.plotly_chart(fig_box, use_container_width=True)
 
     # Scatter sentimiento vs revenue
@@ -372,9 +373,9 @@ with tab3:
         color_discrete_sequence=px.colors.qualitative.Vivid,
     )
     fig_sent_rev.update_layout(**PLOTLY_THEME, height=380,
-                                xaxis=dict(title="Índice de sentimiento"),
-                                yaxis=dict(title="Revenue estimado (USD)"),
                                 legend=dict(orientation="h", y=-0.2))
+    fig_sent_rev.update_xaxes(title="Índice de sentimiento")
+    fig_sent_rev.update_yaxes(title="Revenue estimado (USD)")
     st.plotly_chart(fig_sent_rev, use_container_width=True)
 
     st.warning("🔬 **Metodología avanzada propuesta:** Implementar análisis de sentimientos real con BERT/RoBERTa sobre texto de reseñas (Steam Reviews API + Itch.io). El índice actual es un proxy score-based. Con NLP se puede detectar frustraciones específicas (bugs, dificultad, precio) para guiar el roadmap post-lanzamiento.")
@@ -434,9 +435,9 @@ with tab4:
         **PLOTLY_THEME,
         title="Cuadrante de Oportunidad de Mercado — Géneros de videojuegos chilenos",
         height=480,
-        xaxis=dict(title="Saturación relativa (0=nicho, 1=masivo)", range=[-0.05, 1.1]),
-        yaxis=dict(title="Revenue promedio estimado (USD)"),
     )
+    fig_opp.update_xaxes(title="Saturación relativa (0=nicho, 1=masivo)", range=[-0.05, 1.1])
+    fig_opp.update_yaxes(title="Revenue promedio estimado (USD)")
     st.plotly_chart(fig_opp, use_container_width=True)
 
     st.markdown("---")
@@ -474,3 +475,4 @@ st.markdown("""
   <a href='https://www.linkedin.com/in/alvaro-salinas-ortiz/' style='color:#58a6ff;'>LinkedIn</a>
 </div>
 """, unsafe_allow_html=True)
+
