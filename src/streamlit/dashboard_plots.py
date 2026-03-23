@@ -55,17 +55,19 @@ def graficar_sentiment_box(df_f, is_platform=False):
     fig.update_layout(**PLOTLY_THEME, showlegend=False)
     return fig
 
-def graficar_cuadrante_oportunidad(df_f, is_log=False):
+def graficar_cuadrante_oportunidad(df_f, is_log=False, col_y="revenue_est"):
     df_plot = df_f.copy()
     # Hotfix preventivo: px.scatter 'size' truena (ValueError) si hay NaNs
     df_plot["score"] = df_plot["score"].fillna(df_plot["score"].median())
     
-    fig = px.scatter(df_plot, x="sentiment", y="revenue_est",
+    axis_title = "Net Revenue / Ganancia Líquida (USD)" if col_y == "revenue_est_net" else "Revenue Gross (USD)"
+    
+    fig = px.scatter(df_plot, x="sentiment", y=col_y,
                      size="score", color="genre", hover_name="title",
                      hover_data=["platforms", "price", "units_sold"],
                      log_y=is_log,
                      title="Mapa de Oportunidad Financiera (Contexto INDIE)",
-                     labels={"sentiment": "Índice de Aceptación Comunitaria (-1 a +1)", "revenue_est": "Revenue Gross (USD)"},
+                     labels={"sentiment": "Índice de Aceptación Comunitaria (-1 a +1)", col_y: axis_title},
                      color_discrete_sequence=px.colors.qualitative.Bold)
     
     # Línea base de supervivencia independiente LATAM (~$50,000 USD gross)
@@ -74,17 +76,17 @@ def graficar_cuadrante_oportunidad(df_f, is_log=False):
     fig.add_annotation(x=-0.8, y=survival_threshold * (1.1 if is_log else 1.05), text="Supervivencia Estudio Indie ($50k)", showarrow=False, font=dict(color="#8b949e", size=10))
     fig.add_vline(x=0, line_dash="dash", line_color="#8b949e", opacity=0.5)
     
-    fig.add_annotation(x=0.5, y=df_f["revenue_est"].max()*0.8, text="⭐ Alta Rentabilidad / Aclamado", showarrow=False, font=dict(color="#2ea043"))
-    fig.add_annotation(x=-0.5, y=df_f["revenue_est"].min(), text="⚠️ Nicho Crítico / Bajas Ventas", showarrow=False, font=dict(color="#da3633"))
+    fig.add_annotation(x=0.5, y=df_f[col_y].max()*0.8, text="⭐ Alta Rentabilidad Líquida", showarrow=False, font=dict(color="#2ea043"))
+    fig.add_annotation(x=-0.5, y=df_f[col_y].min() if len(df_f)>0 else 0, text="⚠️ Riesgo de Bancarrota", showarrow=False, font=dict(color="#da3633"))
     
     # Achicar el margen visual (enfocar sobre las verdaderas métricas indies) y formatear el eje Y
-    max_rev = df_f["revenue_est"].max()
+    max_rev = df_f[col_y].max()
     upper_bound = max_rev * 1.5 if max_rev > 0 else 1000000
     
     fig.update_layout(
         **PLOTLY_THEME, 
         height=550,
-        yaxis=dict(tickformat="$,.0f", title="Revenue Est. (USD)"),
+        yaxis=dict(tickformat="$,.0f", title=axis_title),
         xaxis=dict(range=[-1.1, 1.1])
     )
     if not is_log:

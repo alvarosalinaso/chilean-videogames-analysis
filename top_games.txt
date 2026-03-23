@@ -1,0 +1,51 @@
+                                title  revenue_est
+12                    Tormented Souls    2522494.0
+39                  Tormented Souls 2     867571.2
+75  Rock of Ages 2: Bigger & Boulder™     716057.6
+14          Clash: Artifacts of Chaos     690662.4
+30                       Rock of Ages     594306.8
+82               The Eternal Cylinder     552124.8
+13                 Urbek City Builder     533650.0
+29                         Zeno Clash     352629.6
+42                      Abyss Odyssey     341044.0
+6        Rock of Ages 3: Make & Break     314623.2
+77                     Long Gone Days     298550.4
+28                       Zeno Clash 2     191146.4
+16        What Lies in the Multiverse     173052.0
+51           The Rangers In The South     124615.2
+26         Skull Island: Rise of Kong     109600.0
+5        The Signifier Director's Cut     107848.0
+52               The Trolley Solution      58776.0
+78                     Santa Rockstar      33252.0
+81                          Cyber Ops      28577.6
+0       3D Ultra™ Minigolf Adventures      15048.0
+2           Causa, Voices of the Dusk          0.0
+3                             Stoppa!          0.0
+21                 Hoverise Rebellion          0.0
+20                 Operation8 Project          0.0
+19                          Gematombe          0.0
+18           Dirty Wars: September 11          0.0
+17                 The Eightfold Path          0.0
+15                           Scarleth          0.0
+11                      Daybreak Slam          0.0
+10       Solitaire. Elemental Wizards          0.0
+7                            El Culto          0.0
+9                         Virus Blast          0.0
+8                          Asterminer          0.0
+4                  Hijos del Invierno          0.0
+1                             Bandits          0.0
+27                          Jet & Sky          0.0
+32                    Sinner's Tavern          0.0
+31                       Last Eclipse          0.0
+37                  Mix the Forgotten          0.0
+36                    Rise of Jericho          0.0
+35                     ZOMBI ROCKSTAR          0.0
+34                             Mutter          0.0
+41             PartySaur: Dino Mayhem          0.0
+43                        Ink of Fate          0.0
+40                Afterlife Gladiator          0.0
+38            Locuras en el Banaverso          0.0
+45   Cosmic Horror Tales: Roots Below          0.0
+44                            Orphans          0.0
+46                       Haunted Paws          0.0
+33                          SPELLRAIN          0.0

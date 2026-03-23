@@ -69,6 +69,10 @@ with st.sidebar:
     sel_f2p = st.radio("Modelo de Negocio", ["Ambos", "Solo Premium", "Solo Free-to-Play"])
     
     st.markdown("---")
+    st.markdown("**💸 Calculadora Financiera**")
+    steam_cut = st.slider("Tajada Steam + Publisher (%)", min_value=0, max_value=70, value=30, step=5, help="Steam acostumbra a retener el 30% de la venta bruta. Si hay un Publisher involucrado, este porcentaje puede ascender hasta 50-70%.")
+
+    st.markdown("---")
     st.markdown("**🔍 Ajustes Ópticos (Latam Context)**")
     usar_log = st.toggle("Ver Ingresos en Escala Logarítmica", value=True, help="Recomendado para Chile: Descomprime el gráfico para ver el ecosistema indie real, ya que mega-éxitos como 'Tormented Souls' aplastan visualmente a los demás.")
 
@@ -80,6 +84,9 @@ if sel_f2p == "Solo Premium":
 elif sel_f2p == "Solo Free-to-Play":
     df_f = df_f[df_f['is_f2p']]
 
+# ─ CALCULAR RETORNO NETO FINANCIERO ─
+df_f['revenue_est_net'] = df_f['revenue_est'] * (1 - (steam_cut / 100))
+
 # ─────────────────────────────── HERO SECTION ───────────────────────────────
 st.title("🇨🇱 Análisis de Mercado: Industria Chilena de Videojuegos")
 st.markdown("<p style='font-size:1.1rem; color:#8b949e;'>Un informe de <b>Inteligencia de Negocios (BI)</b> y analítica descriptiva para entender empíricamente qué juegos triunfan comercialmente, por qué fallan, y qué lecciones puede darnos el mercado real de Steam.</p>", unsafe_allow_html=True)
@@ -87,7 +94,7 @@ st.markdown("<p style='font-size:1.1rem; color:#8b949e;'>Un informe de <b>Inteli
 # KPIs
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Proyectos Analizados", f"{len(df_f)}", "Del ecosistema chileno")
-c2.metric("Gross Revenue Est.", f"${df_f['revenue_est'].sum():,.0f}", f"{(df_f['revenue_est'].sum() / (kpis['total_revenue'] or 1)) * 100:.1f}% de la torta", delta_color="normal" if len(df_f)==len(df) else "off")
+c2.metric("Net Revenue Est.", f"${df_f['revenue_est_net'].sum():,.0f}", f"Después del {steam_cut}% de corte")
 c3.metric("Score Promedio (Metacritic)", f"{df_f['score'].mean():.1f}/100")
 c4.metric("Aceptación de la Comunidad", f"{df_f['sentiment'].mean():.2f}", "Rango [-1 a +1]")
 
@@ -115,9 +122,9 @@ with cc2:
 
 # ─────────────────────────────── SECCIÓN 3 ───────────────────────────────
 st.markdown("<div class='section-header'>3. Retorno Comercial vs Calidad 🎯</div>", unsafe_allow_html=True)
-st.markdown("<div class='section-text'>El gráfico definitivo de la inteligencia comercial. ¿Un juego extraordinario siempre es rentable? ¿Un juego mediocre está condenado al fracaso? Aquí cruzamos el diagnóstico financiero contra la satisfacción validada por el mercado. <b>Pasa el cursor sobre las esferas para explorar los datos subyacentes.</b></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-text'>El gráfico definitivo de la inteligencia comercial. Aquí cruzamos el diagnóstico financiero (<b>Net Revenue</b> líquido al bolsillo del desarrollador) contra la satisfacción validada por el mercado. <b>Pasa el cursor sobre las esferas para explorar los datos subyacentes.</b></div>", unsafe_allow_html=True)
 
-st.plotly_chart(graficar_cuadrante_oportunidad(df_f, usar_log), use_container_width=True)
+st.plotly_chart(graficar_cuadrante_oportunidad(df_f, usar_log, col_y="revenue_est_net"), use_container_width=True)
 
 sc1, sc2, sc3 = st.columns(3)
 with sc1:
