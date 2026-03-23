@@ -1,28 +1,28 @@
-# Videogames Analytics Chile 🇨🇱🎮
+[![CI](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml)
 
-Datos duros sobre el mercado chileno de videojuegos (Steam + Itch.io). Cero humo corporativo.
+# Chilean Videogames: Market Intelligence & Benchmarking
 
-## El Negocio Real
+Dashboard interactivo alojado en [Streamlit](https://streamlit.io/) enfocado en auditar el desempeño financiero real de la industria chilena de videojuegos. A diferencia de un análisis clásico de géneros, este proyecto cruza sentimiento de Steam con métricas estimadas de negocio ($).
 
-- La escena indie reventó post-2020. Itch.io es la zona de pruebas, Steam es donde se factura.
-- Claves de Steam: Juegos de Acción y Estrategia acaparan el segmento $8-$10 USD.
-- Top Revenues: *Rock of Ages*, *Tormented Souls*, *Zeno Clash*. El resto se pelea el long-tail, pero existe un nicho súper sólido de $50k-$200k facturados por estudios de 2-3 personas.
+## Features Implementados (Última Actualización)
+- **Scraping Crudo**: Pipelines directos para minar Steam e Itch.io.
+- **Predicción (Random Forest)**: Un motor que evalúa tu pitch y categoriza la probabilidad de éxito y la viabilidad del proyecto.
+- **Benchmark LatAm/Global**: Se inyectó data estática de la mediana de ingresos independiente de LatAm y el mundo. Comparamos el costo operativo bajísimo de Chile contra el retorno esperado cercano a la media mundial (>$720 USD) para argumentar por qué es financieramente más seguro invertir aquí que en USA.
+- **Engine Refactorizado**: Rutas relativas aisladas con `pathlib.Path` para blindar crashes de Streamlit sin importar desde dónde montes el entorno.
 
-![Timeline](assets/figures_v2/1_timeline_releases.png)
+## Archivos Críticos
+1. `app.py`: El core visual del dashboard.
+2. `src/streamlit/dashboard_data.py`: Donde el pipeline inyecta y une los datos locales con el cruce del Benchmark del mercado externo (`market_benchmark.csv`).
+3. `src/ml/train.py`: El motor de Random Forest, sin redundancias y directo al punto.
 
-## Estructura
+## Setup Inicial (Local)
+Para levantar el servidor web tú mismo, clona, actívate el enviroment y dispara la interfaz gráfica:
 
+```powershell
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
 ```
-chilean-videogames-analysis/
-├── src/ # scrapers y transformers
-├── data/
-│   ├── raw/ # ignorado en repo
-│   └── export/ # dataset final para BI
-└── assets/figures_v2/
-```
 
-## Setup & Run
-
-1. `pip install -r requirements.txt`
-2. Baja los datos brutos: `python src/collect.py`
-3. Mastica la data: `python src/analyze_all.py`
+> Álvaro Salinas Ortiz | alvarosalinasortiz@gmail.com | [LinkedIn](https://www.linkedin.com/in/alvaro-salinas-ortiz)
