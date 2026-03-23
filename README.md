@@ -2,7 +2,9 @@
 
 # Videojuegos Chilenos: Inteligencia de Mercado y Comparativas
 
-Panel interactivo alojado en [Streamlit](https://streamlit.io/) enfocado en auditar el desempeño financiero real de la industria chilena de videojuegos. A diferencia de un análisis clásico de géneros, este proyecto compara la percepción pública con las métricas estimadas de negocio.
+🚀 **[Ver Panel Interactivo en Vivo](https://chilean-videogames-analysis-kjcsvpb5cuyhnv4papptzby.streamlit.app)**
+
+Panel interactivo enfocado en auditar el desempeño financiero real de la industria chilena de videojuegos. A diferencia de un análisis clásico de géneros, este proyecto compara la percepción pública con las métricas estimadas de negocio.
 
 ## Funcionalidades Principales
 - **Extracción de Datos**: Flujos directos para obtener información de Steam e Itch.io.
