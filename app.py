@@ -80,8 +80,8 @@ elif sel_f2p == "Solo Free-to-Play":
     df_f = df_f[df_f['is_f2p']]
 
 # ─────────────────────────────── HERO SECTION ───────────────────────────────
-st.title("🇨🇱 El Estado de la Industria Chilena de Videojuegos")
-st.markdown("<p style='font-size:1.1rem; color:#8b949e;'>Un análisis interactivo impulsado por Machine Learning sobre qué juegos triunfan, por qué fallan, y qué lecciones puede darnos el mercado real de Steam.</p>", unsafe_allow_html=True)
+st.title("🇨🇱 Análisis de Mercado: Industria Chilena de Videojuegos")
+st.markdown("<p style='font-size:1.1rem; color:#8b949e;'>Un informe de <b>Inteligencia de Negocios (BI)</b> y analítica descriptiva para entender empíricamente qué juegos triunfan comercialmente, por qué fallan, y qué lecciones puede darnos el mercado real de Steam.</p>", unsafe_allow_html=True)
 
 # KPIs
 c1, c2, c3, c4 = st.columns(4)
@@ -114,7 +114,7 @@ with cc2:
 
 # ─────────────────────────────── SECCIÓN 3 ───────────────────────────────
 st.markdown("<div class='section-header'>3. Retorno Comercial vs Calidad 🎯</div>", unsafe_allow_html=True)
-st.markdown("<div class='section-text'>El gráfico definitivo. ¿Un juego extraordinario siempre vende millones? ¿Un juego mediocre está condenado al fracaso? Aquí cruzamos el dinero generado contra la calidad validada por el mercado. <b>Pasa el cursor sobre las esferas para ver el título del juego.</b></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-text'>El gráfico definitivo de la inteligencia comercial. ¿Un juego extraordinario siempre es rentable? ¿Un juego mediocre está condenado al fracaso? Aquí cruzamos el diagnóstico financiero contra la satisfacción validada por el mercado. <b>Pasa el cursor sobre las esferas para explorar los datos subyacentes.</b></div>", unsafe_allow_html=True)
 
 st.plotly_chart(graficar_cuadrante_oportunidad(df_f), use_container_width=True)
 
@@ -127,8 +127,8 @@ with sc3:
     st.markdown("🔴 **Izquierda (Fracasos o *Clickbaits*):**<br>Sentimiento tóxico (-1). Si tienen ventas altas, probablemente atraparon a jugadores con marketing falso, destruyendo la confianza en el estudio a futuro.", unsafe_allow_html=True)
 
 # ─────────────────────────────── SECCIÓN 4: MODELO PREDICTIVO ───────────────────────────────
-st.markdown("<div class='section-header'>4. Evalúa tu Idea con Inteligencia Artificial 🤖🔮</div>", unsafe_allow_html=True)
-st.markdown("<div class='section-text'>Entrenamos un modelo predictivo de <b>Random Forest</b> usando el Procesamiento de Lenguaje Natural de todo el repertorio de la base de datos anterior. Describe de qué trata tu juego (su género, su temática, su <i>pitch</i>) en <b>inglés</b> y la inteligencia artificial inferirá cuánto podrías recaudar.</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-header'>4. Simulador Estadístico de Viabilidad Comercial 📊</div>", unsafe_allow_html=True)
+st.markdown("<div class='section-text'>Extrayendo el valor analítico del procesamiento de lenguaje natural de nuestro catálogo, hemos desarrollado un modelo probabilístico (Algoritmo de Bosques Aleatorios). Describe de qué trata tu juego (su género, temática, <i>pitch</i>) en <b>inglés</b> y la herramienta calculará una estimación de viabilidad basada estrictamente en los datos estadísticos vigentes.</div>", unsafe_allow_html=True)
 
 st.markdown("<div class='ia-panel'>", unsafe_allow_html=True)
 pitch = st.text_area("🕹️ Pitch o Sinopsis de tu juego (en inglés)", placeholder="Example: A dark suspense horror game with puzzle mechanics, isometric view and pixel art graphics.", height=120)
