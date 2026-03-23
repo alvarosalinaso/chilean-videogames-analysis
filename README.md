@@ -1,40 +1,28 @@
-# Dataviz de la Industria de Videojuegos en Chile 🇨🇱🎮
+# Videogames Analytics Chile 🇨🇱🎮
 
-Un análisis profundo del desarrollo de videojuegos en Chile durante el siglo XXI, combinando datos de **Steam** (comercial) e **Itch.io** (indie).
+Datos duros sobre el mercado chileno de videojuegos (Steam + Itch.io). Cero humo corporativo.
 
-## 🚀 Hallazgos Principales
+## El Negocio Real
 
-- **Fuerte Crecimiento Post-2020**: La escena indie explotó en los últimos años, con Itch.io sirviendo como plataforma principal de experimentación.
-- **Dos Mundos**:
-    - **Steam**: Mercado Premium ($8-10 USD), géneros de Acción y Estrategia.
-    - **Itch.io**: Mercado Free/Experimental, gran diversidad creativa.
-- **Top Ventas (Estimado)**: *Rock of Ages*, *Tormented Souls* y *Zeno Clash* lideran las estimaciones de revenue.
+- La escena indie reventó post-2020. Itch.io es la zona de pruebas, Steam es donde se factura.
+- Claves de Steam: Juegos de Acción y Estrategia acaparan el segmento $8-$10 USD.
+- Top Revenues: *Rock of Ages*, *Tormented Souls*, *Zeno Clash*. El resto se pelea el long-tail, pero existe un nicho súper sólido de $50k-$200k facturados por estudios de 2-3 personas.
 
 ![Timeline](assets/figures_v2/1_timeline_releases.png)
 
-## 🛠️ Estructura del Proyecto
+## Estructura
 
 ```
 chilean-videogames-analysis/
-├── src/
-│   ├── collect.py      # Recolección datos Steam
-│   ├── collect_itch.py # Recolección datos Itch.io
-│   ├── clean.py        # Limpieza y estructuración
-│   ├── analyze_all.py  # Generación de insights
-│   └── utils.py        # Utilidades compartidas
+├── src/ # scrapers y transformers
 ├── data/
-│   ├── raw/            # (Ignorado) Scrape raw
-│   └── export/         # CSV enriquecido para Looker/Tableau
-└── assets/
-    └── figures_v2/     # Gráficos generados
+│   ├── raw/ # ignorado en repo
+│   └── export/ # dataset final para BI
+└── assets/figures_v2/
 ```
 
-## 📊 Dashboard de Datos
+## Setup & Run
 
-Puedes encontrar el dataset enriquecido en `data/export/chilean_games_final.csv`, listo para importar en herramientas como Looker Studio o PowerBI.
-
-## Cómo reproducir
-
-1.  Instalar dependencias: `pip install -r requirements.txt`
-2.  Ejecutar recolección: `python src/collect.py`
-3.  Procesar y analizar: `python src/analyze_all.py`
+1. `pip install -r requirements.txt`
+2. Baja los datos brutos: `python src/collect.py`
+3. Mastica la data: `python src/analyze_all.py`
