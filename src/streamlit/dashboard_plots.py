@@ -92,3 +92,14 @@ def graficar_cuadrante_oportunidad(df_f, is_log=False, col_y="revenue_est"):
     if not is_log:
         fig.update_layout(yaxis=dict(range=[-10000, upper_bound]))
     return fig
+
+def graficar_market_benchmark(df_b):
+    fig = go.Figure(go.Bar(
+        x=df_b["region"], y=df_b["median_revenue_usd"],
+        text=df_b["median_revenue_usd"], textposition="auto",
+        texttemplate="$%{text:,.0f}",
+        marker_color=["#58a6ff", "#e3b341", "#da3633"]
+    ))
+    fig.update_layout(title="Realidad Comercial: Ingreso Mediano por Juego (Benchmark)",
+                      yaxis=dict(title="USD", tickformat="$,.0f"), **PLOTLY_THEME)
+    return fig

@@ -1,6 +1,6 @@
 import streamlit as st
-from src.streamlit.dashboard_data import cargar_datos_historicos, calcular_kpis_globales
-from src.streamlit.dashboard_plots import graficar_lanzamientos, graficar_heatmap_mes, graficar_sentiment_box, graficar_cuadrante_oportunidad
+from src.streamlit.dashboard_data import cargar_datos_historicos, calcular_kpis_globales, cargar_market_benchmark
+from src.streamlit.dashboard_plots import graficar_lanzamientos, graficar_heatmap_mes, graficar_sentiment_box, graficar_cuadrante_oportunidad, graficar_market_benchmark
 from src.streamlit.ml_inference import run_prediction
 
 st.set_page_config(page_title="Chilean Videogames | BI", page_icon="🎮", layout="wide", initial_sidebar_state="expanded")
@@ -22,6 +22,7 @@ st.markdown("""
 
 raw_df = cargar_datos_historicos()
 kpis_data = calcular_kpis_globales(raw_df)
+bench_df = cargar_market_benchmark()
 
 with st.sidebar:
     st.markdown("<h2 style='color:#DA291C;text-align:center;'>GameDev CL</h2><hr>", unsafe_allow_html=True)
@@ -51,6 +52,9 @@ c3.metric("Metascore Promedio", f"{df_active['score'].mean():.1f}/100")
 c4.metric("Sentimiento", f"{df_active['sentiment'].mean():.2f}")
 
 st.info("Nota técnica: Revenue estimado vía Boxleiter. Sentimiento = scrape de reseñas parseadas asíncronamente.")
+
+st.markdown("<div class='section-header'>Benchmark Global (Mediana USD)</div>", unsafe_allow_html=True)
+st.plotly_chart(graficar_market_benchmark(bench_df), use_container_width=True)
 
 st.markdown("<div class='section-header'>Histórico de Producción</div>", unsafe_allow_html=True)
 col_a, col_b = st.columns(2)

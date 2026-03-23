@@ -1,0 +1,4 @@
+region,market_size,avg_revenue_usd,median_revenue_usd,avg_price_usd,games_per_year
+Global Indie,Mature,12500,850,9.99,14000
+LatAm Indie,Emerging,8200,600,7.99,850
+Chile,Developing,10100,720,8.50,150

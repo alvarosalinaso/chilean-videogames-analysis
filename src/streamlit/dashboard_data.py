@@ -14,3 +14,8 @@ def cargar_datos_historicos():
 @st.cache_data
 def calcular_kpis_globales(df):
     return {"n_juegos": len(df), "total_revenue": df["revenue_est"].sum(), "avg_score": df["score"].mean()}
+
+@st.cache_data
+def cargar_market_benchmark():
+    p = Path(__file__).parent.parent.parent / "data" / "raw" / "market_benchmark.csv"
+    return pd.read_csv(p)
