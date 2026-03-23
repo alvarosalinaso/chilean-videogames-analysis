@@ -56,7 +56,11 @@ def graficar_sentiment_box(df_f, is_platform=False):
     return fig
 
 def graficar_cuadrante_oportunidad(df_f):
-    fig = px.scatter(df_f, x="sentiment", y="revenue_est",
+    df_plot = df_f.copy()
+    # Hotfix preventivo: px.scatter 'size' truena (ValueError) si hay NaNs
+    df_plot["score"] = df_plot["score"].fillna(df_plot["score"].median())
+    
+    fig = px.scatter(df_plot, x="sentiment", y="revenue_est",
                      size="score", color="genre", hover_name="title",
                      hover_data=["platforms", "price", "units_sold"],
                      title="Mapa de Oportunidad de Mercado",
