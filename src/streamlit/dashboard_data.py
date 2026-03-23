@@ -1,10 +1,12 @@
 import pandas as pd
 import streamlit as st
 
+from pathlib import Path
 @st.cache_data
 def cargar_datos_historicos():
     # levanta los datos raw y pisa tipos
-    df = pd.read_csv("data/raw/streamlit_data.csv")
+    p = Path(__file__).parent.parent.parent / "data" / "raw" / "streamlit_data.csv"
+    df = pd.read_csv(p)
     df['release_date'] = pd.to_datetime(df['release_date'])
     df['year'] = df['release_date'].dt.year
     return df
