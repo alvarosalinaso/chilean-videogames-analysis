@@ -4,27 +4,39 @@
 
 🚀 **[Ver Panel Interactivo en Vivo](https://chilean-videogames-analysis-kjcsvpb5cuyhnv4papptzby.streamlit.app)**
 
-Panel interactivo enfocado en auditar el desempeño financiero real de la industria chilena de videojuegos. A diferencia de un análisis clásico de géneros, este proyecto compara la percepción pública con las métricas estimadas de negocio.
+Una herramienta de auditoría y visualización diseñada para evaluar el desempeño financiero real de la industria chilena de videojuegos. En lugar de ofrecer un recuento superficial de géneros populares, este proyecto cruza percepciones públicas de éxito con métricas de negocio duras (Net Revenue) e incorpora modelos predictivos para clasificar la viabilidad comercial de futuros desarrollos.
 
-## Funcionalidades Principales
-- **Extracción de Datos**: Flujos directos para obtener información de Steam e Itch.io.
-- **Predicción (Bosques Aleatorios)**: Un motor predictivo que evalúa la propuesta comercial y categoriza la probabilidad de éxito y la viabilidad técnica del desarrollo.
-- **Comparativa América Latina/Global**: Se inyectaron datos de la mediana de ingresos mundial. Comparamos el bajo costo operativo de Chile contra el retorno esperado (> $720 USD) para determinar si es financieramente seguro invertir localmente.
-- **Motor Refactorizado**: Rutas relativas aisladas mediante bibliotecas del sistema operativo para evitar caídas de la aplicación de manera independiente del entorno de uso.
+---
 
-## Archivos Críticos
-1. `app.py`: El núcleo visual del panel de control.
-2. `src/streamlit/dashboard_data.py`: Donde el código une la información local con el cruce comparativo del mercado externo (`market_benchmark.csv`).
-3. `src/ml/train.py`: El algoritmo de aprendizaje automático, sin redundancias y directo al punto.
+## Arquitectura y Funcionalidad
 
-## Configuración Inicial
-Clona el repositorio, activa el entorno virtual y dispara la interfaz gráfica:
+- **Extracción Directa:** Pipelines de datos integrados hacia los repositorios de metadatos de Steam e Itch.io.
+- **Predicción (Bosques Aleatorios):** Motor de Machine Learning que procesa descripciones y propuestas de valor, arrojando estimaciones de éxito comercial y riesgo de desarrollo.
+- **Benchmarking Económico:** Incorporación de un diferencial empírico. Se compara la media global de ingresos de la industria versus los costos operacionales en Chile, lo cual define si la inversión local cuenta con un piso financiero viable (> $720 USD teóricos).
+- **Despliegue Portable:** Código base sanitizado y enrutado dinámicamente mediante módulos del OS, permitiendo la ejecución local del Dashboard sin fricciones de ruta.
 
-```powershell
+---
+
+## Estructura Central
+
+- `app.py`: Front-end interactivo y motor visual en Streamlit.
+- `src/streamlit/dashboard_data.py`: Módulo de cruce entre extracción local y datos macro globales (`market_benchmark.csv`).
+- `src/ml/train.py`: Rutinas de entrenamiento y validación del algoritmo predictivo.
+
+---
+
+## Ejecución Local
+
+Para levantar el entorno analítico en tu equipo:
+
+```bash
+# Entorno e instalación
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
+
+# Despliegue del Dashboard
 streamlit run app.py
 ```
 
-> Álvaro Salinas Ortiz | alvarosalinasortiz@gmail.com | [LinkedIn](https://www.linkedin.com/in/alvaro-salinas-ortiz)
+> **Álvaro Salinas Ortiz** | Estrategia de Datos y Humanidades Digitales | [LinkedIn](https://www.linkedin.com/in/alvaro-salinas-ortiz)
