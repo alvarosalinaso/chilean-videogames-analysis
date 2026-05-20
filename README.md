@@ -1,4 +1,4 @@
-[![Integración Continua](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml)
+﻿[![Integración Continua](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml)
 
 # Inteligencia de Mercado y Modelado Predictivo de Viabilidad Comercial: Industria de Videojuegos en Chile
 
@@ -83,5 +83,5 @@ La arquitectura modular permite iniciar y auditar el sistema localmente en pocos
 ---
 
 > **Álvaro Salinas Ortiz**
-> *Asesor Estratégico en Toma de Datos y Análisis*
+> *Consultor en Estrategia de Datos y Analítica Avanzada*
 > [LinkedIn](https://www.linkedin.com/in/alvaro-salinas-ortiz) | [Portafolio Web](https://alvarosalinaso.github.io)
