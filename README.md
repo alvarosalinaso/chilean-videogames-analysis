@@ -1,4 +1,4 @@
-﻿[![Integración Continua](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml)
+[![Integración Continua](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml)
 
 # Inteligencia de Mercado y Modelado Predictivo de Viabilidad Comercial: Industria de Videojuegos en Chile
 
@@ -29,24 +29,28 @@ El desafío estratégico de este proyecto consiste en **democratizar e integrar 
 
 ## Data Architecture & Analytical Approach
 
-El pipeline analítico del sistema ha sido diseñado garantizando robustez matemática y limpieza estructural de datos:
+El pipeline analítico del sistema ha sido diseñado garantizando robustez matemática, transparencia en ingeniería de características y limpieza estructural de datos:
 
 [INSERTAR DIAGRAMA DE LA ARQUITECTURA DE DATOS: PIPELINES API -> MODELO ML -> STREAMLIT APPS AQUÍ]
 
-1. **Pipeline de Ingesta y ETL Multi-Plataforma:** Extracción directa e integración automatizada de APIs de Steam e Itch.io, recolectando metadatos operativos, métricas de engagement, volumetría de reviews y precios de venta.
-2. **Modelado Predictivo de Viabilidad (Random Forests):** Entrenamiento de un clasificador supervisado en Python (`scikit-learn`) que procesa variables temáticas, descripciones cualitativas y propuestas de valor para estimar probabilísticamente la viabilidad comercial y el nivel de riesgo de nuevos proyectos.
-3. **Benchmarking de Margen de Contribución:** Integración de un diferencial empírico que confronta el desempeño de ingresos netos proyectados contra el benchmark macroeconómico de costos de producción local (`market_benchmark.csv`), estableciendo un umbral mínimo de sostenibilidad financiera (> $720 USD teóricos como proxy de viabilidad inicial).
-4. **Infraestructura Limpia y Portable:** Modularización estricta del backend (`src/streamlit/dashboard_data.py`) y backend ML (`src/ml/train.py`), aislados dinámicamente mediante sistemas de enrutamiento nativos del OS para garantizar consistencia operacional y despliegues robustos en la nube.
+1. **Pipeline de Ingesta y ETL Multi-Plataforma:** Extracción directa e integración automatizada de las APIs públicas y scrapers de Steam e Itch.io, consolidando metadatos de lanzamientos nacionales, volumetría de reseñas históricas y precios de venta normalizados a USD.
+2. **Modelado Predictivo de Viabilidad (Random Forest Híbrido):** 
+   - **Modelo Offline de Procesamiento de Lenguaje Natural (NLP):** En nuestro pipeline de entrenamiento (`src/ml/train.py`), implementamos una vectorización de texto por **TF-IDF (1,000 características de máxima frecuencia)** sobre las descripciones detalladas de los juegos (`cleaned_text`). Este corpus alimenta clasificadores y regresores de **Random Forest** para evaluar qué descriptores temáticos y propuestas de valor escritas se asocian históricamente a mayores niveles de venta y tracción.
+   - **Simulador Interactivo en Tiempo Real:** Integrado directamente en el panel de Streamlit (`app.py`), utiliza un Random Forest entrenado sobre variables estructuradas clave: *Género Principal* (codificado categóricamente), *Modelo de Monetización* (Premium vs. Free-to-Play), *Metascore Proyectado*, *Sentimiento del Usuario* (proporción de reviews positivas en Steam) y *Año de Lanzamiento*.
+3. **Marco de Validación Financiera de Dos Niveles:** 
+   - **Umbral de Validación Micro-Indie (> $1,000 USD netos):** Implementado en el pipeline ETL para filtrar proyectos de pasatiempo, proyectos escolares o jam submissions en Itch.io que distorsionan el benchmark comercial del mercado profesional.
+   - **Umbral de Sostenibilidad Comercial (> $10,000 USD netos):** Utilizado en el clasificador de viabilidad del simulador interactivo como proxy de costo de recuperación operativo mínimo (capital de trabajo inicial) para micro-estudios de desarrollo de software en Chile.
+4. **Infraestructura Limpia y Portable:** Estructuración modular que separa la lógica del dashboard de visualización (`app.py`), los scripts de limpieza y agregación analítica (`src/analyze_all.py`), y la orquestación del backend de aprendizaje de máquina (`src/ml/prepare.py` y `train.py`).
 
 ---
 
 ## Strategic Insights & Impact
 
-La auditoría analítica del sector revela conclusiones críticas de negocio para tomadores de decisiones:
+La auditoría analítica del sector revela conclusiones críticas y objetivas sobre el comportamiento de la industria local:
 
-- **Desalineamiento Costo-Ingreso:** Más del 50% de los lanzamientos nacionales analizados no logran cruzar el umbral crítico de retorno mínimo operacional, exponiendo la necesidad urgente de optimizar las fases de pre-producción y validación de mercado antes de la fase de codificación intensiva.
-- **Factores de Éxito No Obvios:** El modelo de Machine Learning identifica que, más allá del género del videojuego, variables de engagement cualitativo y la densidad de actualizaciones tempranas tienen un impacto de peso del 40% superior en los ingresos acumulados en comparación con el presupuesto inicial estimado.
-- **Sostenibilidad Comercial:** El análisis sectorial provee un mapa de calor dinámico que resalta los nichos comerciales con mayor margen de contribución libre de saturación, redirigiendo la estrategia creativa hacia el ROI de negocio.
+- **La Realidad de la Larga Cola y Alta Mortalidad:** El análisis financiero de los 156 juegos chilenos consolidados en el dataset revela una alta concentración de mercado. Más del **75%** de los títulos fracasan en cruzar el umbral mínimo de validación micro-indie de **$1,000 USD** (principalmente proyectos de distribución gratuita en Itch.io y lanzamientos de bajo alcance en Steam). Esto demuestra que la fase de desarrollo técnico suele carecer de una estrategia de comercialización o pricing sólida.
+- **Los Outliers de Éxito Comercial:** El volumen de ingresos de la industria chilena está sostenido por un puñado de casos excepcionales en los géneros de **Acción** y **Aventura**. Destacan producciones como **Tormented Souls** (Dual Effect / Abstract Digital) con ingresos netos estimados sobre los **$2.5M USD**, el catálogo histórico de **ACE Team** (liderado por sagas como **Rock of Ages** y **The Eternal Cylinder** superando cómodamente los **$500K USD** por lanzamiento), y títulos independientes sólidos como **Urbek City Builder** con más de **$530K USD** netos.
+- **La Superioridad del Sentimiento del Usuario sobre la Crítica:** El modelo predictivo revela que el **Sentimiento del Usuario (Steam Positive Review Ratio)** muestra una correlación estadística sustancialmente más fuerte con el Net Revenue acumulado que el **Metascore** crítico tradicional. El mercado de nicho en Steam premia la validación directa de la comunidad y la consistencia en el soporte posventa, haciendo que el engagement comunitario sea un indicador de viabilidad comercial superior a la calificación de la prensa especializada.
 
 [INSERTAR GRÁFICO DE DISTRIBUCIÓN DE NET REVENUE VS GÉNERO Y UMBRAL DE VIABILIDAD ACUMULADA AQUÍ]
 
