@@ -23,7 +23,6 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -133,19 +132,26 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     st.markdown("---")
 
-    sel_platforms = st.multiselect("Plataforma", ["Steam","Itch.io"], default=["Steam","Itch.io"])
-    sel_genres    = st.multiselect("Géneros", sorted(df["genre"].unique()), default=sorted(df["genre"].unique()))
-    year_range    = st.slider("Rango de años", 2010, 2024, (2015, 2024))
-    min_reviews   = st.slider("Reviews mínimas", 0, 500, 0)
+    st.markdown("**🎮 Filtros**")
+    sel_platforms = st.multiselect("Plataforma", ["Steam","Itch.io"], default=["Steam","Itch.io"],
+        help="Seleccioná una o ambas plataformas para comparar.")
+    sel_genres    = st.multiselect("Géneros", sorted(df["genre"].unique()), default=sorted(df["genre"].unique()),
+        help="Filtrar por género de videojuego. Action, Horror, RPG, etc.")
+    year_range    = st.slider("Rango de años", 2010, 2024, (2015, 2024),
+        help="Elegí el período de lanzamiento que querés analizar.")
+    min_reviews   = st.slider("Reviews mínimas", 0, 500, 0,
+        help="Ignorar juegos con menos reseñas (reduce ruido en los datos).")
 
     st.markdown("---")
+    st.markdown("**📊 Métrica**")
     metric_map = {
         "Revenue estimado (USD)": "revenue_est",
         "Puntuación media": "score",
         "Nº de reviews": "reviews",
         "Sentimiento": "sentiment",
     }
-    sel_metric_label = st.selectbox("Métrica principal", list(metric_map.keys()))
+    sel_metric_label = st.selectbox("Métrica principal", list(metric_map.keys()),
+        help="Define la métrica que ordena los géneros en las tablas y gráficos.")
     sel_metric = metric_map[sel_metric_label]
 
     st.markdown("---")
@@ -203,6 +209,13 @@ tab1, tab2, tab3, tab4 = st.tabs([
 
 # ══════════════════════ TAB 1: TENDENCIAS ══════════════════════
 with tab1:
+    st.markdown("""
+    <div style="background:#161b22;padding:.8rem 1.2rem;border-radius:10px;border-left:4px solid #3fb950;margin-bottom:1.2rem;font-size:.9rem;color:#8b949e;">
+    <strong>Evolución de la industria chilena de videojuegos (2010–2024):</strong>
+    cantidad de juegos publicados por año en Steam e Itch.io, revenue estimado y
+    mapa de calor de lanzamientos por mes. La línea vertical marca el boom indie post-COVID.
+    </div>
+    """, unsafe_allow_html=True)
     fig_trend = go.Figure()
     colors_plat = {"Steam": COLORS["steam_l"], "Itch.io": COLORS["itch"]}
     df_trend_f = df_trend[
@@ -278,6 +291,13 @@ with tab1:
 
 # ══════════════════════ TAB 2: GÉNERO / PLATAFORMA ══════════════════════
 with tab2:
+    st.markdown("""
+    <div style="background:#161b22;padding:.8rem 1.2rem;border-radius:10px;border-left:4px solid #3fb950;margin-bottom:1.2rem;font-size:.9rem;color:#8b949e;">
+    <strong>Revenue, score y cantidad de juegos por género y plataforma:</strong>
+    comparativa de revenue promedio, burbuja score vs revenue y tabla detallada
+    para identificar qué géneros tienen mejor rendimiento.
+    </div>
+    """, unsafe_allow_html=True)
     col_l, col_r = st.columns([2, 3])
     with col_l:
         genre_kpi = df_f.groupby("genre").agg(
@@ -333,6 +353,13 @@ with tab2:
 
 # ══════════════════════ TAB 3: SENTIMIENTOS ══════════════════════
 with tab3:
+    st.markdown("""
+    <div style="background:#161b22;padding:.8rem 1.2rem;border-radius:10px;border-left:4px solid #3fb950;margin-bottom:1.2rem;font-size:.9rem;color:#8b949e;">
+    <strong>Análisis de sentimiento en reseñas de juegos chilenos:</strong>
+    distribución del índice de sentimiento por plataforma y género, más la correlación
+    entre sentimiento y revenue estimado en Steam.
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown("#### 🔍 Análisis de sentimientos · Score → Percepción de mercado")
 
     col_s1, col_s2 = st.columns(2)
@@ -383,6 +410,13 @@ with tab3:
 
 # ══════════════════════ TAB 4: OPORTUNIDAD ══════════════════════
 with tab4:
+    st.markdown("""
+    <div style="background:#161b22;padding:.8rem 1.2rem;border-radius:10px;border-left:4px solid #3fb950;margin-bottom:1.2rem;font-size:.9rem;color:#8b949e;">
+    <strong>Mapa de oportunidad de mercado por género:</strong>
+    cuadrante que cruza saturación (cantidad de juegos) vs revenue promedio.
+    Los géneros en el cuadrante superior-izquierdo tienen <strong>alta oportunidad</strong>.
+    </div>
+    """, unsafe_allow_html=True)
     st.markdown("#### 🗺️ Mapa de oportunidad de mercado")
     st.caption("Cuadrante: Revenue potencial vs Saturación. Tamaño del círculo = score promedio.")
 
