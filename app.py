@@ -300,12 +300,13 @@ with tab2:
     """, unsafe_allow_html=True)
     col_l, col_r = st.columns([2, 3])
     with col_l:
+        sort_col = {"revenue_est":"avg_rev","score":"avg_score","reviews":"count","sentiment":"avg_sentiment"}.get(sel_metric, "avg_rev")
         genre_kpi = df_f.groupby("genre").agg(
             count=("title","count"),
             avg_rev=("revenue_est","mean"),
             avg_score=("score","mean"),
             avg_sentiment=("sentiment","mean"),
-        ).reset_index().sort_values(sel_metric if sel_metric in ["revenue_est","score"] else "avg_rev", ascending=False)
+        ).reset_index().sort_values(sort_col, ascending=False)
 
         fig_genre_bar = go.Figure(go.Bar(
             y=genre_kpi["genre"], x=genre_kpi["avg_rev"],
