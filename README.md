@@ -1,40 +1,65 @@
-# Dataviz de la Industria de Videojuegos en Chile 🇨🇱🎮
+# Videojuegos Chilenos — Market Intelligence
 
-Un análisis profundo del desarrollo de videojuegos en Chile durante el siglo XXI, combinando datos de **Steam** (comercial) e **Itch.io** (indie).
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit)](https://streamlit.io)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## 🚀 Hallazgos Principales
+Pipeline ETL + Dashboard interactivo de la industria de videojuegos desarrollados en Chile (2010-2024). Combina datos de **Steam** (mercado comercial) e **Itch.io** (escena indie) para generar un panorama completo del ecosistema.
 
-- **Fuerte Crecimiento Post-2020**: La escena indie explotó en los últimos años, con Itch.io sirviendo como plataforma principal de experimentación.
-- **Dos Mundos**:
-    - **Steam**: Mercado Premium ($8-10 USD), géneros de Acción y Estrategia.
-    - **Itch.io**: Mercado Free/Experimental, gran diversidad creativa.
-- **Top Ventas (Estimado)**: *Rock of Ages*, *Tormented Souls* y *Zeno Clash* lideran las estimaciones de revenue.
+## Dashboard en Vivo
 
-![Timeline](assets/figures_v2/1_timeline_releases.png)
+👉 **[chilean-videogames-analysis.streamlit.app](https://chilean-videogames-analysis.streamlit.app)**
 
-## 🛠️ Estructura del Proyecto
+## Hallazgos Clave
+
+- **Crecimiento post-2020**: La escena indie chilena explotó en los últimos años
+- **Dos mercados diferenciados**: Steam (Premium, $8-10 USD) vs Itch.io (Free/Experimental)
+- **Top ventas estimadas**: *Rock of Ages*, *Tormented Souls*, *Zeno Clash*
+- **Géneros dominantes**: Acción y Estrategia en Steam; Experimental y Narrativo en Itch.io
+
+## Stack
+
+| Capa | Tecnología |
+|------|-----------|
+| **Lenguaje** | Python 3.8+ |
+| **Scraping** | BeautifulSoup, Steam API, Itch.io API |
+| **Data** | Pandas, NumPy |
+| **Visualización** | Streamlit, Plotly, Matplotlib |
+| **BI** | Looker Studio (Google Data Studio) |
+| **Testing** | Pytest |
+
+## Estructura
 
 ```
 chilean-videogames-analysis/
-├── src/
-│   ├── collect.py      # Recolección datos Steam
-│   ├── collect_itch.py # Recolección datos Itch.io
-│   ├── clean.py        # Limpieza y estructuración
-│   ├── analyze_all.py  # Generación de insights
-│   └── utils.py        # Utilidades compartidas
+├── src/                    # Pipeline ETL
+│   ├── collect.py          # Scraping Steam
+│   ├── collect_itch.py     # Scraping Itch.io
+│   ├── clean.py            # Limpieza y normalización
+│   ├── analyze_all.py      # Generación de insights
+│   └── utils.py            # Utilidades compartidas
 ├── data/
-│   ├── raw/            # (Ignorado) Scrape raw
-│   └── export/         # CSV enriquecido para Looker/Tableau
-└── assets/
-    └── figures_v2/     # Gráficos generados
+│   ├── raw/                # JSON crudos de APIs
+│   └── export/             # CSVs listos para BI
+├── assets/figures_v2/      # Visualizaciones generadas
+├── app.py                  # Dashboard Streamlit
+├── docs/looker_setup.md    # Guía Looker Studio
+└── requirements.txt        # Dependencias
 ```
 
-## 📊 Dashboard de Datos
+## Inicio Rápido
 
-Puedes encontrar el dataset enriquecido en `data/export/chilean_games_final.csv`, listo para importar en herramientas como Looker Studio o PowerBI.
+```bash
+pip install -r requirements.txt
+streamlit run app.py        # Dashboard local
+```
 
-## Cómo reproducir
+Para reproducir el análisis completo:
+```bash
+python src/collect.py       # Scraping
+python src/analyze_all.py   # Procesamiento y gráficos
+```
 
-1.  Instalar dependencias: `pip install -r requirements.txt`
-2.  Ejecutar recolección: `python src/collect.py`
-3.  Procesar y analizar: `python src/analyze_all.py`
+## Contacto
+
+**Álvaro Salinas Ortiz** — [LinkedIn](https://linkedin.com/in/alvaro-salinas-ortiz) · 
