@@ -10,7 +10,7 @@ Pipeline ETL + Dashboard interactivo de la industria de videojuegos desarrollado
 
 ## Dashboard en Vivo
 
-👉 **[chilean-videogames-analysis.streamlit.app](https://chilean-videogames-analysis.streamlit.app)**
+👉 **[chilean-videogames-analysis.streamlit.app](https://chilean-videogames-analysis.streamlit.app)** — *Se activa al desplegar en Streamlit Cloud.*
 
 ## Hallazgos Clave
 
