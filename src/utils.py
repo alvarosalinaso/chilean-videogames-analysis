@@ -1,13 +1,14 @@
 """
 utils.py — Utilidades compartidas para el análisis de videojuegos chilenos.
 """
+
 import logging
 import re
-from pathlib import Path
 
 import pandas as pd
 
 # ── Logging ───────────────────────────────────────────────────────────────────
+
 
 def setup_logger(name: str = __name__) -> logging.Logger:
     """Configura y retorna un logger con formato estándar."""
@@ -23,6 +24,7 @@ def setup_logger(name: str = __name__) -> logging.Logger:
 
 
 # ── Parsers de precio ─────────────────────────────────────────────────────────
+
 
 def parse_price_steam(price_data: dict) -> float:
     """
@@ -62,6 +64,7 @@ def parse_price_itch(price_text: str) -> float:
 
 
 # ── Parsers de fecha ──────────────────────────────────────────────────────────
+
 
 def parse_date(date_str: str) -> str:
     """
@@ -125,26 +128,26 @@ def normalize_currency_to_usd(price: float, currency: str) -> float:
 # ── Mapeo de estudios ─────────────────────────────────────────────────────────
 
 _STUDIO_LOCATIONS: dict[str, str] = {
-    "ACE Team":           "Santiago",
-    "AOne Games":         "Santiago",
-    "IguanaBee":          "Santiago",
-    "Dual Effect":        "Santiago",
-    "Octeto Studios":     "Santiago",
-    "Abstract Digital":   "Santiago",
-    "Time Hunters":       "Santiago",
-    "Nidal Games":        "Santiago",
-    "Gamaga":             "Santiago",
-    "Behavior Santiago":  "Santiago",
-    "Wanako Games":       "Santiago",
+    "ACE Team": "Santiago",
+    "AOne Games": "Santiago",
+    "IguanaBee": "Santiago",
+    "Dual Effect": "Santiago",
+    "Octeto Studios": "Santiago",
+    "Abstract Digital": "Santiago",
+    "Time Hunters": "Santiago",
+    "Nidal Games": "Santiago",
+    "Gamaga": "Santiago",
+    "Behavior Santiago": "Santiago",
+    "Wanako Games": "Santiago",
     "Giant Monkey Robot": "Santiago",
-    "Bitplay":            "Santiago",
-    "Glitchy Pixel":      "Santiago",
-    "Invader Studios":    "Santiago",
-    "Movistar GameClub":  "Santiago",
-    "Micropsia Games":    "Santiago",
-    "Playmestudio":       "Valparaíso",
-    "Niebla Games":       "Valparaíso",
-    "Estudio Mirlo":      "Valparaíso",
+    "Bitplay": "Santiago",
+    "Glitchy Pixel": "Santiago",
+    "Invader Studios": "Santiago",
+    "Movistar GameClub": "Santiago",
+    "Micropsia Games": "Santiago",
+    "Playmestudio": "Valparaíso",
+    "Niebla Games": "Valparaíso",
+    "Estudio Mirlo": "Valparaíso",
 }
 
 

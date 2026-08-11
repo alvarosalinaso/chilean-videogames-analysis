@@ -3,23 +3,22 @@ clean.py — Limpieza y consolidación de datos crudos de videojuegos chilenos.
 
 Lee JSONs desde data/raw/ (Steam e Itch.io) y genera data/processed/games.csv.
 """
+
 import json
-import logging
 from pathlib import Path
-from typing import Optional
 
 import pandas as pd
 
-from utils import setup_logger, parse_price_steam, parse_price_itch, extract_year
+from utils import extract_year, parse_price_itch, parse_price_steam, setup_logger
 
 logger = setup_logger("clean")
 
-_PROJECT_ROOT  = Path(__file__).parent.parent
-_RAW_DIR       = _PROJECT_ROOT / "data" / "raw"
+_PROJECT_ROOT = Path(__file__).parent.parent
+_RAW_DIR = _PROJECT_ROOT / "data" / "raw"
 _PROCESSED_DIR = _PROJECT_ROOT / "data" / "processed"
 
 
-def _parse_steam(data: dict) -> Optional[dict]:
+def _parse_steam(data: dict) -> dict | None:
     """Extrae campos relevantes de un JSON de Steam API."""
     steam_id = data.get("steam_appid")
     if not steam_id:
@@ -29,19 +28,19 @@ def _parse_steam(data: dict) -> Optional[dict]:
     price_obj = data.get("price_overview", {})
 
     return {
-        "source":          "steam",
-        "steam_id":        steam_id,
-        "name":            data.get("name", "Unknown"),
-        "release_date":    raw_date,
-        "year":            extract_year(raw_date),
-        "is_free":         data.get("is_free", False),
-        "price":           parse_price_steam(price_obj),
-        "currency":        price_obj.get("currency", "CLP"),
-        "metacritic":      (data.get("metacritic") or {}).get("score"),
+        "source": "steam",
+        "steam_id": steam_id,
+        "name": data.get("name", "Unknown"),
+        "release_date": raw_date,
+        "year": extract_year(raw_date),
+        "is_free": data.get("is_free", False),
+        "price": parse_price_steam(price_obj),
+        "currency": price_obj.get("currency", "CLP"),
+        "metacritic": (data.get("metacritic") or {}).get("score"),
         "recommendations": (data.get("recommendations") or {}).get("total", 0),
-        "genres":          ", ".join(g["description"] for g in data.get("genres", [])),
-        "developers":      ", ".join(data.get("developers", [])),
-        "publishers":      ", ".join(data.get("publishers", [])),
+        "genres": ", ".join(g["description"] for g in data.get("genres", [])),
+        "developers": ", ".join(data.get("developers", [])),
+        "publishers": ", ".join(data.get("publishers", [])),
     }
 
 
@@ -49,19 +48,19 @@ def _parse_itch(data: dict) -> dict:
     """Extrae campos relevantes de un JSON scrapeado de Itch.io."""
     price_val = parse_price_itch(data.get("price_text", ""))
     return {
-        "source":          "itch",
-        "steam_id":        None,
-        "name":            data.get("name", "Unknown"),
-        "release_date":    data.get("release_date", ""),
-        "year":            extract_year(data.get("release_date", "")),
-        "is_free":         price_val == 0,
-        "price":           price_val,
-        "currency":        "USD",
-        "metacritic":      None,
+        "source": "itch",
+        "steam_id": None,
+        "name": data.get("name", "Unknown"),
+        "release_date": data.get("release_date", ""),
+        "year": extract_year(data.get("release_date", "")),
+        "is_free": price_val == 0,
+        "price": price_val,
+        "currency": "USD",
+        "metacritic": None,
         "recommendations": 0,
-        "genres":          data.get("genre", "Unknown"),
-        "developers":      data.get("author", "Unknown"),
-        "publishers":      "Self-published",
+        "genres": data.get("genre", "Unknown"),
+        "developers": data.get("author", "Unknown"),
+        "publishers": "Self-published",
     }
 
 

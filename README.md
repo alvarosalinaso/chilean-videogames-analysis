@@ -1,5 +1,7 @@
 # Videojuegos Chilenos — Market Intelligence
 
+[![CI](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit)](https://streamlit.io)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
