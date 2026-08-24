@@ -20,7 +20,5 @@ env/
 .DS_Store
 Thumbs.db
 
-# Streamlit.streamlit/
-
 
 coverage.xml

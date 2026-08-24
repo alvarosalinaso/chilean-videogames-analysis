@@ -1,6 +1,6 @@
 # Inteligencia de Mercado para la Industria de Videojuegos Chilenos: Análisis Comparativo Steam vs Itch.io (2009–2025)
 
-[![CI](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org) [![Ruff](https://img.shields.io/badge/Ruff-linting-blueviolet)](https://docs.astral.sh/ruff/) [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red)](https://streamlit.io/)
+[![CI](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org) [![Ruff](https://img.shields.io/badge/Ruff-linting-blueviolet)](https://docs.astral.sh/ruff/)
 
 Análisis cuantitativo de la industria de videojuegos chilenos combinando datos de **Steam** (mercado comercial) e **Itch.io** (escena indie). Genera inteligencia de mercado accionable para estudios, inversores y política pública.
 
@@ -115,7 +115,7 @@ HHI < 1000 → mercado **altamente fragmentado**. Ningún género domina; divers
 
 ### 5.1 Dashboard Principal
 
-**[Portfolio Web](https://alvarosalinaso.github.io/portfolio-web/)** → Tab "Industria Gamer Chilena" · Streamlit · Plotly.js · 4 tabs
+**[Portfolio Web](https://alvarosalinaso.github.io/portfolio-web/)** → Tab "Industria Gamer Chilena" · Plotly.js · 4 tabs
 
 ### 5.2 Visualizaciones Embebidas
 
@@ -163,14 +163,12 @@ python src/collect.py          # Extracción Steam
 python src/collect_itch.py     # Extracción Itch.io
 python src/clean.py            # Limpieza
 python src/analyze_all.py      # Análisis + visualizaciones
-streamlit run app.py           # Dashboard (opcional)
 ```
 
 ### 6.3 Dependencias
 
 | Paquete | Versión | Uso |
 |---------|---------|-----|
-| streamlit | >= 1.32.0 | Dashboard |
 | plotly | >= 5.19.0 | Visualizaciones interactivas |
 | pandas | >= 2.1.0 | Manipulación de datos |
 | numpy | >= 1.26.0 | Operaciones numéricas |
@@ -184,7 +182,7 @@ streamlit run app.py           # Dashboard (opcional)
 ```bash
 ruff check .                  # Linting
 ruff format --check .         # Formato
-python -m compileall -q src app.py  # Compilación
+python -m compileall -q src          # Compilación
 ```
 
 ### 6.5 Estructura
@@ -202,7 +200,6 @@ chilean-videogames-analysis/
 │   ├── processed/          # CSV consolidado
 │   └── export/             # Dataset final
 ├── assets/figures_v2/      # Visualizaciones
-├── app.py                  # Dashboard Streamlit
 ├── requirements.txt
 └── .github/workflows/ci.yml
 ```
