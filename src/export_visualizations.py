@@ -6,6 +6,7 @@ Reads data/export/chilean_games_final.csv and generates:
 - observable_distribucion.csv   → Observable Plot distribution
 - embed_snippets.md             → HTML embed snippets
 """
+
 from pathlib import Path
 
 import pandas as pd
@@ -47,11 +48,7 @@ def prepare_dw_quadrant(df: pd.DataFrame, output_path: Path) -> pd.DataFrame:
             else (
                 "Emergentes"
                 if row["num_games"] < mid_x and row["avg_revenue_usd"] >= mid_y
-                else (
-                    "Nicho Rentable"
-                    if row["num_games"] >= mid_x
-                    else "Explorar"
-                )
+                else ("Nicho Rentable" if row["num_games"] >= mid_x else "Explorar")
             )
         ),
         axis=1,
@@ -83,9 +80,7 @@ def prepare_flourish_treemap(df: pd.DataFrame, output_path: Path) -> pd.DataFram
                     "Revenue_USD": float(row.get("gross_revenue_est_usd", 0)),
                     "Copies": int(row.get("estimated_copies", 0)),
                     "Metacritic": (
-                        int(row["metacritic"])
-                        if pd.notna(row.get("metacritic"))
-                        else 0
+                        int(row["metacritic"]) if pd.notna(row.get("metacritic")) else 0
                     ),
                     "Year": str(row.get("year", "Unknown")),
                 }
@@ -102,7 +97,9 @@ def prepare_flourish_treemap(df: pd.DataFrame, output_path: Path) -> pd.DataFram
     return treemap_df
 
 
-def prepare_observable_distribution(df: pd.DataFrame, output_path: Path) -> pd.DataFrame:
+def prepare_observable_distribution(
+    df: pd.DataFrame, output_path: Path
+) -> pd.DataFrame:
     """Prepare data for Observable Plot distribution analysis by platform/genre."""
     obs_df = df[
         [
@@ -265,25 +262,27 @@ def main() -> None:
     try:
         dw_df = prepare_dw_quadrant(df, export_dir / "dw_quadrant_rentabilidad.csv")
         print(f"[OK] dw_quadrant_rentabilidad.csv — {len(dw_df)} géneros")
-    except Exception as exc:
+    except (OSError, ValueError, KeyError) as exc:
         print(f"[FAIL] Datawrapper: {exc}")
 
     try:
         fl_df = prepare_flourish_treemap(df, export_dir / "flourish_treemap_genero.csv")
         print(f"[OK] flourish_treemap_genero.csv — {len(fl_df)} filas")
-    except Exception as exc:
+    except (OSError, ValueError, KeyError) as exc:
         print(f"[FAIL] Flourish treemap: {exc}")
 
     try:
-        ob_df = prepare_observable_distribution(df, export_dir / "observable_distribucion.csv")
+        ob_df = prepare_observable_distribution(
+            df, export_dir / "observable_distribucion.csv"
+        )
         print(f"[OK] observable_distribucion.csv — {len(ob_df)} filas")
-    except Exception as exc:
+    except (OSError, ValueError, KeyError) as exc:
         print(f"[FAIL] Observable: {exc}")
 
     try:
         generate_embed_snippets(export_dir / "embed_snippets.md")
         print("[OK] embed_snippets.md")
-    except Exception as exc:
+    except (OSError, ValueError) as exc:
         print(f"[FAIL] Embed snippets: {exc}")
 
     print("Exportación completada.")
