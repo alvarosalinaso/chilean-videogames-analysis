@@ -146,6 +146,38 @@ HHI < 1000 → mercado **altamente fragmentado**. Ningún género domina; divers
 
 ---
 
+## Visual Analytics
+
+Interactividad multinivel para exploración de datos y presentación ejecutiva.
+
+<details>
+<summary><strong>Datawrapper — Gráfico interactivo</strong></summary>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+  <iframe src="https://datawrapper.dwcdn.net/MBqIQ/" title="Cuadrante de Saturación vs Revenue — Géneros de Videojuegos" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allowfullscreen></iframe>
+</div>
+</details>
+
+<details>
+<summary><strong>Flourish — Visualización animada</strong></summary>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+  <iframe src="https://flo.uri.sh/visualisation/1444147/embed" title="Distribución de Revenue por Plataforma y Género" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allowfullscreen></iframe>
+</div>
+</details>
+
+<details>
+<summary><strong>Observable — Notebook interactivo</strong></summary>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+  <iframe src="https://observablehq.com/@alvarosalinaso/chilean-distribution" title="Distribución Bimodal de Precios" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allowfullscreen></iframe>
+</div>
+</details>
+
+**Hallazgos clave**: Los videojuegos chilenos muestran una distribución bimodal de precios con clusters en $5.000-$15.000 y $25.000-$45.000 CLP, sugiriendo segmentación de mercado.
+
+---
+
 ## 6. Reproducibilidad y Entorno Técnico
 
 ### 6.1 Instalación
