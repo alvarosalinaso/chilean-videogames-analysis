@@ -1,0 +1,22 @@
+primary_genre,avg_revenue_usd,total_revenue_usd,num_games,quadrant
+Acción,268973.14509803924,13717630.4,51,★ Líderes
+Unknown,0.0,0.0,13,★ Líderes
+Aventura,173152.53333333333,2077830.4,12,★ Líderes
+Platformer,0.0,0.0,11,★ Líderes
+Indie,48513.63636363636,533650.0,11,★ Líderes
+Adventure,0.0,0.0,10,★ Líderes
+Casual,3694.6666666666665,33252.0,9,★ Líderes
+Action,0.0,0.0,6,★ Líderes
+Simulation,0.0,0.0,5,★ Líderes
+Visual Novel,0.0,0.0,4,★ Líderes
+Sports,0.0,0.0,3,★ Líderes
+Educational,0.0,0.0,3,★ Líderes
+Interactive Fiction,0.0,0.0,3,★ Líderes
+Survival,0.0,0.0,3,★ Líderes
+Simuladores,63664153.6,127328307.2,2,Emergentes
+Role Playing,0.0,0.0,2,Emergentes
+Fighting,0.0,0.0,2,Emergentes
+Rol,2543763.2,2543763.2,1,Emergentes
+Estrategia,0.0,0.0,1,Emergentes
+Deportes,15048.0,15048.0,1,Emergentes
+Strategy,0.0,0.0,1,Emergentes
