@@ -3,14 +3,15 @@
 [![CI](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/alvarosalinaso/chilean-videogames-analysis/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit)](https://streamlit.io)
+[![Plotly.js](https://img.shields.io/badge/Plotly.js-3.x-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/javascript/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 Pipeline ETL + Dashboard interactivo de la industria de videojuegos desarrollados en Chile (2010-2024). Combina datos de **Steam** (mercado comercial) e **Itch.io** (escena indie) para generar un panorama completo del ecosistema.
 
-## Dashboard en Vivo
+## Dashboard Integrado
 
-👉 **[chilean-videogames-analysis.streamlit.app](https://chilean-videogames-analysis.streamlit.app)** — *Se activa al desplegar en Streamlit Cloud.*
+👉 **Integrado en [Portfolio Web](https://alvarosalinaso.github.io/portfolio-web/)** → Tab **"🎮 Industria Gamer Chilena"**  
+Desplegado en GitHub Pages (estático, sin backend Python). 4 tabs: Tendencias, Género, Sentimientos, Oportunidad.
 
 ## Hallazgos Clave
 
@@ -26,7 +27,7 @@ Pipeline ETL + Dashboard interactivo de la industria de videojuegos desarrollado
 | **Lenguaje** | Python 3.8+ |
 | **Scraping** | BeautifulSoup, Steam API, Itch.io API |
 | **Data** | Pandas, NumPy |
-| **Visualización** | Streamlit, Plotly, Matplotlib |
+| **Visualización** | **Plotly.js** (integrado en Portfolio Web), Matplotlib |
 | **BI** | Looker Studio (Google Data Studio) |
 | **Testing** | Pytest |
 
@@ -44,7 +45,6 @@ chilean-videogames-analysis/
 │   ├── raw/                # JSON crudos de APIs
 │   └── export/             # CSVs listos para BI
 ├── assets/figures_v2/      # Visualizaciones generadas
-├── app.py                  # Dashboard Streamlit
 ├── docs/looker_setup.md    # Guía Looker Studio
 └── requirements.txt        # Dependencias
 ```
@@ -53,15 +53,12 @@ chilean-videogames-analysis/
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py        # Dashboard local
-```
-
-Para reproducir el análisis completo:
-```bash
 python src/collect.py       # Scraping
 python src/analyze_all.py   # Procesamiento y gráficos
 ```
 
+Para ver el dashboard interactivo: **[https://alvarosalinaso.github.io/portfolio-web/](https://alvarosalinaso.github.io/portfolio-web/)** → Tab "🎮 Industria Gamer Chilena"
+
 ## Contacto
 
-**Álvaro Salinas Ortiz** — [LinkedIn](https://linkedin.com/in/alvaro-salinas-ortiz) · 
+**Álvaro Salinas Ortiz** — [LinkedIn](https://linkedin.com/in/alvaro-salinas-ortiz) · [Portfolio](https://alvarosalinaso.github.io/portfolio-web/)
