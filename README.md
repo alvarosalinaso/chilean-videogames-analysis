@@ -55,7 +55,19 @@ La industria chilena de videojuegos carece de inteligencia competitiva estructur
 | HHI | `Σ(s_i²)` donde `s_i` = share de género | Concentración de mercado |
 | Normalización USD | `price × factor_moneda` | Comparabilidad cross-plataforma |
 
-### 3.4 Sesgos y Limitaciones
+### 3.4 A/B Testing (Steam vs Itch.io)
+
+Tests de hipótesis formales tratando Steam (control) y Itch.io (tratamiento) como grupos experimentales:
+
+| Test | Métrica | Método |
+|------|---------|--------|
+| Welch's t-test | Precios | Cohen's d, CI 95%, power analysis |
+| Chi-cuadrado | Distribución de géneros | Cramér's V |
+| Mann-Whitney U | Revenue estimado | Rank-biserial r |
+
+Resultados exportados a `data/export/ab_testing_results.json`.
+
+### 3.5 Sesgos y Limitaciones
 
 - **Supervivencia:** Solo juegos publicados; cancelados no aparecen en APIs
 - **BoxLeiter fijo:** Relación recomendaciones/copias varía por género
@@ -229,6 +241,7 @@ python src/collect.py          # Extracción Steam
 python src/collect_itch.py     # Extracción Itch.io
 python src/clean.py            # Limpieza
 python src/analyze_all.py      # Análisis + visualizaciones
+python src/forecasting.py      # Forecasting de lanzamientos y revenue + A/B testing
 ```
 
 ### 6.3 Dependencias
@@ -261,6 +274,7 @@ chilean-videogames-analysis/
 │   ├── collect_itch.py     # Extracción Itch.io
 │   ├── clean.py            # Limpieza
 │   ├── analyze_all.py      # Análisis + orchestrador
+│   ├── ab_testing.py       # A/B testing Steam vs Itch.io
 │   ├── clustering_analysis.py  # Clusterización K-Means
 │   └── utils.py            # Utilidades
 ├── data/

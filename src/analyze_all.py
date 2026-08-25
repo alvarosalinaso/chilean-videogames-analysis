@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+from ab_testing import run_ab_testing
 from clustering_analysis import run_clustering
 from utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
+from forecasting import run_forecasting
 
 logger = setup_logger("analysis")
 
@@ -166,6 +168,14 @@ def main():
         # Clusterización
         logger.info("Ejecutando clusterización (K-Means)...")
         run_clustering(data_dir=Path("data/export"), output_dir=Path("data/export"))
+
+        # Forecasting
+        logger.info("Ejecutando forecasting de lanzamientos y revenue...")
+        run_forecasting(data_dir=Path("data/processed"), output_dir=Path("data/export"))
+
+        # A/B Testing
+        logger.info("Ejecutando A/B testing (Steam vs Itch.io)...")
+        run_ab_testing(data_dir=Path("data/processed"), output_dir=Path("data/export"))
 
 
 if __name__ == "__main__":

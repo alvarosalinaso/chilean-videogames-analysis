@@ -13,3 +13,4 @@ seaborn>=0.13.0
 networkx>=3.2
 scikit-learn>=1.4.0
 kneed>=0.8
+statsmodels>=0.14.0
