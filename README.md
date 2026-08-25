@@ -105,5 +105,13 @@ python src/analyze_all.py
 
 ---
 
+## Related projects
+
+- [Chile Geografía Histórica](https://github.com/alvarosalinaso/chile-geografia-historica) — Interactive map of Chile's historical geography
+- [Chilean Political Discourse + NLP](https://github.com/alvarosalinaso/geopolitica-textual-nlp) — NLP on presidential speeches
+- [Portfolio Web](https://github.com/alvarosalinaso/portfolio-web) — Dashboard with all projects
+
+---
+
 > **Álvaro Salinas Ortiz**
 > [LinkedIn](https://www.linkedin.com/in/alvaro-salinas-ortiz) | [Portfolio](https://alvarosalinaso.github.io/portfolio-web/)
