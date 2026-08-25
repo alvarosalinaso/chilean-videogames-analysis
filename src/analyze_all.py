@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
+from clustering_analysis import run_clustering
 from utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 
 logger = setup_logger("analysis")
@@ -161,6 +162,10 @@ def main():
         out_csv.parent.mkdir(exist_ok=True, parents=True)
         df.to_csv(out_csv, index=False, encoding="utf-8-sig")
         logger.info(f"Dataset final exportado a: {out_csv}")
+
+        # Clusterización
+        logger.info("Ejecutando clusterización (K-Means)...")
+        run_clustering(data_dir=Path("data/export"), output_dir=Path("data/export"))
 
 
 if __name__ == "__main__":

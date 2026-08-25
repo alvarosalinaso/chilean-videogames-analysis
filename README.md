@@ -111,6 +111,26 @@ HHI < 1000 → mercado **altamente fragmentado**. Ningún género domina; divers
 
 ---
 
+## Tabla Ejecutiva
+
+Tabla ejecutiva estilo ejecutivo con `great_tables`. Ejecutar `src/generate_tables.py` para regenerar.
+
+<details>
+<summary><strong>Ver tabla ejecutiva</strong></summary>
+
+| Métrica | Valor | Benchmark | Δ |
+|---------|-------|-----------|---|
+| Total juegos analizados | 155 | — | — |
+| Revenue promedio Steam | $7.68 USD | Industria global: $15 USD | -49% |
+| Revenue mediano género top | $6,132 USD | Simuladores | — |
+| HHI concentración | <1000 | Altamente fragmentado | — |
+| Crecimiento post-2020 | 5.4x | Pre-COVID: 21 juegos | +443% |
+
+*Generado con great_tables — Ejecutar `python src/generate_tables.py` para actualizar*
+</details>
+
+---
+
 ## 5. Dashboard y Visualizaciones Interactivas
 
 ### 5.1 Dashboard Principal
@@ -208,6 +228,7 @@ python src/analyze_all.py      # Análisis + visualizaciones
 | matplotlib | >= 3.8.0 | Figuras estáticas |
 | requests | >= 2.31.0 | APIs HTTP |
 | beautifulsoup4 | >= 4.12.0 | Parsing HTML |
+| scikit-learn | >= 1.3.0 | Clusterización K-Means |
 
 ### 6.4 Calidad de Código
 
@@ -225,7 +246,8 @@ chilean-videogames-analysis/
 │   ├── collect.py          # Extracción Steam
 │   ├── collect_itch.py     # Extracción Itch.io
 │   ├── clean.py            # Limpieza
-│   ├── analyze_all.py      # Análisis
+│   ├── analyze_all.py      # Análisis + orchestrador
+│   ├── clustering_analysis.py  # Clusterización K-Means
 │   └── utils.py            # Utilidades
 ├── data/
 │   ├── raw/                # JSONs crudos
