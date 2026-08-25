@@ -2,21 +2,25 @@
 Clusterización de videojuegos chilenos con scikit-learn.
 Identifica segmentos de mercado usando K-Means + elbow method.
 """
+
 import json
 from pathlib import Path
 
 try:
-    import pandas as pd
     import numpy as np
+    import pandas as pd
     from sklearn.cluster import KMeans
-    from sklearn.preprocessing import StandardScaler
     from sklearn.metrics import silhouette_score
+    from sklearn.preprocessing import StandardScaler
+
     SKLEARN_AVAILABLE = True
 except ImportError:
     SKLEARN_AVAILABLE = False
 
 
-def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path("data/export")) -> dict:
+def run_clustering(
+    data_dir: Path = Path("data/export"), output_dir: Path = Path("data/export")
+) -> dict:
     """Clusterización robusta con validación cruzada y métricas avanzadas."""
     if not SKLEARN_AVAILABLE:
         print("[CLUSTER] scikit-learn no instalado. pip install scikit-learn")
@@ -33,7 +37,11 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
 
     df = pd.read_csv(csv_file, encoding="utf-8")
 
-    feature_cols = [c for c in ["price_usd", "gross_revenue_est_usd", "recommendations", "metacritic"] if c in df.columns]
+    feature_cols = [
+        c
+        for c in ["price_usd", "gross_revenue_est_usd", "recommendations", "metacritic"]
+        if c in df.columns
+    ]
     if len(feature_cols) < 2:
         print("[CLUSTER] Need at least 2 numeric columns")
         return {}
@@ -52,6 +60,7 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
         inertias.append(km.inertia_)
         silhouettes.append(silhouette_score(X_scaled, labels))
         from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score
+
         ch_scores.append(calinski_harabasz_score(X_scaled, labels))
         db_scores.append(davies_bouldin_score(X_scaled, labels))
 
@@ -59,6 +68,7 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
 
     # Cross-validation: stability across folds
     from sklearn.model_selection import KFold
+
     kf = KFold(n_splits=5, shuffle=True, random_state=42)
     fold_silhouettes = []
 
@@ -70,9 +80,13 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
 
     # PCA feature importance
     from sklearn.decomposition import PCA
+
     pca = PCA(n_components=len(feature_cols))
     pca.fit(X_scaled)
-    feature_importance = {col: round(imp, 4) for col, imp in zip(feature_cols, pca.explained_variance_ratio_)}
+    feature_importance = {
+        col: round(imp, 4)
+        for col, imp in zip(feature_cols, pca.explained_variance_ratio_)
+    }
 
     # Final clustering
     km_final = KMeans(n_clusters=optimal_k, random_state=42, n_init=10)
@@ -88,7 +102,9 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
         for col in feature_cols:
             profile[f"{col}_mean"] = round(cluster_df[col].mean(), 2)
         if "name" in cluster_df.columns:
-            profile["top_games"] = cluster_df.nlargest(3, feature_cols[0])["name"].tolist()
+            profile["top_games"] = cluster_df.nlargest(3, feature_cols[0])[
+                "name"
+            ].tolist()
         cluster_profiles[f"cluster_{c}"] = profile
 
     results = {
@@ -107,9 +123,15 @@ def run_clustering(data_dir: Path = Path("data/export"), output_dir: Path = Path
     with open(output_dir / "clustering_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"[CLUSTER] Óptimo: {optimal_k} clusters (silhouette: {max(silhouettes):.3f})")
-    print(f"  CV stability: {np.mean(fold_silhouettes):.3f} ± {np.std(fold_silhouettes):.3f}")
-    print(f"  Calinski-Harabasz: {max(ch_scores):.1f} | Davies-Bouldin: {min(db_scores):.3f}")
+    print(
+        f"[CLUSTER] Óptimo: {optimal_k} clusters (silhouette: {max(silhouettes):.3f})"
+    )
+    print(
+        f"  CV stability: {np.mean(fold_silhouettes):.3f} ± {np.std(fold_silhouettes):.3f}"
+    )
+    print(
+        f"  Calinski-Harabasz: {max(ch_scores):.1f} | Davies-Bouldin: {min(db_scores):.3f}"
+    )
     return results
 
 

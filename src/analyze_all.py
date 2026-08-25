@@ -6,8 +6,8 @@ import seaborn as sns
 
 from ab_testing import run_ab_testing
 from clustering_analysis import run_clustering
-from utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 from forecasting import run_forecasting
+from utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 
 logger = setup_logger("analysis")
 
@@ -179,14 +179,17 @@ def main():
 
         # Statistical tests
         from statistical_tests import run_statistical_tests
+
         run_statistical_tests()
 
         # Generate executive tables
         from generate_tables import generate as generate_exec_tables
+
         generate_exec_tables()
 
         # Generate paper report
         from generate_report import generate_report
+
         generate_report()
 
 
