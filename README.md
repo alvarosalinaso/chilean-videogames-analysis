@@ -198,6 +198,20 @@ Interactividad multinivel para exploración de datos y presentación ejecutiva.
 
 ---
 
+## Recomendación Ejecutiva
+
+- Invertir en género Simuladores ($6,132 revenue mediano vs $4,716 Acción)
+- Explorar Itch.io como vitrina de validación antes de lanzamiento Steam
+- Focalizar fondos CORFO en estudios con Metacritic > 70
+
+| Prioridad | Acción | Impacto esperado |
+|-----------|--------|-----------------|
+| Alta | Focalizar inversiones en género Simuladores | +30% revenue mediano por título |
+| Media | Validar prototypes en Itch.io antes de Steam | Reducir fracasos post-lanzamiento 40% |
+| Baja | Crear programa de mentoring para estudios Metacritic > 70 | Incrementar calidad percibida del ecosistema |
+
+---
+
 ## 6. Reproducibilidad y Entorno Técnico
 
 ### 6.1 Instalación
