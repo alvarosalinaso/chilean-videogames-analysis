@@ -20,12 +20,24 @@ def run_statistical_tests(
         print("[STATS] scipy no instalado")
         return {}
 
-    df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
+    # Try enriched CSV first (has price_usd), fallback to processed
+    enriched = data_dir.parent / "export" / "chilean_games_final.csv"
+    if enriched.exists():
+        df = pd.read_csv(enriched, encoding="utf-8")
+    else:
+        df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
     results = {}
 
+    # Normalize source column
+    df["source"] = df["source"].str.lower().str.strip()
+
     # 1. T-test: Steam vs Itch.io prices
-    steam = df[df["source"] == "Steam"]["price_usd"].dropna()
-    itch = df[df["source"] == "Itch.io"]["price_usd"].dropna()
+    if "price_usd" not in df.columns:
+        print("[STATS] price_usd column not found, skipping price tests")
+        return results
+
+    steam = df[df["source"] == "steam"]["price_usd"].dropna()
+    itch = df[df["source"].str.contains("itch", na=False)]["price_usd"].dropna()
     if len(steam) > 2 and len(itch) > 2:
         t_stat, p_value = stats.ttest_ind(steam, itch, equal_var=False)
         ci_steam = stats.t.interval(
