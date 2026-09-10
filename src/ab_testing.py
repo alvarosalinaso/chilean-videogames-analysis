@@ -60,8 +60,9 @@ def run_ab_testing(
     df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
     results = {}
 
-    steam = df[df["source"] == "Steam"].copy()
-    itch = df[df["source"] == "Itch.io"].copy()
+    df["source"] = df["source"].str.lower().str.strip()
+    steam = df[df["source"] == "steam"].copy()
+    itch = df[df["source"].str.contains("itch", na=False)].copy()
 
     results["sample_sizes"] = {
         "steam_n": len(steam),
