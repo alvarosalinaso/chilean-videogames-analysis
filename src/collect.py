@@ -175,7 +175,7 @@ def search_steam_id(game_name):
 
 def fetch_game_data(app_id):
     """Obtiene datos de la API de Steam."""
-    url = f"http://store.steampowered.com/api/appdetails?appids={app_id}&l=spanish"
+    url = f"https://store.steampowered.com/api/appdetails?appids={app_id}&l=spanish"
     try:
         response = requests.get(url)
         if response.status_code == 200:
