@@ -5,6 +5,7 @@ ARIMA + Exponential Smoothing + Prophet (si disponible).
 
 import json
 from pathlib import Path
+from typing import Any
 
 try:
     import numpy as np
@@ -25,6 +26,21 @@ except ImportError:
     STATSMODELS_AVAILABLE = False
 
 
+def _to_json_serializable(obj: Any) -> Any:
+    """Convert numpy types to Python native types for JSON serialization."""
+    if isinstance(obj, (np.bool_, np.integer, np.floating, np.number)):
+        return obj.item()
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    if isinstance(obj, dict):
+        return {k: _to_json_serializable(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_to_json_serializable(v) for v in obj]
+    if isinstance(obj, tuple):
+        return tuple(_to_json_serializable(v) for v in obj)
+    return obj
+
+
 def run_forecasting(
     data_dir: Path = Path("data/processed"), output_dir: Path = Path("data/export")
 ) -> dict:
@@ -38,11 +54,12 @@ def run_forecasting(
         print("[FORECAST] pandas/statsmodels no instalados")
         return {}
 
-    df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
-
-    if "year" not in df.columns:
-        print("[FORECAST] Columna 'year' no encontrada")
+    games_csv = data_dir / "games.csv"
+    if not games_csv.exists():
+        print("[FORECAST] games.csv no encontrado")
         return {}
+
+    df = pd.read_csv(games_csv, encoding="utf-8")
 
     results = {}
 
@@ -155,6 +172,7 @@ def run_forecasting(
         )
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    results = _to_json_serializable(results)
     with open(output_dir / "forecasting_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 

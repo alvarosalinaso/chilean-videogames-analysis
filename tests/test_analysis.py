@@ -2,12 +2,12 @@
 
 
 def test_imports():
-    from src.ab_testing import run_ab_testing
-    from src.clustering_analysis import run_clustering
-    from src.forecasting import run_forecasting
-    from src.generate_report import generate_report
-    from src.generate_tables import generate
-    from src.statistical_tests import run_statistical_tests
+    from chilean_videogames.ab_testing import run_ab_testing
+    from chilean_videogames.clustering_analysis import run_clustering
+    from chilean_videogames.forecasting import run_forecasting
+    from chilean_videogames.generate_report import generate_report
+    from chilean_videogames.generate_tables import generate
+    from chilean_videogames.statistical_tests import run_statistical_tests
 
     assert callable(run_clustering)
     assert callable(run_ab_testing)
@@ -18,7 +18,7 @@ def test_imports():
 
 
 def test_statistical_tests_has_return():
-    from src.statistical_tests import run_statistical_tests
+    from chilean_videogames.statistical_tests import run_statistical_tests
 
     result = run_statistical_tests()
     assert isinstance(result, dict)

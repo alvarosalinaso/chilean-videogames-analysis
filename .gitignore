@@ -10,8 +10,9 @@ env/
 
 # Data (Ignorar raw json masivos, pero quizás queramos el CSV procesado?)
 # Para este proyecto, quizás queramos subir la data procesada como muestra
-# data/raw/
-# data/processed/
+data/raw/
+data/processed/
+data/export/
 
 # VS Code
 .vscode/
@@ -19,6 +20,5 @@ env/
 # OS
 .DS_Store
 Thumbs.db
-
 
 coverage.xml

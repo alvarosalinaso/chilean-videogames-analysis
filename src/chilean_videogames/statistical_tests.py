@@ -2,6 +2,7 @@
 
 import json
 from pathlib import Path
+from typing import Any
 
 try:
     import numpy as np
@@ -11,6 +12,19 @@ try:
     SCIPY_AVAILABLE = True
 except ImportError:
     SCIPY_AVAILABLE = False
+
+
+def _to_json_serializable(obj: Any) -> Any:
+    """Convert numpy types to Python native types for JSON serialization."""
+    if isinstance(obj, (np.bool_, np.integer, np.floating)):
+        return obj.item()
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    if isinstance(obj, dict):
+        return {k: _to_json_serializable(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_to_json_serializable(v) for v in obj]
+    return obj
 
 
 def run_statistical_tests(
@@ -113,6 +127,7 @@ def run_statistical_tests(
             print(f"[STATS] Pearson: r={r:.3f}, p={p_corr:.4f}, R²={r**2:.3f}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    results = _to_json_serializable(results)
     with open(output_dir / "statistical_tests.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     return results

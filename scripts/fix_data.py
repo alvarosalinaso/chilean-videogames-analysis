@@ -1,5 +1,6 @@
 import csv
 import os
+from pathlib import Path
 
 NON_CHILEAN = [
     "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
@@ -8,19 +9,19 @@ NON_CHILEAN = [
     "MENACE",
 ]
 
-BASE = r"C:\Users\Alvaro\github-limpio\chilean-videogames-analysis\data"
+BASE = Path(__file__).parent.parent / "data"
 
 FILES = [
-    os.path.join(BASE, "processed", "games.csv"),
-    os.path.join(BASE, "export", "chilean_games_final.csv"),
-    os.path.join(BASE, "export", "chilean_games_metrics.csv"),
-    os.path.join(BASE, "export", "dw_quadrant_rentabilidad.csv"),
-    os.path.join(BASE, "export", "flourish_treemap_genero.csv"),
-    os.path.join(BASE, "export", "observable_distribucion.csv"),
+    BASE / "processed" / "games.csv",
+    BASE / "export" / "chilean_games_final.csv",
+    BASE / "export" / "chilean_games_metrics.csv",
+    BASE / "export" / "dw_quadrant_rentabilidad.csv",
+    BASE / "export" / "flourish_treemap_genero.csv",
+    BASE / "export" / "observable_distribucion.csv",
 ]
 
 for filepath in FILES:
-    if not os.path.exists(filepath):
+    if not filepath.exists():
         print(f"SKIP (not found): {filepath}")
         continue
 
@@ -39,7 +40,7 @@ for filepath in FILES:
         writer.writerows(cleaned)
 
     print(
-        f"OK: {os.path.basename(filepath)}: {original_count} -> {len(cleaned)} (-{removed})"
+        f"OK: {filepath.name}: {original_count} -> {len(cleaned)} (-{removed})"
     )
 
 print("\nDone!")

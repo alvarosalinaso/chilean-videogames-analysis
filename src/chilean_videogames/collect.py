@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from utils import setup_logger
+from .utils import setup_logger
 
 logger = setup_logger("collect_steam")
 

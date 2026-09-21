@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from utils import extract_year, parse_price_itch, parse_price_steam, setup_logger
+from .utils import extract_year, parse_price_itch, parse_price_steam, setup_logger
 
 logger = setup_logger("clean")
 

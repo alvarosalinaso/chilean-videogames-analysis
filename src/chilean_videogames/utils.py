@@ -97,8 +97,12 @@ def extract_year(date_str: str) -> str:
 
 # ── Conversión de moneda ──────────────────────────────────────────────────────
 
+import os
+
 # Tasas de conversión aproximadas a USD (para análisis histórico)
-_TASAS_A_USD: dict[str, float] = {
+# NOTA: Son valores de referencia. Para producción, usar API de tasas reales.
+# Se pueden sobrescribir con variables de entorno: EXCHANGE_RATE_CLP, EXCHANGE_RATE_EUR, etc.
+_DEFAULT_RATES: dict[str, float] = {
     "CLP": 1 / 950.0,
     "USD": 1.0,
     "EUR": 1.10,
@@ -106,6 +110,22 @@ _TASAS_A_USD: dict[str, float] = {
     "ARS": 1 / 850.0,
     "BRL": 1 / 5.0,
 }
+
+
+def _load_exchange_rates() -> dict[str, float]:
+    """Carga tasas desde variables de entorno, con fallback a defaults."""
+    rates = _DEFAULT_RATES.copy()
+    for currency in rates:
+        env_key = f"EXCHANGE_RATE_{currency}"
+        if env_key in os.environ:
+            try:
+                rates[currency] = float(os.environ[env_key])
+            except ValueError:
+                pass
+    return rates
+
+
+_TASAS_A_USD = _load_exchange_rates()
 
 
 def normalize_currency_to_usd(price: float, currency: str) -> float:

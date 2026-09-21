@@ -7,7 +7,7 @@ import seaborn as sns
 from ab_testing import run_ab_testing
 from clustering_analysis import run_clustering
 from forecasting import run_forecasting
-from utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
+from .utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 
 logger = setup_logger("analysis")
 
@@ -25,7 +25,12 @@ def load_and_enrich_data():
     # 1. Normalizar Year
     df["year"] = df["year"].astype(str).apply(extract_year)
 
-    # 2. Revenue Estimado (Steam)
+    # 2. Revenue Estimado (Steam) — Boxleiter Method
+    # NOTA: El factor 40x (Boxleiter method) es una heurística de la industria
+    # para estimar copias vendidas a partir de reviews de Steam.
+    # Fórmula: estimated_copies = recommendations × 40
+    # Ver: https://www.gamedeveloper.com/business/the-boxleiter-method-for-estimating-steam-sales
+    # Es una ESTIMACIÓN APROXIMADA, no datos reales de ventas.
     BOXLEITER_FACTOR = 40
     df["estimated_copies"] = df.apply(
         lambda x: (
