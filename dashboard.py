@@ -7,7 +7,7 @@ import os
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from dash import Input, Output, callback, dcc, html
+from dash import Input, Output, callback, dcc, html, no_update
 
 SCANLINE_CSS = """
 @keyframes pulse-glow { 0%,100%{opacity:1} 50%{opacity:0.7} }
@@ -123,7 +123,41 @@ def card(title, children, glow_color=NEON_PINK):
     )
 
 
+def sparkline(values, color=NEON_CYAN):
+    if not values or len(values) < 2:
+        return html.Div(style={"height": "34px"})
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        y=list(values), mode="lines",
+        line={"color": color, "width": 2.5, "shape": "spline"},
+        fill="tozeroy", hoverinfo="skip", showlegend=False,
+    ))
+    fig.update_layout(
+        margin={"t": 0, "b": 0, "l": 0, "r": 0},
+        paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        xaxis={"visible": False}, yaxis={"visible": False}, height=34,
+    )
+    return dcc.Graph(figure=fig, config={"displayModeBar": False}, style={"height": "34px"})
+
+
+def insight_card(question, answer, accent=NEON_PINK):
+    return html.Div(
+        style={"backgroundColor": CARD_BG, "borderRadius": "8px", "padding": "14px 16px", "marginBottom": "12px", "border": f"1px solid {accent}66", "borderLeft": f"4px solid {accent}", "boxShadow": f"0 0 10px {accent}22"},
+        children=[
+            html.Div(question, style={"fontWeight": "700", "fontSize": "0.72rem", "letterSpacing": "2px", "textTransform": "uppercase", "color": accent, "fontFamily": "Consolas, monospace"}),
+            html.Div(answer, style={"marginTop": "4px", "color": TEXT_WHITE, "lineHeight": "1.5", "fontFamily": "Consolas, monospace", "fontSize": "0.88rem"}),
+        ],
+    )
+
+
 def stat_row(stats):
+    def _norm(item):
+        if len(item) == 5:
+            return item
+        if len(item) == 2:
+            val, label = item
+            return (val, label, NEON_CYAN, None, None)
+        raise ValueError(f"stat_row item debe ser (val,label) o (val,label,color,trend,delta), got {item}")
     return html.Div(
         style={"display": "flex", "gap": "14px", "flexWrap": "wrap", "marginBottom": "24px"},
         children=[
@@ -135,8 +169,8 @@ def stat_row(stats):
                     "borderRadius": "8px",
                     "padding": "22px 16px",
                     "textAlign": "center",
-                    "border": f"1px solid {NEON_CYAN}44",
-                    "boxShadow": f"0 0 10px {NEON_CYAN}22, inset 0 0 6px {NEON_CYAN}08",
+                    "border": f"1px solid {color}44",
+                    "boxShadow": f"0 0 10px {color}22, inset 0 0 6px {color}08",
                     "backdropFilter": "blur(4px)",
                     "animation": "pulse-glow-cyan 3s ease-in-out infinite",
                 },
@@ -146,9 +180,9 @@ def stat_row(stats):
                         style={
                             "fontSize": "2rem",
                             "fontWeight": "800",
-                            "color": NEON_CYAN,
+                            "color": color,
                             "fontFamily": "Consolas, 'Courier New', monospace",
-                            "textShadow": f"0 0 10px {NEON_CYAN}, 0 0 20px {NEON_CYAN}",
+                            "textShadow": f"0 0 10px {color}, 0 0 20px {color}",
                             "animation": "pulse-glow 2.5s ease-in-out infinite",
                         },
                     ),
@@ -163,9 +197,11 @@ def stat_row(stats):
                             "textTransform": "uppercase",
                         },
                     ),
+                    sparkline(trend or [], color),
+                    html.Div(delta or "", title="Variación vs periodo anterior", style={"fontSize": "0.75rem", "fontWeight": "700", "color": color, "marginTop": "4px", "fontFamily": "Consolas, monospace"}),
                 ],
             )
-            for val, label in stats
+            for val, label, color, trend, delta in [_norm(item) for item in stats]
         ],
     )
 
@@ -311,6 +347,18 @@ app.layout = html.Div(
 )
 
 
+@callback(
+    Output("games-crossfilter-output", "children"),
+    Input("games-platform-pie", "clickData"),
+    prevent_initial_call=True,
+)
+def games_crossfilter(click):
+    if not click:
+        return no_update
+    p = click["points"][0].get("label", "?")
+    return f"Plataforma seleccionada: {p} — úsala para filtrar Precios y Revenue."
+
+
 @callback(Output("tab-content", "children"), Input("tabs", "value"))
 def render_tab(tab):
     if DATA.empty:
@@ -354,6 +402,7 @@ def overview_tab():
     fig_platform.update_traces(
         marker=dict(line=dict(color=BG_BLACK, width=2)),
         textfont=dict(color=TEXT_WHITE, family="Consolas, monospace"),
+        hovertemplate="<b>%{label}</b><br>Juegos: %{value}<br>%{percent}<extra>Clic para filtrar</extra>",
     )
 
     if "year" in df.columns:
@@ -370,9 +419,19 @@ def overview_tab():
             fig_timeline.update_layout(**cyberplot_layout("Lanzamientos por Año"), height=400)
             fig_timeline.update_xaxes(title_text="Año", title_font=dict(color=TEXT_MUTED))
             fig_timeline.update_yaxes(title_text="Juegos", title_font=dict(color=TEXT_MUTED))
+            n_steam = int((df["source"] == "Steam").sum()) if "source" in df.columns else 0
+            n_itch = int((df["source"] == "Itch").sum()) if "source" in df.columns else 0
             return html.Div([
                 stats,
-                card("Plataformas", dcc.Graph(figure=fig_platform), NEON_CYAN),
+                card("Key Insights — Mercado", html.Div([
+                    insight_card("¿Problema?", "El mercado indie chileno mezcla Steam e Itch.io sin comparar precio, revenue y género.", NEON_PINK),
+                    insight_card("¿Metodología?", "Scraping auditado + BoxLeiter 40x documentado + tests formales (t-test, ANOVA, Pearson).", NEON_CYAN),
+                    insight_card("¿Decisión?", ("Steam domina con " + str(n_steam) + " vs " + str(n_itch) + " Itch; clic una plataforma para aislarla.") if n_steam or n_itch else "Clic una plataforma para aislarla.", NEON_GREEN),
+                ]), NEON_CYAN),
+                card("Plataformas — clic para filtrar", html.Div([
+                    dcc.Graph(id="games-platform-pie", figure=fig_platform),
+                    html.Div(id="games-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_CYAN, "fontFamily": "Consolas, monospace"}),
+                ]), NEON_CYAN),
                 card("Lanzamientos", dcc.Graph(figure=fig_timeline), NEON_GREEN),
             ])
     return html.Div([
