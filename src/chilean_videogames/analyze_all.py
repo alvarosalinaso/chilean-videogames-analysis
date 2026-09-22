@@ -3,10 +3,10 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from ab_testing import run_ab_testing
-from clustering_analysis import run_clustering
-from forecasting import run_forecasting
 
+from .ab_testing import run_ab_testing
+from .clustering_analysis import run_clustering
+from .forecasting import run_forecasting
 from .utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 
 logger = setup_logger("analysis")
