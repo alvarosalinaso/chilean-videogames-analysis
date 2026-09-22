@@ -1,5 +1,11 @@
 """Smoke tests for chilean-videogames-analysis."""
 
+from pathlib import Path
+
+import pytest
+
+DATA_CSV = Path(__file__).parent.parent / "data" / "processed" / "games.csv"
+
 
 def test_imports():
     from chilean_videogames.ab_testing import run_ab_testing
@@ -18,6 +24,8 @@ def test_imports():
 
 
 def test_statistical_tests_has_return():
+    if not DATA_CSV.exists():
+        pytest.skip("games.csv not found")
     from chilean_videogames.statistical_tests import run_statistical_tests
 
     result = run_statistical_tests()
