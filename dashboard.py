@@ -505,17 +505,25 @@ def revenue_tab():
     fig_top.update_yaxes(categoryorder="total ascending", tickfont=dict(color=TEXT_WHITE))
 
     if "recommendations" in df.columns:
-        scatter_df = df[df["recommendations"] > 0]
+        scatter_df = df[df["recommendations"] > 0].copy()
+        scatter_df["bubble_size"] = (scatter_df["price_usd"].fillna(0) + 1).clip(upper=60)
         fig_scatter = px.scatter(
             scatter_df,
             x="recommendations",
             y="gross_revenue_est_usd",
+            size="bubble_size",
             color="source",
             hover_name="name",
             color_discrete_map=NEON_PLATFORM_COLORS,
+            title="Burbujas: recomendaciones × revenue (tamaño = precio)",
+            log_x=True,
+            log_y=True,
         )
         fig_scatter.update_layout(**cyberplot_layout("Recomendaciones vs Revenue"), height=450)
-        fig_scatter.update_traces(marker=dict(size=9, line=dict(width=1, color=BG_BLACK)))
+        fig_scatter.update_traces(
+            marker=dict(line=dict(width=1, color=BG_BLACK), opacity=0.8),
+            hovertemplate="<b>%{hovertext}</b><br>Reviews: %{x:,.0f}<br>Revenue: $%{y:,.0f}<extra></extra>",
+        )
     else:
         fig_scatter = go.Figure()
 
