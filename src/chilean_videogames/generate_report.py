@@ -69,25 +69,13 @@ def generate_report(
     report = REPORT_TEMPLATE.format(
         title=sections.get("title", "Análisis de Datos"),
         date=datetime.now().strftime("%Y-%m-%d"),  # noqa: DTZ005
-        repo=output_dir.parent.name
-        if output_dir.parent.name != "data"
-        else "portfolio",
-        abstract=sections.get(
-            "abstract", "Análisis exploratorio y estadístico de datos."
-        ),
-        introduction=sections.get(
-            "introduction", "Este estudio presenta un análisis de datos."
-        ),
-        methodology=sections.get(
-            "methodology", "Se utilizó Python con librerías estándar."
-        ),
+        repo=output_dir.parent.name if output_dir.parent.name != "data" else "portfolio",
+        abstract=sections.get("abstract", "Análisis exploratorio y estadístico de datos."),
+        introduction=sections.get("introduction", "Este estudio presenta un análisis de datos."),
+        methodology=sections.get("methodology", "Se utilizó Python con librerías estándar."),
         results=sections.get("results", "Los resultados se presentan a continuación."),
-        discussion=sections.get(
-            "discussion", "Los hallazgos sugieren patrones interesantes."
-        ),
-        conclusions=sections.get(
-            "conclusions", "Se concluye que el análisis es prometedor."
-        ),
+        discussion=sections.get("discussion", "Los hallazgos sugieren patrones interesantes."),
+        conclusions=sections.get("conclusions", "Se concluye que el análisis es prometedor."),
         references=sections.get(
             "references", "- Python Software Foundation. (2024). Python Documentation."
         ),
@@ -125,16 +113,10 @@ def format_results(results: dict) -> dict:
                 if isinstance(v, (int, float, str)):
                     lines.append(f"- **{k}**: {v}")
                 elif isinstance(v, dict) and len(v) < 10:
-                    lines.append(
-                        f"- **{k}**: {json.dumps(v, ensure_ascii=False)[:200]}"
-                    )
+                    lines.append(f"- **{k}**: {json.dumps(v, ensure_ascii=False)[:200]}")
             sections[name] = "\n".join(lines)
 
-    return (
-        "\n\n".join(sections.values())
-        if sections
-        else "Resultados pendientes de ejecución."
-    )
+    return "\n\n".join(sections.values()) if sections else "Resultados pendientes de ejecución."
 
 
 if __name__ == "__main__":

@@ -97,9 +97,7 @@ def prepare_flourish_treemap(df: pd.DataFrame, output_path: Path) -> pd.DataFram
     return treemap_df
 
 
-def prepare_observable_distribution(
-    df: pd.DataFrame, output_path: Path
-) -> pd.DataFrame:
+def prepare_observable_distribution(df: pd.DataFrame, output_path: Path) -> pd.DataFrame:
     """Prepare data for Observable Plot distribution analysis by platform/genre."""
     obs_df = df[
         [
@@ -272,9 +270,7 @@ def main() -> None:
         print(f"[FAIL] Flourish treemap: {exc}")
 
     try:
-        ob_df = prepare_observable_distribution(
-            df, export_dir / "observable_distribucion.csv"
-        )
+        ob_df = prepare_observable_distribution(df, export_dir / "observable_distribucion.csv")
         print(f"[OK] observable_distribucion.csv — {len(ob_df)} filas")
     except (OSError, ValueError, KeyError) as exc:
         print(f"[FAIL] Observable: {exc}")

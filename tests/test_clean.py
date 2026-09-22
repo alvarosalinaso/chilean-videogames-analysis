@@ -1,11 +1,10 @@
 """Tests for clean module."""
 
 import json
-import pandas as pd
-from pathlib import Path
-import pytest
 
-from chilean_videogames.clean import _parse_steam, _parse_itch, build_dataset
+import pandas as pd
+
+from chilean_videogames.clean import _parse_itch, _parse_steam, build_dataset
 
 
 def test_parse_steam_valid():

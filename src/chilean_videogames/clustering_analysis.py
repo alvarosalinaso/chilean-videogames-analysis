@@ -84,8 +84,7 @@ def run_clustering(
     pca = PCA(n_components=len(feature_cols))
     pca.fit(X_scaled)
     feature_importance = {
-        col: round(imp, 4)
-        for col, imp in zip(feature_cols, pca.explained_variance_ratio_)
+        col: round(imp, 4) for col, imp in zip(feature_cols, pca.explained_variance_ratio_)
     }
 
     # Final clustering
@@ -102,9 +101,7 @@ def run_clustering(
         for col in feature_cols:
             profile[f"{col}_mean"] = round(cluster_df[col].mean(), 2)
         if "name" in cluster_df.columns:
-            profile["top_games"] = cluster_df.nlargest(3, feature_cols[0])[
-                "name"
-            ].tolist()
+            profile["top_games"] = cluster_df.nlargest(3, feature_cols[0])["name"].tolist()
         cluster_profiles[f"cluster_{c}"] = profile
 
     results = {
@@ -123,15 +120,9 @@ def run_clustering(
     with open(output_dir / "clustering_results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(
-        f"[CLUSTER] Óptimo: {optimal_k} clusters (silhouette: {max(silhouettes):.3f})"
-    )
-    print(
-        f"  CV stability: {np.mean(fold_silhouettes):.3f} ± {np.std(fold_silhouettes):.3f}"
-    )
-    print(
-        f"  Calinski-Harabasz: {max(ch_scores):.1f} | Davies-Bouldin: {min(db_scores):.3f}"
-    )
+    print(f"[CLUSTER] Óptimo: {optimal_k} clusters (silhouette: {max(silhouettes):.3f})")
+    print(f"  CV stability: {np.mean(fold_silhouettes):.3f} ± {np.std(fold_silhouettes):.3f}")
+    print(f"  Calinski-Harabasz: {max(ch_scores):.1f} | Davies-Bouldin: {min(db_scores):.3f}")
     return results
 
 

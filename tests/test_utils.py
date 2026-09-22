@@ -1,15 +1,13 @@
 """Tests for utils module."""
 
-import pytest
-
 from chilean_videogames.utils import (
-    setup_logger,
-    parse_price_steam,
-    parse_price_itch,
-    parse_date,
     extract_year,
-    normalize_currency_to_usd,
     get_location,
+    normalize_currency_to_usd,
+    parse_date,
+    parse_price_itch,
+    parse_price_steam,
+    setup_logger,
 )
 
 

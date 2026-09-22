@@ -24,9 +24,7 @@ def generate():
         .tab_header(title="Top 5 Revenue — Videojuegos Chilenos")
         .fmt_currency(columns=["Precio (USD)", "Revenue Est. (USD)"], currency="USD")
         .fmt_number(columns=["Recomendaciones"], use_seps=True)
-        .tab_source_note(
-            "Fuente: Steam API + Itch.io scraping | Análisis: Álvaro Salinas"
-        )
+        .tab_source_note("Fuente: Steam API + Itch.io scraping | Análisis: Álvaro Salinas")
     )
     Path("assets").mkdir(exist_ok=True)
     tbl.save("assets/executive_table.html")

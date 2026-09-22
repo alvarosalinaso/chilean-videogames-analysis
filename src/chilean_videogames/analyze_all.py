@@ -3,10 +3,10 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-
 from ab_testing import run_ab_testing
 from clustering_analysis import run_clustering
 from forecasting import run_forecasting
+
 from .utils import extract_year, get_location, normalize_currency_to_usd, setup_logger
 
 logger = setup_logger("analysis")
@@ -115,9 +115,7 @@ def plot_top_revenue(df, output_dir):
     # Format K/M
     ax = plt.gca()
     ax.xaxis.set_major_formatter(
-        plt.FuncFormatter(
-            lambda x, p: f"${x / 1e6:.1f}M" if x >= 1e6 else f"${x / 1e3:.0f}K"
-        )
+        plt.FuncFormatter(lambda x, p: f"${x / 1e6:.1f}M" if x >= 1e6 else f"${x / 1e3:.0f}K")
     )
 
     plt.tight_layout()
@@ -129,9 +127,7 @@ def plot_top_revenue(df, output_dir):
 def plot_revenue_by_genre(df, output_dir):
     """Revenue por Género."""
     top_genres = df["primary_genre"].value_counts().nlargest(8).index
-    df_chart = df[
-        df["primary_genre"].isin(top_genres) & (df["gross_revenue_est_usd"] > 0)
-    ]
+    df_chart = df[df["primary_genre"].isin(top_genres) & (df["gross_revenue_est_usd"] > 0)]
 
     plt.figure(figsize=(12, 6))
     sns.boxplot(

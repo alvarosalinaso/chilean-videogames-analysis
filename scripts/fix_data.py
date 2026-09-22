@@ -1,5 +1,4 @@
 import csv
-import os
 from pathlib import Path
 
 NON_CHILEAN = [
@@ -39,8 +38,6 @@ for filepath in FILES:
         writer.writeheader()
         writer.writerows(cleaned)
 
-    print(
-        f"OK: {filepath.name}: {original_count} -> {len(cleaned)} (-{removed})"
-    )
+    print(f"OK: {filepath.name}: {original_count} -> {len(cleaned)} (-{removed})")
 
 print("\nDone!")

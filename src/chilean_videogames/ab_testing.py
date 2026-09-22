@@ -27,9 +27,7 @@ def compute_power(effect_size: float, n: float, alpha: float = 0.05) -> float:
     return round(power, 4)
 
 
-def compute_sample_size(
-    effect_size: float, alpha: float = 0.05, power: float = 0.80
-) -> int:
+def compute_sample_size(effect_size: float, alpha: float = 0.05, power: float = 0.80) -> int:
     """Calcula tamaño de muestra necesario."""
     from scipy.stats import norm
 
@@ -76,30 +74,23 @@ def run_ab_testing(
         itch_prices = itch["price_usd"].dropna()
 
         if len(steam_prices) > 2 and len(itch_prices) > 2:
-            t_stat, p_value = stats.ttest_ind(
-                steam_prices, itch_prices, equal_var=False
-            )
+            t_stat, p_value = stats.ttest_ind(steam_prices, itch_prices, equal_var=False)
 
             # Cohen's d
             pooled_std = np.sqrt((steam_prices.std() ** 2 + itch_prices.std() ** 2) / 2)
             cohens_d = (
-                (steam_prices.mean() - itch_prices.mean()) / pooled_std
-                if pooled_std > 0
-                else 0
+                (steam_prices.mean() - itch_prices.mean()) / pooled_std if pooled_std > 0 else 0
             )
 
             # CI for difference in means
             diff_mean = steam_prices.mean() - itch_prices.mean()
             se = np.sqrt(
-                steam_prices.var() / len(steam_prices)
-                + itch_prices.var() / len(itch_prices)
+                steam_prices.var() / len(steam_prices) + itch_prices.var() / len(itch_prices)
             )
             ci_95 = (diff_mean - 1.96 * se, diff_mean + 1.96 * se)
 
             # Power analysis
-            power = compute_power(
-                abs(cohens_d), min(len(steam_prices), len(itch_prices))
-            )
+            power = compute_power(abs(cohens_d), min(len(steam_prices), len(itch_prices)))
             n_needed = compute_sample_size(abs(cohens_d))
 
             results["price_test"] = {
@@ -161,9 +152,7 @@ def run_ab_testing(
         itch_rev = itch["gross_revenue_est_usd"].dropna()
 
         if len(steam_rev) > 2 and len(itch_rev) > 2:
-            u_stat, p_mw = stats.mannwhitneyu(
-                steam_rev, itch_rev, alternative="two-sided"
-            )
+            u_stat, p_mw = stats.mannwhitneyu(steam_rev, itch_rev, alternative="two-sided")
 
             # Rank-biserial correlation (effect size)
             r_rb = 1 - (2 * u_stat) / (len(steam_rev) * len(itch_rev))

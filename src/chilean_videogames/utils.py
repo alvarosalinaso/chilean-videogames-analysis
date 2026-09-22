@@ -3,6 +3,7 @@ utils.py — Utilidades compartidas para el análisis de videojuegos chilenos.
 """
 
 import logging
+import os
 import re
 
 import pandas as pd
@@ -96,8 +97,6 @@ def extract_year(date_str: str) -> str:
 
 
 # ── Conversión de moneda ──────────────────────────────────────────────────────
-
-import os
 
 # Tasas de conversión aproximadas a USD (para análisis histórico)
 # NOTA: Son valores de referencia. Para producción, usar API de tasas reales.

@@ -1,9 +1,9 @@
 """Dash Dashboard: Chilean Videojuegos Analysis — Cyberpunk Arcade Edition."""
 
+import os
 from pathlib import Path
 
 import dash
-import os
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -119,7 +119,8 @@ def card(title, children, glow_color=NEON_PINK):
                     "textTransform": "uppercase",
                 },
             ),
-        ] + child_list,
+        ]
+        + child_list,
     )
 
 
@@ -127,25 +128,60 @@ def sparkline(values, color=NEON_CYAN):
     if not values or len(values) < 2:
         return html.Div(style={"height": "34px"})
     fig = go.Figure()
-    fig.add_trace(go.Scatter(
-        y=list(values), mode="lines",
-        line={"color": color, "width": 2.5, "shape": "spline"},
-        fill="tozeroy", hoverinfo="skip", showlegend=False,
-    ))
+    fig.add_trace(
+        go.Scatter(
+            y=list(values),
+            mode="lines",
+            line={"color": color, "width": 2.5, "shape": "spline"},
+            fill="tozeroy",
+            hoverinfo="skip",
+            showlegend=False,
+        )
+    )
     fig.update_layout(
         margin={"t": 0, "b": 0, "l": 0, "r": 0},
-        paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-        xaxis={"visible": False}, yaxis={"visible": False}, height=34,
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        xaxis={"visible": False},
+        yaxis={"visible": False},
+        height=34,
     )
     return dcc.Graph(figure=fig, config={"displayModeBar": False}, style={"height": "34px"})
 
 
 def insight_card(question, answer, accent=NEON_PINK):
     return html.Div(
-        style={"backgroundColor": CARD_BG, "borderRadius": "8px", "padding": "14px 16px", "marginBottom": "12px", "border": f"1px solid {accent}66", "borderLeft": f"4px solid {accent}", "boxShadow": f"0 0 10px {accent}22"},
+        style={
+            "backgroundColor": CARD_BG,
+            "borderRadius": "8px",
+            "padding": "14px 16px",
+            "marginBottom": "12px",
+            "border": f"1px solid {accent}66",
+            "borderLeft": f"4px solid {accent}",
+            "boxShadow": f"0 0 10px {accent}22",
+        },
         children=[
-            html.Div(question, style={"fontWeight": "700", "fontSize": "0.72rem", "letterSpacing": "2px", "textTransform": "uppercase", "color": accent, "fontFamily": "Consolas, monospace"}),
-            html.Div(answer, style={"marginTop": "4px", "color": TEXT_WHITE, "lineHeight": "1.5", "fontFamily": "Consolas, monospace", "fontSize": "0.88rem"}),
+            html.Div(
+                question,
+                style={
+                    "fontWeight": "700",
+                    "fontSize": "0.72rem",
+                    "letterSpacing": "2px",
+                    "textTransform": "uppercase",
+                    "color": accent,
+                    "fontFamily": "Consolas, monospace",
+                },
+            ),
+            html.Div(
+                answer,
+                style={
+                    "marginTop": "4px",
+                    "color": TEXT_WHITE,
+                    "lineHeight": "1.5",
+                    "fontFamily": "Consolas, monospace",
+                    "fontSize": "0.88rem",
+                },
+            ),
         ],
     )
 
@@ -157,7 +193,10 @@ def stat_row(stats):
         if len(item) == 2:
             val, label = item
             return (val, label, NEON_CYAN, None, None)
-        raise ValueError(f"stat_row item debe ser (val,label) o (val,label,color,trend,delta), got {item}")
+        raise ValueError(
+            f"stat_row item debe ser (val,label) o (val,label,color,trend,delta), got {item}"
+        )
+
     return html.Div(
         style={"display": "flex", "gap": "14px", "flexWrap": "wrap", "marginBottom": "24px"},
         children=[
@@ -198,7 +237,17 @@ def stat_row(stats):
                         },
                     ),
                     sparkline(trend or [], color),
-                    html.Div(delta or "", title="Variación vs periodo anterior", style={"fontSize": "0.75rem", "fontWeight": "700", "color": color, "marginTop": "4px", "fontFamily": "Consolas, monospace"}),
+                    html.Div(
+                        delta or "",
+                        title="Variación vs periodo anterior",
+                        style={
+                            "fontSize": "0.75rem",
+                            "fontWeight": "700",
+                            "color": color,
+                            "marginTop": "4px",
+                            "fontFamily": "Consolas, monospace",
+                        },
+                    ),
                 ],
             )
             for val, label, color, trend, delta in [_norm(item) for item in stats]
@@ -245,7 +294,10 @@ def cyberplot_layout(title=""):
         "paper_bgcolor": "rgba(10,10,10,0)",
         "plot_bgcolor": "rgba(10,10,10,0.5)",
         "font": {"family": "Consolas, 'Courier New', monospace", "color": TEXT_WHITE},
-        "title": {"text": title, "font": {"color": NEON_CYAN, "family": "Consolas, monospace", "size": 14}},
+        "title": {
+            "text": title,
+            "font": {"color": NEON_CYAN, "family": "Consolas, monospace", "size": 14},
+        },
         "xaxis": {
             "gridcolor": "#1a1a2e",
             "zerolinecolor": "#1a1a2e",
@@ -375,22 +427,24 @@ def render_tab(tab):
 
 def overview_tab():
     df = DATA
-    stats = stat_row([
-        (str(len(df)), "Juegos"),
-        (str(df["source"].nunique()), "Plataformas"),
-        (
-            f"${df[df['price_usd'] > 0]['price_usd'].mean():.1f}"
-            if "price_usd" in df.columns
-            else "N/A",
-            "Precio promedio USD",
-        ),
-        (
-            str(df["primary_genre"].nunique())
-            if "primary_genre" in df.columns
-            else str(df["genres"].nunique()),
-            "Géneros",
-        ),
-    ])
+    stats = stat_row(
+        [
+            (str(len(df)), "Juegos"),
+            (str(df["source"].nunique()), "Plataformas"),
+            (
+                f"${df[df['price_usd'] > 0]['price_usd'].mean():.1f}"
+                if "price_usd" in df.columns
+                else "N/A",
+                "Precio promedio USD",
+            ),
+            (
+                str(df["primary_genre"].nunique())
+                if "primary_genre" in df.columns
+                else str(df["genres"].nunique()),
+                "Géneros",
+            ),
+        ]
+    )
 
     fig_platform = px.pie(
         df,
@@ -421,29 +475,75 @@ def overview_tab():
             fig_timeline.update_yaxes(title_text="Juegos", title_font=dict(color=TEXT_MUTED))
             n_steam = int((df["source"] == "Steam").sum()) if "source" in df.columns else 0
             n_itch = int((df["source"] == "Itch").sum()) if "source" in df.columns else 0
-            return html.Div([
-                stats,
-                card("Key Insights — Mercado", html.Div([
-                    insight_card("¿Problema?", "El mercado indie chileno mezcla Steam e Itch.io sin comparar precio, revenue y género.", NEON_PINK),
-                    insight_card("¿Metodología?", "Scraping auditado + BoxLeiter 40x documentado + tests formales (t-test, ANOVA, Pearson).", NEON_CYAN),
-                    insight_card("¿Decisión?", ("Steam domina con " + str(n_steam) + " vs " + str(n_itch) + " Itch; clic una plataforma para aislarla.") if n_steam or n_itch else "Clic una plataforma para aislarla.", NEON_GREEN),
-                ]), NEON_CYAN),
-                card("Plataformas — clic para filtrar", html.Div([
-                    dcc.Graph(id="games-platform-pie", figure=fig_platform),
-                    html.Div(id="games-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_CYAN, "fontFamily": "Consolas, monospace"}),
-                ]), NEON_CYAN),
-                card("Lanzamientos", dcc.Graph(figure=fig_timeline), NEON_GREEN),
-            ])
-    return html.Div([
-        stats,
-        card("Plataformas", dcc.Graph(figure=fig_platform), NEON_CYAN),
-    ])
+            return html.Div(
+                [
+                    stats,
+                    card(
+                        "Key Insights — Mercado",
+                        html.Div(
+                            [
+                                insight_card(
+                                    "¿Problema?",
+                                    "El mercado indie chileno mezcla Steam e Itch.io sin comparar precio, revenue y género.",
+                                    NEON_PINK,
+                                ),
+                                insight_card(
+                                    "¿Metodología?",
+                                    "Scraping auditado + BoxLeiter 40x documentado + tests formales (t-test, ANOVA, Pearson).",
+                                    NEON_CYAN,
+                                ),
+                                insight_card(
+                                    "¿Decisión?",
+                                    (
+                                        "Steam domina con "
+                                        + str(n_steam)
+                                        + " vs "
+                                        + str(n_itch)
+                                        + " Itch; clic una plataforma para aislarla."
+                                    )
+                                    if n_steam or n_itch
+                                    else "Clic una plataforma para aislarla.",
+                                    NEON_GREEN,
+                                ),
+                            ]
+                        ),
+                        NEON_CYAN,
+                    ),
+                    card(
+                        "Plataformas — clic para filtrar",
+                        html.Div(
+                            [
+                                dcc.Graph(id="games-platform-pie", figure=fig_platform),
+                                html.Div(
+                                    id="games-crossfilter-output",
+                                    style={
+                                        "marginTop": "8px",
+                                        "fontWeight": "700",
+                                        "color": NEON_CYAN,
+                                        "fontFamily": "Consolas, monospace",
+                                    },
+                                ),
+                            ]
+                        ),
+                        NEON_CYAN,
+                    ),
+                    card("Lanzamientos", dcc.Graph(figure=fig_timeline), NEON_GREEN),
+                ]
+            )
+    return html.Div(
+        [
+            stats,
+            card("Plataformas", dcc.Graph(figure=fig_platform), NEON_CYAN),
+        ]
+    )
 
 
 def prices_tab():
     df = DATA
     if "price_usd" not in df.columns:
-        return card("Precios", html.P("Columna price_usd no disponible", style={"color": NEON_PINK}))
+        return card(
+            "Precios", html.P("Columna price_usd no disponible", style={"color": NEON_PINK})
+        )
 
     paid = df[df["price_usd"] > 0]
     fig_hist = px.histogram(
@@ -453,42 +553,72 @@ def prices_tab():
         nbins=30,
         color_discrete_map=NEON_PLATFORM_COLORS,
     )
-    fig_hist.update_layout(**cyberplot_layout("Distribución de Precios (USD) — clic para filtrar"), height=400)
+    fig_hist.update_layout(
+        **cyberplot_layout("Distribución de Precios (USD) — clic para filtrar"), height=400
+    )
     fig_hist.update_xaxes(title_text="Precio USD", title_font=dict(color=TEXT_MUTED))
     fig_hist.update_yaxes(title_text="Cantidad", title_font=dict(color=TEXT_MUTED))
-    fig_hist.update_traces(hovertemplate="Precio: $%{x}<br>Juegos: %{y}<extra>Clic para filtrar</extra>")
+    fig_hist.update_traces(
+        hovertemplate="Precio: $%{x}<br>Juegos: %{y}<extra>Clic para filtrar</extra>"
+    )
 
     genre_col = "primary_genre" if "primary_genre" in df.columns else "genres"
     neon_genre = px.colors.qualitative.Set3
-    fig_box = px.box(paid, x=genre_col, y="price_usd", color=genre_col, color_discrete_sequence=neon_genre)
+    fig_box = px.box(
+        paid, x=genre_col, y="price_usd", color=genre_col, color_discrete_sequence=neon_genre
+    )
     fig_box.update_layout(**cyberplot_layout("Precios por Género"), height=500, showlegend=False)
 
     compare = df.groupby("source")["price_usd"].agg(["mean", "median", "count"]).reset_index()
     fig_compare = go.Figure()
-    fig_compare.add_trace(go.Bar(
-        x=compare["source"], y=compare["mean"], name="Promedio",
-        marker_color=NEON_CYAN,
-        marker_line=dict(color=NEON_CYAN, width=1),
-    ))
-    fig_compare.add_trace(go.Bar(
-        x=compare["source"], y=compare["median"], name="Mediana",
-        marker_color=NEON_PINK,
-        marker_line=dict(color=NEON_PINK, width=1),
-    ))
+    fig_compare.add_trace(
+        go.Bar(
+            x=compare["source"],
+            y=compare["mean"],
+            name="Promedio",
+            marker_color=NEON_CYAN,
+            marker_line=dict(color=NEON_CYAN, width=1),
+        )
+    )
+    fig_compare.add_trace(
+        go.Bar(
+            x=compare["source"],
+            y=compare["median"],
+            name="Mediana",
+            marker_color=NEON_PINK,
+            marker_line=dict(color=NEON_PINK, width=1),
+        )
+    )
     fig_compare.update_layout(
         **cyberplot_layout("Precio Promedio vs Mediana"),
         barmode="group",
         height=350,
     )
 
-    return html.Div([
-        card("Distribución de Precios", html.Div([
-            dcc.Graph(id="prices-hist", figure=fig_hist),
-            html.Div(id="prices-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_CYAN, "fontFamily": "Consolas, monospace"}),
-        ]), NEON_CYAN),
-        card("Precios por Género", dcc.Graph(figure=fig_box), NEON_GREEN),
-        card("Comparación Steam vs Itch.io", dcc.Graph(figure=fig_compare), NEON_PINK),
-    ])
+    return html.Div(
+        [
+            card(
+                "Distribución de Precios",
+                html.Div(
+                    [
+                        dcc.Graph(id="prices-hist", figure=fig_hist),
+                        html.Div(
+                            id="prices-crossfilter-output",
+                            style={
+                                "marginTop": "8px",
+                                "fontWeight": "700",
+                                "color": NEON_CYAN,
+                                "fontFamily": "Consolas, monospace",
+                            },
+                        ),
+                    ]
+                ),
+                NEON_CYAN,
+            ),
+            card("Precios por Género", dcc.Graph(figure=fig_box), NEON_GREEN),
+            card("Comparación Steam vs Itch.io", dcc.Graph(figure=fig_compare), NEON_PINK),
+        ]
+    )
 
 
 @callback(
@@ -506,7 +636,10 @@ def prices_crossfilter(click):
 def revenue_tab():
     df = DATA
     if "gross_revenue_est_usd" not in df.columns:
-        return card("Revenue", html.P("Columna gross_revenue_est_usd no disponible", style={"color": NEON_PINK}))
+        return card(
+            "Revenue",
+            html.P("Columna gross_revenue_est_usd no disponible", style={"color": NEON_PINK}),
+        )
 
     top10 = df.nlargest(10, "gross_revenue_est_usd")
     fig_top = px.bar(
@@ -544,7 +677,13 @@ def revenue_tab():
         fig_scatter = go.Figure()
 
     genre_col = "primary_genre" if "primary_genre" in df.columns else "genres"
-    rev_genre = df.groupby(genre_col)["gross_revenue_est_usd"].sum().sort_values(ascending=False).head(10).reset_index()
+    rev_genre = (
+        df.groupby(genre_col)["gross_revenue_est_usd"]
+        .sum()
+        .sort_values(ascending=False)
+        .head(10)
+        .reset_index()
+    )
     fig_genre = px.bar(
         rev_genre,
         x=genre_col,
@@ -557,14 +696,30 @@ def revenue_tab():
     fig_top.update_traces(
         hovertemplate="<b>%{y}</b><br>Revenue: $%{x:,.0f}<extra>Clic para filtrar</extra>",
     )
-    return html.Div([
-        card("Top 10 Revenue — clic para filtrar", html.Div([
-            dcc.Graph(id="revenue-top10-bar", figure=fig_top),
-            html.Div(id="revenue-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_GREEN, "fontFamily": "Consolas, monospace"}),
-        ]), NEON_GREEN),
-        card("Recomendaciones vs Revenue", dcc.Graph(figure=fig_scatter), NEON_CYAN),
-        card("Revenue por Género", dcc.Graph(figure=fig_genre), NEON_PINK),
-    ])
+    return html.Div(
+        [
+            card(
+                "Top 10 Revenue — clic para filtrar",
+                html.Div(
+                    [
+                        dcc.Graph(id="revenue-top10-bar", figure=fig_top),
+                        html.Div(
+                            id="revenue-crossfilter-output",
+                            style={
+                                "marginTop": "8px",
+                                "fontWeight": "700",
+                                "color": NEON_GREEN,
+                                "fontFamily": "Consolas, monospace",
+                            },
+                        ),
+                    ]
+                ),
+                NEON_GREEN,
+            ),
+            card("Recomendaciones vs Revenue", dcc.Graph(figure=fig_scatter), NEON_CYAN),
+            card("Revenue por Género", dcc.Graph(figure=fig_genre), NEON_PINK),
+        ]
+    )
 
 
 @callback(
@@ -612,13 +767,29 @@ def genres_tab():
     )
     fig_heat.update_layout(**cyberplot_layout("Heatmap: Plataforma vs Género"), height=400)
 
-    return html.Div([
-        card("Treemap de Géneros — clic para filtrar", html.Div([
-            dcc.Graph(id="genres-treemap", figure=fig_treemap),
-            html.Div(id="genres-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_GREEN, "fontFamily": "Consolas, monospace"}),
-        ]), NEON_GREEN),
-        card("Heatmap Plataforma vs Género", dcc.Graph(figure=fig_heat), NEON_PINK),
-    ])
+    return html.Div(
+        [
+            card(
+                "Treemap de Géneros — clic para filtrar",
+                html.Div(
+                    [
+                        dcc.Graph(id="genres-treemap", figure=fig_treemap),
+                        html.Div(
+                            id="genres-crossfilter-output",
+                            style={
+                                "marginTop": "8px",
+                                "fontWeight": "700",
+                                "color": NEON_GREEN,
+                                "fontFamily": "Consolas, monospace",
+                            },
+                        ),
+                    ]
+                ),
+                NEON_GREEN,
+            ),
+            card("Heatmap Plataforma vs Género", dcc.Graph(figure=fig_heat), NEON_PINK),
+        ]
+    )
 
 
 @callback(
@@ -638,7 +809,10 @@ def correlation_tab():
     numeric_cols = ["price_usd", "recommendations", "gross_revenue_est_usd", "metacritic"]
     available = [c for c in numeric_cols if c in df.columns]
     if len(available) < 2:
-        return card("Correlación", html.P("No hay suficientes columnas numéricas", style={"color": NEON_PINK}))
+        return card(
+            "Correlación",
+            html.P("No hay suficientes columnas numéricas", style={"color": NEON_PINK}),
+        )
 
     corr = df[available].corr()
     fig_corr = px.imshow(

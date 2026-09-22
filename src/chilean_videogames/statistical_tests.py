@@ -54,12 +54,8 @@ def run_statistical_tests(
     itch = df[df["source"].str.contains("itch", na=False)]["price_usd"].dropna()
     if len(steam) > 2 and len(itch) > 2:
         t_stat, p_value = stats.ttest_ind(steam, itch, equal_var=False)
-        ci_steam = stats.t.interval(
-            0.95, len(steam) - 1, loc=steam.mean(), scale=stats.sem(steam)
-        )
-        ci_itch = stats.t.interval(
-            0.95, len(itch) - 1, loc=itch.mean(), scale=stats.sem(itch)
-        )
+        ci_steam = stats.t.interval(0.95, len(steam) - 1, loc=steam.mean(), scale=stats.sem(steam))
+        ci_itch = stats.t.interval(0.95, len(itch) - 1, loc=itch.mean(), scale=stats.sem(itch))
         results["ttest_steam_vs_itch"] = {
             "test": "Welch's t-test",
             "h0": "No hay diferencia significativa en precios entre Steam e Itch.io",
@@ -71,8 +67,7 @@ def run_statistical_tests(
             "itch_mean": round(itch.mean(), 2),
             "itch_ci_95": [round(ci_itch[0], 2), round(ci_itch[1], 2)],
             "effect_size_cohens_d": round(
-                (steam.mean() - itch.mean())
-                / np.sqrt((steam.std() ** 2 + itch.std() ** 2) / 2),
+                (steam.mean() - itch.mean()) / np.sqrt((steam.std() ** 2 + itch.std() ** 2) / 2),
                 3,
             ),
         }
@@ -82,9 +77,7 @@ def run_statistical_tests(
 
     # 2. ANOVA: Revenue by genre
     if "primary_genre" in df.columns and "gross_revenue_est_usd" in df.columns:
-        genres = (
-            df.groupby("primary_genre")["gross_revenue_est_usd"].apply(list).dropna()
-        )
+        genres = df.groupby("primary_genre")["gross_revenue_est_usd"].apply(list).dropna()
         genres = genres[genres.apply(len) >= 3]
         if len(genres) >= 2:
             f_stat, p_anova = stats.f_oneway(*genres.values)
@@ -103,13 +96,9 @@ def run_statistical_tests(
     # 3. Pearson: recommendations vs revenue
     if "recommendations" in df.columns and "gross_revenue_est_usd" in df.columns:
         valid = df[["recommendations", "gross_revenue_est_usd"]].dropna()
-        valid = valid[
-            (valid["recommendations"] > 0) & (valid["gross_revenue_est_usd"] > 0)
-        ]
+        valid = valid[(valid["recommendations"] > 0) & (valid["gross_revenue_est_usd"] > 0)]
         if len(valid) > 10:
-            r, p_corr = stats.pearsonr(
-                valid["recommendations"], valid["gross_revenue_est_usd"]
-            )
+            r, p_corr = stats.pearsonr(valid["recommendations"], valid["gross_revenue_est_usd"])
             results["pearson_rec_vs_revenue"] = {
                 "test": "Pearson correlation",
                 "h0": "No hay correlación entre recomendaciones y revenue",

@@ -83,10 +83,7 @@ def run_forecasting(
             fitted = fit_arima.fittedvalues
             mae = np.mean(np.abs(ts.values - fitted.values[: len(ts)]))
             mape = (
-                np.mean(
-                    np.abs((ts.values - fitted.values[: len(ts)]) / (ts.values + 1e-8))
-                )
-                * 100
+                np.mean(np.abs((ts.values - fitted.values[: len(ts)]) / (ts.values + 1e-8))) * 100
             )
 
             results["releases_arima"] = {
@@ -94,9 +91,7 @@ def run_forecasting(
                 "adf_statistic": round(adf_result[0], 4),
                 "adf_p_value": round(adf_result[1], 4),
                 "stationary": adf_result[1] < 0.05,
-                "forecast_2026_2028": [
-                    round(max(0, v), 0) for v in forecast_arima.values
-                ],
+                "forecast_2026_2028": [round(max(0, v), 0) for v in forecast_arima.values],
                 "mae": round(mae, 2),
                 "mape": round(mape, 2),
                 "historical": {int(k): int(v) for k, v in ts.items()},
@@ -143,9 +138,7 @@ def run_forecasting(
 
                 results["revenue_arima"] = {
                     "model": "ARIMA(1,1,0)",
-                    "forecast_2026_2028": [
-                        round(max(0, v), 2) for v in forecast_rev.values
-                    ],
+                    "forecast_2026_2028": [round(max(0, v), 2) for v in forecast_rev.values],
                     "historical_total": round(ts_rev.sum(), 2),
                 }
                 print(
@@ -167,9 +160,7 @@ def run_forecasting(
             "annual_growth_rate": round(slope, 2),
             "interpretation": f"Crecimiento de {slope:.1f} lanzamientos por año (R²={r_value**2:.3f})",
         }
-        print(
-            f"[FORECAST] Trend: +{slope:.1f} games/year, R²={r_value**2:.3f}, p={p_value:.4f}"
-        )
+        print(f"[FORECAST] Trend: +{slope:.1f} games/year, R²={r_value**2:.3f}, p={p_value:.4f}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
     results = _to_json_serializable(results)

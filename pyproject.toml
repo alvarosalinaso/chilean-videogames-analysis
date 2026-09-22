@@ -60,6 +60,11 @@ target-version = "py39"
 select = ["E", "W", "F", "I", "UP", "B"]
 ignore = ["E501"]
 
+[tool.ruff.lint.per-file-ignores]
+# generate_report.py: trailing double-spaces inside REPORT_TEMPLATE are
+# intentional Markdown hard-breaks, not stray whitespace.
+"src/chilean_videogames/generate_report.py" = ["W291"]
+
 [tool.pytest.ini_options]
 minversion = "7.0"
 # Gate = baseline medido (48% core 2026-09-21). Subir solo con tests reales nuevos,

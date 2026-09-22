@@ -36,17 +36,13 @@ with open(filepath2, encoding="utf-8") as f:
     rows = [row for row in reader]
 
 # Check if any row has a non-Chilean game name
-cleaned2 = [
-    row for row in rows if row.get("name", row.get("Name", "")) not in NON_CHILEAN
-]
+cleaned2 = [row for row in rows if row.get("name", row.get("Name", "")) not in NON_CHILEAN]
 if len(cleaned2) != len(rows):
     with open(filepath2, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(cleaned2)
-    print(
-        f"observable_distribucion: {len(rows)} -> {len(cleaned2)} (-{len(rows) - len(cleaned2)})"
-    )
+    print(f"observable_distribucion: {len(rows)} -> {len(cleaned2)} (-{len(rows) - len(cleaned2)})")
 else:
     print(f"observable_distribucion: no changes needed ({len(rows)} rows)")
 

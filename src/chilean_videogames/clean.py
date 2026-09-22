@@ -84,7 +84,7 @@ def build_dataset(raw_dir: Path = _RAW_DIR) -> pd.DataFrame:
 
     for fp in json_files:
         try:
-            with open(fp, "r", encoding="utf-8") as f:
+            with open(fp, encoding="utf-8") as f:
                 data = json.load(f)
         except (json.JSONDecodeError, OSError) as exc:
             logger.error(f"  ❌ Error leyendo {fp.name}: {exc}")
