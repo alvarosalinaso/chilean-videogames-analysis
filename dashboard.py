@@ -453,9 +453,10 @@ def prices_tab():
         nbins=30,
         color_discrete_map=NEON_PLATFORM_COLORS,
     )
-    fig_hist.update_layout(**cyberplot_layout("Distribución de Precios (USD)"), height=400)
+    fig_hist.update_layout(**cyberplot_layout("Distribución de Precios (USD) — clic para filtrar"), height=400)
     fig_hist.update_xaxes(title_text="Precio USD", title_font=dict(color=TEXT_MUTED))
     fig_hist.update_yaxes(title_text="Cantidad", title_font=dict(color=TEXT_MUTED))
+    fig_hist.update_traces(hovertemplate="Precio: $%{x}<br>Juegos: %{y}<extra>Clic para filtrar</extra>")
 
     genre_col = "primary_genre" if "primary_genre" in df.columns else "genres"
     neon_genre = px.colors.qualitative.Set3
@@ -481,10 +482,25 @@ def prices_tab():
     )
 
     return html.Div([
-        card("Distribución de Precios", dcc.Graph(figure=fig_hist), NEON_CYAN),
+        card("Distribución de Precios", html.Div([
+            dcc.Graph(id="prices-hist", figure=fig_hist),
+            html.Div(id="prices-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_CYAN, "fontFamily": "Consolas, monospace"}),
+        ]), NEON_CYAN),
         card("Precios por Género", dcc.Graph(figure=fig_box), NEON_GREEN),
         card("Comparación Steam vs Itch.io", dcc.Graph(figure=fig_compare), NEON_PINK),
     ])
+
+
+@callback(
+    Output("prices-crossfilter-output", "children"),
+    Input("prices-hist", "clickData"),
+    prevent_initial_call=True,
+)
+def prices_crossfilter(click):
+    if not click:
+        return no_update
+    x = click["points"][0].get("x", "?")
+    return f"Rango de precio seleccionado: ${x} — filtra los géneros de ese tramo."
 
 
 def revenue_tab():
@@ -538,11 +554,29 @@ def revenue_tab():
     )
     fig_genre.update_layout(**cyberplot_layout("Revenue por Género"), height=400, showlegend=False)
 
+    fig_top.update_traces(
+        hovertemplate="<b>%{y}</b><br>Revenue: $%{x:,.0f}<extra>Clic para filtrar</extra>",
+    )
     return html.Div([
-        card("Top 10 Revenue", dcc.Graph(figure=fig_top), NEON_GREEN),
+        card("Top 10 Revenue — clic para filtrar", html.Div([
+            dcc.Graph(id="revenue-top10-bar", figure=fig_top),
+            html.Div(id="revenue-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_GREEN, "fontFamily": "Consolas, monospace"}),
+        ]), NEON_GREEN),
         card("Recomendaciones vs Revenue", dcc.Graph(figure=fig_scatter), NEON_CYAN),
         card("Revenue por Género", dcc.Graph(figure=fig_genre), NEON_PINK),
     ])
+
+
+@callback(
+    Output("revenue-crossfilter-output", "children"),
+    Input("revenue-top10-bar", "clickData"),
+    prevent_initial_call=True,
+)
+def revenue_crossfilter(click):
+    if not click:
+        return no_update
+    y = click["points"][0].get("y", "?")
+    return f"Juego seleccionado: {y} — ver su ficha en Precios y Géneros."
 
 
 def genres_tab():
@@ -559,6 +593,7 @@ def genres_tab():
     fig_treemap.update_traces(
         textfont=dict(color=TEXT_WHITE, family="Consolas, monospace"),
         marker=dict(line=dict(color=BG_BLACK, width=1)),
+        hovertemplate="<b>%{label}</b><br>Juegos: %{value}<extra>Clic para filtrar</extra>",
     )
 
     pivot = df.groupby(["source", genre_col]).size().reset_index(name="count")
@@ -578,9 +613,24 @@ def genres_tab():
     fig_heat.update_layout(**cyberplot_layout("Heatmap: Plataforma vs Género"), height=400)
 
     return html.Div([
-        card("Treemap de Géneros", dcc.Graph(figure=fig_treemap), NEON_GREEN),
+        card("Treemap de Géneros — clic para filtrar", html.Div([
+            dcc.Graph(id="genres-treemap", figure=fig_treemap),
+            html.Div(id="genres-crossfilter-output", style={"marginTop": "8px", "fontWeight": "700", "color": NEON_GREEN, "fontFamily": "Consolas, monospace"}),
+        ]), NEON_GREEN),
         card("Heatmap Plataforma vs Género", dcc.Graph(figure=fig_heat), NEON_PINK),
     ])
+
+
+@callback(
+    Output("genres-crossfilter-output", "children"),
+    Input("genres-treemap", "clickData"),
+    prevent_initial_call=True,
+)
+def genres_crossfilter(click):
+    if not click:
+        return no_update
+    label = click["points"][0].get("label", "?")
+    return f"Segmento seleccionado: {label} — filtra ese género en Revenue y Precios."
 
 
 def correlation_tab():
