@@ -16,6 +16,21 @@ except ImportError:
     PANDAS_AVAILABLE = False
 
 
+def _to_json_serializable(obj):
+    """Convierte tipos numpy a tipos nativos para JSON."""
+    if not PANDAS_AVAILABLE:
+        return obj
+    if isinstance(obj, (np.bool_, np.integer, np.floating, np.number)):
+        return obj.item()
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    if isinstance(obj, dict):
+        return {k: _to_json_serializable(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_to_json_serializable(v) for v in obj]
+    return obj
+
+
 def compute_power(effect_size: float, n: float, alpha: float = 0.05) -> float:
     """Calcula poder estadístico aproximado."""
     from scipy.stats import norm
@@ -38,10 +53,13 @@ def compute_sample_size(effect_size: float, alpha: float = 0.05, power: float = 
 
 
 def run_ab_testing(
-    data_dir: Path = Path("data/processed"), output_dir: Path = Path("data/export")
+    export_dir: Path = Path("data/export"), output_dir: Path = Path("data/export")
 ) -> dict:
     """
     A/B testing: Steam (control) vs Itch.io (tratamiento).
+
+    Lee el CSV enriquecido (data/export/chilean_games_final.csv), que es el único
+    que tiene price_usd, primary_genre y gross_revenue_est_usd.
 
     Tests:
     1. T-test: precios entre plataformas
@@ -55,7 +73,12 @@ def run_ab_testing(
         print("[AB] pandas/scipy no instalados")
         return {}
 
-    df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
+    csv_path = export_dir / "chilean_games_final.csv"
+    if not csv_path.exists():
+        print(f"[AB] {csv_path} no encontrado; corre analyze_all primero")
+        return {}
+
+    df = pd.read_csv(csv_path, encoding="utf-8")
     results = {}
 
     df["source"] = df["source"].astype(str).str.casefold().str.strip()
@@ -189,7 +212,7 @@ def run_ab_testing(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     with open(output_dir / "ab_testing_results.json", "w", encoding="utf-8") as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+        json.dump(_to_json_serializable(results), f, ensure_ascii=False, indent=2)
 
     return results
 

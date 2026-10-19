@@ -180,7 +180,7 @@ def main():
 
         # A/B Testing
         logger.info("Ejecutando A/B testing (Steam vs Itch.io)...")
-        run_ab_testing(data_dir=Path("data/processed"), output_dir=Path("data/export"))
+        run_ab_testing(export_dir=Path("data/export"), output_dir=Path("data/export"))
 
         # Statistical tests
         from .statistical_tests import run_statistical_tests
