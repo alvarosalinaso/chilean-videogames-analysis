@@ -60,6 +60,7 @@ def run_forecasting(
         return {}
 
     df = pd.read_csv(games_csv, encoding="utf-8")
+    df["source"] = df["source"].str.lower().str.strip()
 
     results = {}
 
@@ -123,7 +124,7 @@ def run_forecasting(
             print(f"[FORECAST] ES error: {e}")
 
     # 2. Forecast de revenue por año (Steam only)
-    steam = df[df["source"] == "Steam"].copy()
+    steam = df[df["source"] == "steam"].copy()
     if "gross_revenue_est_usd" in steam.columns and len(steam) >= 10:
         rev_yearly = steam.groupby("year")["gross_revenue_est_usd"].sum().reset_index()
         rev_yearly = rev_yearly[rev_yearly["year"] >= 2015].sort_values("year")
