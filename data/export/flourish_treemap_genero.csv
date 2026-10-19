@@ -5,7 +5,7 @@ Steam Chile,Aventura,Bandits,0.0,0,0,2019
 Steam Chile,Indie,Bandits,0.0,0,0,2019
 Steam Chile,Indie,"Causa, Voices of the Dusk",0.0,0,0,2021
 Steam Chile,Estrategia,"Causa, Voices of the Dusk",0.0,0,0,2021
-Steam Chile,Free to Play,"Causa, Voices of the Dusk",0.0,0,0,2021
+Steam Chile,Otros,"Causa, Voices of the Dusk",0.0,0,0,2021
 Steam Chile,Indie,Stoppa!,0.0,0,0,2019
 Steam Chile,Acción,Hijos del Invierno,0.0,0,0,Unknown
 Steam Chile,Aventura,Hijos del Invierno,0.0,0,0,Unknown
@@ -18,7 +18,7 @@ Steam Chile,Indie,Rock of Ages 3: Make & Break,314623.2,46680,72,2020
 Steam Chile,Carreras,Rock of Ages 3: Make & Break,314623.2,46680,72,2020
 Steam Chile,Estrategia,Rock of Ages 3: Make & Break,314623.2,46680,72,2020
 Steam Chile,Aventura,El Culto,0.0,0,0,2019
-Steam Chile,Free to Play,El Culto,0.0,0,0,2019
+Steam Chile,Otros,El Culto,0.0,0,0,2019
 Steam Chile,Indie,El Culto,0.0,0,0,2019
 Steam Chile,Rol,El Culto,0.0,0,0,2019
 Steam Chile,Casual,Asterminer,0.0,0,0,Unknown
@@ -26,7 +26,7 @@ Steam Chile,Indie,Asterminer,0.0,0,0,Unknown
 Steam Chile,Acción,Virus Blast,0.0,0,0,2020
 Steam Chile,Casual,Virus Blast,0.0,0,0,2020
 Steam Chile,Indie,Virus Blast,0.0,0,0,2020
-Steam Chile,Free to Play,Virus Blast,0.0,0,0,2020
+Steam Chile,Otros,Virus Blast,0.0,0,0,2020
 Steam Chile,Casual,Solitaire. Elemental Wizards,0.0,0,0,2020
 Steam Chile,Acción,Daybreak Slam,0.0,0,0,Unknown
 Steam Chile,Casual,Daybreak Slam,0.0,0,0,Unknown
@@ -56,7 +56,7 @@ Steam Chile,Casual,Gematombe,0.0,0,0,2023
 Steam Chile,Indie,Gematombe,0.0,0,0,2023
 Steam Chile,Estrategia,Gematombe,0.0,0,0,2023
 Steam Chile,Acción,Operation8 Project,0.0,0,0,2022
-Steam Chile,Free to Play,Operation8 Project,0.0,0,0,2022
+Steam Chile,Otros,Operation8 Project,0.0,0,0,2022
 Steam Chile,Otros,Operation8 Project,0.0,0,0,2022
 Steam Chile,Acción,Hoverise Rebellion,0.0,0,0,Unknown
 Steam Chile,Indie,Hoverise Rebellion,0.0,0,0,Unknown
@@ -170,7 +170,7 @@ Steam Chile,Rol,Dungeon Shifters,0.0,0,0,2025
 Steam Chile,Acceso anticipado,Dungeon Shifters,0.0,0,0,2025
 Steam Chile,Aventura,El Pasante Elementalista,0.0,0,0,2025
 Steam Chile,Indie,El Pasante Elementalista,0.0,0,0,2025
-Steam Chile,Free to Play,El Pasante Elementalista,0.0,0,0,2025
+Steam Chile,Otros,El Pasante Elementalista,0.0,0,0,2025
 Steam Chile,Acción,Bulbo's Belief System,0.0,0,0,Unknown
 Steam Chile,Casual,Bulbo's Belief System,0.0,0,0,Unknown
 Steam Chile,Indie,Bulbo's Belief System,0.0,0,0,Unknown
@@ -195,7 +195,7 @@ Steam Chile,Simuladores,"Scalpel, Please!",0.0,0,0,Unknown
 Steam Chile,Casual,Valiants: Arena,0.0,0,0,2025
 Steam Chile,Indie,Valiants: Arena,0.0,0,0,2025
 Steam Chile,Estrategia,Valiants: Arena,0.0,0,0,2025
-Steam Chile,Free to Play,Valiants: Arena,0.0,0,0,2025
+Steam Chile,Otros,Valiants: Arena,0.0,0,0,2025
 Steam Chile,Acceso anticipado,Valiants: Arena,0.0,0,0,2025
 Steam Chile,Indie,Forge the Fates,0.0,0,0,Unknown
 Steam Chile,Estrategia,Forge the Fates,0.0,0,0,Unknown
@@ -289,6 +289,7 @@ Steam Chile,Otros,What would you do?,0.0,0,0,Unknown
 Steam Chile,Otros,La Iglesia de la Noche,0.0,0,0,Unknown
 Steam Chile,Adventure,Hirokae,0.0,0,0,Unknown
 Steam Chile,Otros,La sociedad de la nieve,0.0,0,0,Unknown
+Steam Chile,Otros,ByeColours,0.0,0,0,Unknown
 Steam Chile,Action,La Conquista,0.0,0,0,Unknown
 Steam Chile,Otros,CHOLITO,0.0,0,0,Unknown
 Steam Chile,Otros,El Trompo y el PingÃ¼ino,0.0,0,0,Unknown
@@ -296,6 +297,25 @@ Steam Chile,Otros,CapitÃ¡n Arturo,0.0,0,0,Unknown
 Steam Chile,Adventure,Cherry Y La FusiÃ³n Prohibida,0.0,0,0,Unknown
 Steam Chile,Adventure,Walter is Coming,0.0,0,0,Unknown
 Steam Chile,Otros,Carnivile,0.0,0,0,Unknown
+Steam Chile,Adventure,Patluk,0.0,0,0,Unknown
+Steam Chile,Otros,Oficina Del Obedecimiento,0.0,0,0,Unknown
+Steam Chile,Otros,Save My Ramo!,0.0,0,0,Unknown
+Steam Chile,Otros,Chr0noWav3 - Chile edition,0.0,0,0,Unknown
+Steam Chile,Otros,Spirit of the Andes,0.0,0,0,Unknown
+Steam Chile,Educational,GincanaNexus,0.0,0,0,Unknown
+Steam Chile,Otros,ANELIVIA (Prueba de Concepto/Experimento Narrativo),0.0,0,0,Unknown
+Steam Chile,Card Game,Monkey 21,0.0,0,0,Unknown
+Steam Chile,Otros,The Case of Rancagua,0.0,0,0,Unknown
+Steam Chile,Otros,FlashGirls,0.0,0,0,Unknown
+Steam Chile,Otros,sprunki 1998,0.0,0,0,Unknown
+Steam Chile,Otros,ð¨ð± 18 Bits Arcade ð¨ð±,0.0,0,0,Unknown
+Steam Chile,Adventure,Webeo Time,0.0,0,0,Unknown
+Steam Chile,Otros,Tragedy caused by wasp nest: Level 2 Demo,0.0,0,0,Unknown
+Steam Chile,Educational,Arpillleras-Prototipo,0.0,0,0,Unknown
+Steam Chile,Otros,Empanadas-y-Terremotos,0.0,0,0,Unknown
+Steam Chile,Otros,CÃNDOR: OperaciÃ³n Santiago,0.0,0,0,Unknown
+Steam Chile,Otros,10 pesos,0.0,0,0,Unknown
+Steam Chile,Otros,Buscando Pega,0.0,0,0,Unknown
 Steam Chile,Otros,Dreamnesthesia,0.0,0,0,Unknown
 Steam Chile,Action,Negro Matapacos,0.0,0,0,Unknown
 Steam Chile,Action,Battle Power Ultra,0.0,0,0,Unknown
