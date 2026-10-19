@@ -90,7 +90,7 @@ def build_dataset(raw_dir: Path = _RAW_DIR) -> pd.DataFrame:
             logger.error(f"  ❌ Error leyendo {fp.name}: {exc}")
             continue
 
-        if data.get("source") == "itch":
+        if str(data.get("source", "")).casefold().strip() == "itch":
             game = _parse_itch(data)
         else:
             game = _parse_steam(data)

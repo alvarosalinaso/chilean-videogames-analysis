@@ -42,8 +42,8 @@ def run_statistical_tests(
         df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
     results = {}
 
-    # Normalize source column
-    df["source"] = df["source"].str.lower().str.strip()
+    # Normalize source column (casefold: 'Steam', 'STEAM', 'steam' → 'steam')
+    df["source"] = df["source"].astype(str).str.casefold().str.strip()
 
     # 1. T-test: Steam vs Itch.io prices
     if "price_usd" not in df.columns:

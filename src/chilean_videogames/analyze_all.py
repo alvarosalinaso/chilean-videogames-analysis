@@ -22,6 +22,9 @@ def load_and_enrich_data():
     df = pd.read_csv(input_path)
 
     # --- Enriquecimiento ---
+    # 0. Normalizar source (casefold: 'Steam'/'STEAM' → 'steam')
+    df["source"] = df["source"].astype(str).str.casefold().str.strip()
+
     # 1. Normalizar Year
     df["year"] = df["year"].astype(str).apply(extract_year)
 
@@ -62,8 +65,9 @@ def load_and_enrich_data():
 
 def plot_timeline(df, output_dir):
     """Lanzamientos por año."""
-    df_chart = df[df["year"].str.match(r"^\d{4}$", na=False)].copy()
-    df_chart["year"] = df_chart["year"].astype(int)
+    years = pd.to_numeric(df["year"], errors="coerce")
+    df_chart = df[years.notna()].copy()
+    df_chart["year"] = years[years.notna()].astype(int)
     df_chart = df_chart[df_chart["year"] >= 2010]
 
     plt.figure(figsize=(12, 6))

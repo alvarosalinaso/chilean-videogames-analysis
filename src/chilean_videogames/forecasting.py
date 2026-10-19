@@ -60,19 +60,30 @@ def run_forecasting(
         return {}
 
     df = pd.read_csv(games_csv, encoding="utf-8")
-    df["source"] = df["source"].str.lower().str.strip()
+    df["source"] = df["source"].astype(str).str.casefold().str.strip()
+    df["year"] = pd.to_numeric(df["year"], errors="coerce")
 
     results = {}
 
-    # 1. Forecast de lanzamientos por año
+    # 1. Forecast de lanzamientos por año (solo años conocidos; 'Unknown' → NaN)
     yearly = df.groupby("year").size().reset_index(name="releases")
     yearly = yearly[yearly["year"] >= 2010].sort_values("year")
 
     if len(yearly) >= 5:
-        ts = yearly.set_index("year")["releases"]
+        # statsmodels solo acepta índices de tipo fecha o RangeIndex; los años se
+        # conservan aparte para etiquetar el histórico.
+        years_releases = yearly["year"].astype(int).tolist()
+        ts = yearly["releases"].reset_index(drop=True)
 
-        # Augmented Dickey-Fuller test
-        adf_result = adfuller(ts.dropna())
+        # Augmented Dickey-Fuller test (ValueError con series constantes)
+        try:
+            adf_result = adfuller(ts.dropna())
+            adf_statistic = round(adf_result[0], 4)
+            adf_p_value = round(adf_result[1], 4)
+        except ValueError as e:
+            print(f"[FORECAST] ADF no calculable: {e}")
+            adf_statistic = None
+            adf_p_value = None
 
         # ARIMA forecast
         try:
@@ -89,13 +100,13 @@ def run_forecasting(
 
             results["releases_arima"] = {
                 "model": "ARIMA(1,1,1)",
-                "adf_statistic": round(adf_result[0], 4),
-                "adf_p_value": round(adf_result[1], 4),
-                "stationary": adf_result[1] < 0.05,
+                "adf_statistic": adf_statistic,
+                "adf_p_value": adf_p_value,
+                "stationary": adf_p_value is not None and adf_p_value < 0.05,
                 "forecast_2026_2028": [round(max(0, v), 0) for v in forecast_arima.values],
                 "mae": round(mae, 2),
                 "mape": round(mape, 2),
-                "historical": {int(k): int(v) for k, v in ts.items()},
+                "historical": {y: int(v) for y, v in zip(years_releases, ts.values)},
             }
             print(
                 f"[FORECAST] ARIMA releases: 2026={forecast_arima.values[0]:.0f}, 2027={forecast_arima.values[1]:.0f}, 2028={forecast_arima.values[2]:.0f}"
@@ -130,7 +141,7 @@ def run_forecasting(
         rev_yearly = rev_yearly[rev_yearly["year"] >= 2015].sort_values("year")
 
         if len(rev_yearly) >= 5:
-            ts_rev = rev_yearly.set_index("year")["gross_revenue_est_usd"]
+            ts_rev = rev_yearly["gross_revenue_est_usd"].reset_index(drop=True)
 
             try:
                 model_rev = ARIMA(ts_rev, order=(1, 1, 0))

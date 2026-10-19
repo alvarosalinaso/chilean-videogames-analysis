@@ -91,3 +91,25 @@ def test_run_statistical_tests_insufficient_data(tmp_path):
     assert isinstance(result, dict)
     # Should not have ttest with only 1 sample per group
     assert "ttest_steam_vs_itch" not in result
+
+
+def test_run_statistical_tests_mixed_case_source(tmp_path):
+    """source con mayúsculas distintas se normaliza con casefold antes de agrupar."""
+    data_dir = tmp_path / "processed"
+    output_dir = tmp_path / "export"
+    data_dir.mkdir()
+    output_dir.mkdir()
+
+    games_csv = data_dir / "games.csv"
+    pd.DataFrame(
+        {
+            "source": ["Steam", "STEAM", "steam", "Itch", "ITCH", "itch"],
+            "price_usd": [10.0, 15.0, 20.0, 5.0, 8.0, 11.0],
+        }
+    ).to_csv(games_csv, index=False)
+
+    result = run_statistical_tests(data_dir=data_dir, output_dir=output_dir)
+
+    assert "ttest_steam_vs_itch" in result
+    assert result["ttest_steam_vs_itch"]["steam_mean"] == 15.0
+    assert result["ttest_steam_vs_itch"]["itch_mean"] == 8.0

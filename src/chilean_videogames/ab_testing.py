@@ -58,7 +58,7 @@ def run_ab_testing(
     df = pd.read_csv(data_dir / "games.csv", encoding="utf-8")
     results = {}
 
-    df["source"] = df["source"].str.lower().str.strip()
+    df["source"] = df["source"].astype(str).str.casefold().str.strip()
     steam = df[df["source"] == "steam"].copy()
     itch = df[df["source"].str.contains("itch", na=False)].copy()
 

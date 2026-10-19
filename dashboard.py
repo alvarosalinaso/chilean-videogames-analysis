@@ -81,10 +81,14 @@ ENRICHED = BASE / "data" / "export" / "chilean_games_final.csv"
 
 def load_data():
     if ENRICHED.exists():
-        return pd.read_csv(ENRICHED)
-    if PROCESSED.exists():
-        return pd.read_csv(PROCESSED)
-    return pd.DataFrame()
+        df = pd.read_csv(ENRICHED)
+    elif PROCESSED.exists():
+        df = pd.read_csv(PROCESSED)
+    else:
+        return pd.DataFrame()
+    if "source" in df.columns:
+        df["source"] = df["source"].astype(str).str.casefold().str.strip()
+    return df
 
 
 DATA = load_data()
@@ -473,8 +477,8 @@ def overview_tab():
             fig_timeline.update_layout(**cyberplot_layout("Lanzamientos por Año"), height=400)
             fig_timeline.update_xaxes(title_text="Año", title_font=dict(color=TEXT_MUTED))
             fig_timeline.update_yaxes(title_text="Juegos", title_font=dict(color=TEXT_MUTED))
-            n_steam = int((df["source"] == "Steam").sum()) if "source" in df.columns else 0
-            n_itch = int((df["source"] == "Itch").sum()) if "source" in df.columns else 0
+            n_steam = int((df["source"] == "steam").sum()) if "source" in df.columns else 0
+            n_itch = int((df["source"] == "itch").sum()) if "source" in df.columns else 0
             return html.Div(
                 [
                     stats,
