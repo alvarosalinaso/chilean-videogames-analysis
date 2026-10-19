@@ -27,6 +27,52 @@ def _to_json_serializable(obj: Any) -> Any:
     return obj
 
 
+BOXLEITER_FACTORS = (20, 30, 40, 50, 60)
+
+
+def compute_boxleiter_sensitivity(df: pd.DataFrame, factors: tuple = BOXLEITER_FACTORS) -> dict:
+    """Sensibilidad del factor Boxleiter: revenue = recs × factor × precio.
+
+    El factor solo escala los montos linealmente: rankings y shares por
+    género no cambian, únicamente cambian los totales absolutos.
+    """
+    required = {"source", "recommendations", "price_usd", "name"}
+    if not required.issubset(df.columns):
+        return {}
+
+    steam = df[df["source"].astype(str).str.casefold().str.strip() == "steam"]
+    valid = steam[["name", "recommendations", "price_usd"]].dropna()
+    valid = valid[(valid["recommendations"] > 0) & (valid["price_usd"] > 0)]
+    if len(valid) == 0:
+        return {}
+
+    units = valid["recommendations"] * valid["price_usd"]
+    factor_stats: dict = {}
+    for factor in factors:
+        est = units * factor
+        top_idx = est.idxmax()
+        factor_stats[str(factor)] = {
+            "total_revenue_est_usd": round(float(est.sum()), 2),
+            "median_game_revenue_usd": round(float(est.median()), 2),
+            "mean_game_revenue_usd": round(float(est.mean()), 2),
+            "top_game": str(valid.loc[top_idx, "name"]),
+            "top_game_revenue_usd": round(float(est.loc[top_idx]), 2),
+        }
+
+    return {
+        "test": "Sensibilidad del factor Boxleiter",
+        "formula": "revenue_est_usd = recommendations x factor x price_usd (Steam, recs>0 y price>0)",
+        "base_factor": 40,
+        "n_games": int(len(valid)),
+        "factors": factor_stats,
+        "linear_in_factor": True,
+        "note": (
+            "El factor es una escala lineal: el ranking de juegos y los shares "
+            "por género no cambian entre 20x y 60x; solo cambian los montos absolutos."
+        ),
+    }
+
+
 def run_statistical_tests(
     data_dir: Path = Path("data/processed"), output_dir: Path = Path("data/export")
 ) -> dict:
@@ -93,15 +139,19 @@ def run_statistical_tests(
             }
             print(f"[STATS] ANOVA: F={f_stat:.3f}, p={p_anova:.4f}, η²={eta_sq:.3f}")
 
-    # 3. Pearson: recommendations vs revenue
-    if "recommendations" in df.columns and "gross_revenue_est_usd" in df.columns:
-        valid = df[["recommendations", "gross_revenue_est_usd"]].dropna()
-        valid = valid[(valid["recommendations"] > 0) & (valid["gross_revenue_est_usd"] > 0)]
+    # 3. Pearson: precio vs recomendaciones (solo Steam)
+    # Nota: la RQ5 antigua (recomendaciones vs revenue) era circular porque
+    # revenue = recommendations × 40 × price. Se correlaciona precio con
+    # recomendaciones, que son variables medidas independientemente.
+    if "recommendations" in df.columns and "price_usd" in df.columns:
+        steam_df = df[df["source"] == "steam"]
+        valid = steam_df[["recommendations", "price_usd"]].dropna()
+        valid = valid[(valid["recommendations"] > 0) & (valid["price_usd"] > 0)]
         if len(valid) > 10:
-            r, p_corr = stats.pearsonr(valid["recommendations"], valid["gross_revenue_est_usd"])
-            results["pearson_rec_vs_revenue"] = {
+            r, p_corr = stats.pearsonr(valid["price_usd"], valid["recommendations"])
+            results["pearson_price_vs_recs"] = {
                 "test": "Pearson correlation",
-                "h0": "No hay correlación entre recomendaciones y revenue",
+                "h0": "No hay correlación entre precio y recomendaciones (Steam)",
                 "r": round(r, 4),
                 "r_squared": round(r**2, 4),
                 "p_value": round(p_corr, 6),
@@ -113,7 +163,19 @@ def run_statistical_tests(
                 if abs(r) > 0.4
                 else "Débil",
             }
-            print(f"[STATS] Pearson: r={r:.3f}, p={p_corr:.4f}, R²={r**2:.3f}")
+            print(f"[STATS] Pearson precio vs recs: r={r:.3f}, p={p_corr:.4f}, R²={r**2:.3f}")
+
+    # 4. Sensibilidad del factor Boxleiter (20 a 60)
+    sensitivity = compute_boxleiter_sensitivity(df)
+    if sensitivity:
+        results["boxleiter_sensitivity"] = sensitivity
+        totals = sensitivity["factors"]
+        print(
+            "[STATS] Boxleiter total: "
+            f"20x=${totals['20']['total_revenue_est_usd']:,.0f}, "
+            f"40x=${totals['40']['total_revenue_est_usd']:,.0f}, "
+            f"60x=${totals['60']['total_revenue_est_usd']:,.0f}"
+        )
 
     output_dir.mkdir(parents=True, exist_ok=True)
     results = _to_json_serializable(results)

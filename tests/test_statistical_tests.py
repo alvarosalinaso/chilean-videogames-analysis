@@ -3,8 +3,12 @@
 import json
 
 import pandas as pd
+import pytest
 
-from chilean_videogames.statistical_tests import run_statistical_tests
+from chilean_videogames.statistical_tests import (
+    compute_boxleiter_sensitivity,
+    run_statistical_tests,
+)
 
 
 def test_run_statistical_tests_returns_dict(tmp_path):
@@ -113,3 +117,86 @@ def test_run_statistical_tests_mixed_case_source(tmp_path):
     assert "ttest_steam_vs_itch" in result
     assert result["ttest_steam_vs_itch"]["steam_mean"] == 15.0
     assert result["ttest_steam_vs_itch"]["itch_mean"] == 8.0
+
+
+def test_pearson_price_vs_recs_replaces_circular_rq5(tmp_path):
+    """La RQ5 circular (recs vs revenue) se reemplaza por precio vs recs."""
+    data_dir = tmp_path / "processed"
+    output_dir = tmp_path / "export"
+    data_dir.mkdir()
+    output_dir.mkdir()
+
+    # 15 juegos Steam: precio y recomendaciones variables independientes
+    n = 15
+    pd.DataFrame(
+        {
+            "source": ["steam"] * n,
+            "price_usd": [float(5 + i) for i in range(n)],
+            "recommendations": [10 * ((i % 3) + 1) for i in range(n)],
+            "gross_revenue_est_usd": [float(100 * (i + 1)) for i in range(n)],
+        }
+    ).to_csv(data_dir / "games.csv", index=False)
+
+    result = run_statistical_tests(data_dir=data_dir, output_dir=output_dir)
+
+    assert "pearson_rec_vs_revenue" not in result, "RQ5 circular aún presente"
+    assert "pearson_price_vs_recs" in result
+    pearson = result["pearson_price_vs_recs"]
+    assert pearson["n_observations"] == n
+    assert pearson["test"] == "Pearson correlation"
+
+
+def test_boxleiter_sensitivity_linear_scaling():
+    """Los totales 20x/40x/60x escalan linealmente (proporción 1:2:3)."""
+    df = pd.DataFrame(
+        {
+            "source": ["steam", "steam", "steam", "itch"],
+            "name": ["A", "B", "C", "D"],
+            "recommendations": [100, 50, 20, 999],
+            "price_usd": [10.0, 5.0, 2.5, 99.0],
+        }
+    )
+
+    result = compute_boxleiter_sensitivity(df)
+
+    assert result["base_factor"] == 40
+    assert result["n_games"] == 3  # solo Steam con recs>0 y price>0
+    factors = result["factors"]
+    t20 = factors["20"]["total_revenue_est_usd"]
+    t40 = factors["40"]["total_revenue_est_usd"]
+    t60 = factors["60"]["total_revenue_est_usd"]
+    assert t40 == pytest.approx(2 * t20)
+    assert t60 == pytest.approx(3 * t20)
+    assert factors["40"]["top_game"] == "A"
+    assert factors["40"]["top_game_revenue_usd"] == pytest.approx(100 * 40 * 10.0)
+    assert result["linear_in_factor"] is True
+
+
+def test_boxleiter_sensitivity_in_run(tmp_path):
+    """run_statistical_tests incluye la sensibilidad Boxleiter con fórmula correcta."""
+    data_dir = tmp_path / "processed"
+    output_dir = tmp_path / "export"
+    data_dir.mkdir()
+    output_dir.mkdir()
+
+    pd.DataFrame(
+        {
+            "source": ["steam", "steam"],
+            "name": ["Alpha", "Beta"],
+            "price_usd": [10.0, 4.0],
+            "recommendations": [30, 10],
+        }
+    ).to_csv(data_dir / "games.csv", index=False)
+
+    result = run_statistical_tests(data_dir=data_dir, output_dir=output_dir)
+
+    assert "boxleiter_sensitivity" in result
+    sens = result["boxleiter_sensitivity"]
+    expected_40 = (30 * 10.0 + 10 * 4.0) * 40
+    assert sens["factors"]["40"]["total_revenue_est_usd"] == pytest.approx(expected_40)
+    assert sens["factors"]["20"]["total_revenue_est_usd"] == pytest.approx(expected_40 / 2)
+
+
+def test_boxleiter_sensitivity_empty_without_columns():
+    """Sin columnas requeridas devuelve {} sin lanzar error."""
+    assert compute_boxleiter_sensitivity(pd.DataFrame({"x": [1]})) == {}
