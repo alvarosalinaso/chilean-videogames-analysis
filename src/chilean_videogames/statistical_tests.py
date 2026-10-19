@@ -30,6 +30,89 @@ def _to_json_serializable(obj: Any) -> Any:
 BOXLEITER_FACTORS = (20, 30, 40, 50, 60)
 
 
+def compute_hhi(df: pd.DataFrame, category_col: str = "primary_genre") -> dict:
+    """Herfindahl-Hirschman Index por género (shares de conteo, x10000).
+
+    Umbrales del DOJ: <1500 competitivo, 1500-2500 concentrado, >2500 muy
+    concentrado. Unknown cuenta como categoría.
+    """
+    if category_col not in df.columns:
+        return {}
+    counts = (
+        df[category_col]
+        .fillna("Unknown")
+        .astype(str)
+        .str.strip()
+        .replace("", "Unknown")
+        .value_counts()
+    )
+    if len(counts) == 0:
+        return {}
+    total = int(counts.sum())
+    shares = counts / total
+    hhi = float((shares**2).sum() * 10000)
+    return {
+        "category_col": category_col,
+        "n_categories": int(len(counts)),
+        "n_games": total,
+        "hhi": round(hhi, 1),
+        "top_category": str(counts.index[0]),
+        "top_share_pct": round(float(shares.iloc[0]) * 100, 1),
+        "interpretation": "Competitivo (<1500)"
+        if hhi < 1500
+        else "Concentrado (1500-2500)"
+        if hhi < 2500
+        else "Muy concentrado (>2500)",
+    }
+
+
+def _collect_p_values(results: dict, prefix: str = "") -> list:
+    """(ruta, p_value, dict_ref) de todos los p-values anidados en results."""
+    found = []
+    for key, value in results.items():
+        if not isinstance(value, dict):
+            continue
+        path = f"{prefix}{key}"
+        p_value = value.get("p_value")
+        if isinstance(p_value, (int, float)) and not isinstance(p_value, bool):
+            found.append((path, float(p_value), value))
+        found.extend(_collect_p_values(value, prefix=f"{path}."))
+    return found
+
+
+def apply_holm_correction(results: dict, alpha: float = 0.05) -> dict:
+    """Corrección de Holm-Bonferroni sobre todos los p-values de results.
+
+    Ordena los p ascendentes y ajusta p_i por (m - i + 1), forzando
+    monotonicidad no decreciente y tope en 1.0. Añade p_holm y
+    significant_holm a cada test y un bloque holm_correction resumen.
+    """
+    entries = _collect_p_values(results)
+    m = len(entries)
+    if m == 0:
+        return results
+
+    ordered = sorted(entries, key=lambda e: e[1])
+    running_max = 0.0
+    adjusted: list[float] = []
+    for i, (_, p_value, _) in enumerate(ordered):
+        running_max = max(running_max, min(1.0, (m - i) * p_value))
+        adjusted.append(running_max)
+
+    for (_path, _, ref), adj in zip(ordered, adjusted, strict=True):
+        ref["p_holm"] = round(adj, 6)
+        ref["significant_holm"] = adj < alpha
+
+    results["holm_correction"] = {
+        "method": "Holm-Bonferroni",
+        "alpha": alpha,
+        "n_tests": m,
+        "tests": [path for path, _, _ in ordered],
+        "note": "p_holm >= p_value; un test significativo tras Holm es significativo también sin corrección.",
+    }
+    return results
+
+
 def compute_boxleiter_sensitivity(df: pd.DataFrame, factors: tuple = BOXLEITER_FACTORS) -> dict:
     """Sensibilidad del factor Boxleiter: revenue = recs × factor × precio.
 
@@ -176,6 +259,21 @@ def run_statistical_tests(
             f"40x=${totals['40']['total_revenue_est_usd']:,.0f}, "
             f"60x=${totals['60']['total_revenue_est_usd']:,.0f}"
         )
+
+    # 5. HHI por género
+    hhi = compute_hhi(df)
+    if hhi:
+        results["hhi_by_genre"] = hhi
+        print(
+            f"[STATS] HHI({hhi['category_col']}): {hhi['hhi']:.1f} "
+            f"({hhi['interpretation']}; {hhi['n_categories']} categorías)"
+        )
+
+    # 6. Corrección Holm-Bonferroni sobre todos los p-values del módulo
+    results = apply_holm_correction(results)
+    holm = results.get("holm_correction")
+    if holm:
+        print(f"[STATS] Holm-Bonferroni: {holm['n_tests']} p-values corregidos")
 
     output_dir.mkdir(parents=True, exist_ok=True)
     results = _to_json_serializable(results)

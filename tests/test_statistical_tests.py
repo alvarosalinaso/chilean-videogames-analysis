@@ -6,7 +6,9 @@ import pandas as pd
 import pytest
 
 from chilean_videogames.statistical_tests import (
+    apply_holm_correction,
     compute_boxleiter_sensitivity,
+    compute_hhi,
     run_statistical_tests,
 )
 
@@ -200,3 +202,88 @@ def test_boxleiter_sensitivity_in_run(tmp_path):
 def test_boxleiter_sensitivity_empty_without_columns():
     """Sin columnas requeridas devuelve {} sin lanzar error."""
     assert compute_boxleiter_sensitivity(pd.DataFrame({"x": [1]})) == {}
+
+
+def test_compute_hhi_known_shares():
+    """HHI de shares conocidos: 50/50 -> 5000; 10 categorías iguales -> 1000."""
+    df = pd.DataFrame({"primary_genre": ["A"] * 5 + ["B"] * 5})
+    result = compute_hhi(df)
+    assert result["hhi"] == pytest.approx(5000.0)
+    assert result["n_categories"] == 2
+    assert result["n_games"] == 10
+    assert result["interpretation"] == "Muy concentrado (>2500)"
+
+    df10 = pd.DataFrame({"primary_genre": [f"G{i}" for i in range(10)] * 3})
+    result10 = compute_hhi(df10)
+    assert result10["hhi"] == pytest.approx(1000.0)
+    assert result10["interpretation"] == "Competitivo (<1500)"
+
+
+def test_compute_hhi_unknown_as_category_and_missing_col():
+    """None/vacío se cuentan como Unknown; columna ausente devuelve {}."""
+    df = pd.DataFrame({"primary_genre": ["Action", None, "", "Action"]})
+    result = compute_hhi(df)
+    assert result["n_games"] == 4
+    assert result["n_categories"] == 2  # Action(2) + Unknown(2)
+    assert result["hhi"] == pytest.approx(5000.0)
+    assert compute_hhi(pd.DataFrame({"otra": [1]})) == {}
+
+
+def test_apply_holm_correction_known_example():
+    """Ejemplo known: p=[0.01, 0.03, 0.04] -> Holm [0.03, 0.06, 0.06]."""
+    results = {
+        "t1": {"p_value": 0.01},
+        "t2": {"p_value": 0.04},
+        "t3": {"p_value": 0.03},
+        "sin_p": {"x": 1},
+    }
+    out = apply_holm_correction(results)
+    assert out["t1"]["p_holm"] == pytest.approx(0.03)
+    assert out["t3"]["p_holm"] == pytest.approx(0.06)
+    assert out["t2"]["p_holm"] == pytest.approx(0.06)
+    assert out["t1"]["significant_holm"] is True
+    assert out["t2"]["significant_holm"] is False
+    holm = out["holm_correction"]
+    assert holm["n_tests"] == 3
+    assert holm["tests"][0] == "t1"
+    for entry in out.values():
+        if isinstance(entry, dict) and "p_value" in entry:
+            assert entry["p_holm"] >= entry["p_value"]
+
+
+def test_apply_holm_correction_no_p_values():
+    """Sin p-values no añade bloque ni modifica nada."""
+    results = {"a": {"x": 1}}
+    assert apply_holm_correction(results) == {"a": {"x": 1}}
+
+
+def test_run_statistical_tests_includes_hhi_and_holm(tmp_path):
+    """run_statistical_tests expone HHI por género y Holm sobre los p-values."""
+    data_dir = tmp_path / "processed"
+    output_dir = tmp_path / "export"
+    data_dir.mkdir()
+    output_dir.mkdir()
+
+    rows = {
+        "source": ["steam"] * 15 + ["itch"] * 5,
+        "name": [f"G{i}" for i in range(20)],
+        "price_usd": [float(5 + (i % 8)) for i in range(20)],
+        "recommendations": [10 * ((i % 4) + 1) for i in range(20)],
+        "primary_genre": (["Action"] * 8 + ["RPG"] * 7) + ["Casual"] * 5,
+        "gross_revenue_est_usd": [float(200 * (i + 1)) for i in range(20)],
+    }
+    pd.DataFrame(rows).to_csv(data_dir / "games.csv", index=False)
+
+    result = run_statistical_tests(data_dir=data_dir, output_dir=output_dir)
+
+    assert "hhi_by_genre" in result
+    # Action 8, RPG 7, Casual 5 de 20 -> shares .4/.35/.25
+    expected_hhi = (0.4**2 + 0.35**2 + 0.25**2) * 10000
+    assert result["hhi_by_genre"]["hhi"] == pytest.approx(expected_hhi, abs=0.1)
+
+    assert "holm_correction" in result
+    tested = ["ttest_steam_vs_itch", "anova_revenue_by_genre", "pearson_price_vs_recs"]
+    for key in tested:
+        assert key in result
+        assert "p_holm" in result[key], f"{key} sin corrección Holm"
+    assert result["holm_correction"]["n_tests"] == len(tested)

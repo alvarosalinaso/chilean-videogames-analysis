@@ -20,7 +20,7 @@ Análisis de videojuegos desarrollados en Chile. Scraping de Steam e Itch.io, li
 - `utils.py` — Utilidades: parse_price_steam, parse_price_itch, extract_year, normalize_currency_to_usd, get_location
 
 ### Análisis (src/)
-- `statistical_tests.py` — run_statistical_tests: t-test (Steam vs Itch), ANOVA (revenue por género), Pearson (precio vs recomendaciones en Steam) y sensibilidad del factor Boxleiter (20x–60x)
+- `statistical_tests.py` — run_statistical_tests: t-test (Steam vs Itch), ANOVA (revenue por género), Pearson (precio vs recomendaciones en Steam), sensibilidad del factor Boxleiter (20x–60x), HHI por género y corrección Holm-Bonferroni de los p-values
 - `clustering_analysis.py` — run_clustering: KMeans sobre features de juegos
 - `forecasting.py` — run_forecasting: predicción de lanzamientos
 - `ab_testing.py` — run_ab_testing: tests A/B
