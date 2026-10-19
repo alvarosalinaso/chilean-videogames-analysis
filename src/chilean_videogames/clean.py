@@ -13,7 +13,8 @@ from .utils import extract_year, parse_price_itch, parse_price_steam, setup_logg
 
 logger = setup_logger("clean")
 
-_PROJECT_ROOT = Path(__file__).parent.parent
+# __file__ = src/chilean_videogames/clean.py → parents[2] = raíz del repo
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
 _RAW_DIR = _PROJECT_ROOT / "data" / "raw"
 _PROCESSED_DIR = _PROJECT_ROOT / "data" / "processed"
 
@@ -111,15 +112,15 @@ def build_dataset(raw_dir: Path = _RAW_DIR) -> pd.DataFrame:
     return df.reset_index(drop=True)
 
 
-def main():
-    df = build_dataset()
+def main(raw_dir: Path = _RAW_DIR, processed_dir: Path = _PROCESSED_DIR):
+    df = build_dataset(raw_dir)
 
     if df.empty:
-        logger.error("No se generó dataset. Revisa los JSONs en data/raw/")
+        logger.error(f"No se generó dataset. Revisa los JSONs en {raw_dir}")
         return
 
-    _PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-    out = _PROCESSED_DIR / "games.csv"
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    out = processed_dir / "games.csv"
     df.to_csv(out, index=False, encoding="utf-8-sig")
 
     logger.info(f"\n✅ Dataset guardado: {out}")

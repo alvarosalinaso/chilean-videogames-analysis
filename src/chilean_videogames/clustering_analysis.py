@@ -27,13 +27,15 @@ def run_clustering(
         return {}
 
     csv_file = data_dir / "games.csv"
+    candidates = [
+        data_dir / "chilean_games_final.csv",  # enriquecido (price_usd, revenue, ...)
+        data_dir / "games.csv",
+        Path("data/processed/games.csv"),
+    ]
+    csv_file = next((p for p in candidates if p.exists()), csv_file)
     if not csv_file.exists():
-        alt = Path("data/processed/games.csv")
-        if alt.exists():
-            csv_file = alt
-        else:
-            print(f"[CLUSTER] {csv_file} not found")
-            return {}
+        print(f"[CLUSTER] {csv_file} not found")
+        return {}
 
     df = pd.read_csv(csv_file, encoding="utf-8")
 

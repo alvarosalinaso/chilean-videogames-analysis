@@ -183,17 +183,17 @@ def main():
         run_ab_testing(data_dir=Path("data/processed"), output_dir=Path("data/export"))
 
         # Statistical tests
-        from statistical_tests import run_statistical_tests
+        from .statistical_tests import run_statistical_tests
 
         run_statistical_tests()
 
         # Generate executive tables
-        from generate_tables import generate as generate_exec_tables
+        from .generate_tables import generate as generate_exec_tables
 
         generate_exec_tables()
 
         # Generate paper report
-        from generate_report import generate_report
+        from .generate_report import generate_report
 
         generate_report()
 

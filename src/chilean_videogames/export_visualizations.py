@@ -244,9 +244,14 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
     output_path.write_text(content, encoding="utf-8")
 
 
-def main() -> None:
-    """Generate all visualization export files."""
-    base = Path(__file__).resolve().parent.parent
+def main(base: Path | None = None) -> None:
+    """Generate all visualization export files.
+
+    Args:
+        base: Raíz del proyecto (data/ y export/ viven bajo ella).
+            Por defecto, la raíz del repo: src/chilean_videogames/... → parents[2].
+    """
+    base = Path(base) if base is not None else Path(__file__).resolve().parents[2]
     input_path = base / "data" / "export" / "chilean_games_final.csv"
     export_dir = base / "data" / "export"
     export_dir.mkdir(parents=True, exist_ok=True)

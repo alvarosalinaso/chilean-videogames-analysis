@@ -85,14 +85,21 @@ ES: No hay datos estructurados sobre el mercado indie de videojuegos chilenos. H
 git clone https://github.com/alvarosalinaso/chilean-videogames-analysis
 cd chilean-videogames-analysis
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+pip install -r requirements-dev.txt
+pip install -e .
 
-python src/collect.py
-python src/collect_itch.py
-python src/clean.py
-python src/analyze_all.py
+python -m chilean_videogames.collect                 # Steam (requiere red)
+python -m chilean_videogames.collect_itch            # Itch.io (requiere red)
+python -m chilean_videogames.clean
+python -m chilean_videogames.analyze_all
+python -m chilean_videogames.export_visualizations
 ```
+
+Los scripts viven en `src/chilean_videogames/` y se ejecutan con `python -m`
+(paquete instalado en editable); `python src/collect.py` falla por los imports
+relativos del paquete.
 
 ---
 
