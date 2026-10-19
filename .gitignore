@@ -22,4 +22,9 @@ data/export/
 .DS_Store
 Thumbs.db
 
+# Cobertura y artefactos generados (pytest / pipeline); las figuras de
+# assets/figures SÍ se versionan porque las referencia el README.
 coverage.xml
+.coverage
+assets/executive_table.html
+docs/paper_report.md

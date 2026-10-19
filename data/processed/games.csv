@@ -1,4 +1,4 @@
-source,steam_id,name,release_date,year,is_free,price,currency,metacritic,recommendations,genres,developers,publishers
+﻿source,steam_id,name,release_date,year,is_free,price,currency,metacritic,recommendations,genres,developers,publishers
 steam,10140.0,3D Ultra™ Minigolf Adventures,23 JUL 2009,2009,False,3135.0,CLP,,114,Deportes,Wanako Games,Activision
 steam,1029560.0,Bandits,26 JUL 2019,2019,False,450.0,CLP,,0,"Acción, Aventura, Indie",Benerot,Benerot
 steam,1034040.0,"Causa, Voices of the Dusk",26 MAY 2021,2021,True,0.0,CLP,,0,"Indie, Estrategia, Free to Play",Niebla Games,Niebla Games

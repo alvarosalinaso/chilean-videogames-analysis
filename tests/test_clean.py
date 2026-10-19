@@ -159,3 +159,34 @@ def test_build_dataset_with_json(tmp_path):
     assert isinstance(result, pd.DataFrame)
     assert len(result) == 2
     assert set(result["source"].tolist()) == {"steam", "itch"}
+
+
+def test_build_dataset_excludes_non_chilean_titles(tmp_path):
+    """Los títulos de NON_CHILEAN_TITLES no entran al dataset (ver scripts/fix_data.py)."""
+    msfs = {
+        "source": "steam",
+        "steam_appid": 1250410,
+        "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+        "release_date": {"date": "1 Jan, 2020"},
+        "price_overview": {"final": 6000, "currency": "USD"},
+        "genres": [{"description": "Simulation"}],
+        "developers": ["Asobo Studio"],
+        "publishers": ["Xbox Game Studios"],
+    }
+    chileno = {
+        "source": "steam",
+        "steam_appid": 111,
+        "name": "Juego Chileno de Prueba",
+        "release_date": {"date": "1 Jan, 2023"},
+        "price_overview": {"final": 1000, "currency": "USD"},
+        "genres": [{"description": "Action"}],
+        "developers": ["Studio Local"],
+        "publishers": ["Studio Local"],
+    }
+    (tmp_path / "msfs.json").write_text(json.dumps(msfs))
+    (tmp_path / "local.json").write_text(json.dumps(chileno))
+
+    result = build_dataset(tmp_path)
+
+    assert len(result) == 1
+    assert result.iloc[0]["name"] == "Juego Chileno de Prueba"

@@ -152,7 +152,8 @@ def plot_revenue_by_genre(df, output_dir):
 
 
 def main():
-    figs_dir = Path("assets/figures_v2")
+    # Assets unificados: todas las figuras del README/pipeline viven en assets/figures
+    figs_dir = Path("assets/figures")
     figs_dir.mkdir(parents=True, exist_ok=True)
 
     logger.info("Cargando y enriqueciendo datos...")

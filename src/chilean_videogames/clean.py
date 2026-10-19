@@ -18,6 +18,16 @@ _PROJECT_ROOT = Path(__file__).resolve().parents[2]
 _RAW_DIR = _PROJECT_ROOT / "data" / "raw"
 _PROCESSED_DIR = _PROJECT_ROOT / "data" / "processed"
 
+# Títulos que llegaron al dataset por tags/búsquedas pero NO son chilenos.
+# Mismo listado que scripts/fix_data.py; filtrarlos acá hace reproducible la
+# limpieza (antes se parcheaban los CSV a mano después de generarlos).
+NON_CHILEAN_TITLES = {
+    "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+    "Door Kickers 2: Task Force North",
+    "The Rise of the Golden Idol",
+    "MENACE",
+}
+
 
 def _parse_steam(data: dict) -> dict | None:
     """Extrae campos relevantes de un JSON de Steam API."""
@@ -108,6 +118,11 @@ def build_dataset(raw_dir: Path = _RAW_DIR) -> pd.DataFrame:
     dupes = before - len(df)
     if dupes:
         logger.info(f"  Eliminados {dupes} duplicado(s)")
+
+    non_chilean = df["name"].isin(NON_CHILEAN_TITLES)
+    if non_chilean.any():
+        logger.info(f"  Excluidos {int(non_chilean.sum())} título(s) no chileno(s)")
+        df = df[~non_chilean]
 
     return df.reset_index(drop=True)
 
