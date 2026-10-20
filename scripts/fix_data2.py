@@ -1,5 +1,6 @@
 import csv
 import os
+from pathlib import Path
 
 NON_CHILEAN = [
     "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
@@ -8,7 +9,7 @@ NON_CHILEAN = [
     "MENACE",
 ]
 
-BASE = r"C:\Users\Alvaro\github-limpio\chilean-videogames-analysis\data\export"
+BASE = Path(__file__).resolve().parent.parent / "data" / "export"
 
 # flourish_treemap has "Game" column
 filepath = os.path.join(BASE, "flourish_treemap_genero.csv")
