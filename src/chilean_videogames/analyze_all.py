@@ -28,7 +28,7 @@ def load_and_enrich_data():
     # 1. Normalizar Year
     df["year"] = df["year"].astype(str).apply(extract_year)
 
-    # 2. Revenue Estimado (Steam) — Boxleiter Method
+    # 2. Revenue Estimado (Steam), Boxleiter Method
     # NOTA: El factor 40x (Boxleiter method) es una heurística de la industria
     # para estimar copias vendidas a partir de reviews de Steam.
     # Fórmula: estimated_copies = recommendations × 40

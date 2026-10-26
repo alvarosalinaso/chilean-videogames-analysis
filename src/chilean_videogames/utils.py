@@ -1,5 +1,5 @@
 """
-utils.py — Utilidades compartidas para el análisis de videojuegos chilenos.
+utils.py, Utilidades compartidas para el análisis de videojuegos chilenos.
 """
 
 import logging
@@ -16,9 +16,7 @@ def setup_logger(name: str = __name__) -> logging.Logger:
     logger = logging.getLogger(name)
     if not logger.handlers:
         handler = logging.StreamHandler()
-        handler.setFormatter(
-            logging.Formatter("%(asctime)s [%(levelname)s] %(name)s — %(message)s")
-        )
+        handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(name)s, %(message)s"))
         logger.addHandler(handler)
         logger.setLevel(logging.INFO)
     return logger

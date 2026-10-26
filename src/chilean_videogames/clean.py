@@ -1,5 +1,5 @@
 """
-clean.py — Limpieza y consolidación de datos crudos de videojuegos chilenos.
+clean.py, Limpieza y consolidación de datos crudos de videojuegos chilenos.
 
 Lee JSONs desde data/raw/ (Steam e Itch.io) y genera data/processed/games.csv.
 """

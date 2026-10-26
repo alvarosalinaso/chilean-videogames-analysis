@@ -4,7 +4,7 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
 
 ---
 
-## 1. Datawrapper — Cuadrante de Rentabilidad
+## 1. Datawrapper, Cuadrante de Rentabilidad
 
 **Archivo de datos:** `data/export/dw_quadrant_rentabilidad.csv`
 
@@ -15,7 +15,7 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
        Consulta <code>data/export/dw_quadrant_rentabilidad.csv</code> para los datos.</p>
   </noscript>
   <iframe
-    title="Cuadrante de Rentabilidad — Géneros de Videojuegos Chilenos"
+    title="Cuadrante de Rentabilidad, Géneros de Videojuegos Chilenos"
     aria-label="Gráfico de cuadrante mostrando ingresos promedio vs cantidad de juegos por género"
     src="https://datawrapper.dwcdn.net/DATAWRAPPER_ID/"
     style="width:100%; border:none; min-height:520px;"
@@ -25,7 +25,7 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
 
 ---
 
-## 2. Flourish — Treemap de Géneros
+## 2. Flourish, Treemap de Géneros
 
 **Archivo de datos:** `data/export/flourish_treemap_genero.csv`
 
@@ -49,7 +49,7 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
 
 ---
 
-## 3. Observable Plot — Distribución de Ingresos
+## 3. Observable Plot, Distribución de Ingresos
 
 **Archivo de datos:** `data/export/observable_distribucion.csv`
 
@@ -65,7 +65,7 @@ Snippets listos para pegar. Cada uno apunta a un CSV generado por `src/export_vi
     aria-label="Distribución de ingresos estimados por género de videojuegos chilenos"
     style="width:100%; overflow-x:auto;"
   >
-    <figcaption>Distribución de ingresos por género — Observable Plot</figcaption>
+    <figcaption>Distribución de ingresos por género, Observable Plot</figcaption>
     <div id="observable-plot" style="width:100%; min-height:300px;">
       <noscript>Gráfico interactivo. Activa JavaScript para verlo.</noscript>
     </div>

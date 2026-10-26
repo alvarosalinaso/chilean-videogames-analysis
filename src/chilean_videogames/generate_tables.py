@@ -34,7 +34,7 @@ def generate():
 
     tbl = (
         GT(top5)
-        .tab_header(title="Top 5 Revenue — Videojuegos Chilenos")
+        .tab_header(title="Top 5 Revenue, Videojuegos Chilenos")
         .fmt_currency(columns=["Precio (USD)", "Revenue Est. (USD)"], currency="USD")
         .fmt_number(columns=["Recomendaciones"], use_seps=True)
         .tab_source_note("Fuente: Steam API + Itch.io scraping | Análisis: Álvaro Salinas")

@@ -1,4 +1,4 @@
-"""Dash Dashboard: Chilean Videojuegos Analysis — Cyberpunk Arcade Edition."""
+"""Dash Dashboard: Chilean Videojuegos Analysis, Cyberpunk Arcade Edition."""
 
 import os
 from pathlib import Path
@@ -16,7 +16,7 @@ SCANLINE_CSS = """
 
 app = dash.Dash(
     __name__,
-    title="Videojuegos Chilenos — Análisis",
+    title="Videojuegos Chilenos, Análisis",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 server = app.server
@@ -368,7 +368,7 @@ app.layout = html.Div(
                     },
                 ),
                 html.P(
-                    "Análisis de 150 juegos — Steam & Itch.io",
+                    "Análisis de 150 juegos, Steam & Itch.io",
                     style={
                         "color": TEXT_MUTED,
                         "marginTop": "6px",
@@ -412,7 +412,7 @@ def games_crossfilter(click):
     if not click:
         return no_update
     p = click["points"][0].get("label", "?")
-    return f"Plataforma seleccionada: {p} — úsala para filtrar Precios y Revenue."
+    return f"Plataforma seleccionada: {p}, úsala para filtrar Precios y Revenue."
 
 
 @callback(Output("tab-content", "children"), Input("tabs", "value"))
@@ -483,7 +483,7 @@ def overview_tab():
                 [
                     stats,
                     card(
-                        "Key Insights — Mercado",
+                        "Key Insights, Mercado",
                         html.Div(
                             [
                                 insight_card(
@@ -514,7 +514,7 @@ def overview_tab():
                         NEON_CYAN,
                     ),
                     card(
-                        "Plataformas — clic para filtrar",
+                        "Plataformas, clic para filtrar",
                         html.Div(
                             [
                                 dcc.Graph(id="games-platform-pie", figure=fig_platform),
@@ -558,7 +558,7 @@ def prices_tab():
         color_discrete_map=NEON_PLATFORM_COLORS,
     )
     fig_hist.update_layout(
-        **cyberplot_layout("Distribución de Precios (USD) — clic para filtrar"), height=400
+        **cyberplot_layout("Distribución de Precios (USD), clic para filtrar"), height=400
     )
     fig_hist.update_xaxes(title_text="Precio USD", title_font=dict(color=TEXT_MUTED))
     fig_hist.update_yaxes(title_text="Cantidad", title_font=dict(color=TEXT_MUTED))
@@ -634,7 +634,7 @@ def prices_crossfilter(click):
     if not click:
         return no_update
     x = click["points"][0].get("x", "?")
-    return f"Rango de precio seleccionado: ${x} — filtra los géneros de ese tramo."
+    return f"Rango de precio seleccionado: ${x}, filtra los géneros de ese tramo."
 
 
 def revenue_tab():
@@ -703,7 +703,7 @@ def revenue_tab():
     return html.Div(
         [
             card(
-                "Top 10 Revenue — clic para filtrar",
+                "Top 10 Revenue, clic para filtrar",
                 html.Div(
                     [
                         dcc.Graph(id="revenue-top10-bar", figure=fig_top),
@@ -735,7 +735,7 @@ def revenue_crossfilter(click):
     if not click:
         return no_update
     y = click["points"][0].get("y", "?")
-    return f"Juego seleccionado: {y} — ver su ficha en Precios y Géneros."
+    return f"Juego seleccionado: {y}, ver su ficha en Precios y Géneros."
 
 
 def genres_tab():
@@ -774,7 +774,7 @@ def genres_tab():
     return html.Div(
         [
             card(
-                "Treemap de Géneros — clic para filtrar",
+                "Treemap de Géneros, clic para filtrar",
                 html.Div(
                     [
                         dcc.Graph(id="genres-treemap", figure=fig_treemap),
@@ -805,7 +805,7 @@ def genres_crossfilter(click):
     if not click:
         return no_update
     label = click["points"][0].get("label", "?")
-    return f"Segmento seleccionado: {label} — filtra ese género en Revenue y Precios."
+    return f"Segmento seleccionado: {label}, filtra ese género en Revenue y Precios."
 
 
 def correlation_tab():

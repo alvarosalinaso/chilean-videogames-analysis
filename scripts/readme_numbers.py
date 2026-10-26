@@ -167,7 +167,7 @@ def render_markdown(n: dict) -> str:
         f"| Itch.io con precio > 0 | {n['itch_paid_n']} de {n['n_itch']} |",
         f"| Sin recomendaciones registradas | {n['no_recs_n']}/{n['n_total']} ({n['no_recs_pct']}%) |",
         f"| Años | {year_range} |",
-        f"| HHI por género (primary_genre) | {n['hhi']} — {n['hhi_interpretation']} ({n['hhi_n_categories']} categorías) |",
+        f"| HHI por género (primary_genre) | {n['hhi']}, {n['hhi_interpretation']} ({n['hhi_n_categories']} categorías) |",
         f"| Revenue estimado Steam (Boxleiter) | 20x: {_fmt_money(n['box_total_20'])} · 40x: {_fmt_money(n['box_total_40'])} · 60x: {_fmt_money(n['box_total_60'])} |",
         f"| Mayor revenue estimado (40x) | {n['box_top_game']} ({_fmt_money(n['box_top_game_40'])}) |",
         f"| Precio vs recomendaciones (Steam) | {pearson_vs} |",
